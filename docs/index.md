@@ -2,8 +2,9 @@
 
 **DO NOT DEPLOY THIS ON YOUR DAY TO DAY LINUX LAPTOP AS IT WILL MAKE CHANGES TO THE MACHINE'S CONFIGURATION**
 
-There are four repositories associated with this toolkit, this one, and the one's listed below. 
+There are four repositories associated with this toolkit: 
 
+**[Agile Infrastructure Build Machine Scripts](https://github.com/wintersys-projects/adt-build-machine-scripts)**   
 **[Agile Infrastructure Autoscaler Scripts](https://github.com/wintersys-projects/adt-autoscaler-scripts)**   
 **[Agile Infrastructure Webserver Scripts](https://github.com/wintersys-projects/adt-webserver-scripts)**  
 **[Agile Infrastructure Database Scripts](https://github.com/wintersys-projects/adt-database-scripts)**  
