@@ -1,7 +1,7 @@
 ### Application Configuration Update
 
 
-##### IMPORTANT: This toolkit does not allow updates to configuration files (such as wp-config.php or configuration.php) through the application's GUI system.
+**This toolkit does not allow updates to configuration files (such as wp-config.php or configuration.php) through the application's GUI system.**
 
 Instead use the following process which will automatically update all of your webserver configurations in one go:
 
