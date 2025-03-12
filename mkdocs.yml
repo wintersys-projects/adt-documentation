@@ -3,3 +3,6 @@ site_name: Agile Deployment Toolkit Documentation
 theme:
   name: readthedocs
 
+extra_css:
+  - stylesheets/extra.css
+
