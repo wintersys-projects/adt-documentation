@@ -6,20 +6,6 @@ NOTE: The scripts in this repository will control the build process for the diff
 
 **If you are interested in self managed server systems this tool could make your life easier; it's a custom solution for server deployment management**
 
-##### THE SPECIFICATION: [SPECIFICATION](./templatedconfigurations/specification.md)
-##### QUICK SPECIFICATION: [QUICK SPECIFICATION](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/quick_specification.dat)
-
-##### QUICK START DEMOS: [QUICK DEMOS](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Quick-Start-Demos)  (deployed by you)
-
------------------------------------
-
-There are four repositories associated with this toolkit, this one, and the one's listed below. 
-
-##### [Agile Infrastructure Autoscaler Scripts](https://github.com/wintersys-projects/adt-autoscaler-scripts)  
-##### [Agile Infrastructure Webserver Scripts](https://github.com/wintersys-projects/adt-webserver-scripts)
-##### [Agile Infrastructure Database Scripts](https://github.com/wintersys-projects/adt-database-scripts) 
-
-
 -----------------------------------
 
 #### CONCISE SUMMARY
