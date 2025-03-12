@@ -7,9 +7,9 @@ NOTE: The scripts in this repository will control the build process for the diff
 **If you are interested in self managed server systems this tool could make your life easier; it's a custom solution for server deployment management**
 
 
-**Tutorials: [Tutorials](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Tutorials)**  
-**The Specification: [Specification](./templatedconfigurations/specification.md)**  
-**Quick Start Demos: [Quick Demos](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Quick-Start-Demos)  (deployed by you)**  
+**[Configuration Tutorials](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Tutorials)**  
+**[The Specification](./templatedconfigurations/specification.md)**  
+**[Quick Start Demos](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Quick-Start-Demos)**  
 
 -----------------------------------
 
