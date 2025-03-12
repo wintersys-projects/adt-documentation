@@ -6,28 +6,29 @@ NOTE: The scripts in this repository will control the build process for the diff
 
 **If you are interested in self managed server systems this tool could make your life easier; it's a custom solution for server deployment management**
 
-**DISCUSSION COMMUNITY: [DISCUSSION COMMUNITY](https://form.jotform.com/242746291971364)**
-**EXPLANATORY WIKI: [WIKI](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki)**
-**DETAILED USAGE TUTORIALS: [TUTORIALS](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Tutorials)**
-**DETAILED DOCUMENTATION FOR DEPLOYERS: [DEPLOYMENT DOCO](./doco/AgileToolkitDeployment)**
-**DETAILED DOCUMENTATION FOR DEVELOPERS: [DEVELOPMENT DOCO](./doco/AgileToolkitDevelopment)**
-**OPERATIONS DOCUMENTATION FOR DEPLOYERS: [OPERATIONS DOCO](./doco/AgileToolkitOperations)**
-**THE SPECIFICATION: [SPECIFICATION](./templatedconfigurations/specification.md)**
-**QUICK SPECIFICATION: [QUICK SPECIFICATION](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/quick_specification.dat)**
+**DISCUSSION COMMUNITY: [DISCUSSION COMMUNITY](https://form.jotform.com/242746291971364)**  
+**EXPLANATORY WIKI: [WIKI](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki)**  
+**DETAILED USAGE TUTORIALS: [TUTORIALS](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Tutorials)**  
+**DETAILED DOCUMENTATION FOR DEPLOYERS: [DEPLOYMENT DOCO](./doco/AgileToolkitDeployment)**  
+**DETAILED DOCUMENTATION FOR DEVELOPERS: [DEVELOPMENT DOCO](./doco/AgileToolkitDevelopment)**  
+**OPERATIONS DOCUMENTATION FOR DEPLOYERS: [OPERATIONS DOCO](./doco/AgileToolkitOperations)**  
+**THE SPECIFICATION: [SPECIFICATION](./templatedconfigurations/specification.md)**  
+**QUICK SPECIFICATION: [QUICK SPECIFICATION](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/quick_specification.dat)**  
+
 
 <!---
-  **REGISTER FOR LIVE DEMO WEBSITE: [WINTERSYS DEMO](https://form.jotform.com/241855049555363)**
+  **REGISTER FOR LIVE DEMO WEBSITE: [WINTERSYS DEMO](https://form.jotform.com/241855049555363)**  
 -->
 
-**QUICK START DEMOS: [QUICK DEMOS](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Quick-Start-Demos)  (deployed by you)**
+**QUICK START DEMOS: [QUICK DEMOS](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Quick-Start-Demos)  (deployed by you)**  
 
 -----------------------------------
 
 There are four repositories associated with this toolkit, this one, and the one's listed below. 
 
-**[Agile Infrastructure Autoscaler Scripts](https://github.com/wintersys-projects/adt-autoscaler-scripts)** 
-**[Agile Infrastructure Webserver Scripts](https://github.com/wintersys-projects/adt-webserver-scripts)**
-**[Agile Infrastructure Database Scripts](https://github.com/wintersys-projects/adt-database-scripts)**
+**[Agile Infrastructure Autoscaler Scripts](https://github.com/wintersys-projects/adt-autoscaler-scripts)**   
+**[Agile Infrastructure Webserver Scripts](https://github.com/wintersys-projects/adt-webserver-scripts)**  
+**[Agile Infrastructure Database Scripts](https://github.com/wintersys-projects/adt-database-scripts)**  
 
 -----------------------------------
 
