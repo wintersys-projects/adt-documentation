@@ -27,9 +27,7 @@ and make your updates to the appropriate configuration file, one of,
 
 >     /usr/bin/config
 
-to push it to your S3 datastore. Syntax checking has to be passed before the changes you make are accepted by the system. 
-
-**WARNING RUNNING THE '/usr/bin/config' WILL PUSH YOUR CHANGES TO ALL YOUR WEBSERVERS**
+to push it to your S3 datastore. WARNING RUNNING THE '/usr/bin/config' WILL PUSH YOUR CHANGES TO ALL YOUR WEBSERVERS. Syntax checking has to be passed before the changes you make are accepted by the system. 
 
 - Run the script:
 
