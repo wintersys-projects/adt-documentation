@@ -166,12 +166,12 @@ Click on the Networking main option and the "firewalls" sub option of your digit
 &nbsp; 
 Click "Create Firewall" and call it **PRECISELY** "adt-build-machine". Remove all inbound rules and keep the outbound rules as they are set
 
-![](../../images/digitalocean/digitalocean-buildmachine-expedited/do2.png "Digital Ocean Tutorial Image 2") 
+![](images/expedited/do2.png "Digital Ocean Tutorial Image 2") 
 &nbsp;  
 &nbsp;
 You can then see your firewall "adt-build-machine" listed  
 
-![](../../images/digitalocean/digitalocean-buildmachine-expedited/do3.png "Digital Ocean Tutorial Image 3") 
+![](images/expedited/do3.png "Digital Ocean Tutorial Image 3") 
 &nbsp;  
 &nbsp;
 -------------------. 
@@ -186,7 +186,7 @@ So you will need to add 2 rules
 
 You can see in this image that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
 
-![](../../images/digitalocean/digitalocean-buildmachine-expedited/do4.png "Digital Ocean Tutorial Image 4") 
+![](images/expedited/do4.png "Digital Ocean Tutorial Image 4") 
 &nbsp;  
 &nbsp;
 
@@ -209,10 +209,10 @@ Graphically you can see what I have described in these 8 steps here:
 &nbsp;  
 &nbsp;
 
-![](../../images/digitalocean/digitalocean-buildmachine-expedited/do5.png "Digital Ocean Tutorial Image 5")  
-![](../../images/digitalocean/digitalocean-buildmachine-expedited/do6.png "Digital Ocean Tutorial Image 6")  
-![](../../images/digitalocean/digitalocean-buildmachine-expedited/do7.png "Digital Ocean Tutorial Image 7")  
-![](../../images/digitalocean/digitalocean-buildmachine-expedited/do8.png "Digital Ocean Tutorial Image 8")  
+![](images/expedited/do5.png "Digital Ocean Tutorial Image 5")  
+![](images/expedited/do6.png "Digital Ocean Tutorial Image 6")  
+![](images/expedited/do7.png "Digital Ocean Tutorial Image 7")  
+![](images/expedited/do8.png "Digital Ocean Tutorial Image 8")  
 
 &nbsp;  
 &nbsp;  
@@ -277,7 +277,7 @@ In Graphical form, it looks like this:
 &nbsp;
 
 Grab your build machine's IP address (second column)
-![](../../images/digitalocean/digitalocean-buildmachine-expedited/do9.png "Digital Ocean Tutorial Image 9")
+![](images/expedited/do9.png "Digital Ocean Tutorial Image 9")
 
 &nbsp;  
 &nbsp;
@@ -287,4 +287,4 @@ Run through the commands as shown below on your laptop to access your build mach
 &nbsp;  
 &nbsp;
 
-![](../../images/digitalocean/digitalocean-buildmachine-expedited/do10.png "Digital Ocean Tutorial Image 10")
+![](images/expedited/do10.png "Digital Ocean Tutorial Image 10")
