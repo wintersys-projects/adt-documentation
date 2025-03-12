@@ -161,7 +161,7 @@ You will need to create a firewall for your build machine. You can do this by cr
 
 Click on the Networking main option and the "firewalls" sub option of your digitalocean GUI
          
-![](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/doco/images/digitalocean/digitalocean-buildmachine-expedited/do1.png "Digital Ocean Tutorial Image 1")
+![](./Tutorials/digitalocean/images/expedited/do1.png "Digital Ocean Tutorial Image 1")
 &nbsp;  
 &nbsp; 
 Click "Create Firewall" and call it **PRECISELY** "adt-build-machine". Remove all inbound rules and keep the outbound rules as they are set
