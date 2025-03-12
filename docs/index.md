@@ -8,27 +8,27 @@ NOTE: The scripts in this repository will control the build process for the diff
 
 -----------------------------------
 
-#### CONCISE SUMMARY
+**Concise Summary**
 
 Automatically install LEMP LAMP LLMP LEPP LAPP or LLPP using parameters only.
 
 ----------------------------------
 
-#### WHAT IS A DMS (Deployment Management System)
+**What is a DMS (Deployment Management System)**
 
 A DMS, like this one, is a powertool for helping with deploying servers using well tested and secured processes. Its power is that it can be extended easily and is very similar to a CMS system but for deployment rather than content. The ultimate objective is to make it possible to have our own application directories. For example, in Joomla, something like a JAD (Joomla Applications Directory), in Wordpress something like a WAD (Wordpress Applications Directory) and in Drupal something like a DAD (Drupal Applications Directory). Application directories are envisioned to be whole applications that have been built (by expert application developers) to meet a particular business need and then the whole application is installed  ready for use "off the shelf" by a customer using this toolkit. For example, if you bought a solution like Hivebrite it would be a complete application already and you wouldn't need to do anything to build the application. VERY simple (built in minutes) examples of this are shown in the [Quick Start Demos](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Quick-Start-Demos). Ultimately I realised that the model, as it is, with solutions like Hivebrite is that a company or organisation builds a generic solution and then the customer most likely has to "fit in" with that solution. What I am proposing here is that if there is an "Applications Directory" solution that fits your needs as a customer you can use that, but, you are also free to have a reusable application crafted to your specific needs as well and if you needs tally with someone else's needs then as a community service on your part they can reuse an application that was bespoke developed for your business need- do you see?  
 A DMS like this one does require learning just like a CMS does but would you want to go back to coding in basic HTML once you have discovered CMS systems, probably not. Application developers using this toolkit should be able to produce high quality COTS (Commerical Off The Shelf) web applications using their CMS of choice and have the applications they have deveoped reused pre-configured by many customers making strides in all round productivity in the process. Think about the current model. If I want to build a "Community Builder" social network using Joomla I have to start from scratch if I can instead use a preconfigured application solution complete with online quality reviews from an applications directory and so on then to get my community going I just "install the application" and if it only meets 80% of my needs I can customise 20% of it rather than being a "non expert" trying to build 100% of it and that is where the productivity gain that I could see is and the core reason I thought about building this solution. 
 
 -----------------------------------
 
-#### SUPPORT NEEDED
+**Support Needed**
 
 **This toolkit has a lot of combined configurations and if for example one of the CMS systems changed how the sourcecode for it is downloaded or downloadable, that would break the installation of that CMS. For this reason its important to get feedback from people using the toolkit to discover if there are any breaks in how it is functioning. Its impossible as a single developer to monitor all configuration interplays and so the greatest help that a user of this software can be is if they report back if and when they find any breaks that have been introduced by 3rd party process changes that it depends on.** 
 
 
 ------------------------
 
-#### THE CORE:
+**The Core**
 
 With the core of the Agile Deployment Toolkit, it will make use of a set of services and providers. I elected to use Digital Ocean, Exoscale, Linode and Vultr to deploy on or as deployment options, but, the toolkit is designed to be forked and extended to support other providers. The system is fully configurable by you and if you wish to change default configurations that are provided for, for example, Apache, NGINX or MariaDB, then you will need to fork the respoitories, alter your copy of the scripts and have them deploy according to your configuration requirements. A useful thing to be aware of if you are changing these scripts is you can check them syntactically with using <br><br>      "**/bin/sh -n <script.sh>**" <br><br> before you redeploy only to find you had a syntax error during deployment. 
 
@@ -45,7 +45,7 @@ The full set of services that are supported by the core of the toolkit and which
 
 --------------------------------
 
-#### BUILD METHODS OVERVIEW
+**Build Methods Overview**
 
 There are two types of build method you can employ to get a functioning application. These is the hardcore build (only use once you are more experienced with this tool), and the expedited build method. 
 
@@ -55,6 +55,6 @@ For an overview of the steps involoved in an expedited or hardocore build, pleas
 
 -----
 
-#### THE CONCLUSION
+**The Conclusion**
 
 A DMS system such as this one can certainly speed your server deployments. It does require skill, and therefore learning to use. I have to leave this up to divine providence either other developers will want to take this forward and extend it, or, its operational footprint will stay as it is. My hope of course, is that there's interest from other developers in extending what has been done so far. As I was developing this timewise I would say that 30% of the effort was on developing it and 70% of the effort was on testing its function. That's why this toolkit will stand or fall on how earnestly it is used because with earnest use it can remain well maintained as issues are reported as they arise.   
