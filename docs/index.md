@@ -2,7 +2,13 @@
 
 **DO NOT DEPLOY THIS ON YOUR DAY TO DAY LINUX LAPTOP AS IT WILL MAKE CHANGES TO THE MACHINE'S CONFIGURATION**
 
-NOTE: The scripts in this repository will control the build process for the different classes of server machines (autoscaling/webserving/database). You could run this on a dedicated linux (ubuntu/debian) laptop or on any laptop that you boot off a portable linux flash drive (with persistent storage enabled). I generally describe how to use this toolkit from a VPS linux machine running on the cloudhost of your choice.
+There are four repositories associated with this toolkit, this one, and the one's listed below. 
+
+**[Agile Infrastructure Autoscaler Scripts](https://github.com/wintersys-projects/adt-autoscaler-scripts)**   
+**[Agile Infrastructure Webserver Scripts](https://github.com/wintersys-projects/adt-webserver-scripts)**  
+**[Agile Infrastructure Database Scripts](https://github.com/wintersys-projects/adt-database-scripts)**  
+
+NOTE: The scripts in these repositories will control the build process for the different classes of server machines (autoscaling/webserving/database). You could run this on a dedicated linux (ubuntu/debian) laptop or on any laptop that you boot off a portable linux flash drive (with persistent storage enabled). I generally describe how to use this toolkit from a VPS linux machine running on the cloudhost of your choice.
 
 **If you are interested in self managed server systems this tool could make your life easier; it's a custom solution for server deployment management**
 
@@ -10,14 +16,6 @@ NOTE: The scripts in this repository will control the build process for the diff
 **[Configuration Tutorials](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Tutorials)**  
 **[The Specification](./templatedconfigurations/specification.md)**  
 **[Quick Start Demos](https://github.com/wintersys-projects/adt-build-machine-scripts/wiki/Quick-Start-Demos)**  
-
------------------------------------
-
-There are four repositories associated with this toolkit, this one, and the one's listed below. 
-
-**[Agile Infrastructure Autoscaler Scripts](https://github.com/wintersys-projects/adt-autoscaler-scripts)**   
-**[Agile Infrastructure Webserver Scripts](https://github.com/wintersys-projects/adt-webserver-scripts)**  
-**[Agile Infrastructure Database Scripts](https://github.com/wintersys-projects/adt-database-scripts)**  
 
 -----------------------------------
 
