@@ -96,11 +96,11 @@ The top part of the copy that you made in 2 will now look like this:
 You will need to create a security group for your build machine. You can do this as follows:
 	
 Click on the security groups option of your exoscale GUI
-![](../../images/exoscale/buildmachine-expedited/exo1.png "Exoscale Tutorial Image 1")
+![](images/expedited/exo1.png "Exoscale Tutorial Image 1")
 
 Click "Add Security Group" and call it **PRECISELY** "adt-build-machine" and click "Create Group"
 
-![](../../images/exoscale/buildmachine-expedited/exo2.png "Exoscale Tutorial Image 2") 
+![](images/expedited/exo2.png "Exoscale Tutorial Image 2") 
 
 You can then see your new security Group "adt-build-machine" listed  
 	
@@ -114,7 +114,7 @@ So you will need to add 2 rules
 
 You can see in this image that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
 	
-![](../../images/exoscale/buildmachine-expedited/exo3.png "Exoscale Tutorial Image 3") 
+![](images/expedited/exo3.png "Exoscale Tutorial Image 3") 
 
 ---------------
 
@@ -131,8 +131,8 @@ You can see in this image that port 1035 is about to be opened up to the ip addr
 
 Graphically you can see what I have described in these 8 steps here:
 	
-![](../../images/exoscale/buildmachine-expedited/exo4.png "Exoscale Tutorial Image 4")  
-![](../../images/exoscale/buildmachine-expedited/exo5.png "Exoscale Tutorial Image 5")  
+![](images/expedited/exo4.png "Exoscale Tutorial Image 4")  
+![](images/expedited/exo5.png "Exoscale Tutorial Image 5")  
 	
 ---------------
 
@@ -161,13 +161,10 @@ And then enter your build machine password
 In Graphical form, it looks like this:
 	
 Grab your build machine's IP address (third column)
-![](../../images/exoscale/buildmachine-expedited/exo6.png "Exoscale Tutorial Image 6")
+![](images/expedited/exo6.png "Exoscale Tutorial Image 6")
 	
 Run through the commands as shown on your laptop to access your build machine
-
-&nbsp;  
-&nbsp;
 	
-![](../../images/exoscale/buildmachine-expedited/exo7.png "Exoscale Tutorial Image 7")
+![](images/expedited/exo7.png "Exoscale Tutorial Image 7")
 		
 --------------------------------------
