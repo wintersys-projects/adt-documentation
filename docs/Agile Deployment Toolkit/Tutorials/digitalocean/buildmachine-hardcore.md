@@ -2,29 +2,17 @@
 
 
 1) If you don't have an SSH key pair or if you want a specific SSH key pair for your builds, issue the following command:
-
-&nbsp;  
-&nbsp; 
+ 
 >     /usr/bin/ssh-keygen -t rsa 
 
-&nbsp;  
-&nbsp; 
 
 Your key will be saved to the indicated file, for example, **/root/.ssh/id_rsa** your path might be different such as **/home/bob/.ssh/id_rsa**
          
 Issue the command (for example)
-
-&nbsp;  
-&nbsp;   
+  
 >     /bin/cat /root/.ssh/id_rsa.pub - this will be your <ssh-public-key-substance>
-
-&nbsp;  
-&nbsp;   
-This will give you your **public** key which you need later so, take a copy of the output that is printed to the screen.
-
-&nbsp;  
-&nbsp;  
-&nbsp;  
+  
+This will give you your **public** key which you need later so, take a copy of the output that is printed to the screen. 
 
 --------------------
 
@@ -34,16 +22,10 @@ This will give you your **public** key which you need later so, take a copy of t
 
 where ${userdatascript} is the name you have given to your userdata script. 
 
-&nbsp;  
-&nbsp;  
-&nbsp; 
-
 ------------------
 
 3) If you look into the script that you made a copy of in 2, you need to populate the following variables in your copy:
 
-&nbsp;  
-&nbsp;
 
 >     export BUILDMACHINE_USER=""
 >     export BUILDMACHINE_PASSWORD="" 
@@ -52,64 +34,37 @@ where ${userdatascript} is the name you have given to your userdata script.
 
 >     export SSH=\"\" 
 
-&nbsp;  
-&nbsp; 
 Now you need to decide on a username for your build machine, a password for your build machine, a port for your build machine's ssh system and the IP address of your desktop or laptop.
 
 If I decide on a username of "wintersys-projects" then in the copy that I made in 2, I need to change it as follows:  
 
-&nbsp;  
-&nbsp; 
 
 >     export BUILDMACHINE_USER="wintersys-projects"
 
-&nbsp;  
-&nbsp;
 
 If I decide on a password of "QQQPPPZZZMMM123098" then in the copy that I made in 2, I need to change it as follows:
 
-&nbsp;  
-&nbsp;
 
 >     export BUILDMACHINE_PASSWORD="QQQPPPZZZMMM123098"
 
-&nbsp;  
-&nbsp;
 
 If you decide on an SSH_PORT of "1035" then in the copy that I made in 2, I need to change it as follows:
 
-&nbsp;  
-&nbsp;
-
 >     export BUILDMACHINE_SSH_PORT="1035"
 
-&nbsp;  
-&nbsp; 
 
 You need to give the script your laptop IP address. You can do this by going to https://www.whatsmyip.com and so, if your ip address is: "111.111.111.111" and pasting your ip address into your copy as follows:
 
-&nbsp;  
-&nbsp;
 
 >     export LAPTOP_IP="111.111.111.111"
 
-&nbsp;  
-&nbsp;
 
 The **public** ssh key that you took a copy of in 1 needs to be pasted as follows and also added using the ssh key GUI system:
 
-&nbsp;  
-&nbsp;
-
 >     export SSH=\"<ssh-public-key-substance>\"
 
-&nbsp;  
-&nbsp; 
-
 The top part of the copy that you made in 2 will now look like this:
-
-&nbsp;  
-&nbsp; 
+ 
 
 >     #!/bin/bash
 >    
@@ -140,43 +95,28 @@ The top part of the copy that you made in 2 will now look like this:
 >     
 >     The rest of the script will appear below here
 
-&nbsp;  
-&nbsp;  
-&nbsp; 
-
 -----------------
 
 4) Take a copy of this entire updated script and keep it safe because you will likely want to use this script multiple times in future deployments remember that anyone who has a copy of this script you have made has enough information to access the build machine you are going to deploy in a minute. 
-
-&nbsp;  
-&nbsp;  
-&nbsp; 
-
----------------
 
 ---------------
 
 5) What you need to do now is to use this script to spin up your build machine and you will do this by pasting it into the user data area of your build machine.
 
-You will need to create a firewall for your build machine. You can do this by creating a firewall on this page:
-&nbsp;  
-&nbsp; 
+You will need to create a firewall for your build machine. You can do this by creating a firewall on this page: 
 
 Click on the Networking main option and the "firewalls" sub option of your digitalocean GUI
          
 ![](images/hardcore/do1.png "Digital Ocean Tutorial Image 1")
-&nbsp;  
-&nbsp; 
+ 
 Click "Create Firewall" and call it **PRECISELY** "adt-build-machine". Remove all inbound rules and keep the outbound rules as they are set
 
 ![](images/hardcore/do2.png "Digital Ocean Tutorial Image 2") 
-&nbsp;  
-&nbsp;
+
 You can then see your new security Group "adt-build-machine" listed  
 
 ![](images/hardcore/do3.png "Digital Ocean Tutorial Image 3") 
-&nbsp;  
-&nbsp;
+
 --------------------. 
 
 6) Add rules to the "adt-build-machine" firewall to allow pinging and your build client to connect.  
@@ -190,9 +130,6 @@ So you will need to add 2 rules
 You can see in this image that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
 
 ![](images/hardcore/do4.png "Digital Ocean Tutorial Image 4") 
-&nbsp;  
-&nbsp;
-
 
 ---------------
 
@@ -208,82 +145,40 @@ You can see in this image that port 1035 is about to be opened up to the ip addr
 
 Graphically you can see what I have described in these 8 steps here:
 
-&nbsp;  
-&nbsp;  
-&nbsp;
-
 ![](images/hardcore/do5.png "Digital Ocean Tutorial Image 5")  
 ![](images/hardcore/do6.png "Digital Ocean Tutorial Image 6")  
 ![](images/hardcore/do7.png "Digital Ocean Tutorial Image 7")  
 ![](images/hardcore/do8.png "Digital Ocean Tutorial Image 8")  
 
-&nbsp;  
-&nbsp;  
-&nbsp;
-
 ---------------
 
 8) Once the machine has built you can access it as follows:
 
-&nbsp;  
-&nbsp; 
-
 >     Discover what the machine's IP address is by looking at the Digital Ocean GUI system for the IP address of the build machine - In this case: 185.19.29.134
 
-&nbsp;  
-&nbsp;
 
 Now on your laptop issue the command:
 
-&nbsp;  
-&nbsp;
-
 >     ssh -i /root/.ssh/id_rsa -p ${BUILDCLIENT_SSH_PORT} $BUILDCLIENT_USER@<buildmachineip>
-
-&nbsp;  
-&nbsp;
 
 or yours might be:
 
-&nbsp;  
-&nbsp;
-
 >     ssh -i /home/${username}/.ssh/id_rsa -p ${BUILDCLIENT_SSH_PORT} $BUILDCLIENT_USER@<buildmachineip>
 
-&nbsp;  
-&nbsp;
-
 Once logged in to your build machine
-
-&nbsp;  
-&nbsp;
 
 >     sudo su 
 >     [sudo] password for wintersys-projects:
 
-&nbsp;  
-&nbsp;
-
 And then enter your build machine password
-
-&nbsp;  
-&nbsp; 
 
 >     ${BUILDMACHINE_PASSWORD}
 
-&nbsp;  
-&nbsp;
 
 In Graphical form, it looks like this:
 
-&nbsp;  
-&nbsp;
-
 Grab your build machine's IP address (second column)
 ![](images/hardcore/do9.png "Digital Ocean Tutorial Image 9")
-
-&nbsp;  
-&nbsp;
 
 Run through the commands as shown on your laptop to access your build machine
 
