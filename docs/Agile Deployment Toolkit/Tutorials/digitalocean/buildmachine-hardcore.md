@@ -164,17 +164,17 @@ You will need to create a firewall for your build machine. You can do this by cr
 
 Click on the Networking main option and the "firewalls" sub option of your digitalocean GUI
          
-![](../../images/digitalocean/digitalocean-buildmachine-hardcore/do1.png "Digital Ocean Tutorial Image 1")
+![](images/hardcore/do1.png "Digital Ocean Tutorial Image 1")
 &nbsp;  
 &nbsp; 
 Click "Create Firewall" and call it **PRECISELY** "adt-build-machine". Remove all inbound rules and keep the outbound rules as they are set
 
-![](../../images/digitalocean/digitalocean-buildmachine-hardcore/do2.png "Digital Ocean Tutorial Image 2") 
+![](images/hardcore/do2.png "Digital Ocean Tutorial Image 2") 
 &nbsp;  
 &nbsp;
 You can then see your new security Group "adt-build-machine" listed  
 
-![](../../images/digitalocean/digitalocean-buildmachine-hardcore/do3.png "Digital Ocean Tutorial Image 3") 
+![](images/hardcore/do3.png "Digital Ocean Tutorial Image 3") 
 &nbsp;  
 &nbsp;
 --------------------. 
@@ -189,7 +189,7 @@ So you will need to add 2 rules
 
 You can see in this image that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
 
-![](../../images/digitalocean/digitalocean-buildmachine-hardcore/do4.png "Digital Ocean Tutorial Image 4") 
+![](images/hardcore/do4.png "Digital Ocean Tutorial Image 4") 
 &nbsp;  
 &nbsp;
 
@@ -212,10 +212,10 @@ Graphically you can see what I have described in these 8 steps here:
 &nbsp;  
 &nbsp;
 
-![](../../images/digitalocean/digitalocean-buildmachine-hardcore/do5.png "Digital Ocean Tutorial Image 5")  
-![](../../images/digitalocean/digitalocean-buildmachine-hardcore/do6.png "Digital Ocean Tutorial Image 6")  
-![](../../images/digitalocean/digitalocean-buildmachine-hardcore/do7.png "Digital Ocean Tutorial Image 7")  
-![](../../images/digitalocean/digitalocean-buildmachine-hardcore/do8.png "Digital Ocean Tutorial Image 8")  
+![](images/hardcore/do5.png "Digital Ocean Tutorial Image 5")  
+![](images/hardcore/do6.png "Digital Ocean Tutorial Image 6")  
+![](images/hardcore/do7.png "Digital Ocean Tutorial Image 7")  
+![](images/hardcore/do8.png "Digital Ocean Tutorial Image 8")  
 
 &nbsp;  
 &nbsp;  
@@ -280,7 +280,7 @@ In Graphical form, it looks like this:
 &nbsp;
 
 Grab your build machine's IP address (second column)
-![](../../images/digitalocean/digitalocean-buildmachine-hardcore/do9.png "Digital Ocean Tutorial Image 9")
+![](images/hardcore/do9.png "Digital Ocean Tutorial Image 9")
 
 &nbsp;  
 &nbsp;
