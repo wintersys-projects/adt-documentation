@@ -10,7 +10,7 @@ in your fork.
 
 What you can use as settings values is fully documented in the header of the buildstyles.dat file but a quick overview is as follows:
 
-** The set of possible configurations you could have are as follows:**
+**The set of possible configurations you could have are as follows:**
 
 **If you are building for NGINX you can select one of:**
 
