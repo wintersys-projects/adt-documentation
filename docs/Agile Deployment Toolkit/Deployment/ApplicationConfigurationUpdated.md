@@ -10,12 +10,12 @@ Presuming that you have several webservers running if you change the configurati
 
 The shortcut way to update your application's configuration is as the following 3 step process:
 
-1. Login to one of your webservers using the helperscript on your build machine
-2. Run the script:
+- Login to one of your webservers using the helperscript on your build machine
+-  Run the script:
 
 >     /usr/bin/changing_config 
 
-3. Go to
+- Go to
 
 >     ${HOME}/runtime
 
@@ -23,7 +23,7 @@ and make your updates to the appropriate configuration file, one of,
 
 >     joomla_configuration.php, wordpress_config.php, drupal_settings.php, moodle_config.php
 
-4. Once your updates are made to your configuration file run the script
+- Once your updates are made to your configuration file run the script
 
 >     /usr/bin/config
 
@@ -31,7 +31,7 @@ to push it to your S3 datastore. Syntax checking has to be passed before the cha
 
 WARNING RUNNING THIS SCRIPT (/usr/bin/config) WILL PUSH YOUR CHANGES TO ALL YOUR WEBSERVERS  
 
-5. Run the script:
+- Run the script:
 
 >     /usr/bin/changed_config
 
@@ -47,13 +47,13 @@ If you make a change to
 
 and then run /usr/bin/config, here are the steps that the system goes through to push the changes you have made to all webservers.
 
-1. The script
+- The script
 
 >     ${HOME}/providerscripts/application/configuration/ApplicationConfigurationUpdate.sh
 
 will be run and this will run a syntax check anc copy the configuration file to the S3 datastore.
 
-2. Every minute, each webserver looks for an updated configuration file for the installed application type when the script:
+- Every minute, each webserver looks for an updated configuration file for the installed application type when the script:
 
 >     ${HOME}/providerscripts/application/configuration/SetApplicationConfiguration.sh
 
