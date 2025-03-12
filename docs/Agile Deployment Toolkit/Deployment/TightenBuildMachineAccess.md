@@ -10,7 +10,7 @@ You will need to already have access to your build machine to be able to use thi
 
 You can use the helperscript:  
 
-**${BUILD_HOME}/helperscripts/AdjustBuildMachineFirewall.sh**
+>     ${BUILD_HOME}/helperscripts/AdjustBuildMachineFirewall.sh
 
 to adjust access to your build machine or you can use the manual process described below, if you need to.
 
