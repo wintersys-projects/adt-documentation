@@ -2,3 +2,5 @@ site_name: Agile Deployment Toolkit Documentation
 
 theme:
   name: readthedocs
+
+use_directory_urls: false
