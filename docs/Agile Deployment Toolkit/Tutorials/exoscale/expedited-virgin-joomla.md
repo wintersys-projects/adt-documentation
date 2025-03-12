@@ -355,21 +355,21 @@ You should now be at a point where your build machine is running and configured 
 
 Assuming that you have your Joomla application online now after following that video, what I would do if I wanted to build a Wordpress, Moodle or Drupal installation would be to follow the same procedure with the same template, but, minimally change the template as follows:
 
-#### For Wordpress:
+**For Wordpress:**
 
 >     export APPLICATION="wordpress"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="WORDPRESS" #MANDATORY 
 >     export APPLICATION_IDENTIFIER="2"
 >     export DATABASE_INSTALLATION_TYPE="MySQL" #I don't support Wordpress using Postgres
 
-#### For Drupal:
+**For Drupal:**
 
 >     export APPLICATION="drupal"
 >     export DRUPAL_VERSION="9.2.6" 
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:9.2.6" #MANDATORY 
 >     export APPLICATION_IDENTIFIER="3"
 
-#### For Moodle:
+**For Moodle:**
 
 >     export APPLICATION="moodle"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="MOODLE" #MANDATORY 
