@@ -11,37 +11,38 @@ in your fork.
 What you can use as settings values is fully documented in the header of the buildstyles.dat file but a quick overview is as follows:
 
 ** The set of possible configurations you could have are as follows:**
------
+
 **If you are building for NGINX you can select one of:**
------
+
 >     ##### NGINX:source:\<module1\>:\<module2\>:\<modulen\>
 >     ##### NGINX:source
 >     ##### NGINX:repo
------
+
 **If you are building for APACHE you can select one of:**
------
+
 >     ##### APACHE:source:\<module1\>:\<module2\>:\<modulen\>
 >     ##### APACHE:source
 >     ##### APACHE:repo
------
+
 **If you are building for lighttpd you can select one of:**
------
+
 >     ##### LIGHTTPD:source:\<module1\>:\<module2\>:\<modulen\>
 >     ##### LIGHTTPD:source
 >     ##### LIGHTTPD:repo
------
+
 **If you are deploying PHP then you can deploy it as:**
------
+
 >     ##### PHP:\<module1\>:\<module2\>:\<modulen\>
------
+
 **If you are using S3FS for your assets you can select one of:**
------
+
 >     ##### DATASTOREMOUNTTOOL:s3fs:repo
------
+
 **If you are using GOOFYS for your assets you can select one of:**
------
+
 >     ##### DATASTOREMOUNTTOOL:goof:binary
------
+
+----------------
 
 Note: If you have multiple applications you are deploying then you can have different configurations for each application. 
 To use different PHP configurations for 2 different applications and have the wordpress one as active you could store it then as:
