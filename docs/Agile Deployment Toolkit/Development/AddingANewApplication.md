@@ -1,4 +1,4 @@
-**Adding a new application to the toolkit**
+### Adding a new application to the toolkit
 
 The core supports joomla,wordpress,drupal and moodle. If you want to support further applications such as "NextCloud" and a whole host of other potential applications I believe you should be able to integrate support for any (php) application which follows a similar pattern by updating and modifying files in these directories or in the case of specific files particular files themselves.
 
