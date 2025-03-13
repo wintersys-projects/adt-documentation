@@ -95,11 +95,11 @@ The top part of the copy that you made in 2 will now look like this:
 You will need to create a setup a firewall for your build machine. You can do this as follows:
 	
 Click on the firewalls option of your Linode GUI
-![](images/expedited/exo1.png "Exoscale Tutorial Image 1")
+![](images/expedited/lin1.png "Linode Tutorial Image 1")
 
 Click "Create Firewall" and call it **PRECISELY** "adt-build-machine" and click "Create Firewall"
 
-![](images/expedited/exo2.png "Exoscale Tutorial Image 2") 
+![](images/expedited/lin2.png "Linode Tutorial Image 2")
 
 You can then see your Firewall "adt-build-machine" listed  
 	
@@ -110,10 +110,8 @@ So you will need to add 2 rules
 1) Ping  
 2) A rule to allow acccess to your build machines defined SSH_PORT from your laptop.  
    If you SSH_PORT is 1035 and your laptop IP is 111.111.111.111 then you will need a TCP rule with "CIDR 111.111.111.111/32 1035"
-
-You can see in this image that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
 	
-![](images/expedited/exo3.png "Exoscale Tutorial Image 3") 
+![](images/expedited/lin3.png "Linode Tutorial Image 3")
 
 ---------------
 
@@ -132,8 +130,8 @@ You can see in this image that port 1035 is about to be opened up to the ip addr
 
 Graphically you can see what I have described in these 8 steps here:
 	
-![](images/expedited/exo4.png "Exoscale Tutorial Image 4")  
-![](images/expedited/exo5.png "Exoscale Tutorial Image 5")  
+![](images/expedited/lin4.png "Linode Tutorial Image 4")
+![](images/expedited/lin5.png "Linode Tutorial Image 5")
 	
 ---------------
 
@@ -161,7 +159,7 @@ And then enter your build machine password
 	
 In Graphical form, it looks like this:
 	
-Grab your build machine's IP address (third column)
+Grab your build machine's IP address
 ![](images/expedited/exo6.png "Exoscale Tutorial Image 6")
 	
 Run through the commands as shown on your laptop to access your build machine
