@@ -168,9 +168,8 @@ And then enter your build machine password
 
 In Graphical form, it looks like this:
 
-Grab your build machine's IP address (second column)
-![](../../images/vultr/buildmachine-expedited/vult8.png "Vultr Tutorial Image 8")
+Grab your build machine's IP address
 
-Run through the commands as shown below on your laptop to access your build machine
+Run through the commands as shown above on your laptop to access your build machine
 
-![](../../images/vultr/buildmachine-expedited/vult9.png "Vultr Tutorial Image 9")
+![](images/expedited/vultr8.png "Vultr Tutorial Image 8")
