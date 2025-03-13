@@ -1,3 +1,6 @@
+PRE BUILD PREPARATIONS FOR HARDCORE BUILDS:
+
+
 Before performing an Hardcore build, you need to set up a build machine. The way you do this for Linode is as follows:
 
 First of all you need to generate your userdata script and you can do that by following the hardcore instructions part of 
