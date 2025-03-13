@@ -61,11 +61,7 @@ The full set of services that are supported by the core of the toolkit and which
 
 There are two types of build method you can employ to get a functioning application. These is the hardcore build (only use once you are more experienced with this tool), and the expedited build method. 
 
-In both cases you need to have a thorough understanding of the specification which you can reference [here](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md) of course. 
-
-For an overview of the steps involoved in an expedited or hardocore build, please look [here](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/doco/AgileToolkitDeployment/BuildStrategiesOverview.md))
-
------
+-------------------------------
 
 **The Conclusion**
 
