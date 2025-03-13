@@ -170,6 +170,6 @@ In Graphical form, it looks like this:
 
 Grab your build machine's IP address
 
-Run through the commands as shown above on your laptop to access your build machine
+In Graphical form, if you change directory to your toolkit home directory and list it should look like:
 
 ![](images/expedited/vultr8.png "Vultr Tutorial Image 8")
