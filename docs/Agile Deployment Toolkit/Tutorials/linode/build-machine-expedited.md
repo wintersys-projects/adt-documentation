@@ -132,6 +132,8 @@ Graphically you can see what I have described in these 8 steps here:
 	
 ![](images/expedited/lin4.png "Linode Tutorial Image 4")
 ![](images/expedited/lin5.png "Linode Tutorial Image 5")
+![](images/expedited/lin6.png "Linode Tutorial Image 6")
+
 	
 ---------------
 
