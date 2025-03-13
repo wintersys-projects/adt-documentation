@@ -185,15 +185,7 @@ And then enter your build machine password
 >     ${BUILDMACHINE_PASSWORD}
 
 
-In Graphical form, it looks like this:
-
-Grab your build machine's IP address (second column)
-![](images/hardcore/do9.png "Digital Ocean Tutorial Image 9")
-
-Run through the commands as shown on your laptop to access your build machine
-
-&nbsp;  
-&nbsp;
+In Graphical form, if you change directory to your toolkit home directory and list it should look like:
 
 ![](../../images/digitalocean/digitalocean-buildmachine-hardcore/do10.png "Digital Ocean Tutorial Image 10")
 
