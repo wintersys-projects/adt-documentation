@@ -19,7 +19,7 @@ This will give you your **public** key which you need later so, take a copy of t
 
 --------------------
 
-2) Take a copy of the script: [Initial Script](../../../templatedconfigurations/templateoverrides/OverrideScript.sh) 
+2) Take a copy of the script: [Initial Script](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh) 
 
 ------------------
 
