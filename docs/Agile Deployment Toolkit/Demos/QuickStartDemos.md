@@ -118,7 +118,7 @@ then do a
 
 Note 1:
 
-Be aware that a new SSL certificate is issued each time you run this Stackscript which means that if you do multiple deployments you will run into "rate limiting" problems. If you need to perform multiple build cycles for a particular domain you are best off using the expedited method as described [here](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/doco/Tutorials/linode/FOLLOW%20ME.md). You can also set SSL_LIVE_CERT to 0 to use a staging certificate which doesn't have such restrictive rate limiting as a production certificate but it might give you a browser security warning when you access your website. 
+Be aware that a new SSL certificate is issued each time you run this Stackscript which means that if you do multiple deployments you will run into "rate limiting" problems. If you need to perform multiple build cycles for a particular domain you are best off using the expedited method as described [here](<../Tutorials/linode/FOLLOW ME.md>). You can also set SSL_LIVE_CERT to 0 to use a staging certificate which doesn't have such restrictive rate limiting as a production certificate but it might give you a browser security warning when you access your website. 
 
 Note 2:
 
