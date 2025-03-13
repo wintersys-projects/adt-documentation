@@ -103,11 +103,11 @@ You will need to create a firewall for your build machine. You can do this by cr
 
 Click on the Networking main option and the "firewalls" sub option of your vultr GUI
          
-![](../../images/vultr/buildmachine-expedited/vult1.png "Vultr Tutorial Image 1")
+![](./images/expedited/vult1.png "Vultr Tutorial Image 1")
  
 Click "Create Firewall" and call it **PRECISELY** "adt-build-machine". Remove all inbound rules and keep the outbound rules as they are set
 
-![](../../images/vultr/buildmachine-expedited/vult2.png "Vultr Tutorial Image 2") 
+![](./images/expedited/vult2 .png "Vultr Tutorial Image 2")
 
 You can then see your new firewall "adt-build-machine" listed  
 
@@ -123,8 +123,7 @@ So you will need to add 2 rules
 
 You can see in this image that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
 
-![](../../images/vultr/buildmachine-expedited/vult3.png "Vultr Tutorial Image 3") 
-
+![](./images/expedited/vult3.png "Vultr Tutorial Image 3")
 ---------------
 
 7) You need to spin up a small machine to be your build machine by clicking "Create Server" on the top right of the GUI. And then follow these steps:
@@ -139,11 +138,10 @@ You can see in this image that port 1035 is about to be opened up to the ip addr
 
 Graphically you can see what I have described in these 8 steps here:
 
-![](../../images/vultr/buildmachine-expedited/vult4.png "Vultr Tutorial Image 4")  
-![](../../images/vultr/buildmachine-expedited/vult5.png "Vultr Tutorial Image 5")  
-![](../../images/vultr/buildmachine-expedited/vult6.png "Vultr Tutorial Image 6")  
-![](../../images/vultr/buildmachine-expedited/vult7.png "Vultr Tutorial Image 7")  
-
+![](./images/expedited/vult4.png "Vultr Tutorial Image 4")
+![](./images/expedited/vult5.png "Vultr Tutorial Image 5")
+![](./images/expedited/vult6.png "Vultr Tutorial Image 6")
+![](./images/expedited/vult7.png "Vultr Tutorial Image 7")
 ---------------
 
 8) Once the machine has built you can access it as follows: 
