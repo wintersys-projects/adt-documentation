@@ -1,4 +1,10 @@
-Before performing an expedited build, you need to set up a build machine. The way you do this for Linode is as follows:
+Before performing an Hardcore build, you need to set up a build machine. The way you do this for Linode is as follows:
+
+First of all you need to generate your userdata script and you can do that by following the instructions
+
+[Generate Hardcore Userdata](../Deployment/BuildMethodTypesOverview.md)
+
+Once you have a userdata script, store it somewhere safe
 
 ----------------
 
@@ -16,7 +22,7 @@ This will give you your **public** key which you need later so, take a copy of t
 
 --------------------
 	
-2) Take a copy of the script: [Initial Script](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh)
+2) Take a copy of the script the user data script that you set and stored somewhere sage up above
 
 ------------------
 	
