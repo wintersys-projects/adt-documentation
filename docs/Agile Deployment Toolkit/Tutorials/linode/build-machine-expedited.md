@@ -133,8 +133,8 @@ Graphically you can see what I have described in these 9 steps here:
 ![](images/expedited/lin4.png "Linode Tutorial Image 4")
 ![](images/expedited/lin5.png "Linode Tutorial Image 5")
 ![](images/expedited/lin6.png "Linode Tutorial Image 6")
+![](images/expedited/lin7.png "Linode Tutorial Image 7")
 
-	
 ---------------
 
 8) Once the machine has built you can access it as follows:
@@ -160,6 +160,6 @@ And then enter your build machine password
 >     ${BUILDMACHINE_PASSWORD}		
 	
 In Graphical form, it looks like this:
-![](images/expedited/lin7.png "Linode Tutorial Image 7")
+![](images/expedited/lin7.png "Linode Tutorial Image 8")
 
 	
