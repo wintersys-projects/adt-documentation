@@ -178,10 +178,8 @@ And then enter your build machine password
 
 >     ${BUILDMACHINE_PASSWORD}
 
-In Graphical form, it looks like this:
+In Graphical form, if you change directory to your toolkit home directory and list it should look like:
 
-Grab your build machine's IP address (second column)
 ![](images/hardcore/vultr8.png "Vultr Tutorial Image 8")
 
-Run through the commands as shown on your laptop to access your build machine
  
