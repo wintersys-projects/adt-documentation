@@ -170,5 +170,6 @@ And then enter your build machine password
 
 >     ${BUILDMACHINE_PASSWORD}		
 	
-In Graphical form, it looks like this:
+In Graphical form, if you change directory to your toolkit home directory and list it should look like:
+
 ![](images/expedited/lin8.png "Linode Tutorial Image 8")
