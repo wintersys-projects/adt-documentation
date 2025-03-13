@@ -160,10 +160,6 @@ And then enter your build machine password
 >     ${BUILDMACHINE_PASSWORD}		
 	
 In Graphical form, it looks like this:
+![](images/expedited/lin7.png "Linode Tutorial Image 7")
+
 	
-Grab your build machine's IP address
-![](images/expedited/exo6.png "Exoscale Tutorial Image 6")
-	
-Run through the commands as shown on your laptop to access your build machine
-	
-![](images/expedited/exo7.png "Exoscale Tutorial Image 7")
