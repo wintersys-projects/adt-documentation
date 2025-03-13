@@ -51,7 +51,7 @@ You now need to make a note of the email address that you have registered with y
 
 -----------------------------------
 
-You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to vultr as described [here](../../../doco/AgileToolkitDeployment/Nameservers.md)
+You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to vultr as described [here](../../Deployment/Nameservers.md)
 
 >     vultr_dns_name="www.testdeploy.com"
 
@@ -70,7 +70,7 @@ Then create a "personal access token" by following:
 
 --------------------------------
 
-To keep this as simple as possible, I have missed out the SMTP credentials, but, you can find out more about them [here](../../../doco/AgileToolkitDeployment/DeployingSMTPService.md). If you wish to include SMTP credentials you will need to have a service offering set up with either sendpulse, mailjet or AWS SES.
+To keep this as simple as possible, I have missed out the SMTP credentials. If you wish to include SMTP credentials you will need to have a service offering set up with either sendpulse, mailjet or AWS SES.
 
 So, that should be all the core credentials that I need to make a deployment. I can save my text file now (and keep it secure) because I might want to use these credentials again for other deployments or redeployments. 
 
