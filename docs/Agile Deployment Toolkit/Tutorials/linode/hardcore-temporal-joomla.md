@@ -122,3 +122,29 @@ At this point, you can deploy your build machine should be up and running in sho
 [Tightening Build Machine Firewall](../../Deployment/TightenBuildMachineAccess.md) 
  
 At this point, your build machine will only accept connections from your laptop. If you need access from other ip addresses you need to use the technique described in "Tightening Build Machine Access" to grant access to additional IP addresses. This will be the case every time your laptop changes its IP address as you travel about, so, you might want to setup and configure an S3 client on your laptop to enable you to grant access to new IP addresses easily. 
+
+  ------------------------
+  **DEPLOYMENT USING MANAGED DATABASES**
+  
+  There's something else to be aware of, if you want to deploy a managed DBaaS system instead of just using the one that is built in to the build process you can do that as detailed in [this](../../../doco/AgileToolkitDeployment/DeployingDBaaS.md) document
+  
+  ------------------------
+  **OTHER APPLICATION TYPES**
+  
+In order to do a temporaly build from backups you have made for a different application type (wordpress, drupal or moodle) you will need to alter the following variables in your template compared to what you have used above:
+  
+  For Wordpress:
+  
+>     export APPLICATION="wordpress"
+>     export DIRECTORIES_TO_MOUNT="wp-content.uploads"
+  
+  For Drupal:
+  
+>     export APPLICATION="drupal"
+>     export DIRECTORIES_TO_MOUNT="sites.default.files"
+  
+  For Moodle:
+  
+>     export APPLICATION="moodle"
+>     export DIRECTORIES_TO_MOUNT="moodledata.filedir"
+
