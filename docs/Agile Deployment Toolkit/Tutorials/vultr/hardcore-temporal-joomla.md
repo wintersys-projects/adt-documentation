@@ -93,7 +93,7 @@ It is mandatory to edit your userdata script and modify these values within it t
 
 At this point, your build machine should be up and running. Please review  
   
-[Tighten Build Machine](../../../doco/AgileToolkitDeployment/TightenBuildMachineAccess.md)  
+[Tightening Build Machine Firewall](../../Deployment/TightenBuildMachineAccess.md)
  
 At this point, your build machine will only accept connections from your laptop. If you need access from other ip addresses you need to use the technique described in "Tightening Build Machine Access" to grant access to additional IP addresses. This will be the case every time your laptop changes its IP address as you travel about, so, you might want to setup and configure an S3 client on your laptop to enable you to grant access to new IP addresses easily. 
 
@@ -103,7 +103,7 @@ At this point, your build machine will only accept connections from your laptop.
   ------------------------
   **DEPLOYMENT USING MANAGED DATABASES**
   
-  There's something else to be aware of, if you want to deploy a managed DBaaS system instead of just using the one that is built in to the build process you can do that as detailed in [this](../../../doco/AgileToolkitDeployment/DeployingDBaaS-Shortcut.md) and [this](../../../doco/AgileToolkitDeployment/DeployingDBaaS.md) document
+  There's something else to be aware of, if you want to deploy a managed DBaaS system instead of just using the one that is built in to the build process you can do that as detailed in [this](../../../doco/AgileToolkitDeployment/DeployingDBaaS.md) document
   
   
   ------------------------
