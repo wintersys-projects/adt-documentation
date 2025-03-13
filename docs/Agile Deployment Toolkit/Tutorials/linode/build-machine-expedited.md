@@ -11,70 +11,136 @@ Before performing an expedited or full build, you need to set up a build machine
 Your key will be saved to the indicated file, for example, **/root/.ssh/id_rsa** your path might be different such as **/home/bob/.ssh/id_rsa**
 	 
 Issue the command (for example)
- 	 
+	 
 >     /bin/cat /root/.ssh/id_rsa.pub - this will be your <ssh-public-key-substance>
- 
+ 	 
 This will give you your **public** key which you need later so, take a copy of the output that is printed to the screen. 
 
 --------------------
 	
-2) Take a copy of the script: [Initial Script](../../../templatedconfigurations/templateoverrides/OverrideScriptLinode.sh) and make a stack script out of it which will look like:
-  
-  ![](../../images/linode/buildmachine/lin1.png "Linode Tutorial Image 1") 
+2) Take a copy of the script: [Initial Script](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh)
 
 ------------------
 	
-3) If you want to deploy a machine (debian of ubuntu) using the stack script that you made in 2, you can see the following variables in the raw script
+3) If you look into the script that you made a copy of in 2, you need to populate the following variables in your copy:
 	
->     BUILDMACHINE_USER=""  (for example wintersys-projects)
->     BUILDMACHINE_PASSWORD=""  (Make sure the password is complex enough to satisfy any strength checks that the OS performs)
->     BUILDMACHINE_SSH_PORT="" (for example 1056)
->     LAPTOP_IP=""   (www.whatsmyip.com)
+>     export BUILDMACHINE_USER=""
+>     export BUILDMACHINE_PASSWORD="" 
+>     export BUILDMACHINE_SSH_PORT=""
+>     export LAPTOP_IP=""
 	
->     SSH=\"\"  (the public key that you installed on your laptop as a key pair in 1)
+>     export SSH=\"\" 
+	 	
+Now you need to decide on a username for your build machine, a password for your build machine, a port for your build machine's ssh system and the IP address of your desktop or laptop.
 	
-You need to now deploy a linode using the Stackscript that you constructed in 2 and populate the variables you just reviewd in the Stackscript you are building from which will look something like:
-	
-![](../../images/linode/buildmachine/lin2.png "Linode Tutorial Image 2")
-	
-You then need to set various options for the linode you are deploying. 
-	
-Select a machine image to build from (Ubuntu 20:04 and up or Debian 11 and up), a region and a machine size (most probably quite a small machine)
+If I decide on a username of "wintersys-projects" then in the copy that I made in 2, I need to change it as follows:  
 
-![](../../images/linode/buildmachine/lin3.png "Linode Tutorial Image 3")
+>     export BUILDMACHINE_USER="wintersys-projects"
 	
-Then enter (and record) a root password, make sure it is complex enough to satisfy any strength checks built into the OS
+If I decide on a password of "QQQPPPZZZMMM123098" then in the copy that I made in 2, I need to change it as follows:
 	
-![](../../images/linode/buildmachine/lin4.png "Linode Tutorial Image 4") 
+>     export BUILDMACHINE_PASSWORD="QQQPPPZZZMMM123098"
+	
+If you decide on an SSH_PORT of "1035" then in the copy that I made in 2, I need to change it as follows:
+	
+>     export BUILDMACHINE_SSH_PORT="1035"
 
-Then switch on private networking
+You need to give the script your laptop IP address. You can do this by going to https://www.whatsmyip.com and so, if your ip address is: "111.111.111.111" and pasting your ip address into your copy as follows:
 	
-![](../../images/linode/buildmachine/lin5.png "Linode Tutorial Image 5") 
+>     export LAPTOP_IP="111.111.111.111"
+	
+The **public** ssh key that you took a copy of in 1 needs to be pasted as follows and also added using the ssh key GUI system:
+	
+>     export SSH=\"<ssh-public-key-substance>\"
 
-	
-4)  If you are sure that all your variables are set correctly in the stack script you have created, you can now actually deploy a Linode using it and it will install the agile deployment toolkit on it.  
+The top part of the copy that you made in 2 will now look like this:
 
---------------- 
-	
-6) Add a firewall to your new build machine linode cutting off all but the SSH port you set above and Pinging from the ip address of your laptop. In other words, the only machine which has any access to your build machine linode is your own laptop through ssh and ping.
-	
-For SSH, do as follows for the ip address of your laptop:  
+>     #!/bin/bash
+>    
+>     /bin/mkdir /root/logs
+>    
+>     OUT_FILE="webserver-build-out-`/bin/date | /bin/sed 's/ //g'`"
+>     exec 1>>/root/logs/${OUT_FILE}
+>     ERR_FILE="webserver-build-err-`/bin/date | /bin/sed 's/ //g'`"
+>     exec 2>>/root/logs/${ERR_FILE}
+>     
+>     ###############################################################################################
+>     # SET THESE FOR YOUR BUILD CLIENT MACHINE
+>     # THIS WILL NOT START A BUILD IT WILL JUST SETUP THE TOOLKIT
+>     # USE THIS IF YOU WANT TO PERFORM AN EXPEDITED OR A FULL BUILD FROM THE COMMAND LINE
+>     # ssh -i <ssh-private-key> -p ${BUILDCLIENT_SSH_PORT} $BUILDCLIENT_USER@<buildclientip>
+>     # $BUILDCLIENT_USER>sudo su
+>     # password:${BUILDCLIENT_PASSWORD}
+>     # cd adt-build-machine-scripts/logs
+>     #################################################################################################
+>     export BUILDMACHINE_USER="wintersys-projects"
+>     export BUILDMACHINE_PASSWORD="QQQPPPZZZMMM123098" #Make sure any password you choose is strong enough to pass any strength enforcement rules of your OS
+>     export BUILDMACHINE_SSH_PORT="1035"
+>     export LAPTOP_IP="111.111.111.111"
+>      
+>     /bin/echo "
+>     #BASE OVERRIDES
+>     export SSH=\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEgqlNPY9uh6SpihNXm/7XGqOKvAcH8Z0Y6pZG9lTIm/PHI5VijIFqs0OzM3DPLFARtut7lojBoKq9ljBmKeVBGX5EkJ5O3CJfEZs9E13e2Qk+7F9wTmoMBG8XY4l/SmD9HddLTS/7Oadg+C4RDxHlSMrl1PSCdzlM14spHCI8rwUntNCUY+fObolqel0829zYDX0oEWzYyoIEUs1847X3cRp9+yZsjqSD5Nw9jacLcWjtdfClEvx5F8ZVm0+s5OLtz9cCf6NkOgYf3KFz+e8qAO/w83Umh5B2Gem1uOxSDtUmzVlRiMTfP6CTSKRnYRnkb97F9RZsmAsG6+g+eKvp root@penguin\" #paste your public key here
+>     
+>     The rest of the script will appear below here
 
-![](../../images/linode/buildmachine/lin6.png "Linode Tutorial Image 6") 
+-----------------
 
-	
-For Ping, do as follows for the ip address of your laptop:  
+4) Take a copy of this entire updated script and keep it safe because you will likely want to use this script multiple times in future deployments remember that anyone who has a copy of this script you have made has enough information to access the build machine you are going to deploy in a minute. 
 
-![](../../images/linode/buildmachine/lin7.png "Linode Tutorial Image 7")  
+---------------
 	
---------------------
+5) What you need to do now is to use this script to spin up your build machine and you will do this by pasting it into the user data area of your build machine.
 
-5) You can access your build machine from your laptop now as follows:
+You will need to create a setup a firewall for your build machine. You can do this as follows:
 	
-Discover what the machine's IP address is by looking at the Linode GUI system for the IP address of the build machine - in this case: \<buildmachineip\> = 212.71.248.95
-	
-![](../../images/linode/buildmachine/lin8.png "Linode Tutorial Image 8") 
+Click on the firewalls option of your Linode GUI
+![](images/expedited/exo1.png "Exoscale Tutorial Image 1")
 
+Click "Create Firewall" and call it **PRECISELY** "adt-build-machine" and click "Create Firewall"
+
+![](images/expedited/exo2.png "Exoscale Tutorial Image 2") 
+
+You can then see your Firewall "adt-build-machine" listed  
+	
+6) Add rules to the "adt-build-machine" Firewall to allow pinging and your build client to connect.  
+	
+So you will need to add 2 rules  
+	
+1) Ping  
+2) A rule to allow acccess to your build machines defined SSH_PORT from your laptop.  
+   If you SSH_PORT is 1035 and your laptop IP is 111.111.111.111 then you will need a TCP rule with "CIDR 111.111.111.111/32 1035"
+
+You can see in this image that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
+	
+![](images/expedited/exo3.png "Exoscale Tutorial Image 3") 
+
+---------------
+
+7) You need to spin up a small machine to be your build machine by clicking "Create Linode" on the top right of the GUI. And then follow these steps:
+
+>     1. Select which region you want to deploy your buid machine in (should be same region as your main servers)
+>     1. Select which Linux Distribution you want debian 10 (or later) or ubuntu 20.04 (or later)
+>     3. Select instance type "Shared CPU -> Nanode" for example
+>     4. Provide a Label for your linode for example  "adt-buildmachine"
+>     4. Set a root password
+>     5. Ignore SSH KEY
+>     6. Attach the build machine to your VPC
+>     7. Assing the Linode to the firewall you created
+>     8. Paste the "UserData" script that you created above into the "User Data" area
+>     8. Click Create and wait for your machine to build
+
+Graphically you can see what I have described in these 8 steps here:
+	
+![](images/expedited/exo4.png "Exoscale Tutorial Image 4")  
+![](images/expedited/exo5.png "Exoscale Tutorial Image 5")  
+	
+---------------
+
+8) Once the machine has built you can access it as follows:
+	
+	
+>     Discover what the machine's IP address is by looking at the Exoscale GUI system for the IP address of the build machine - In this case: 185.19.29.134
 	
 Now on your laptop issue the command:
 
@@ -89,14 +155,15 @@ Once logged in to your build machine
 >     sudo su 
 >     [sudo] password for wintersys-projects:
 
-And then enter your build machine password (this is the password you entered into the Stack Script when you were configuring it above)	
+And then enter your build machine password	
 
->     ${BUILDMACHINE_PASSWORD}
+>     ${BUILDMACHINE_PASSWORD}		
 	
+In Graphical form, it looks like this:
 	
-On the command line of your laptop it looks like the following:
+Grab your build machine's IP address (third column)
+![](images/expedited/exo6.png "Exoscale Tutorial Image 6")
 	
-![](../../images/linode/buildmachine/lin9.png "Linode Tutorial Image 9") 
-
-		
---------------------------------------
+Run through the commands as shown on your laptop to access your build machine
+	
+![](images/expedited/exo7.png "Exoscale Tutorial Image 7")
