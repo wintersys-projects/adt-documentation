@@ -50,7 +50,7 @@ If you want to add an extra layer of protection in case anything happens to this
 
 This is only a first step in the lifecycle of your build machine. Over the course of time your laptop ip address may change or you may want to grant access to a trusted team mate and so only having your build machine accept connections from 1 ip address wouldn't do. So, you can follow:
 
-[TightenBuildMachineFirewall](../../Deployment/TightenBuildMachineAccess.md)
+[TightenBuildMachineFirewall](../Deployment/TightenBuildMachineAccess.md)
 
 To understand the practical steps that you need to go through to allow access to other ip addresses that you trust. The process described is activated by a cron task on the build-machine which calls the script
 
@@ -62,6 +62,6 @@ My advice is if you want the easiest option is once you have allowed your friend
 
 If your friend's IP address is 111.111.111.111 and you have allowed that IP address into your system by following:
 
-[TightenBuildMachineFirewall](../../Deployment/TightenBuildMachineAccess.md)
+[TightenBuildMachineFirewall](../Deployment/TightenBuildMachineAccess.md)
 
 Then also add that IP address to the firewalling system that your cloudhost provides and control whether your friend has access or not using the native firewalling system GUI rather than the full "TightenBuildMachineFirewall.sh" process. Is that clear how that is an easier way. In other words, you  only use the TightenBuildMachineFirewall.sh route for initial access to an IP address after that you then control access by allowing or denying in the GUI system of your VPS provider.
