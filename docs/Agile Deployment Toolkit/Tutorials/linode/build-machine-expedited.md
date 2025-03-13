@@ -1,3 +1,6 @@
+PRE BUILD PREPARATIONS FOR EXPEDITED BUILDS:
+
+
 Before performing an expedited build, you need to set up a build machine. The way you do this for Linode is as follows:
 
 ----------------
