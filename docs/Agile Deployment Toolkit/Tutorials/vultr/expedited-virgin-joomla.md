@@ -11,7 +11,7 @@ If you don't already have a build machine running in the Vultr cloud, follow the
 
 **EXPEDITED BUILD PROCESS**
 
-This will deploy the latest version of Joomla using template 1 which you can read about here: [template 1](../../../templatedconfigurations/templates/vultr/vultr1.description) and the expedited method.
+This will deploy the latest version of Joomla using template 1 which you can read about here: [template 1](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templates/vultr/vultr1.description) and the expedited method.
 
 If you have followed these steps your build machine is online and secured and you have an SSH session open to it from your laptop through which to initiate your build processes.
 
