@@ -126,9 +126,9 @@ So you will need to add 2 rules
 >     6. Attach the build machine to your VPC
 >     7. Assing the Linode to the firewall you created
 >     8. Paste the "UserData" script that you created above into the "User Data" area
->     8. Click Create and wait for your machine to build
+>     9. Click Create and wait for your machine to build
 
-Graphically you can see what I have described in these 8 steps here:
+Graphically you can see what I have described in these 9 steps here:
 	
 ![](images/expedited/lin4.png "Linode Tutorial Image 4")
 ![](images/expedited/lin5.png "Linode Tutorial Image 5")
