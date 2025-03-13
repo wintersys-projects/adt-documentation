@@ -1,5 +1,7 @@
 # Welcome to the Agile Deployment Toolkit Documentation
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OSDZj_jh5cE?si=FdI1cvq6OVqrYn-j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **DO NOT DEPLOY THIS ON YOUR DAY TO DAY LINUX LAPTOP AS IT WILL MAKE CHANGES TO THE MACHINE'S CONFIGURATION**
 
 There are four repositories associated with this toolkit: 
