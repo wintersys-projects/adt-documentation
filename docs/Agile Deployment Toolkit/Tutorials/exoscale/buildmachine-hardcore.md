@@ -6,6 +6,7 @@ First of all you need to generate your userdata script and you can do that by fo
 
 Once you have a fully populated userdata script, store it somewhere safe
 
+-----------------------
 
 1) If you don't have an SSH key pair or if you want a specific SSH key pair for your builds, issue the following command:
  
