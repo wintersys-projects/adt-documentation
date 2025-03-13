@@ -15,6 +15,7 @@ NOTE: The scripts in these repositories will control the build process for the d
 
 
 **[Deployment Tutorials](<./Agile Deployment Toolkit/Tutorials/TutorialsMenu.md>)**  
+**[Deployment Tutorials](<./Agile Deployment Toolkit/Tutorials/>)**  
 **[The Specification](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md)**  
 **[Quick Start Demos](<Agile Deployment Toolkit/Demos/QuickStartDemos.md>)**  
 
