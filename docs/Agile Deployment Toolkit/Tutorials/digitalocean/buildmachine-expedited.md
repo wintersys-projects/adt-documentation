@@ -173,13 +173,10 @@ And then enter your build machine password
 In Graphical form, it looks like this:
 
 
-Grab your build machine's IP address (second column)
+Grab your build machine's IP address
 ![](images/expedited/do9.png "Digital Ocean Tutorial Image 9")
 
 
-Run through the commands as shown below on your laptop to access your build machine
-
-&nbsp;  
-&nbsp;
+In Graphical form, if you change directory to your toolkit home directory and list it should look like:
 
 ![](images/expedited/do10.png "Digital Ocean Tutorial Image 10")
