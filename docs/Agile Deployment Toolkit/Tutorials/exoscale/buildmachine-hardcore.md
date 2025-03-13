@@ -1,8 +1,8 @@
 Before performing an Hardcore build, you need to set up a build machine. The way you do this for Linode is as follows:
 
-First of all you need to generate your userdata script and you can do that by following the hardcore instructions part of
+First of all you need to generate your userdata script and you can do that by following the hardcore instructions part of 
 
-Generate Hardcore Userdata
+[Generate Hardcore Userdata](../../Deployment/BuildMethodTypesOverview.md)
 
 Once you have a fully populated userdata script, store it somewhere safe
 
