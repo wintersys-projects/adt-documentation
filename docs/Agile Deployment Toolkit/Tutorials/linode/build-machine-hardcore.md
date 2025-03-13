@@ -2,7 +2,7 @@ Before performing an Hardcore build, you need to set up a build machine. The way
 
 First of all you need to generate your userdata script and you can do that by following the instructions
 
-[Generate Hardcore Userdata](../Deployment/BuildMethodTypesOverview.md)
+[Generate Hardcore Userdata](../../Deployment/BuildMethodTypesOverview.md)
 
 Once you have a userdata script, store it somewhere safe
 
