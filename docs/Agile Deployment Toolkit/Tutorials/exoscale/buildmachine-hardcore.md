@@ -1,4 +1,10 @@
-### PRE BUILD PREPARATIONS FOR HARDCORE BUILDS:
+Before performing an Hardcore build, you need to set up a build machine. The way you do this for Linode is as follows:
+
+First of all you need to generate your userdata script and you can do that by following the hardcore instructions part of
+
+Generate Hardcore Userdata
+
+Once you have a fully populated userdata script, store it somewhere safe
 
 
 1) If you don't have an SSH key pair or if you want a specific SSH key pair for your builds, issue the following command:
@@ -15,7 +21,7 @@ This will give you your **public** key which you need later so, take a copy of t
 
 --------------------
 	
-2) Take on your laptop, take a copy of your userdata script that you should have previously generated from  
+2) Take on your laptop, take a copy of your userdata script that you should have previously generated as described above from  
 
 >     ${BUILD_HOME}/adt-build-machine-scripts/userdatascripts/${userdatascript})  
 	
