@@ -6,6 +6,3 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-not_in_nav: |
-  /Agile%20Deployment%20Toolkit/Tutorials/TutorialsMenu.md
-
