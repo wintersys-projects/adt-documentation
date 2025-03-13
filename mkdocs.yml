@@ -6,4 +6,6 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+not_in_nav: |
+  /private.md
 
