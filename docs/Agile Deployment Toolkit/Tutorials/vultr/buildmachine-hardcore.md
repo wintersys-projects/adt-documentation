@@ -114,11 +114,11 @@ You will need to create a firewall for your build machine. You can do this by cr
 
 Click on the Networking main option and the "firewalls" sub option of your vultr GUI
          
-![](../../images/vultr/buildmachine-hardcore/vult1.png "Vultr Tutorial Image 1")
+![](images/hardcore/vultr1.png "Vultr Tutorial Image 1")
 
 Click "Create Firewall" and call it **PRECISELY** "adt-build-machine". Remove all inbound rules and keep the outbound rules as they are set
 
-![](../../images/vultr/buildmachine-hardcore/vult2.png "Vultr Tutorial Image 2") 
+![](images/hardcore/vultr2.png "Vultr Tutorial Image 2")
 
 You can then see your new security Group "adt-build-machine" listed  
 
@@ -134,7 +134,7 @@ So you will need to add 2 rules
 
 You can see in this image that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
 
-![](../../images/vultr/buildmachine-hardcore/vult3.png "Vultr Tutorial Image 3") 
+![](images/hardcore/vultr3.png "Vultr Tutorial Image 3")
 
 ---------------
 
@@ -150,9 +150,10 @@ You can see in this image that port 1035 is about to be opened up to the ip addr
 
 Graphically you can see what I have described in these 8 steps here:
 
-![](../../images/vultr/buildmachine-hardcore/vult4.png "Vultr Tutorial Image 4")  
-![](../../images/vultr/buildmachine-hardcore/vult5.png "Vultr Tutorial Image 5")  
-![](../../images/vultr/buildmachine-hardcore/vult6.png "Vultr Tutorial Image 6")  
+![](images/hardcore/vultr4.png "Vultr Tutorial Image 4")
+![](images/hardcore/vultr5.png "Vultr Tutorial Image 5")
+![](images/hardcore/vultr6.png "Vultr Tutorial Image 6")
+![](images/hardcore/vultr7.png "Vultr Tutorial Image 7")
 
 ---------------
 
@@ -180,7 +181,7 @@ And then enter your build machine password
 In Graphical form, it looks like this:
 
 Grab your build machine's IP address (second column)
-![](../../images/vultr/buildmachine-hardcore/vult7.png "Vultr Tutorial Image 7")
+![](images/hardcore/vultr8.png "Vultr Tutorial Image 8")
 
 Run through the commands as shown on your laptop to access your build machine
  
