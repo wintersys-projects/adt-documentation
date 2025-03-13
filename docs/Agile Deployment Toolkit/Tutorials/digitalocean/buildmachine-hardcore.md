@@ -21,10 +21,10 @@ This will give you your **public** key which you need later so, take a copy of t
 
 --------------------
 
-2) Take on your laptop, take a copy of your userdata script that you should have previously generated from  
+2) Take on your laptop, take a copy of your userdata script that you should have previously generated as described above from  
 
 >     ${BUILD_HOME}/adt-build-machine-scripts/userdatascripts/${userdatascript})  
-
+	
 where ${userdatascript} is the name you have given to your userdata script. 
 
 ------------------
