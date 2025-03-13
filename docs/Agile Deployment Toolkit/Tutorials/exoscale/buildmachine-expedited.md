@@ -158,11 +158,6 @@ And then enter your build machine password
 
 >     ${BUILDMACHINE_PASSWORD}		
 	
-In Graphical form, it looks like this:
-	
-Grab your build machine's IP address (third column)
-![](images/expedited/exo6.png "Exoscale Tutorial Image 6")
-	
 In Graphical form, if you change directory to your toolkit home directory and list it should look like:
 	
 ![](images/expedited/exo7.png "Exoscale Tutorial Image 7")
