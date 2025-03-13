@@ -14,7 +14,7 @@ NOTE: The scripts in these repositories will control the build process for the d
 **If you are interested in self managed server systems this tool could make your life easier; it's a custom solution for server deployment management**
 
 
-**[Configuration Tutorials](./AgileDeploymentToolkit/Tutorials)**  
+**[Configuration Tutorials](<./Agile DeploymentToolkit /Tutorials>)**  
 **[The Specification](./templatedconfigurations/specification.md)**  
 **[Quick Start Demos](./Quick-Start-Demos)**  
 
