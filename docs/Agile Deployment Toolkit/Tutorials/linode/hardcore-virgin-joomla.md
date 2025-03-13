@@ -80,11 +80,7 @@ Then create a "personal access token" by following:
 
 --------------------------------
 
-To keep this as simple as possible, I have missed out the SMTP credentials, but, you can find out more about them  
-
-[Deploying SMTP Service](../../../doco/AgileToolkitDeployment/DeployingSMTPService.md)  
-
-If you wish to include SMTP credentials you will need to have a service offering set up with either sendpulse, mailjet or AWS SES.
+To keep this as simple as possible, I have missed out the SMTP credentials. If you wish to include SMTP credentials you will need to have a service offering set up with either sendpulse, mailjet or AWS SES.
 
 --------------------------
 
