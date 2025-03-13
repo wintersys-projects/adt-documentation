@@ -161,6 +161,6 @@ And then enter your build machine password
 >     ${BUILDMACHINE_PASSWORD}		
 	
 In Graphical form, it looks like this:
-![](images/expedited/lin7.png "Linode Tutorial Image 8")
+![](images/expedited/lin8.png "Linode Tutorial Image 8")
 
 	
