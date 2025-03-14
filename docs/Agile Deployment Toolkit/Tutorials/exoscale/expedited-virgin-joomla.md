@@ -347,9 +347,7 @@ If all the dashes I have added are removed, then this file (with live values and
 
 -----------------------------
 
-You should now be at a point where your build machine is running and configured ready to deploy Joomla in a virgin (or uncustomised) configuration. I will show you what this will likely look like in a video:
-
-[![Exoscale virgin Joomla Deployment Using the Agile Deployment Toolkit](https://img.youtube.com/vi/DtZod9Ui20s/0.jpg)](https://www.youtube.com/watch?v=DtZod9Ui20s)
+You should now be at a point where your build machine is running and configured ready to deploy Joomla in a virgin (or uncustomised) configuration. 
 
 ---------------------------
 
