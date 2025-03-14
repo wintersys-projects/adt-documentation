@@ -209,7 +209,8 @@ This is just a sample joomla install with the purity template installed
 >     "BASELINE DB REPOSITORY" to "purity-db-baseline" 
 >     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "purity-webroot-sourcecode-baseline"   
 
-### OR
+OR  
+
 #### Demo JA Template Two  
 [Joomlart Stark](https://www.joomlart.com/joomla/templates/ja-stark)
 This is just a sample joomla install with the stark template installed 
@@ -217,7 +218,8 @@ This is just a sample joomla install with the stark template installed
 >     "BASELINE DB REPOSITORY" to "stark-db-baseline" 
 >     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "stark-webroot-sourcecode-baseline"  
 
-### OR
+OR 
+
 #### Demo JA Template Three  
 [Joomlart Campaign](https://www.joomlart.com/joomla/templates/ja-campaign)
 This is just a sample joomla install with the stark template installed 
@@ -359,10 +361,12 @@ In the browser you will then need to fill in all the installation values which y
 
 You will see a message asking you to remove _J* file from the installation folder. Once you see this message wait until your system clock on your laptop cycles to the next minute and the system will have deleted it for you. You can then scroll down and click "Install Joomla" 
 
-### Note:  
+**Note:**   
+
 You can install a vanilla copy of [OpenSocial](https://www.getopensocial.com/) instead of a version of Drupal by making the following adjustments to the 8 steps outlined above for demo 11 
 
-#### IMPORTANT  
+**IMPORTANT**   
+
 and at the time of writing, PHP8.1 is the supported version for opensocial so you need to also set  
 >     "PHP VERSION" to "8.1"
 
