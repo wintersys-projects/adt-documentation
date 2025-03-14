@@ -8,7 +8,7 @@ The purpose of these quick start demos is to show you that with just some parame
 
 For more information please see the [spec](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md) and [quickspec](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/quick_specification.dat)
 
-### OBJECTIVE:
+**OBJECTIVE:**
 
 After steps 1-8 below, you should have a text file on your laptop with content similar to the following sample/example values:  
 
