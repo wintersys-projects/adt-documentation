@@ -1,4 +1,6 @@
-## QUICK START DEMOS PRE-REQUISITE STEPS (REQUIRED FOR ALL DEMOS)
+## QUICK START DEMOS 
+
+PRE-REQUISITE STEPS (REQUIRED FOR ALL DEMOS LISTED BELOW)
 
 NOTE: These quick start demos are only intended for use on Linode using the supplied [StackScript](https://cloud.linode.com/stackscripts/635271) to demonstrate example usage cases as quickly and easily as possible. 
 
