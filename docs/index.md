@@ -29,8 +29,7 @@ There are four repositories associated with this toolkit:
 
 NOTE: The scripts in these repositories will control the build process for the different classes of server machines (autoscaling/webserving/database). You could run this on a dedicated linux (ubuntu/debian) laptop or on any laptop that you boot off a portable linux flash drive (with persistent storage enabled). I generally describe how to use this toolkit from a VPS linux machine running on the cloudhost of your choice.
 
-**If you are interested in self managed server systems this tool could make your life easier; it's a custom solution for server deployment management**
-
+Here is some more details about the toolkit. You might want to begin by running through some of the Quick Start Demos which are the mosst direct way to get anything up and running.  
 
 **[Deployment Tutorials](<./Agile Deployment Toolkit/Tutorials/TutorialsMenu.md>)**  
 **[The Specification](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md)**  
