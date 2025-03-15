@@ -8,7 +8,7 @@ Do you want to have your own set of configured VPS servers but do not want to sp
 
 Do you want to have consistent security processes baked into your server deployments?
 
-Would you like to be able to redeploy to a different (supported) VPS host easily - within 20 minutes or so if needed?
+Would you like to be able to redeploy to a different (supported) VPS host easily - within 5 - 10 minutes if needed?
 
 Does automated server configuration with the latest releases of software included for each deployment sound attractive?
 
