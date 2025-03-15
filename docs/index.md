@@ -1,5 +1,21 @@
 # Welcome to the Agile Deployment Toolkit Documentation
 
+The Agile Deployment Toolkit is intended to be a power tool for CMS deployments to VPS systems. Like any “power tool”, you have to get used to it, and invest a bit of time to see how it works, but, in the hands of a skilled person there can be considerable advantages. I am looking for developers who want to test the toolkit in earnest so that any issues can be fleshed out.
+
+Is shared hosting not the ideal solution for your web hosting?
+
+Do you want to have your own set of configured VPS servers but do not want to spend the time configuring and deploying software on them?
+
+Do you want to have consistent security processes baked into your server deployments?
+
+Would you like to be able to redeploy to a different (supported) VPS host easily - within 20 minutes or so if needed?
+
+Does automated server configuration with the latest releases of software included for each deployment sound attractive?
+
+Would you like a low barrier to entry solution using nothing but basic scripting techniques?
+
+Then you might be interested in the Agile Deployment Toolkit which currently supports Joomla, Wordpress, Moodle and Drupal CMS applications.
+
 **DO NOT DEPLOY THIS ON YOUR DAY TO DAY LINUX LAPTOP AS IT WILL MAKE CHANGES TO THE MACHINE'S CONFIGURATION**
 
 There are four repositories associated with this toolkit: 
