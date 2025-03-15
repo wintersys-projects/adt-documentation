@@ -1,3 +1,5 @@
+**Here is an overview of the features offered by the Agile Deployment Toolkit**
+
 * Fully automated virgin server configuration and deployment with sensible default webserver and database configuration settings with best practice security guidelines baked in.
 
 * Flexible deployment options - number of webservers to be used for a deployment when in production mode with a single webserver development mode, for when you are developing your application.
