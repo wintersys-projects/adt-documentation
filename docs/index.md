@@ -16,6 +16,8 @@ Would you like a low barrier to entry solution using nothing but basic scripting
 
 Then you might be interested in the Agile Deployment Toolkit which currently supports Joomla, Wordpress, Moodle and Drupal CMS applications.
 
+------------
+
 **DO NOT DEPLOY THIS ON YOUR DAY TO DAY LINUX LAPTOP AS IT WILL MAKE CHANGES TO THE MACHINE'S CONFIGURATION**
 
 There are four repositories associated with this toolkit: 
