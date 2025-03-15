@@ -8,9 +8,11 @@ The purpose of these quick start demos is to show you that with just some parame
 
 For more information about parameter configuration please see the [spec](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md) and [quickspec](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/quick_specification.dat)
 
-**OBJECTIVE:**
+**PRE-REQUISITE STEPS:**
 
 After steps 1-8 below, you should have a text file on your laptop with content similar to the following sample/example values:  
+
+**Sample/example configuration parameters:**
 
 Build Machine User: **"nuocial-deployer"**  
 Build Machine Password: **"gdjkbcijbue2hhfdy3e8"**  
@@ -26,8 +28,7 @@ Live Domain Name: **demo.nuocial.org.uk**
 Core Website Name: **nuocial**  
   
 ------------------------------------
-
-
+To achieve the above please follow theses steps in turn. 
 
 1. Open up an empty text document on your laptop and make up a username, password and ssh port for your prospective build machine. Find the ip address of your laptop by going to [whats my ip](https://www.whatsmyip.com) and enter the ip address of your laptop into your empty text document, for example,   
 
@@ -36,7 +37,7 @@ Core Website Name: **nuocial**
 >       "Port: 1035"
 >       "Laptop IP: 111.111.111.111"  
 
-2. Setup an account with Linode [Linode](https://www.linode.com) - make a note in your text document that you opened in 1 of the username of your linode account for example,  
+2. Setup an account with Linode [Linode](https://www.linode.com) - make a note in your text document that you opened in 1. of the username of your Linode account, for example,  
  
 >        "Linode account username : nuocialdeployer"  
 
@@ -48,7 +49,7 @@ Core Website Name: **nuocial**
 
 >        "Laptop public key : ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin"  
 
-4. Setup Object Storage for your account if its not already setup according to [Object Storage Setup](https://www.linode.com/docs/products/storage/object-storage/get-started/#generate-an-access-key) - make a note in your text document of the access key and the secret key for your object storage for example,  
+4. Setup Object Storage for your account if its not already setup according to [Object Storage Setup](https://www.linode.com/docs/products/storage/object-storage/get-started/#generate-an-access-key) - make a note in your text document of the access key and the secret key for your object storage, for example,  
 
 >        "Object Storage access key : PJX1HOLT157FQ9WCQ52K "  
 
@@ -60,23 +61,25 @@ and
 
 >        "Linode Personal Access Token : 23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"  
 
-6. Purchase a domain if you don't have one and change the nameservers of the domain to "ns1.linode.com, ns2.linode.com, ns3.linode.com, ns4.linode.com and ns5.linode.com" with your domain registrar (if you don't know how to purchase a domain and change its active nameservers, then, this toolkit probably isn't suitable for you). 
+6. Purchase a domain if you don't have one and change the nameservers of the domain to "**ns1.linode.com, ns2.linode.com, ns3.linode.com, ns4.linode.com and ns5.linode.com**" with your domain registrar (if you don't know how to purchase a domain and change its active nameservers, then, this toolkit probably isn't suitable for you). 
 
-7. You now need to make a note of the domain name you are using to deploy to for example, if I have just purchased as set up a domain "nuocial.org.uk" in step 6, my intended domain name for my final website to be available at might be "demo.nuocial.org.uk" so make a note in your text file  
+7. You now need to make a note of the domain name you are using to deploy to, for example, if I have just purchased as set up a domain "**nuocial.org.uk**" in step 6, my intended domain name for my final website to be available at might be "**demo.nuocial.org.uk**" so make a note in your text file  
 
 >        "Live Domain Name: demo.nuocial.org.uk"
 
-You now need to update your linode DNS system with your new domain name. Click on "Domains" from the Linode GUI and add your domain name as a "Primary Domain" to the Linode DNS system in my case the primary domain will be "nuocial.org.uk"
+You now need to update your linode DNS system with your new domain name. Click on "**Domains**" from the Linode GUI and add your domain name as a "**Primary Domain**" to the Linode DNS system in my case the primary domain will be "**nuocial.org.uk**"
 
-8. You need to make a note of the "core website name" which is "nuocial" if your domain name is "demo.nuocial.org.uk" and "testwebsite" if your domain name is "demo.testwebsite.uk"
+8. You need to make a note of the "core website name" which is "**nuocial**" if your domain name is "**demo.nuocial.org.uk**" and "testwebsite" if your domain name is "demo.testwebsite.uk"
+
+>      "Core website name: nuocial"
 
 -----------------------
 
-You should now have a text file on your laptop that looks similar to my test/sample one listed under "objective" above.  
+You should now have a text file on your laptop that looks similar to my sample/example configuration parameters listed above. If you don't have all equivalent details to those listed your build most probably  won't succeed.   
 
-What you now need to do to have your pre-requisite steps completed is enter the values that you have in your text file into the "AgileDeploymentToolkitDemo" Stackscript. To deploy the demo application, follow these steps
+What you now need to do to have your pre-requisite steps completed is enter the values that you have in your text file into the "**AgileDeploymentToolkitDemo**" Stackscript. To deploy the demo application, follow these steps
 
-1. Go to **"Stackscripts"** from the GUI system of your Linode Account and find the public Stackscript **"AgileDeploymentToolkitDemo"** and click **"Deploy Linode"**  
+1. Go to "**Stackscripts**" from the GUI system of your Linode Account and find the public Stackscript "**AgileDeploymentToolkitDemo**" and click "**Deploy Linode**" 
 
 2. You will then see a list of configurable text-fields that you are going to selectively enter the data from the text file you now have on your laptop. Each text-field has a label and so to configure the Stackscript, find the label as I mention it below and enter the corresponding value from your text file into that text-field
 
@@ -101,10 +104,11 @@ What you now need to do to have your pre-requisite steps completed is enter the 
 
 ---------------------------------------------------------------
 
-For every demo below you need to run through all the pre-requisite steps mentioned above. For each demo, before you click "Create Linode" at the bottom of the page make sure that you are creating a linode in the correct region (nl-ams), that the Linode has a root password set, a private ip address should be set as well (unless you are configuring for a VPC which these demos don't do by default). The rest of the settings for your linode are left to your discretion. 
+For every demo below you need to run through all the pre-requisite steps mentioned above. For each demo, before you click "Create Linode" at the bottom of the page make sure that you are creating a linode in the correct region (nl-ams), that the Linode has a root password set. If you understand what you are doing, then the rest of the settings for your linode are left to your discretion.
+
 Once you click "Create Linode", the build will deploy which will take some minutes. 
 
-Once the build is completed you can:
+Once the build is completed:
 
 You can ssh onto the build machine once it has started up with
 
@@ -120,19 +124,19 @@ then do a
 
 Note 1:
 
-Be aware that a new SSL certificate is issued each time you run this Stackscript which means that if you do multiple deployments you will run into "rate limiting" problems. If you need to perform multiple build cycles for a particular domain you are best off using the expedited method as described [here](<../Tutorials/linode/FOLLOW ME.md>). You can also set SSL_LIVE_CERT to 0 to use a staging certificate which doesn't have such restrictive rate limiting as a production certificate but it might give you a browser security warning when you access your website. 
+Be aware that a new SSL certificate is issued each time you run this Stackscript which means that if you do multiple deployments you will run into "rate limiting" problems. If you need to perform multiple build cycles for a particular domain you are best off using the expedited method as described [here](<../Tutorials/linode/FOLLOW ME.md>). You can also set SSL_LIVE_CERT to 0 to use a staging certificate which doesn't have such restrictive rate limiting as a production certificate but it will likely give you a browser security warning when you access your website. 
 
 Note 2:
 
-Once your machines are built the UFW firewall will be installed on your build machine (the machine that was built using the StackScript) but you can tighten what the UFW configuration provides by default by creating a firewall called "adt-build-machine" through your linode gui adding the build machine to it and creating a rule to only allow access from your "LAPTOP IP" mentioned above to the "Build Machine SSH PORT" mentioned above. This will tighten up the security of your build machine to only allow SSH access from your laptop and to the specific port you have configured SSH to use through your selection. All the other ports on your build machine will be firewalled off making it more difficult to compromise because it has sensitive access keys and secret keys on it, for example. This will give you two layers of tightly configured fire walling for your build machine the native firewall which you optionally set up manually and the ufw firewalling that is set up automatically. 
+Once your machines are built the firewall will be installed on your build machine (the machine that was built using the StackScript) but you can tighten what the firewall configuration provided by default by creating an additional firewall called "adt-build-machine" through your linode gui adding the build machine to it and creating a rule to only allow access from your "LAPTOP IP" mentioned above to the "Build Machine SSH PORT" mentioned above. This will tighten up the security of your build machine to only allow SSH access from your laptop and to the specific port you have configured SSH to use through your selection. All the other ports on your build machine will be firewalled off making it more difficult to compromise because it has sensitive access keys and secret keys on it. This will give you two layers of tightly configured fire walling for your build machine the native firewall which you optionally set up manually as just described and the ufw/iptables firewalling that is set up automatically. 
 
 Note 3:
 
-These are only demos and use naked DNS configurations (meaning no proxying through a service to facilitate a WAF and so on). If you want to get more serious you very likely will want to configure Cloudflare or modify the toolkit to support another service of your choice.
+These are only demos and use naked DNS configurations (meaning no proxying through a service to facilitate a WAF and so on). If you want to get more serious you very likely will want to configure Cloudflare or run one of our [authentication server](../Operations/AuthenticationServer.md) setups that provide a solution for zero trust access to your webproperty. You can also modify the toolkit to use a different WAF provider to Cloudflare if you choose because there are other options. 
 
 Note 4:
 
-Once the build has completed you might have to give the linode DNS system a few minutes to refresh with the IP address that have been added for this build. 
+Once the build has completed you might have to give the Linode DNS system a few minutes to refresh with the IP address that has been added for this build. 
 
 --------------------------
 
