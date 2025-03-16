@@ -49,7 +49,7 @@ for Postgres
 
 Please note, for Wordpress, I had to make use of [serfix](https://github.com/astockwell/serfix) because of the well known serialization issue with wordpress when doing this. 
 
-16. Note, with some providers, if you want to connect using the provided console to your machines as the root user you might not be able to. Depending on the condition of the machine you are trying to connect to you maybe be able to connect using the SERVER_USERNAME or if it is a recurring problem that you can reproduce by re-deploying you may need to comment out "PermitRootLogin" from the cloud-init script that the machine is built using such as:
+16. Note, with some providers, if you want to connect using the provided console to your machines as the root user you might not be able to. Depending on the condition of the machine you are trying to connect to you maybe be able to connect using the SERVER_USERNAME or if it is a recurring problem that you can reproduce by re-deploying you may need to comment out "PermitRootLogin" and allow "PasswordAuthentication" from the cloud-init script that the machine is built using such as:
 
 >     ${BUILD_HOME}/providerscripts/server/cloud-init/vultr/webserver.yaml
 
