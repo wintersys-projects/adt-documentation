@@ -48,3 +48,9 @@ for Postgres
 15. Note that when you make a baseline of an application you have developed, you will have used a URL to develop against such as "dev.testsite.uk". What this system does is when the baseline is being generated scripts replace all occurences of dev.testsite.uk with a placeholder token which isn't domain specific for both the webroot sourcecode and the database sql script. What this means is that the baseline can be deployed to any domain then because the placeholder token is replaced with the domain name of the target domain in all sourcecode. So, the same baseline can be deployed to "www.cargarage.com" or it can be deployed to "cafe.gardencentre.uk" or any other domain you choose. In this way any baselines you generate are flexible to deploy to any domain that you choose meaning that you can create a library of baselines that can be deployed any number of times to any number of domain names.
 
 Please note, for Wordpress, I had to make use of [serfix](https://github.com/astockwell/serfix) because of the well known serialization issue with wordpress when doing this. 
+
+16. Note, with some providers, if you want to connect using the provided console to your machines as the root user you might not be able to. Depending on the condition of the machine you are trying to connect to you maybe be able to connect using the SERVER_USERNAME or if it is a recurring problem that you can reproduce by re-deploying you may need to comment out "PermitRootLogin" from the cloud-init script that the machine is built using such as:
+
+>     ${BUILD_HOME}/providerscripts/server/cloud-init/vultr/webserver.yaml
+
+
