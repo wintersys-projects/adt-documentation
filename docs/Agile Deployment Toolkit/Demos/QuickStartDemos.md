@@ -104,7 +104,7 @@ What you now need to do to have your pre-requisite steps completed is enter the 
 
 ---------------------------------------------------------------
 
-For every demo below you need to run through all the pre-requisite steps mentioned above. For each demo, before you click "Create Linode" at the bottom of the page make sure that you are creating a linode in the correct region (nl-ams), that the Linode has a root password set. If you understand what you are doing, then the rest of the settings for your linode are left to your discretion.
+For every demo below you need to run through all the pre-requisite steps mentioned above. For each demo, before you click "Create Linode" at the bottom of the page make sure that you are creating a linode in the correct region (gb-lon), that the Linode has a root password set. If you understand what you are doing, then the rest of the settings for your linode are left to your discretion.
 
 Once you click "Create Linode", the build will deploy which will take some minutes. 
 
