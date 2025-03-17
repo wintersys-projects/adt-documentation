@@ -2,7 +2,7 @@
 
 INITIAL (PRE-REQUISITE) STEPS REQUIRED FOR ALL THE DEMOS LISTED BELOW
 
-NOTE: These quick start demos are only intended for use on the Linode platform using the supplied [StackScript](https://cloud.linode.com/stackscripts/635271) to demonstrate example usage cases for the Agile Deployment Toolkit as quickly and easily as possible.  The demos themselves are very quickly put together simply there for illustrative purposes they are not there to provide any truly useful function. If anyone would like to spend time crafting demos useful for real function that could be listed here that would be valued. 
+**NOTE:** These quick start demos are only intended for use on the Linode platform using the supplied [StackScript](https://cloud.linode.com/stackscripts/635271) to demonstrate example usage cases for the Agile Deployment Toolkit as quickly and easily as possible.  The demos themselves are very quickly put together simply there for illustrative purposes they are not there to provide any truly useful function. If anyone would like to spend time crafting demos useful for real function that could be listed here that would be valued. 
 
 The purpose of these quick start demos is to show you that with just some parameters you can achieve a lot using the Agile Deployment Toolkit with the possibility of going much deeper into it if you choose to.
 
@@ -106,7 +106,7 @@ What you now need to do to have your pre-requisite steps completed is enter the 
 
 For every demo below you need to run through all the pre-requisite steps mentioned above. For each demo, before you click "Create Linode" at the bottom of the page make sure that you are creating a linode in the correct region (gb-lon), that the Linode has a root password set. If you understand what you are doing, then the rest of the settings for your linode are left to your discretion.
 
-Once you click "Create Linode", the build will deploy which will take some minutes. 
+Once you click "**Create Linode**", the build will deploy which will take some minutes. 
 
 Once the build is completed:
 
@@ -122,19 +122,19 @@ then do a
 
 >      tail -f buildout - to see the error stream and how the build is progressing
 
-Note 1:
+**Note 1:**
 
 Be aware that a new SSL certificate is issued each time you run this Stackscript which means that if you do multiple deployments you will run into "rate limiting" problems. If you need to perform multiple build cycles for a particular domain you are best off using the expedited method as described [here](<../Tutorials/linode/FOLLOW ME.md>). You can also set SSL_LIVE_CERT to 0 to use a staging certificate which doesn't have such restrictive rate limiting as a production certificate but it will likely give you a browser security warning when you access your website. 
 
-Note 2:
+**Note 2:**
 
 Once your machines are built the firewall will be installed on your build machine (the machine that was built using the StackScript) but you can tighten what the firewall configuration provided by default by creating an additional firewall called "adt-build-machine" through your linode gui adding the build machine to it and creating a rule to only allow access from your "LAPTOP IP" mentioned above to the "Build Machine SSH PORT" mentioned above. This will tighten up the security of your build machine to only allow SSH access from your laptop and to the specific port you have configured SSH to use through your selection. All the other ports on your build machine will be firewalled off making it more difficult to compromise because it has sensitive access keys and secret keys on it. This will give you two layers of tightly configured fire walling for your build machine the native firewall which you optionally set up manually as just described and the ufw/iptables firewalling that is set up automatically. 
 
-Note 3:
+**Note 3:**
 
 These are only demos and use naked DNS configurations (meaning no proxying through a service to facilitate a WAF and so on). If you want to get more serious you very likely will want to configure Cloudflare or run one of our [authentication server](../Operations/AuthenticationServer.md) setups that provide a solution for zero trust access to your webproperty. You can also modify the toolkit to use a different WAF provider to Cloudflare if you choose because there are other options. 
 
-Note 4:
+**Note 4:**
 
 Once the build has completed you might have to give the Linode DNS system a few minutes to refresh with the IP address that has been added for this build. 
 
