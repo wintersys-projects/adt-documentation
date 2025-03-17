@@ -18,7 +18,7 @@ Build Machine User: **"nuocial-deployer"**
 Build Machine Password: **"gdjkbcijbue2hhfdy3e8"**  
 Build Machine SSH PORT: **"1035"**  
 Laptop IP: **111.111.111.111**  
-Linode account username : **nuocialdeployer**  
+Linode account username : **linode-username**  
 Linode account email address : **nuocialdeployer@gmail.com**  
 Laptop public key : **ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin**  
 Object Storage access key : **PJX1HOLT157FQ9WCQ52K**  
@@ -85,22 +85,30 @@ What you now need to do to have your pre-requisite steps completed is enter the 
 
 3. Label: **"SSH Public Key from your laptop (required)"** - value from YOUR text file which in my case is **"AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin"**
 
-4. Label: **"IP address of your laptop (required)"** - value from YOUR text file which in my case is **"111.111.111.111"**
+4. Label: **"The username for your build machine user (required)"** - example value which in my case is **"nuocial-deployer"**
 
-5. Label: **"The username of your Linode account (required)"** - example value which in my case is **"nuocialdeployer"**
+5. Label: **"The password for your build machine user (required)"** - example value which in my case is **"Hjdhufghks124$£"**
 
-6.  Label: **"The email address of your DNS provider (required)"** - example value which in my case is **"nuocialdeployer@gmail.com"**
+6. Label: **"The SSH port for your build machine (required)"** - example value which in my case is **"1035"**
 
-7. Label: **"The S3 access key for your linode object storage (required)"** - example value which in my case is **"PJX1HOLT157FQ9WCQ52K"**
+7. Label: **"IP address of your laptop (required)"** - value from YOUR text file which in my case is **"111.111.111.111"**
 
-8. Label: **"The S3 secret key for your linode object storage (required)"** - example value which in my case is 
+8. Label: **"The username of your Linode account (required)"** - value from YOUR text file which in my case is **"linode-username"**
+
+9. Label: **"The S3 access key for your linode object storage (required)"** - example value which in my case is **"PJX1HOLT157FQ9WCQ52K"**
+
+10. Label: **"The S3 secret key for your linode object storage (required)"** - example value which in my case is 
 **"malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP"**
 
-9. Label: **"Your linode personal access token (which must have all rights granted) (required)"** - example value which in my case is **"23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"**
+11. Label: **"Your linode personal access token (which must have all necessary rights granted) (required)"** - example value which in my case is **"23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"**
 
-10. Label: **"The domain name of your website which must be registered with your DNS provide"** - example value which in my case is **"demo.nuocial.org.uk"**
+12.  Label: **"The email address of your DNS provider (required)"** - example value which in my case is the same email address as my linode account sign up email - **"nuocialdeployer@gmail.com"**
 
-11. Label: **"Website name if url is www.nuocial.org.uk this is nuocial (required)"** - example value which in my case is **"nuocial"**
+13.  Label: **"The access token for your DNS provider (required)"** - same as your PAT which in my case is **"23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"**
+
+14. Label: **"The domain name of your website which must be registered with your DNS provide"** - example value which in my case is **"demo.nuocial.org.uk"**
+
+15. Label: **"Website name if url is www.nuocial.org.uk this is nuocial (required)"** - example value which in my case is **"nuocial"**
 
 ---------------------------------------------------------------
 
