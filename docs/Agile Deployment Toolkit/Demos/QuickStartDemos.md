@@ -146,6 +146,10 @@ These are only demos and use naked DNS configurations (meaning no proxying throu
 
 Once the build has completed you might have to give the Linode DNS system a few minutes to refresh with the IP address that has been added for this build. 
 
+**Note 5:** 
+
+If you are using the Linode DNS system which you are by default then you will might need to clear your broswer's DNS cache between deployments for the website to display. In Chrome you can do this by going to **chrome:/.net-internals/#dns**
+
 --------------------------
 
 ### Demo 1 (Sample Community Builder Joomla application) 
