@@ -10,6 +10,10 @@ For more information about parameter configuration please see the [spec](https:/
 
 **PRE-REQUISITE STEPS:**
 
+Before you do anything, create a VPC in the region you are deploying your machines to called "adt-vpc" with a subnet of "10.0.1.0.24". The VPC create screen for my requirements looks like:
+
+[adt-vpc](images/adt-vpc.png)
+
 After steps 1-8 below, you should have a text file on your laptop with content similar to the following sample/example values:  
 
 **Sample/example configuration parameters:**
