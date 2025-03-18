@@ -219,9 +219,7 @@ Once the application is installed, the username is "webmaster" and the password 
 
 1. Follow the all the pre-requisite steps above  
 
-2. In addition to the pre-requisite steps above alter the following settings in your Stackscript:   
- 
->     "The Display name for your website e.g. My Demo Website" to "My Purity Template Demo"  
+2. In addition to the pre-requisite steps above alter the following settings in your Stackscript:    
 
 #### Demo JA Template One  
 
