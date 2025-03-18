@@ -512,7 +512,8 @@ To Install a Virgin Copy of the [JED Extension](https://github.com/joomla-projec
 >     "BUILD CHOICE" to "0"  
 >     "BUILD ARCHIVE CHOICE" to "virgin"  
 >     "BASELINE DB REPOSITORY" to "VIRGIN"  
->     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "JOOMLA:jed:5.1.2" 
+>     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "JOOMLA:jed:5.1.2"
+>     "PHP_VERSION" to "8.2" (at the time of writing (2025) this JED extension requires PHP 8.2 it might be different at a later date)
 
 Once the build is complete (you can refer to demo 9 for more detail on how to get DB and user credentials that the build generated)
 
