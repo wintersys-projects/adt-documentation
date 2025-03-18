@@ -558,7 +558,7 @@ Once the application is installed, the username is "webmaster" and the password 
 
 ### Demo 14 (Sample Moodle Application)
 
-This is just a sample moodle install there's no sample data or anything it just shows you how you could baseline a moodle install for ease
+This is just a sample moodle install there's no sample data or anything it just shows you how you could baseline a virgin moodle install for maximum ease when making repeated virgin CMS deployments. You can do the same thing for Joomla,Wordpress or Drupal if you chose to. 
 
 1. Follow the all the pre-requisite steps above  
 
