@@ -8,7 +8,7 @@ The purpose of these quick start demos is to show you that with just some parame
 
 For more information about parameter configuration please see the [spec](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md) and [quickspec](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/quick_specification.dat)
 
-**PRE-REQUISITE STEPS:**
+**PRE-REQUISITE STEPS MENTIONED IN THE DEMOS BELOW:**
 
 Before you do anything, create a VPC in the region you are deploying your machines to called "adt-vpc" with a subnet of "10.0.1.0.24". The VPC create screen for my requirements looks like:
 
@@ -162,8 +162,8 @@ In all these examples don't forget to attach the build machine you are provision
 
 [Community Builder](https://www.joomlapolis.com)
 
-1. Follow the all the pre-requisite steps above  
-2. You can play with additional settings such as machine size and so on, but, the demo application should install without needing any additional steps above and beyond what is outlined in the pre-requisite steps.   
+1. Follow the all the pre-requisite at the top of this page 
+2. You can play with additional settings such as machine size and so on in any of these demos, but, this first demo application should install without needing any additional steps above and beyond what is outlined in the pre-requisite steps.   
 3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ". There are also test users and their usernames and passwords are: "testuser1" and "mnbcxz098321QQZZ" and "testuser2" "mnbcxz098321QQZZ"
 
 ---------------------------
@@ -172,9 +172,8 @@ In all these examples don't forget to attach the build machine you are provision
 
 This is just a sample joomla install with some sample data installed 
 
-1. Follow the all the pre-requisite steps above  
-
-In addition to the pre-requisite steps above alter the following settings in your Stackscript:   
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript: 
  
 >      "The Display name for your website e.g. My Demo Website" to "My Joomla Demo"  
 >      "BASELINE DB REPOSITORY" to "joomlademo-db-baseline" 
@@ -188,9 +187,8 @@ In addition to the pre-requisite steps above alter the following settings in you
 
 This is just a sample joomla install with the astroid framework installed
 
-1. Follow the all the pre-requisite steps above  
-
-In addition to the pre-requisite steps above alter the following settings in your Stackscript:   
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript:   
  
 >      "The Display name for your website e.g. My Demo Website" to "My Astroid Demo"   
 >      "BASELINE DB REPOSITORY" to "astroid-db-baseline" 
@@ -205,9 +203,8 @@ Once the application is installed, the username is "admin" and the password is "
 
 This is just a sample joomla install with the kunena forum installed
 
-1. Follow the all the pre-requisite steps above  
-
-In addition to the pre-requisite steps above alter the following settings in your Stackscript:   
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript: 
  
 >     "The Display name for your website e.g. My Demo Website" to "My Kunena Demo"   
 >     "BASELINE DB REPOSITORY" to "kunena-db-baseline" 
@@ -219,9 +216,8 @@ Once the application is installed, the username is "webmaster" and the password 
 
 ### Demo 5 (Sample Joomlart Free Templates Example Applications) 
 
-1. Follow the all the pre-requisite steps above  
-
-2. In addition to the pre-requisite steps above alter the following settings in your Stackscript:    
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript: 
 
 #### Demo JA Template One  
 
@@ -258,9 +254,8 @@ Once the application is installed, the username is "webmaster" and the password 
 
 This is just a sample wordpress template with some sample data installed which will show you how you can get a pre-built site up and running with this toolkit
 
-1. Follow the all the pre-requisite steps above  
-
-In addition to the pre-requisite steps above alter the following settings in your Stackscript:   
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript: 
  
 >     "The Display name for your website e.g. My Demo Website" to "My Wordpress Demo"  
 >     "APPLICATION" to "wordpress"  
@@ -274,9 +269,8 @@ In addition to the pre-requisite steps above alter the following settings in you
 
 [Opensocial](https://getopensocial.com)
 
-1. Follow the all the pre-requisite steps above  
-
-In addition to the pre-requisite steps above alter the following settings in your Stackscript:   
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript: 
  
 >     "The Display name for your website e.g. My Demo Website" to "My Opensocial Demo"  
 >     "APPLICATION" to "drupal"  
@@ -290,8 +284,8 @@ Once the application is installed, the username is "webmaster" and the password 
 
 ### Demo 8 (Virgin Joomla install)  
 
-1. Follow the all the pre-requisite steps above  
-2. To install a virgin joomla deployment change the following additional values in your Stackscript  
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript: 
 
 >     "The number (1, 2 or 3) of the template you are using" to "1"  
 >     "The Display name for your website e.g. My Demo Website" to "My Joomla Demo"  
@@ -344,8 +338,8 @@ You will need to wait for a minute before the _J security check file is removed 
 
 ### Demo 9 (Virgin Wordpress install)  
 
-1. Follow the all the pre-requisite steps above  
-2. To install a virgin wordpress deployment change the following additional values in your Stackscript  
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript: 
 
 
 >     "The number (1, 2 or 3) of the template you are using" to "1"  
@@ -398,8 +392,8 @@ To find your database credentials log on to your build machine and do the follow
 
 ### Demo 10 (Virgin Drupal install)  
 
-1. Follow the all the pre-requisite steps above  
-2. To install a virgin drupal deployment change the following additional values in your Stackscript    
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript:   
 
 >     "The number (1, 2 or 3) of the template you are using" to "1"  
 >     "The Display name for your website e.g. My Demo Website" to "My Drupal Demo" 
@@ -464,8 +458,8 @@ Change the value
 
 ### Demo 11 (Virgin Moodle install)  
 
-1. Follow the all the pre-requisite steps above  
-2. To install a virgin moodle deployment change the following additional values in your Stackscript  
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript:  
 
 >     "The number (1, 2 or 3) of the template you are using" to "1"  
 >     "The Display name for your website e.g. My Demo Website" to "My Moodle Demo"  
@@ -502,10 +496,10 @@ Once moodle is installed, I go to demo.nuocial.org.uk/moodle and you should do t
 
 This is just a sample moodle install there's no sample data or anything it just shows you how you could baseline a virgin moodle install for maximum ease when making repeated virgin CMS deployments. You can do the same thing for Joomla,Wordpress or Drupal if you chose to. 
 
-1. Follow the all the pre-requisite steps above  
+1. Follow the all the pre-requisite at the top of this page 
+2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript: 
 
-In addition to the pre-requisite steps above alter the following settings in your Stackscript:   
- 
+>     "The number (1, 2 or 3) of the template you are using" to "1"  
 >     "The Display name for your website e.g. My Demo Website" to "My Moodle Demo"  
 >     "APPLICATION" to "moodle"  
 >     "APPLICATION IDENTIFIER" to "4"  
