@@ -129,10 +129,8 @@ You can ssh onto the build machine once it has started up with
 then do a
 
 >      sudo su <password as per step 4 above>
-
->      cd adt-build-machine-scripts/logs
-
->      tail -f buildout - to see the error stream and how the build is progressing
+>      cd adt-build-machine-scripts
+>      ./Logs.sh
 
 **Note 1:**
 
@@ -308,10 +306,6 @@ Once the application is installed, the username is "webmaster" and the password 
 
 You can then deploy your Linode using your Stackscript and wait for your Joomla install will come online  
 
-In the browser you will then need to fill in all the installation values which you can find in the build log on your build machine  
-
->      /bin/cat ${BUILD_HOME}/logs/b*err*. 
-
 You will see a message asking you to remove _J* file from the installation folder. Once you see this message wait until your system clock on your laptop cycles to the next minute and the system will have deleted it for you. You can then scroll down and click "Install Joomla" 
 
 ---------------------------
@@ -332,10 +326,6 @@ You will see a message asking you to remove _J* file from the installation folde
 >     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "WORDPRESS"    
 
 You can then deploy your Linode using your Stackscript and wait for your Wordpress install will come online 
-
-In the browser you will then need to fill in all the installation values which you can find in the build log on your build machine  
-
->      /bin/cat ${BUILD_HOME}/logs/b*err*. 
 
 You will see a message asking you to remove _J* file from the installation folder. Once you see this message wait until your system clock on your laptop cycles to the next minute and the system will have deleted it for you. You can then scroll down and click "Install Joomla" 
  
@@ -358,10 +348,6 @@ You will see a message asking you to remove _J* file from the installation folde
 >     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:10.0.10"   
 
 You can then deploy your Linode using your Stackscript and wait for your Drupal install will come online  
-
-In the browser you will then need to fill in all the installation values which you can find in the build log on your build machine  
-
->      /bin/cat ${BUILD_HOME}/logs/b*err*. 
 
 You will see a message asking you to remove _J* file from the installation folder. Once you see this message wait until your system clock on your laptop cycles to the next minute and the system will have deleted it for you. You can then scroll down and click "Install Joomla" 
 
