@@ -479,12 +479,22 @@ Change the value
 You can then deploy your Linode using your Stackscript and wait for your Moodle install will come online  
 Once moodle is installed, I go to demo.nuocial.org.uk/moodle and you should do the same for your domain.
 
-The default username and password for your moodle installation are: 
-
-username: admin123  
-password: changeme17832  
-
-Both the username and password should be changed immediately your Moodle instantiation is online
+>     OK, I'll be kind and show you one time your moodle database credentials.
+>     Please make a note of them but remember to keep them safe and secret
+>     You can enter them in the GUI system when you install the application
+>     #########################################
+>     Database name: nhoz7thefn
+>     Database username: ua2dtr1wbu
+>     Database password: panh53iiap
+>     #########################################
+>     The database public IP address is: 172.236.8.173
+>     The database private IP address is: 10.0.1.4 (try this one first from your application if it timesout, try the public one)
+>     The database port is 2035
+>     You can make up your own database prefix but make sure to include the '_' character at the end of your prefix (for example 'dbprefix_')
+>     #########################################
+>     ####################################################################
+>     Moodle should be available at: https://<your-dns>/moodle
+>     ####################################################################
 
 ----------------------------
 ### Demo 12 (Joomla JED Demo) 
