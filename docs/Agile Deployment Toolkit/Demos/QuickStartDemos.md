@@ -254,29 +254,9 @@ This is just a sample joomla install with the stark template installed
 
 Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"
 
---------------------------------------
-
-### Demo 6 (Sample Peepso Wordpress Application)
-
-[Peepso](https://www.peepso.com)
-
-This is just a sample Peepso Wordpress demo 
-
-1. Follow the all the pre-requisite steps above  
-
-In addition to the pre-requisite steps above alter the following settings in your Stackscript:   
- 
->     "The Display name for your website e.g. My Demo Website" to "My Peepso Demo"  
->     "APPLICATION" to "wordpress"  
->     "APPLICATION IDENTIFIER" to "2"  
->     "BASELINE DB REPOSITORY" to "peepso-db-baseline" 
->     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "peepso-webroot-sourcecode-baseline"  
-
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"
-
 ----------------------------
 
-### Demo 7 (Sample Wordpress Application)
+### Demo 6 (Sample Wordpress Application)
 
 This is just a sample wordpress template with some sample data installed which will show you how you can get a pre-built site up and running with this toolkit
 
@@ -292,7 +272,7 @@ In addition to the pre-requisite steps above alter the following settings in you
 
 ---------------------------
 
-### Demo 8 (Sample Drupal Application)
+### Demo 7 (Sample Drupal Application)
 
 [Opensocial](https://getopensocial.com)
 
@@ -310,7 +290,7 @@ Once the application is installed, the username is "webmaster" and the password 
 
 ---------------------------
 
-### Demo 9 (Virgin Joomla install)  
+### Demo 8 (Virgin Joomla install)  
 
 1. Follow the all the pre-requisite steps above  
 2. To install a virgin joomla deployment change the following additional values in your Stackscript  
@@ -336,7 +316,7 @@ You will see a message asking you to remove _J* file from the installation folde
 
 ---------------------------
 
-### Demo 10 (Virgin Wordpress install)  
+### Demo 9 (Virgin Wordpress install)  
 
 1. Follow the all the pre-requisite steps above  
 2. To install a virgin wordpress deployment change the following additional values in your Stackscript  
@@ -362,7 +342,7 @@ You will see a message asking you to remove _J* file from the installation folde
 
 -----------------------
 
-### Demo 11 (Virgin Drupal install)  
+### Demo 10 (Virgin Drupal install)  
 
 1. Follow the all the pre-requisite steps above  
 2. To install a virgin drupal deployment change the following additional values in your Stackscript    
@@ -402,7 +382,7 @@ Caveat for Opensocial - I have no knowledge of drupal and when I installed opens
 
 --------------------------
 
-### Demo 12 (Virgin Moodle install)  
+### Demo 11 (Virgin Moodle install)  
 
 1. Follow the all the pre-requisite steps above  
 2. To install a virgin moodle deployment change the following additional values in your Stackscript  
@@ -427,7 +407,7 @@ password: changeme17832
 Both the username and password should be changed immediately your Moodle instantiation is online
 
 ----------------------------
-### Demo 13 (Joomla JED Demo) 
+### Demo 12 (Joomla JED Demo) 
 
 To Install a Virgin Copy of the [JED Extension](https://github.com/joomla-projects/Joomla-Extension-Directory) follow these steps:
 
@@ -461,7 +441,7 @@ In addition to the pre-requisite steps above alter the following settings in you
 Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"
 
 ----------------------------
-### Demo 14 (Joomla Volunteers Portal Demo) 
+### Demo 13 (Joomla Volunteers Portal Demo) 
 
 To Install a Virgin Copy of the [Joomla Volunteers Portal](https://github.com/joomla-projects/joomla-volunteer-portal) follow these steps:
 
@@ -496,7 +476,7 @@ Once the application is installed, the username is "webmaster" and the password 
 
 -------------------
 
-### Demo 15 (Sample Moodle Application)
+### Demo 14 (Sample Moodle Application)
 
 This is just a sample moodle install there's no sample data or anything it just shows you how you could baseline a moodle install for ease
 
