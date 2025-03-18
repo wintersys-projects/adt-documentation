@@ -513,17 +513,19 @@ To Install a Virgin Copy of the [JED Extension](https://github.com/joomla-projec
 >     "BUILD ARCHIVE CHOICE" to "virgin"  
 >     "BASELINE DB REPOSITORY" to "VIRGIN"  
 >     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "JOOMLA:jed:5.1.2"
->     "PHP_VERSION" to "8.2" (at the time of writing (2025) this JED extension requires PHP 8.2 it might be different at a later date)
+>     "PHP_VERSION" to "8.1" (at the time of writing (2025) this JED extension requires PHP 8.1 it might be different at a later date)
 
 Once the build is complete (you can refer to demo 9 for more detail on how to get DB and user credentials that the build generated)
 
->     Navigate to your website in your browser and perform a joomla install as you usually would
+>     Navigate to your website in your browser and perform a joomla install as you did in the virgin joomla install demo above (demo 8)
 >     Perform an "install from folder from directory /var/www/html/dist" this will install the JED extension/plugins
->     Once the JED component/plugins are installed you can follow the "Joomla Install Instruction" steps outlined [here]( https://github.com/joomla-projects/Joomla-Extension-Directory)
+>     Once the JED component/plugins are installed you can follow the "Joomla Install Instruction" steps outlined 
+
+[here]( https://github.com/joomla-projects/Joomla-Extension-Directory)
 
 To install a pre-configured (although possibly out of date) version of the JED,
 
-In addition to the pre-requisite steps above alter the following settings in your Stackscript:   
+In addition to the pre-requisite steps for the method above above alter the following settings in your Stackscript:   
  
 >      "The Display name for your website e.g. My Demo Website" to "My JED Demo"  
 >      "BASELINE DB REPOSITORY" to "jed-db-baseline" 
