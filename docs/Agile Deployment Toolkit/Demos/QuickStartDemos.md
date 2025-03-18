@@ -430,7 +430,35 @@ Change the value
 >     "The Display name for your website e.g. My Demo Website" to "My Opensocial Demo"  
 >     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:social"  
 
-Caveat for Opensocial - I have no knowledge of drupal and when I installed opensocial it had problems with the images not displaying if anyone with a deeper knowledge of drupal that makes one of these deployments knows what is happening that would be very cool. 
+>     root@localhost:/home/agile-deployer/adt-build-machine-scripts# ./Log.sh
+>     Which cloudhost do you want to view logs for DigitalOcean (do), Exoscale (exo), Linode (lin) or Vultr (vul)
+>     Please type one of do, exo, lin, vul
+>     lin
+>     What is the build identifier you want to connect to?
+>     You have these builds to choose from: 
+>     testbuild
+>     Please enter the name of the build of the server you wish to connect with
+>     testbuild
+>     tail (t) or cat (c) or vim (v)
+>     c
+>     Do you want out (1) or err (2) or stat (3)
+>     1
+>     OK, I'll be kind and show you one time your drupal database credentials.
+>     Please make a note of them but remember to keep them safe and secret
+>     You can enter them in the GUI system when you install the application
+>     #########################################
+>     Database name: n0i6qxap3n
+>     Database username: uxzpsfznqu
+>     Database password: pvhflpebvp
+>     #########################################
+>     The database public IP address is: 172.236.31.76
+>     The database private IP address is: 10.0.1.4 (try this one first from your application if it timesout, try the public one)
+>     The database port is 2035
+>     You can make up your own database prefix but make sure to include the '_' character at the end of your prefix (for example 'dbprefix_')
+>     #########################################
+>     ####################################################################
+>     Waiting for the application install to have been completed at: https://<dns-url>/core/install.php
+>     Use the credentials listed above please
 
 --------------------------
 
