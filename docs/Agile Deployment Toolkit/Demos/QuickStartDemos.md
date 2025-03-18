@@ -504,4 +504,7 @@ This is just a sample moodle install there's no sample data or anything it just 
 >     "APPLICATION" to "moodle"  
 >     "APPLICATION IDENTIFIER" to "4"  
 >     "BASELINE DB REPOSITORY" to "moodle4.5-db-baseline" 
->     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "moodle4.5-webroot-sourcecode-baseline" 
+>     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "moodle4.5-webroot-sourcecode-baseline"
+
+Wait for the application install to have been completed and available at: https://<dns-url>/moodle
+
