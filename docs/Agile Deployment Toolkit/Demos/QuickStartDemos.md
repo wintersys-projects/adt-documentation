@@ -417,7 +417,9 @@ You will see a message asking you to remove _J* file from the installation folde
 
 **Note:**   
 
-You can install a vanilla copy of [OpenSocial](https://www.getopensocial.com/) instead of a version of Drupal by making the following adjustments to the 8 steps outlined above for demo 11 
+You can install a vanilla copy of [OpenSocial](https://www.getopensocial.com/) instead of a version of Drupal by making the following adjustments to the 8 steps outlined above for demo 10 
+
+>     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:social" 
 
 **IMPORTANT**   
 
