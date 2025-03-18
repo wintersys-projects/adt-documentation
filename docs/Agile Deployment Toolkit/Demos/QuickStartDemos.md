@@ -304,9 +304,41 @@ Once the application is installed, the username is "webmaster" and the password 
 >     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "JOOMLA:5.1.2"  
 
 
-You can then deploy your Linode using your Stackscript and wait for your Joomla install will come online  
+You can then deploy your Linode using your Stackscript and wait for your Joomla install will come online at the URL you specified in your stackscript
 
-You will see a message asking you to remove _J* file from the installation folder. Once you see this message wait until your system clock on your laptop cycles to the next minute and the system will have deleted it for you. You can then scroll down and click "Install Joomla" 
+To find your database credentials log on to your build machine and do the following:
+
+>     root@localhost:/home/agile-deployer/adt-build-machine-scripts# ./Log.sh
+>     Which cloudhost do you want to view logs for DigitalOcean (do), Exoscale (exo), Linode (lin) or Vultr (vul)
+>     Please type one of do, exo, lin, vul
+>     lin
+>     What is the build identifier you want to connect to?
+>     You have these builds to choose from: 
+>     testbuild
+>     Please enter the name of the build of the server you wish to connect with
+>     testbuild
+>     tail (t) or cat (c) or vim (v)
+>     c
+>     Do you want out (1) or err (2) or stat (3)
+>     1
+>     ###############################################################################################################################
+>     OK, I'll be kind and show you one time your joomla database credentials
+>     Please make a note of them but remember to keep them safe and secret
+>     You can enter them in the GUI system when you install the application
+>     #########################################
+>     Database name: nictmksgrn
+>     Database username: u6jy8wvuru
+>     Database password: pp7jem8cnp
+>     #########################################
+>     The database public IP address is: 172.236.3.58
+>     The database private IP address is: 10.0.1.4 (try this one first from your application if it timesout, try the public one)
+>     The database port is 2035
+>     You can make up your own database prefix but make sure to include the '_' character at the end of your prefix (for example 'dbprefix_')
+>     #########################################
+>     You are not using the default port for your database
+>     REMEMBER to tell joomla this by putting the database hostname as 10.0.1.4:2035 when you enter it in the GUI during the install process
+
+You will need to wait for a minute before the _J security check file is removed which this system does automatically for you before you can proceed to completion of the installation
 
 ---------------------------
 
