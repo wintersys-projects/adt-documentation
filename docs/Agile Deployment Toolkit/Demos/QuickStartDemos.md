@@ -359,7 +359,7 @@ You will need to wait for a minute before the _J security check file is removed 
 
 You can then deploy your Linode using your Stackscript and wait for your Wordpress install will come online 
 
-You will see a message asking you to remove _J* file from the installation folder. Once you see this message wait until your system clock on your laptop cycles to the next minute and the system will have deleted it for you. You can then scroll down and click "Install Joomla" 
+
  
 
 -----------------------
