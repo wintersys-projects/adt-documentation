@@ -499,7 +499,7 @@ This is just a sample moodle install there's no sample data or anything it just 
 1. Follow the all the pre-requisite at the top of this page 
 2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript: 
 
->     "The number (1, 2 or 3) of the template you are using" to "1"  
+>     "The number (1, 2 or 3) of the template you are using" to "2"  
 >     "The Display name for your website e.g. My Demo Website" to "My Moodle Demo"  
 >     "APPLICATION" to "moodle"  
 >     "APPLICATION IDENTIFIER" to "4"  
