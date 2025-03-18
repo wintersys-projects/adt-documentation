@@ -14,7 +14,7 @@ Before you do anything, create a VPC in the region you are deploying your machin
 
 ![](images/adt-vpc.png "ADT-VPC image")  
 
-After steps 1-8 below, you should have a text file on your laptop with content similar to the following sample/example values:  
+After following the 8 bullet points below, you should have a text file on your laptop with content similar to the following sample/example values:  
 
 **Sample/example configuration parameters:**
 
@@ -34,14 +34,14 @@ Core Website Name: **nuocial**
 ------------------------------------
 To achieve the above please follow theses steps in turn. 
 
-1. Open up an empty text document on your laptop and make up a username, password and ssh port for your prospective build machine. Find the ip address of your laptop by going to [whats my ip](https://www.whatsmyip.com) and enter the ip address of your laptop into your empty text document, for example,   
+- Open up an empty text document on your laptop and make up a username, password and ssh port for your prospective build machine. Find the ip address of your laptop by going to [whats my ip](https://www.whatsmyip.com) and enter the ip address of your laptop into your empty text document, for example,   
 
 >       "Username: nuocial-deployer"
 >       "Password: gdjkbcijbue2hhfdy3e8"
 >       "Port: 1035"
 >       "Laptop IP: 111.111.111.111"  
 
-2. Setup an account with Linode [Linode](https://www.linode.com) - make a note in your text document that you opened in 1. of the username of your Linode account, for example,  
+- Setup an account with Linode [Linode](https://www.linode.com) - make a note in your text document that you opened in 1. of the username of your Linode account, for example,  
  
 >        "Linode account username : nuocialdeployer"  
 
@@ -49,11 +49,11 @@ To achieve the above please follow theses steps in turn.
 
 >        "Linode account email address : nuocialdeployer@gmail.com"
 
-3. Setup a pair of [SSH Keys](https://webdock.io/en/docs/webdock-control-panel/shell-users-and-sudo/set-up-an-ssh-key) on your laptop if you haven't already - make a note in your text document that you opened in 1 of the full public key part of the key pair you just generated for example,   
+- Setup a pair of [SSH Keys](https://webdock.io/en/docs/webdock-control-panel/shell-users-and-sudo/set-up-an-ssh-key) on your laptop if you haven't already - make a note in your text document that you opened in 1 of the full public key part of the key pair you just generated for example,   
 
 >        "Laptop public key : ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin"  
 
-4. Setup Object Storage for your account if its not already setup according to [Object Storage Setup](https://www.linode.com/docs/products/storage/object-storage/get-started/#generate-an-access-key) - make a note in your text document of the access key and the secret key for your object storage, for example,  
+- Setup Object Storage for your account if its not already setup according to [Object Storage Setup](https://www.linode.com/docs/products/storage/object-storage/get-started/#generate-an-access-key) - make a note in your text document of the access key and the secret key for your object storage, for example,  
 
 >        "Object Storage access key : PJX1HOLT157FQ9WCQ52K "  
 
@@ -61,19 +61,19 @@ and
 
 >        "Object Storage secret key: malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP"  
 
-5. Generate a personal access token with all read and write permissions granted according to [Generate Personal Access Token](https://www.linode.com/docs/products/tools/api/guides/manage-api-tokens/#create-an-api-token) - make a  note of your PAT in your text document for example,  
+- Generate a personal access token with all read and write permissions granted according to [Generate Personal Access Token](https://www.linode.com/docs/products/tools/api/guides/manage-api-tokens/#create-an-api-token) - make a  note of your PAT in your text document for example,  
 
 >        "Linode Personal Access Token : 23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"  
 
-6. Purchase a domain if you don't have one and change the nameservers of the domain to "**ns1.linode.com, ns2.linode.com, ns3.linode.com, ns4.linode.com and ns5.linode.com**" with your domain registrar (if you don't know how to purchase a domain and change its active nameservers, then, this toolkit probably isn't suitable for you). 
+- Purchase a domain if you don't have one and change the nameservers of the domain to "**ns1.linode.com, ns2.linode.com, ns3.linode.com, ns4.linode.com and ns5.linode.com**" with your domain registrar (if you don't know how to purchase a domain and change its active nameservers, then, this toolkit probably isn't suitable for you). 
 
-7. You now need to make a note of the domain name you are using to deploy to, for example, if I have just purchased as set up a domain "**nuocial.org.uk**" in step 6, my intended domain name for my final website to be available at might be "**demo.nuocial.org.uk**" so make a note in your text file  
+- You now need to make a note of the domain name you are using to deploy to, for example, if I have just purchased as set up a domain "**nuocial.org.uk**" in step 6, my intended domain name for my final website to be available at might be "**demo.nuocial.org.uk**" so make a note in your text file  
 
 >        "Live Domain Name: demo.nuocial.org.uk"
 
 You now need to update your linode DNS system with your new domain name. Click on "**Domains**" from the Linode GUI and add your domain name as a "**Primary Domain**" to the Linode DNS system in my case the primary domain will be "**nuocial.org.uk**"
 
-8. You need to make a note of the "core website name" which is "**nuocial**" if your domain name is "**demo.nuocial.org.uk**" and "testwebsite" if your domain name is "demo.testwebsite.uk"
+- You need to make a note of the "core website name" which is "**nuocial**" if your domain name is "**demo.nuocial.org.uk**" and "testwebsite" if your domain name is "demo.testwebsite.uk"
 
 >      "Core website name: nuocial"
 
