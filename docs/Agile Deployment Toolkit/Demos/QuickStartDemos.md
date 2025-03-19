@@ -492,19 +492,19 @@ Once moodle is installed, I go to demo.nuocial.org.uk/moodle and you should do t
 
 ----------------------------
 
-### Demo 12 (Sample Moodle Application)
+### Demo 12 (Sample Virgin Joomla Install from a Baseline Repository)
 
-This is just a sample moodle install there's no sample data or anything it just shows you how you could baseline a virgin moodle install for maximum ease when making repeated virgin CMS deployments. You can do the same thing for Joomla,Wordpress or Drupal if you chose to. 
+This is just a sample joomla install there's no sample data or anything it just shows you how you could baseline a virgin joomla installation for maximum ease when making repeated virgin CMS deployments. You can do the same thing for Wordpress, Drupal or Moodle if you chose to. The advantage to creating a baseline of a virgin installation of a CMS is that you don't have to enter any parameters into the application GUI because the system deals with it all for you and so you can make faster deployments once you have a baseline to build from. The disadvantage is that you have to update the installed CMS from the administrator backend to the latest version because the baseline you made some weeks/months ago will be several releases back from current.
 
 1. Follow the all the pre-requisite at the top of this page 
 2. Once the pre-requisite steps are all followed, also alter the following settings in your Stackscript: 
 
 >     "The number (1, 2 or 3) of the template you are using" to "2"  
->     "The Display name for your website e.g. My Demo Website" to "My Moodle Demo"  
->     "APPLICATION" to "moodle"  
->     "APPLICATION IDENTIFIER" to "4"  
->     "BASELINE DB REPOSITORY" to "moodle4.5-db-baseline" 
->     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "moodle4.5-webroot-sourcecode-baseline"
+>     "The Display name for your website e.g. My Demo Website" to "My Vanilla Joomla Installation"  
+>     "APPLICATION" to "joomla"  
+>     "APPLICATION IDENTIFIER" to "1"  
+>     "BASELINE DB REPOSITORY" to "joomla5.2.5-db-baseline" 
+>     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "joomla5.2.5-webroot-sourcecode-baseline"
 
-Wait for the application install to have been completed and available at: https://<dns-url>/moodle
+Wait for the application install to have been completed and available at: https://<dns-url>
 
