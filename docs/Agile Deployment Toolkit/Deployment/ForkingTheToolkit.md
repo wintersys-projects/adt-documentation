@@ -1,19 +1,19 @@
-You might want to fork the toolkit at deployment time because, for example, you might want to have values set for the buildstyles.dat file directly in your fork of the repository when you are using template overrides method to deploy with. Just be open to the idea that there are scenarios where you will likely want to deploy from a fork rather than from the toolkit directly. In fact it is recommended best practice to deploy from your own fork.
+You might want to fork the toolkit at deployment time because, for example, you might want to have values set for the buildstyles.dat file directly in your fork of the repository when you are using the hardcore deployment method. Just be open to the idea that there are scenarios where you will likely want to deploy from a fork rather than from the toolkit directly. In fact it is recommended best practice to deploy from your own fork.
 
-**IMPORTANT: If you fork these repositories, and have them as public repositories, do not commit sensitive parameters into the templating configuration files without first making the repositories private.**  
+**IMPORTANT: If you fork these repositories, and have them as public repositories, do not commit sensitive parameters into the templating configuration files without first making the repositories private**  
 
 Instead override them using the user data init script of your build server. To see how to override using the user data init script of your webserver (or stack script if you are on linode) please refer to:  
 
 [Override](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/master/templatedconfigurations/templateoverrides.md)
 
-I keep a copy of the override script I am using on my laptop setup for the provider I am using and use it for userdata on my build machine as required. It is important to keep your bespoke override script secure because it will have access credentials to your infrastrucuture within it. Similarly, the VM which you are using as your build machine must also be kept secured because it also will have sensitive data on it. 
+I keep a copy of the override script I am using on my laptop setup for the provider I am using and use it by copying it into the user data area on my build machine when I am provisioning it through the GUI system. It is important to keep your bespoke override script secure because it will have access credentials to your infrastrucuture within it. Similarly, the VM which you are using as your build machine must also be kept secured because it also will have sensitive data on it. 
 
-#### Forking the Agile Deployment Toolkit
+**Forking the Agile Deployment Toolkit**
 
 You can build your deployments direct from the main repository of the Agile Deployment toolkit in other words, the "wintersys-projects" user name.
 However, you might want to fork the repositories to your own account so that you can (for example) set template configuration parameters in the build client scripts.
 
-The infrastructure repositories are located on github and so, to fork them, you will need a github account. I have a second github account called "adt-demos" where I keep my application sourcecode, for example, wordpress, that I deploy with the ADT. If I wanted to use this account as an example of what a 3rd party developer would do, I would do it as follows from the adt-demos github account.
+The infrastructure repositories are located on github and so, to fork them, you will need a github account. I have a second github account called "adt-demos" where I keep my application demo sourcecode. If I wanted to use this account as an example of what a 3rd party developer would do, I would do it as follows from the adt-demos github account.
 
 1. Login as the "adt-demos" user on github
 2. Find the original build-client, autoscaler, webserver and database repositories of the wintersys-projects account and fork them in turn.
