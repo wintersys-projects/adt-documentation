@@ -15,7 +15,7 @@ Managed databases are not intended to be used in development mode, rather, use t
   
 ### PRODUCTION MODE
 
-In production mode, there are four machine types: there is autoscaler machines, there is webserver machines, there is a database server and there's a build machine upon which the build is initiated. There can also be (should also be) a managed database running to which your webservers are directly connecting.  
+In production mode, there are four machine types: there is autoscaler machines, there is webserver machines, there is a database server and there's a build machine upon which the build is initiated. There can also be (should also be) a managed database running to which your webservers are directly connecting. Optionally there is a 5th type of machine called an "authentication server". 
 
 The autoscaler machine monitors the webservers for responsiveness and is responsible for initiating (and performing) the build of new webservers according to [scaling criteria](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/master/doco/AgileToolkitDeployment/ScalingConfiguration.md) (statically defined).  
 The webservers have their ip addresses registered with a DNS system and load balancing between them performed using round robin.  
