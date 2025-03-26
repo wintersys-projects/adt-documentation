@@ -20,13 +20,13 @@ will be written to the S3 datastore and that will be read by the autoscaler and 
 
 >     STATIC_SCALE:4:3:3
 
-will be written to the S3 Datastore and this will mean that autoscaler 1 will build out a total of 4 webservers, autoscaler 2 will build out 3 webservera and autoscaler 3 will build out 3 webservers. Having multiple autoscalers is not presumed to be for resource issues but rather for resilience issues. If one autoscaler fails there is another autoscaler that should still be running.
+will be written to the S3 Datastore and this will mean that autoscaler 1 will build out a total of 4 webservers, autoscaler 2 will build out 3 webservers and autoscaler 3 will build out 3 webservers. Having multiple autoscalers is not presumed to be for resource issues but rather for resilience issues. If one autoscaler fails there is another autoscaler that should still be running.
 
 There is also the script
 
 >     ${HOME}/providerscripts/utilities/processing/ScalingUpdateEvent.sh
 
-available on each autoscaler that you can set up to be called from cron such that you configure scaling up and scaling down events for that webserver at specific times. If for example you wanted to scale up for the morning period scale down a bit at lunch time, scale up a bit in the afternoon and then scale down overnight then you could set up a set of time dependent calls to this script with your required webserver numbers. 
+available on each autoscaler that you can set up to be called from cron such that you configure scaling up and scaling down events for that webserver at specific times. If, for example, you wanted to scale up for the morning period scale down a bit at lunch time, scale up a bit in the afternoon and then scale down overnight then you could set up a set of time dependent calls to this script with your required webserver numbers. 
 
 Your cron situation might look like:
 
