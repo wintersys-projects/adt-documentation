@@ -6,7 +6,7 @@ There are two basic build method types
 
 An expedited build type will involve the following steps to give you a high level overview  
 
-1. You will start up a build machine for your chosen VPS provider using the following script [Build Machine](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh) as the **userdata** or **cloud-init** script for your build machine. The way you do that is you take a local copy of the script from the git repository and populate the following variables in it (which are at the top of the script). You can find out how to configure a build machine by looking at the tutorials for your current provider.
+1. You will start up a build machine for your chosen VPS provider using the following script [Build Machine](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh) as the **userdata** or **cloud-init** script for your build machine. The way you do that is you take a local copy of the script from the git repository and populate the following variables in it (which are at the top of the script). You can find out how to configure a build machine by looking at the [tutorials](./Tutorials/TutorialsMenu.md) for your current provider.
 
 >     BUILDMACHINE_USER,BUILDMACHINE_PASSWORD,BUILDMACHINE_SSH_PORT,LAPTOP_IP,SSH
 
