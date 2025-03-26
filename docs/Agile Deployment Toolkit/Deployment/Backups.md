@@ -8,7 +8,7 @@ You can make multi-region backups simply by configuring the value for S3_HOST_BA
 
 **S3_HOST_BASE="nl-ams-1.linodeobjects.com:us-southeast-1.linodeobjects.com:in-maa-1.linodeobjects.com"**  
 
-Then 3 backups will be made, one to the nl-ams-1 region, one to us-southeast-1 region and one to in-maa-1 region. What this means is that you then have multi-region resilence for your webroot and database backups just by setting additional regions as shown above.
+Then 3 backups will be made, one to the **nl-ams-1** region, one to **us-southeast-1** region and one to **in-maa-1** region. What this means is that you then have multi-region resilence for your webroot and database backups just by setting additional regions as shown above.
 
 **BACKUP PERIODICITY** 
 
