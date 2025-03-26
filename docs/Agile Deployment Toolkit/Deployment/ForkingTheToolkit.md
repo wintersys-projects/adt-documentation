@@ -33,4 +33,4 @@ and change them to:
 >     export INFRASTRUCTURE_REPOSITORY_USERNAME="adt-demos"  
 >     export INFRASTRUCTURE_REPOSITORY_PASSWORD="none" (provided if needed)
 
-Once you have forked the repositories and updated your build script accordingly, you will be building and deploying off the fork (which you can modify to your hearts desire) rather than the original repositories (which you can't modify, obviously). 
+Once you have forked the repositories and updated your build script accordingly, you will be building and deploying off the fork (which you can modify to your hearts desire) rather than the original repositories (which you can't modify, obviously). It's supposed to work this way because you can place whatever configuration you want into your fork for NGINX,APACHE or LIGHTTPD under the directories: providerscripts/webserver/configuration/* of your webserver repository.
