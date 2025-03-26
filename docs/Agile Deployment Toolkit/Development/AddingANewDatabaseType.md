@@ -9,7 +9,6 @@ To support a new database engine type you will need to modify or add to the foll
 >     adt-build-machine-scripts/providerscripts/security/firewall/TightenDBaaSFirewall.sh
 >     adt-build-machine-scripts/templatedconfigurations/quick_specification.dat
 >     adt-build-machine-scripts/templatedconfigurations/specification.md
->     adt-build-machine-scripts/templatedconfigurations/specification.md
 
 >     adt-database-scripts/applicationdb/*
 >     adt-database-scripts/installscripts/InstallDatabaseClient.sh
