@@ -1,6 +1,4 @@
-**BUILD STRATEGIES**
-
-There are two basic build method types   
+There are two basic build method types (expedited and hardcore)
 
 **Expedited Build Type:**
 
