@@ -12,6 +12,6 @@ If you are on your database machine already and running an SQL database rarther 
 
 If you are on your database machine already and running a Postgres database rather than faffing around with credentials and so on you can run:
 
->    run  ${HOME}/providerscripts/utilities/ConnectToPostgresDB.sh
+>     run  ${HOME}/providerscripts/utilities/ConnectToPostgresDB.sh
 
 By default PHPMYADMIN isn't proovided with this toolkit but I am sure you could extend it to make it so.
