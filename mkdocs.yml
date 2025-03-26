@@ -6,6 +6,6 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-exclude_docs: |
-  TutorialsMenu.md 
+#exclude_docs: |
+#  TutorialsMenu.md 
 
