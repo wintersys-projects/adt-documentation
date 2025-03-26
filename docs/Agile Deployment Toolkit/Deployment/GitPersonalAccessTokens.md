@@ -12,4 +12,4 @@ unset
 
 **MAKE SURE THE TOKEN IS GIVEN THE RIGHTS TO DELETE REPOSITORIES, OTHERWISE THERE WILL BE FAILURES RELATING TO BACKUPS AND SO ON**   
 
-If your token has a limited expiration time you will need to keep on that because if your deployment is deployed for longer than the expiration time of your token then backups and so on will start to fail (you should receive warning emails of course) if the token expires. To be safe you can set the token to never expire but most likely the git provider advises you not to do that. 
+If your token has a limited expiration time you will need to keep on that because if your deployment is deployed for longer than the expiration time of your token then services that rely on your git provider will start to fail (you should receive warning emails of course) if the token expires. To be safe you can set the token to never expire but most likely the git provider advises you not to do that. 
