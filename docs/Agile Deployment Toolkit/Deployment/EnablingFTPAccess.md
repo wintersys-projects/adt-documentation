@@ -1,4 +1,3 @@
-To enable FTP access for a 3rd party, put your system into maintenance mode and then once only one webserver is running:
 
 >     useradd ftp_46732
 >     usermod -a -G www-data ftp_46732  
