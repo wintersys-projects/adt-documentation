@@ -21,13 +21,13 @@ Once these variables are suitably configured, you can copy the whole script to t
 and enter the password "BUILDMACHINE_PASSWORD" that you configured in the user data script that you configured above 
 
 4. You can then change directory to the adt-build-machine-scripts home directory which should be able to see by issuing a "ls" comamnd.
-6. What you then need to do is go and configure your template. The template is located at
+5. What you then need to do is go and configure your template. The template is located at
 
 >     ${BUILD_HOME}/templatedconfigurations/templates/${CLOUDHOST}
 
 You can choose template 1, 2 or 3 depending on whether you are deploying a virgin, baseline or temporal type of build. There's more information about how to configure your template in the tutorials section of this website and you should also refer to the specification.  
 
-7. Once your template is configured you can run the script "ExpeditedAgileDeploymentToolkit.sh" by issuing the commands
+6. Once your template is configured you can run the script "ExpeditedAgileDeploymentToolkit.sh" by issuing the commands
 
 >      cd /home/${BUILDMACHINE_USER}/adt-build-machine-scripts
 >      /bin/sh ./ExpeditedAgileDeploymentToolkit.sh
@@ -45,7 +45,7 @@ During a **hardcore build**, you need to
 >     cd CLONE_DIR
 >     /usr/bin/git clone https://github.com/wintersys-projects/adt-build-machine-scripts.git
 
-2. Still on your local laptop set up your template, if you are using the hardcore build method you should be familiar with how to do that by now but if not you can refer to the tutorials
+2. Still on your local laptop set up your template, if you are using the hardcore build method you should be familiar with how to do that by now but if not you can refer to the [tutorials](./Tutorials/TutorialsMenu.md)
 
 >     ${BUILD_HOME}/templatedconfigurations/templates/${CLOUDHOST} 
 
