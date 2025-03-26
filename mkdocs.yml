@@ -6,6 +6,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+not_in_nav: |
+  TutorialsMenu.md 
+  
 #exclude_docs: |
 #  TutorialsMenu.md 
 
