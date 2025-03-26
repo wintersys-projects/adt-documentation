@@ -1,11 +1,11 @@
 **This toolkit does not allow updates to configuration files (such as wp-config.php or configuration.php) through the application's GUI system.**
 
-Instead use the following process which will automatically update all of your webserver configurations in one go:
+Instead use the following process which will automatically update all of your webserver configurations in one go. What this means is that if you have 4 webservers running, if you follow this process on one of them, then the changes you make to the application configuration on that one server will be pushed to the other 3 webservers that are running. 
 
-If you want to update your, for example, Joomla "configuration.php" file or your Wordpress "wp-config.php" files, then there's a few ways to go about it.
-Presuming that you have several webservers running if you change the configuration file on one of them using this method it will get pushed out to all the others. This is powerful but also requires caution because a change made to a configuration file with errors in it could take your whole website offline.
+So, if you want to update your, for example, Joomla "configuration.php" file or your Wordpress "wp-config.php" files, then this is the way to go about it.  
+Changing the application configuration on one webserver and having the change pushed out to all your webservers is powerful but also requires caution because a change made to a configuration file with errors in it could take your whole website offline.
 
-The shortcut way to update your application's configuration is as the following 3 step process:
+**Updating your applications configuration in a multi-webserver configuration**
 
 - Login to one of your webservers using the helperscript on your build machine
 -  Run the script:
@@ -16,7 +16,7 @@ The shortcut way to update your application's configuration is as the following 
 
 >     ${HOME}/runtime
 
-and make your updates to the appropriate configuration file, one of, 
+and make your updates to the appropriate (depending on which application type you are using) configuration file, one of, 
 
 >     joomla_configuration.php, wordpress_config.php, drupal_settings.php, moodle_config.php
 
@@ -24,7 +24,7 @@ and make your updates to the appropriate configuration file, one of,
 
 >     /usr/bin/config
 
-to push it to your S3 datastore. The '/usr/bin/config' will push your changes to all your webservers. Syntax checking has to be passed before the changes you make are accepted by the system. 
+to push the changes you have made to your S3 config datastore bucket. So, the '/usr/bin/config' will push your changes to all your webservers. The script performs syntax checking which has to be passed before the changes you make are accepted by the system. 
 
 - Run the script:
 
@@ -34,7 +34,7 @@ Configuration changes you make using the application's GUI system to an individu
 
 >     ${HOME}/runtime/<config-file>
 
-and have that file as the authoritative file instead and push the changes out to other webservers from there there in a conscious and deliberate way.
+and have that changed file accepted as the authoritative configuration file instead and push the changes out to other webservers from there there in a conscious and deliberate way. 
 
 If you make a change to 
 
@@ -46,7 +46,7 @@ and then run /usr/bin/config, here are the steps that the system goes through to
 
 >     ${HOME}/providerscripts/application/configuration/ApplicationConfigurationUpdate.sh
 
-will be run and this will run a syntax check anc copy the configuration file to the S3 datastore.
+will be run and this will run a syntax check and copy the configuration file to the S3 datastore.
 
 - Every minute, each webserver looks for an updated configuration file for the installed application type when the script:
 
