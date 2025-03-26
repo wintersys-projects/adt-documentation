@@ -1,4 +1,4 @@
-To support a new database engine type you will need to modify or add to the following files:
+To support a new database engine type you will need to modify or add to the following files. You might, for example want to integrate percona or mongodb and so on.
 
 >     adt-autoscaler-scripts/autoscaler/InitialiseCloudInit.sh
 
@@ -13,11 +13,8 @@ To support a new database engine type you will need to modify or add to the foll
 >     adt-database-scripts/applicationdb/*
 >     adt-database-scripts/installscripts/InstallDatabaseClient.sh
 >     adt-database-scripts/installscripts/InstallDatabaseServer.sh
->     adt-database-scripts/installscripts/InstallMySQLClient.sh
->     adt-database-scripts/installscripts/InstallMySQLServer.sh
 >     adt-database-scripts/providerscripts/database/*
->     adt-database-scripts/providerscripts/utilities/remote/AccessDB.sh
->     adt-database-scripts/providerscripts/utilities/remote/ConnectToMySQLDB.sh
+>     adt-database-scripts/providerscripts/utilities/remote/*
 >     adt-database-scripts/providerscripts/utilities/status/IsDatabaseUp.sh
 
 >     adt-webserver-scripts/installscripts/InstallDatabaseClient.sh
