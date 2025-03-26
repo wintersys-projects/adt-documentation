@@ -8,7 +8,4 @@ extra_css:
 
 not_in_nav: |
   TutorialsMenu.md 
-  
-#exclude_docs: |
-#  TutorialsMenu.md 
 
