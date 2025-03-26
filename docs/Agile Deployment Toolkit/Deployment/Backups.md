@@ -1,6 +1,11 @@
 **NOTE:** 
 
-You can also use your cloudhost's backup service to make backups of your machines if you want super safe backups above and beyond what is provided here. 
+You can also use your cloudhost's backup service to make backups of your machines if you want super safe backups above and beyond what is provided here. Using your provider's backup service will usually incur extra costs but it should give you the ability to recover in the case of an absolute disaster. 
+
+**NOTE1:**  
+
+
+
 
 ##### BACKUP PERIODICITY  
 
