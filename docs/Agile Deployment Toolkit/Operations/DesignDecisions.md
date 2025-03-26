@@ -18,18 +18,18 @@ Managed databases are not intended to be used in development mode, rather, use t
 In production mode, there are four machine types: there is autoscaler machines, there is webserver machines, there is a database server and there's a build machine upon which the build is initiated. There can also be (should also be) a managed database running to which your webservers are directly connecting. Optionally there is a 5th type of machine called an "authentication server". 
 
 The autoscaler machine monitors the webservers for responsiveness and is responsible for initiating (and performing) the build of new webservers according to [scaling criteria](../Deployment/AutoscalingConfiguration.md) (statically defined).  
-The webservers have their ip addresses registered with a DNS system and load balancing between them performed using round robin.  
-The Database server is responsible for runnng the database system. The Database system can use DBaaS managed databases but our own "database machine" still needs to run in such a scenario as we depend on our own custom backups which our database machine generates.
 
+The webservers have their ip addresses registered with a DNS system and load balancing between them performed using round robin built into the DNS system.  
+The Database server is responsible for runnng the database system. The Database system can use DBaaS managed databases but our own "database machine" still needs to run in such a scenario as we depend on our own custom backups which our database machine generates.
 
 ### FIREWALLING  
 
-The firewalling by default works as follows, there are two layers to the firewalling, the cloudhost's native firewall and the ufw firewall running on the machines themselves:  
+The firewalling by default works as follows, there are two layers to the firewalling, the cloudhost's native firewall and the ufw/iptables firewall running on the machines themselves:  
 
 All machines allow SSH connections from your build machine and between each other only.  
-Only webservers and autoscalers can connect to the database port (2035 by default)  
-If you are using a managed database only machines in your private network can connect to the managed DB or the specific ip addresses of your webservers/database machine.  
-If you are using Cloudflare, only Cloudflare ip addresses [Cloudflare IPs](https://www.cloudflare.com/en-gb/ips/) can connect to your webservers. Direct connections are not allowed to your webserver, only connections through the "Cloudflare Proxy". If you are not using Cloudflare, then, connections to your webserver(s) on port 443 are allowed from anywhere. Cloudflare does provide some attractive features such as your being able to use "zero trust acccess control" to prevent direct access to anything that you don't explicitly allow. 
+Only webservers and autoscalers can connect to the database port.  
+If you are using a managed database only machines in your private network can connect to the managed DB if the DB is within the same VPC as your webservers or the specific ip addresses of your webservers/database machine is allowed through to the managed database explicitly if the DB is in a different VPC to the servers.  
+If you are using Cloudflare, only Cloudflare ip addresses [Cloudflare IPs](https://www.cloudflare.com/en-gb/ips/) can connect to your webservers. Direct connections are not allowed to your webserver, only connections through the "Cloudflare Proxy". If you are not using Cloudflare, then, connections to your webserver(s) on port 443 are allowed from anywhere. Cloudflare does provide some attractive features such as your being able to use "zero trust acccess control" to prevent direct access to anything that you don't explicitly allow. The authentication server solution that I provide allows you to firewall off port 443 entirely and grant selective access to to authenticated clients. 
 
 ### CONFIGURATION
 
