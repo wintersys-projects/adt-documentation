@@ -1,29 +1,39 @@
 To support another cloudhost provider (for example, AWS, google cloud, OVH cloud and so on) you should be able to get it going by modfying the following files:
 
->     adt-webserver-scripts/security/SetupFirewall.sh
->     adt-webserver-scripts/security/ObtainSSLCertificate.sh
->     adt-webserver-scripts/installscripts/InstallMonitoringGear.sh
 
->     adt-database-scripts/applicationdb/maria/InstallMariaDB.sh
->     adt-database-scripts/installscripts/InstallMonitoringGear.sh
->     adt-database-scripts/applicationdb/maria/InstallMariaDB.sh
-
->     adt-build-machine-scripts/selectionscripts/SelectCloudhost.sh
->     adt-build-machine-scripts/providerscripts/server/
->     adt-build-machine-scripts/providerscripts/security/
->     adt-build-machine-scripts/providerscripts/dns
->     adt-build-machine-scripts/providerscripts/datastore/configwrapper/DisplayCredentials.sh
->     adt-build-machine-scripts/providerscripts/cloudhost/
->     adt-build-machine-scripts/installscripts/InstallCloudhostTools.sh
->     adt-build-machine-scripts/helperscripts
-
->     adt-autoscaler-scripts/security/SetupFirewall.sh
->     adt-autoscaler-scripts/providerscripts/server/
->     adt-autoscaler-scripts/providerscripts/security/
->     adt-autoscaler-scripts/providerscripts/dns
->     adt-autoscaler-scripts/providerscripts/cloudhost
->     adt-autoscaler-scripts/installscripts/InstallMonitoringGear.sh
 >     adt-autoscaler-scripts/installscripts/InstallCloudhostTools.sh
+>     adt-autoscaler-scripts/installscripts/InstallPackageManager.sh
+>     adt-autoscaler-scripts/providerscripts/cloudhost/GetOperatingSystemVersion.sh
+>     adt-autoscaler-scripts/providerscripts/cloudhost/InitialiseCloudhostConfig.sh
+>     adt-autoscaler-scripts/providerscripts/dns/*
+>     adt-autoscaler-scripts/providerscripts/security/firewall/GetProxyDNSIPs.sh
+>     adt-autoscaler-scripts/providerscripts/security/firewall/TightenDBaaSFirewall.sh
+>     adt-autoscaler-scripts/providerscripts/server/*
+>     adt-autoscaler-scripts/security/SetupFirewall.sh
+
+>     adt-build-machine-scripts/ExpeditedAgileDeploymentToolkit.sh
+>     adt-build-machine-scripts/Log.sh
+>     adt-build-machine-scripts/helperscripts/*
+>     adt-build-machine-scripts/initscripts/InitialiseCloudhostConfig.sh
+>     adt-build-machine-scripts/initscripts/InitialiseDatabaseService.sh
+>     adt-build-machine-scripts/installscripts/InstallCloudhostTools.sh
+>     adt-build-machine-scripts/providerscripts/cloudhost/GetOperatingSystemVersion.sh
+>     adt-build-machine-scripts/providerscripts/dns/*
+>     adt-build-machine-scripts/providerscripts/security/*
+>     adt-build-machine-scripts/providerscripts/server/*
+>     adt-build-machine-scripts/selectionscripts/SelectCloudhost.sh
+>     adt-build-machine-scripts/templatedconfigurations/OverrideTemplate.sh
+>     adt-build-machine-scripts/templatedconfigurations/ValidateTemplate.sh
+>     adt-build-machine-scripts/templatedconfigurations/quick_specification.dat
+>     adt-build-machine-scripts/templatedconfigurations/specification.md
+
+>     adt-database-scripts/applicationdb/maria/InstallApplicationDB.sh
+>     adt-database-scripts/installscripts/InstallPackageManager.sh
+
+>     adt-webserver-scripts/installscripts/InstallPackageManager.sh
+>     adt-webserver-scripts/security/ObtainSSLCertificate.sh
+>     adt-webserver-scripts/security/SetupFirewall.sh
+
 
 If you want to add a new cloudhost to your the toolkit you will need to configure a template with placeholders for your new cloudhost's CLI tool  
 You can find examples here:  
