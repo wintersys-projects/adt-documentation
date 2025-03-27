@@ -17,46 +17,39 @@ enter the values:
 
 get the ip address of the client that wants to connect to your ftp server
 
->     ufw allow 20/tcp  
->     ufw allow 21/tcp  
->     ufw allow from any to any port 40000:60000 proto tcp
+>     ufw allow from <ip> to any port 22
+>     ufw allow from <ip> to any port 21  
+>     ufw allow from <ip> to any port 40000:60000 proto tcp
 
 Punch a hole in your native firewalling system as well using your cloudhosting provider's gui system
 
 >     systemctl restart vsftpd
-
 >     mkdir -p /etc/vsftpd/user_config_dir
-
 >     vi /etc/vsftpd/user_config_dir/ftp_46732
 
 add the string  
 
 >     local_root=/var/www/html   
-
 >     vi /etc/vsftpd.conf
 
 add the strings
 
 >     user_config_dir=/etc/vsftpd/user_config_dir 
-
-and
-
 >     allow_writeable_chroot=YES
+>     chroot_local_user=YES
 
 make sure to set to:  
 
->     chroot_local_user=YES
 >     systemctl restart vsftpd
 
 >     /usr/bin/find /var/www/html/ -type d -print -exec chmod 775 {} \\;  
 >     /usr/bin/find /var/www/html/ -type f -print -exec chmod 664 {} \\;  
 
 
-on the client machine that you have allowed access for in your firwalls
+on the client machine that you have allowed access for in your firewalls
 
 ftp <ip_address of your webserver with ftp enabled>  
-enter your username and password that you set previously  
-then enter   
+enter your username and password that you set previously then enter   
 ftp> pass (for passive mode)  
 ftp>ls should then list /var/www/html  
 ftp> put file  
@@ -65,6 +58,8 @@ ftp> ls /var/www/html/file
 when the updates to the webroot have been made:  
 
 >     usermod -L ftp_46732
+
+# Tighten up the firewall that you opened up earlier
 
 >     ufw status numbered
 >     ufw delete <rule_no> 
