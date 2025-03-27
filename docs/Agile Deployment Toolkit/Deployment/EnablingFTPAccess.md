@@ -52,7 +52,7 @@ on the client machine that you have allowed access for in your firewalls
 ftp <ip_address of your webserver with ftp enabled>  
 enter your username and password that you set previously then enter   
 ftp> pass (for passive mode)  
-ftp>ls should then list /var/www/html  
+ftp> ls should then list /var/www/html  
 ftp> put file  
 ftp> ls /var/www/html/file  
 
