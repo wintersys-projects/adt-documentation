@@ -10,7 +10,7 @@ Here you will find an expose on the directory structures of the various differen
 
 ```${BUILD_HOME}/runtimedata/ACTIVE_BUILD_IDENTIFIER``` - the currently active build identifier - user provider string    
 
-```/${BUILD_HOME}/runtimedata/ACTIVE_CLOUDHOST``` - the currently active cloudhost - one of "digitalocean", "exoscale", "linode", "vultr"  
+```${BUILD_HOME}/runtimedata/ACTIVE_CLOUDHOST``` - the currently active cloudhost - one of "digitalocean", "exoscale", "linode", "vultr"  
 
 ```${BUILD_HOME}/runtimedata/BUILD_MACHINE_CLOUDHOST``` - same as above but your build machine could be a different cloudhost to your main cloudhost. For example, you can run your build_machine on linode but be deploying to exoscale in which case the BUILD_MACHINE_CLOUDHOST would be different to your main cloudhost  
 
