@@ -29,7 +29,8 @@ Punch a hole in your native firewalling system as well using your cloudhosting p
 
 add the string  
 
->     local_root=/var/www/html   
+>     local_root=/var/www/html
+ 
 >     vi /etc/vsftpd.conf
 
 add the strings
