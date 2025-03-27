@@ -55,11 +55,11 @@ ftp>ls should then list /var/www/html
 ftp> put file  
 ftp> ls /var/www/html/file  
 
-when the updates to the webroot have been made:  
+When the updates to the webroot have been made:  
 
 >     usermod -L ftp_46732
 
-# Tighten up the firewall that you opened up earlier
+Tighten up the firewall that you opened up earlier
 
 >     ufw status numbered
 >     ufw delete <rule_no> 
