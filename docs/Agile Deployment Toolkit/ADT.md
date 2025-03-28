@@ -31,9 +31,9 @@ NOTE: The scripts in these repositories will control the build process for the d
 
 Here is some more details about the toolkit. You might want to begin by running through some of the Quick Start Demos which are the mosst direct way to get anything up and running.  
 
-**[Deployment Tutorials](<Agile Deployment Toolkit/Tutorials/TutorialsMenu.md>)**  
+**[Deployment Tutorials](<Tutorials/TutorialsMenu.md>)**  
 **[The Specification](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md)**  
-**[Quick Start Demos](<Agile Deployment Toolkit/Demos/QuickStartDemos.md>)**  
+**[Quick Start Demos](<Demos/QuickStartDemos.md>)**  
 
 -----------------------------------
 
