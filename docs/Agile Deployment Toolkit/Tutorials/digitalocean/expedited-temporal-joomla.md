@@ -55,6 +55,13 @@ I then need to set the template to use the temporal backups that I have generate
 >     export DIRECTORIES_TO_MOUNT="images" #MANDATORY - this will define which directories in your webroot will be mounted from S3, if PERSIST_ASSETS_TO_CLOUD=1
   
 Once you have made your temporal (hourly periodicity) backups  terminate any webservers that you have running from tutorial 2 and you are then ready to perform a temporal build using your freshly made backups from your datastore.
+
+If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (digitalocean and template 3 in other words). On your build machine, do as follows:
+
+>     cd ${BUILD_HOME}
+>     ./ExpeditedAgileDeploymentToolkit.sh
+
+and answer any questions and have a bit of patience whilst the build runs. 
   
   ------------------------
   **DEPLOYMENT USING MANAGED DATABASES**
