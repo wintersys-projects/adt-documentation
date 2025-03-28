@@ -92,9 +92,13 @@ There are some other values that I need to change in /home/wintersys-projects/ad
 You can make any other adjustments you want like if you want to choose APACHE instead of NGINX or change the size of the machines (you can find out about such things in the specification).
 
 With your baseline template fully configured, you are now ready to perform a baseline build (in other words, directly install a live application starting from zilch).
-That will look something like the following:
 
-[![Vultr baseline Joomla Deployment Using the Agile Deployment Toolkit](https://img.youtube.com/vi/5FLvbKBqnvQ/0.jpg)](https://www.youtube.com/watch?v=5FLvbKBqnvQ)
+If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (digital ocean and template 2 in other words). On your build machine, do as follows:
+
+>     cd ${BUILD_HOME}
+>     ./ExpeditedAgileDeploymentToolkit.sh
+
+and answer any questions and have a bit of patience whilst the build runs. 
 
 If you follow these steps, then, you will have a copy of your customised Joomla application running in the cloud. 
 **Leave the servers you have deployed running for use in the next tutorial in the series.**
