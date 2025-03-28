@@ -2,5 +2,5 @@
 
 - Project 1  - The Agile Deployment Toolkit
   
-[Agile Deployment Toolkit](<Agile Deployment Toolkit/Tutorials/ADT.md>)
+[Agile Deployment Toolkit](<Agile Deployment Toolkit/ADT.md>)
 
