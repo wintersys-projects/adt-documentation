@@ -27,7 +27,7 @@ for Postgres
 8. The Agile Deployment Toolkit supports the following application database:
 
 **Joomla 5 using MySQL, MariaDB or Postgres is supported**  
-**Wordpress using MySQL or MariaDB is supported (Postgres needs some faff with wordpress,but you are welcome to modify the toolkit)**   
+**Wordpress using MySQL or MariaDB is supported**  (no Postgres by default with Wordpress) 
 **Drupal using MySQL, MariaDB or Postgres is supported**   
 **Moodle using MySQL, MariaDB or Postgres is supported**  
  
