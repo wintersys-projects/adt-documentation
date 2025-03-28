@@ -61,9 +61,12 @@ I then need to set the template to use the temporal backups that I have generate
   
 Shutdown any webservers that you have running from tutorial 2 and you are then ready to perform a temporal build, as shown below:
   
-[![Vultr temporal Joomla Deployment Using the Agile Deployment Toolkit](https://img.youtube.com/vi/TqU5hyLA2dg/0.jpg)](https://www.youtube.com/watch?v=TqU5hyLA2dg)
-  
-  If all has gone according to plan, you will have seen a full deployment of your temporal backup. 
+If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (vultr and template 3 in other words). On your build machine, do as follows:
+
+>     cd ${BUILD_HOME}
+>     ./ExpeditedAgileDeploymentToolkit.sh
+
+and answer any questions and have a bit of patience whilst the build runs. 
   
   ------------------------
   **DEPLOYMENT USING MANAGED DATABASES**
