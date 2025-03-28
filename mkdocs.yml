@@ -8,4 +8,5 @@ extra_css:
 
 not_in_nav: |
   TutorialsMenu.md 
+  index.md
 
