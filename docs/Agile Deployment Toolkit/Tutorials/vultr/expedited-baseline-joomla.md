@@ -93,7 +93,7 @@ You can make any other adjustments you want like if you want to choose APACHE in
 
 With your baseline template fully configured, you are now ready to perform a baseline build (in other words, directly install a live application starting from zilch).
 
-If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (digital ocean and template 2 in other words). On your build machine, do as follows:
+If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (vultr and template 2 in other words). On your build machine, do as follows:
 
 >     cd ${BUILD_HOME}
 >     ./ExpeditedAgileDeploymentToolkit.sh
