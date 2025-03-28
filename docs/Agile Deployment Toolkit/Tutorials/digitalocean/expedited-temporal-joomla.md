@@ -54,11 +54,7 @@ I then need to set the template to use the temporal backups that I have generate
 >     export PERSIST_ASSETS_TO_CLOUD="1" #MANDATORY This should only be 0 if your application has a very small number of assets
 >     export DIRECTORIES_TO_MOUNT="images" #MANDATORY - this will define which directories in your webroot will be mounted from S3, if PERSIST_ASSETS_TO_CLOUD=1
   
-Shutdown any webservers that you have running from tutorial 2 and you are then ready to perform a temporal build, as shown below:
-  
-[![Digital Ocean temporal Joomla Deployment Using the Agile Deployment Toolkit](https://img.youtube.com/vi/xX5tGWVp6w0/0.jpg)](https://www.youtube.com/watch?v=xX5tGWVp6w0)
-  
-  If all has gone according to plan, you will have seen a full deployment of your temporal backup. 
+Once you have made your temporal (hourly periodicity) backups  terminate any webservers that you have running from tutorial 2 and you are then ready to perform a temporal build using your freshly made backups from your datastore.
   
   ------------------------
   **DEPLOYMENT USING MANAGED DATABASES**
@@ -67,6 +63,7 @@ Shutdown any webservers that you have running from tutorial 2 and you are then r
   
   
   ------------------------
+  
   **OTHER APPLICATION TYPES**
   
 In order to do a temporaly build from backups you have made for a different application type (wordpress, drupal or moodle) you will need to alter the following variables in your template compared to what you have used above:
