@@ -96,9 +96,12 @@ You can make any other adjustments you want like if you want to choose APACHE in
 
 With your baseline template fully configured, you are now ready to perform a baseline build (in other words, directly install a live application starting from zilch).
 
-That will look something like the following:
+If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (exoscale and template 2 in other words). On your build machine, do as follows:
 
-[![Exoscale baseline Joomla Deployment Using the Agile Deployment Toolkit](https://img.youtube.com/vi/JiweJOLr-R8/0.jpg)](https://www.youtube.com/watch?v=JiweJOLr-R8)
+>     cd ${BUILD_HOME}
+>     ./ExpeditedAgileDeploymentToolkit.sh
+
+and answer any questions and have a bit of patience whilst the build runs. 
 
 If you follow these steps, then, you will have a copy of your customised Joomla application running in the cloud. 
 **Leave the servers you have deployed running for use in the next tutorial in the series.**
