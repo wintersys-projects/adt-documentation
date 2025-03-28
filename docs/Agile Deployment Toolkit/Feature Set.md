@@ -10,7 +10,7 @@
 
 * Moderate learning curve for usage
 
-* Support for deployment to multiple cloud hosts. Currently, Digital Ocean, Exoscale, Linode, Vultr and AWS. If you develop a problem or issue with the cloud host you have deployed to, simply perform a frictionless redeploy to another of the supported VPS cloud host providers
+* Support for deployment to multiple cloud hosts. Currently, Digital Ocean, Exoscale, Linode and Vultr. If you develop a problem or issue with the cloud host you have deployed to, simply perform a frictionless redeploy to another of the supported VPS cloud host providers
 
 * Easily choose the machine sizes that you want to deploy to, depending on what capacity you need
 
