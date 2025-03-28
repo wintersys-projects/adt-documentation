@@ -26,10 +26,10 @@ for Postgres
 
 8. The Agile Deployment Toolkit supports the following application database:
 
-##### Joomla 5 using MySQL, MariaDB or Postgres is supported  
-##### Wordpress using MySQL or MariaDB is supported (Postgres needs some faff with wordpress,but you are welcome to modify the toolkit)   
-##### Drupal using MySQL, MariaDB or Postgres is supported  
-##### Moodle using MySQL, MariaDB or Postgres is supported
+**Joomla 5 using MySQL, MariaDB or Postgres is supported**  
+**Wordpress using MySQL or MariaDB is supported (Postgres needs some faff with wordpress,but you are welcome to modify the toolkit)** 
+**Drupal using MySQL, MariaDB or Postgres is supported** 
+**Moodle using MySQL, MariaDB or Postgres is supported**
  
 9. These builds depend on external services, if a service is down, github for example, the build may well not complete.
 
