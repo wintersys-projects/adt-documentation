@@ -26,10 +26,10 @@ for Postgres
 
 8. The Agile Deployment Toolkit supports the following application database:
 
-**Joomla 5 using MySQL, MariaDB or Postgres is supported**  
-**Wordpress using MySQL or MariaDB is supported**  (no Postgres by default with Wordpress)   
-**Drupal using MySQL, MariaDB or Postgres is supported**   
-**Moodle using MySQL, MariaDB or Postgres is supported**  
+>     Joomla 5 using MySQL, MariaDB or Postgres is supported  
+>     Wordpress using MySQL or MariaDB is supported  (no Postgres by default with Wordpress)   
+>     Drupal using MySQL, MariaDB or Postgres is supported   
+>     Moodle using MySQL, MariaDB or Postgres is supported  
  
 9. These builds depend on external services, if a service is down, github for example, the build may well not complete.
 
@@ -41,7 +41,7 @@ for Postgres
  
 13. Remove termination protection for a managed database on Exoscale as follows:
  
- exo dbaas update <db-name - eg: testdb1> -z <region: eg. ch-gva-2> --termination-protection=false
+>     exo dbaas update <db-name - eg: testdb1> -z <region: eg. ch-gva-2> --termination-protection=false
 
 14. If you are planning to deploy to a DBaaS solution then you should do your development on equivalent database types. For example if your final DBaaS deployment is to a MYSQL instance then you should baseline using MySQL as your development database type, not Maria and likewise if your final DBaaS type is Maria DB, you should develop against Maria DB rarther than MySQL. You do this by setting DATABASE_INSTALLATION_TYPE in your template
 
