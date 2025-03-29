@@ -139,10 +139,10 @@ So,
   
   If you are using Vultr Managed Databases you can set the following in your template override:
  
-  DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<db-engine-version>:<region>:<machine-size>:<db-name>:<cluster-name>:<vpc-id>"
-  DATABASE_INSTALLATION_TYPE="DBaaS"
+>     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<db-engine-version>:<region>:<machine-size>:<db-name>:<cluster-name>:<vpc-id>"
+>     DATABASE_INSTALLATION_TYPE="DBaaS"
   
-  Example 1:
+Example 1:
   
   1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql:8:lhr:vultr-dbaas-hobbyist-cc-1-25-1:testdb:TestDatabase:2fb13fd1-3145-3127-7132-13f28f1912c1" 
 
