@@ -22,7 +22,7 @@ for Postgres
  
 6. If you are using s3fs for your shared storage, then, if you delete the buckets using the Cloudhost provider's gui system (digital ocean at least has a period when a deleted bucket cannot be recreated) or the s3cmd tool there tends to be a period of time with some providers when buckets of the same name cannot be created again. If you run the scripts during this period and they require the same bucket name as a bucket that you have recently deleted using the GUI, you will get unpredictable behaviour. If you wait till the grace period expires, then, you will be able to complete the execution of the scripts successfully or, better yet, don't delete the buckets using the gui unless you are finished with them entirely.  
 
-7. If you make multiple builds and have, for example, "testbuild-1", "testbuild-2" and so on, you need to name them (<identifier>-BUILD_IDENTIFIER), "1-testbuild", "2-testbuild" rather than "testbuild-1" and "testbuild-2", this is because in some places the "BUILD_IDENTIFIER" might get truncated and you would lose the distinction.    
+7. If you make multiple builds and have, for example, "testbuild-1", "testbuild-2" and so on, you need to name them (\<identifier\>-BUILD_IDENTIFIER), "1-testbuild", "2-testbuild" rather than "testbuild-1" and "testbuild-2", this is because in some places the "BUILD_IDENTIFIER" might get truncated and you would lose the distinction.    
 
 8. The Agile Deployment Toolkit supports the following application database:
 
