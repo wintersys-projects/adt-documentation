@@ -25,7 +25,7 @@ There are four repositories associated with this toolkit:
 **[Agile Infrastructure Webserver Scripts](https://github.com/wintersys-projects/adt-webserver-scripts)**  
 **[Agile Infrastructure Database Scripts](https://github.com/wintersys-projects/adt-database-scripts)**  
 
-NOTE: The scripts in these repositories will control the build process for the three different classes of server machines (autoscaler/webserver/database server). You could potentially run the build process on a dedicated linux (Ubuntu/Debian) laptop or on any laptop that you boot off a portable linux flash drive (with persistent storage enabled). I generally describe how to use this toolkit from a VPS linux machine and you SHOULD NOT use your day to day linux laptop as your build machine because the build process will install software that you might not want on your daily laptop and will also make some configuration changes to your system.
+NOTE: The scripts in these repositories will control the build process for the three different classes of server machines (autoscaler/webserver/database server). You could potentially run the build process on a dedicated linux (Ubuntu/Debian) laptop that you boot off a portable linux flash drive (with persistent storage enabled). I generally describe how to use this toolkit from a VPS linux machine and you SHOULD NOT use your day to day linux laptop as your build machine because the build process will install software that you might not want on your daily laptop and will also make some configuration changes to your system.
 
 The Quick start demos below are specifically designed to give you a taste for this with the least effort possible and if you like what you see, you can do a deeper dive into what I have built here. 
 
