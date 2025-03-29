@@ -6,8 +6,8 @@ The managed database you describe here will spin up automatically through the bu
 
 If you are using digital ocean managed databases you can set the following in your template or override
 
-**DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<region>:<size>:<db-version>:<cluster-name>:<db-name>:<adt_vpc>:<database_name>"** 
-**DATABASE_INSTALLATION_TYPE="DBaaS"**
+>     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<region>:<size>:<db-version>:<cluster-name>:<db-name>:<adt_vpc>:<database_name>"** 
+>     DATABASE_INSTALLATION_TYPE="DBaaS"**
   
 So an example of this would be in your template or override:
 
@@ -44,8 +44,8 @@ So,
   
 If you are using exoscale managed databases you can set the following in your template or override
 
-**DATABASE_DBaaS_INSTALLATION_TYPE="\<db-type\>:DBAAS:\<db-engine\>:\<region\>:\<size\>:\<db-name\>"**  
-**DATABASE_INSTALLATION_TYPE="DBaaS"**  
+>     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<region>:<size>:<db-name>"  
+>     DATABASE_INSTALLATION_TYPE="DBaaS"  
 
 So an example of this would be in your template or override: 
 
@@ -74,8 +74,8 @@ So,
   
   If you are using Linode Managed Databases you can set the following in your template override:
   
-**DATABASE_DBaaS_INSTALLATION_TYPE="\<db-type\>:DBAAS:\<engine\>:\<region\>:\<machine_type\>:\<cluster_size\>:\<cluster_label\>:\<database_name\>**
-**DATABASE_INSTALLATION_TYPE="DBaaS"** 
+>     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<engine>:<region>:<machine_type>:<cluster_size>:<cluster_label>:<database_name>
+>     DATABASE_INSTALLATION_TYPE="DBaaS" 
 
   So two example configurations might be:
   
@@ -128,8 +128,8 @@ So,
   
   If you are using Vultr Managed Databases you can set the following in your template override:
  
-  **DATABASE_DBaaS_INSTALLATION_TYPE="\<db-type\>:DBAAS:\<db-engine\>:\<db-engine-version\>:\<region\>:\<machine-size\>:\<db-name\>:\<cluster-name\>:\<vpc-id\>"**
-  **DATABASE_INSTALLATION_TYPE="DBaaS"**
+  DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<db-engine-version>:<region>:<machine-size>:<db-name>:<cluster-name>:<vpc-id>"
+  DATABASE_INSTALLATION_TYPE="DBaaS"
   
   Example 1:
   
