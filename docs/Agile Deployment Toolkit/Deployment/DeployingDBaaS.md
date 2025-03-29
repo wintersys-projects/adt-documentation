@@ -90,11 +90,7 @@ So,
 
   So two example configurations might be:
   
-    DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:nl-ams:g6-nanode-1:1:test-cluster:testdb1"
-    DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:postgresql/14.4:nl-ams:g6-nanode-1:1:test-cluster:testdb1"
-  
-
-  Therefore, for example 1, 
+    1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:nl-ams:g6-nanode-1:1:test-cluster:testdb1"  
   
   db-type="MySQL"
   db-engine="mysql/8"
@@ -112,7 +108,7 @@ So,
   
   cluster-size, as far as I know, can be **1** or **3**  
   
-  Therefore, for example 1, 
+>     2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:postgresql/14.4:nl-ams:g6-nanode-1:1:test-cluster:testdb1"
   
   db-type="Postgres"
   db-engine="postgresql/16"
@@ -142,9 +138,9 @@ So,
 >     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<db-engine-version>:<region>:<machine-size>:<db-name>:<cluster-name>:<vpc-id>"
 >     DATABASE_INSTALLATION_TYPE="DBaaS"
   
-Example 1:
-  
-  1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql:8:lhr:vultr-dbaas-hobbyist-cc-1-25-1:testdb:TestDatabase:2fb13fd1-3145-3127-7132-13f28f1912c1" 
+So, two example configurations might be:
+
+>     1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql:8:lhr:vultr-dbaas-hobbyist-cc-1-25-1:testdb:TestDatabase:2fb13fd1-3145-3127-7132-13f28f1912c1" 
 
   db-type = MySQL  
   db-engine = mysql  
@@ -155,9 +151,8 @@ Example 1:
   cluster-name = TestDatabase  
   vpc-id = 2fb13fd1-3145-3127-7132-13f28f1912c1
   
-  Example 2:  
   
-  2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:pg:14:lhr:vultr-dbaas-hobbyist-cc-1-25-1:testdb:TestDatabase:2fb13fd1-3145-3127-7132-13f28f1912c1" 
+>     2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:pg:14:lhr:vultr-dbaas-hobbyist-cc-1-25-1:testdb:TestDatabase:2fb13fd1-3145-3127-7132-13f28f1912c1" 
 
   db-type = Postgres  
   db-engine = pg  
