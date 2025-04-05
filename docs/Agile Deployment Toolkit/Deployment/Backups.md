@@ -14,7 +14,7 @@ Then 3 backups will be made, one to the **nl-ams-1** region, one to **us-southea
 
 The backup periodicity is as follows:
 
-##### hourly, daily, weekly, monthly, bimonthly, shutdown, manual and all  
+##### hourly, daily, weekly, monthly, bimonthly 
 
 What this means is that backups of the webroot and your database will be automatically initiated by cron at these different periodicities.
 
