@@ -10,7 +10,7 @@ For more information about parameter configuration please see the [spec](https:/
 
 **PRE-REQUISITE STEPS MENTIONED IN THE DEMOS BELOW:**
 
-Before you do anything, create a VPC in the region you are deploying your machines to called "adt-vpc" with a subnet of "10.0.1.0/24". The VPC create screen for my requirements looks like:
+Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with a subnet of "10.0.1.0/24". The VPC create screen for my requirements looks like:
 
 ![](images/adt-vpc.png "ADT-VPC image")  
 
