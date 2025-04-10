@@ -506,5 +506,5 @@ This is just a sample joomla install there's no sample data or anything it just 
 >     "BASELINE DB REPOSITORY" to "joomla5.2.5-db-baseline" 
 >     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "joomla5.2.5-webroot-sourcecode-baseline"
 
-Wait for the application install to have been completed and available at: https://<dns-url>
+Wait for the application install to have been completed and available at: >      https://<dns-url>
 
