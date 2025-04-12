@@ -1,4 +1,4 @@
-The person deploying this software using the authentication server as the zero trust solution needs to set two parameters in the template:
+Depending on your use case you might need to have a separate domain for your user email addresses in which case you will need to set two parameters in your template:
 
 1. **AUTHENTICATION_SERVER** (which can be '1' if you want an authentication server in your build chain and '0' if you don't).
 2. **USER_EMAIL_DOMAIN** - nuocialmail.uk (for example)
