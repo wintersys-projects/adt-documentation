@@ -28,7 +28,7 @@ The intended objective for developing this toolkit is to be able to deploy large
 
 **STATUS**
 
-At the time of writing (April 2025) I am just about to go through final testing to make things as resilent as I can as a lone developer and after that what I have built will need to be put through it's paces by the community to eventually get to the point where my software is considered stable, tested and production ready. There's a lot of different configurations possible and so the more it is used the more sure that all configurations are fully resilient. I have valiantly put everything through as much testing as I could muster, but, it's orders of magnitude easier when the community puts it through its paces also; you could say, 'stronger together than individual'. 
+At the time of writing (April 2025) I am just about to go through final testing to make things as resilent as I can as a lone developer and after that what I have built will need to be put through its paces by the community to eventually get to the point where my software is considered stable, tested and production ready. There's a lot of different configurations possible and so the more it is used the more sure that all configurations are fully resilient. I have valiantly put everything through as much testing as I could muster, but, it's orders of magnitude easier when the community puts it through its paces also; you could say, 'stronger together than individual'. 
 
 ---------------
 
