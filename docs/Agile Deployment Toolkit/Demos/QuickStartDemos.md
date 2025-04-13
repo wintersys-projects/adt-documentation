@@ -150,7 +150,7 @@ Once the build has completed you might have to give the Linode DNS system a few 
 
 **Note 5:** 
 
-If you are using the Linode DNS system which you are by default then you will might need to clear your broswer's DNS cache between deployments for the website to display. In Chrome you can do this by going to "**chrome://net-internals/#dns**"
+If you are using the Linode DNS system which you are by default then you might need to clear your broswer's DNS cache between deployments for the website to display. In Chrome you can do this by going to "**chrome://net-internals/#dns**"
 
 **Note 6:**
 
