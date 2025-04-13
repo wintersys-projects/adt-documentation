@@ -1,5 +1,7 @@
 # Welcome to the Agile Deployment Toolkit Documentation 
 
+**INTRODUCTION**  
+
 The Agile Deployment Toolkit is a power tool for CMS deployments on VPS machines. In the hands of a skilled person there are advantages to this approach. In summary:
 
 **Is shared hosting not the ideal solution for your web hosting?**
@@ -18,6 +20,20 @@ Then you might be interested in the Agile Deployment Toolkit which currently sup
 
 ------------
 
+**OBJECTIVE**
+
+The intended objective for developing this toolkit is to be able to deploy large scale social systems consistently, repeatedly and resiliently. These will likely be systems with dynamic data and generally not just static blogs for which other solutions might suit better. For systems with dynamic user interation, the extra horsepower of multiple webserver machines can be useful at scale. 
+
+-------------
+
+**STATUS**
+
+At the time of writing (April 2025) I am just about to go through final testing to make things as resilent as I can as a lone developer and after that what I have built will need to be put through it's paces by the community to eventually get to the point where my software is considered stable, tested and production ready. There's a lot of different configurations possible and so the more it is used the more sure that the configurations all configurations are fully resilent. I have valiantly put everything through as much testing as I could muster, but, it's orders of magnitude easier when the community puts it through its paces also. 
+
+---------------
+
+**SOURCECODE REPOSITORIES**
+
 There are four repositories associated with this toolkit: 
 
 **[Agile Infrastructure Build Machine Scripts](https://github.com/wintersys-projects/adt-build-machine-scripts)**   
@@ -26,6 +42,10 @@ There are four repositories associated with this toolkit:
 **[Agile Infrastructure Database Scripts](https://github.com/wintersys-projects/adt-database-scripts)**  
 
 NOTE: The scripts in these repositories will control the build process for the three different classes of server machines (autoscaler/webserver/database server). You could potentially run the build process on a dedicated linux (Ubuntu/Debian) laptop that you boot off a portable linux flash drive (with persistent storage enabled). I generally describe how to use this toolkit from a VPS linux machine and you SHOULD NOT use your day to day linux laptop as your build machine because the build process will install software that you might not want on your daily laptop and will also make some configuration changes to your system.
+
+----------------------
+
+**ESSENTIAL DOCUMENTATION**
 
 The Quick start demos below are specifically designed to give you a taste for this with the least effort possible and if you like what you see, you can do a deeper dive into what I have built here. 
 
@@ -36,7 +56,7 @@ The Quick start demos below are specifically designed to give you a taste for th
 
 ----------------------------------
 
-**What is a DMS (Deployment Management System)**
+**WHAT IS A DMS(Deployment Management System)**
 
 This is a DMS system, so, what is a DMS system? A DMS is for helping with deploying servers using well tested and secured processes. Its power is that it can be extended easily and is very similar in design character to a CMS system but for deployment rather than content. The ultimate objective is to make it possible to have your own bespoke application libraries. For example, in Joomla, something like a JAD (Joomla Applications Directory), in Wordpress something like a WAD (Wordpress Applications Directory) and in Drupal something like a DAD (Drupal Applications Directory).
 
@@ -44,7 +64,7 @@ You can learn more about application directories **[here](<Development/Applicati
  
 ------------------------
 
-**The Core**
+**THE CORE**
 
 With the core of the Agile Deployment Toolkit, it will make use of a set of services and providers. I elected to use Digital Ocean, Exoscale, Linode and Vultr to deploy on, or, as deployment options, but, the toolkit is designed to be forked and extended to support other providers maybe AWS, Rackspace, Google Cloud and so on. You should work from your own forks of the repositories because you will likely want to change the configurations of APACHE, NGINX, or LIGHTTPD or other products with configuration profiles within the sourcefiles of your forked repository and you can't do that if you deploy off the this main core set "wintersys" provided repositories. 
 
@@ -59,12 +79,12 @@ The full set of services that are supported by the core of the toolkit and which
 
 --------------------------------
 
-**Build Methods Overview**
+**BUILD METHODS OVERVIEW**
 
 There are two types of build method you can employ to get a functioning application. There is the hardcore build (only use once you are more experienced with this tool), and the expedited build method. 
 
 -------------------------------
 
-**The Conclusion**
+**THE CONCLUSION**
 
 A DMS system such as this one can certainly speed your server deployments. It does require skill, and therefore learning to use but once you get a taste for it the result can be sweet.  
