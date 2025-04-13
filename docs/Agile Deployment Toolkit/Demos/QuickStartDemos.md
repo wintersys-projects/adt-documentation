@@ -157,7 +157,7 @@ If you are using the Linode DNS system which you are by default then you will mi
 In all these examples don't forget to attach the build machine you are provisioning to the adt-vpc that you created above remembering to "**Assign a public IPv4 address for this Linode**". 
 
 --------------------------
-<span style="color:red">After you have performed all the pre-requisite steps above, you can choose which demo you want to follow from those listed below</span>
+<span style="color:red">**After you have performed all the pre-requisite steps above, you can choose which demo you want to follow from those listed below**</span>
 
 --------------------------
 
