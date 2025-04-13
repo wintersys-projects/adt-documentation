@@ -163,12 +163,12 @@ So, two example configurations might be:
   cluster-name = TestDatabase  
   vpc-id = 2fb13fd1-3145-3127-7132-13f28f1912c1
 
-  db-type can be "MySQL" or "Postgres"   
+  db-type can be "**MySQL**" or "**Postgres**"   
   
-  db-engine = mysql db-engine-version=8  or db-engine=pg db-engine-version=11 or 12 or 13 or 14 or 15    
+  db-engine = **mysql** db-engine-version=**8**  or db-engine=**pg** db-engine-version=**11 or 12 or 13 or 14 or 15**   
  
-  region = ams atl blr bom cdg del dfw ewr fra hnl icn itm jnb lax lhr mad mel mex mia nrt ord sao scl sea sgp sjc sto syd waw yto    
+  region = **ams atl blr bom cdg del dfw ewr fra hnl icn itm jnb lax lhr mad mel mex mia nrt ord sao scl sea sgp sjc sto syd waw yto**   
  
-  machine-size =  vultr-dbaas-hobbyist-cc-1-25-1 vultr-dbaas-startup-cc-1-55-2 vultr-dbaas-business-cc-1-55-2 vultr-dbaas-premium-cc-1-55-2 vultr-dbaas-startup-cc-2-80-4 vultr-dbaas-business-cc-2-80-4 vultr-dbaas-premium-cc-2-80-4 vultr-dbaas-startup-cc-4-160-8 vultr-dbaas-business-cc-4-160-8 vultr-dbaas-premium-cc-4-160-8 
+  machine-size =  **vultr-dbaas-hobbyist-cc-1-25-1 vultr-dbaas-startup-cc-1-55-2 vultr-dbaas-business-cc-1-55-2 vultr-dbaas-premium-cc-1-55-2 vultr-dbaas-startup-cc-2-80-4 vultr-dbaas-business-cc-2-80-4 vultr-dbaas-premium-cc-2-80-4 vultr-dbaas-startup-cc-4-160-8 vultr-dbaas-business-cc-4-160-8 vultr-dbaas-premium-cc-4-160-8** 
   
-  Once the managed database is provisioned set its "trusted sources" addresses to "192.168.0.0/16" through the GUI system so that it can only be connected to through private ip addresses. 
+  Once the managed database is provisioned set its "trusted sources" addresses to "**192.168.0.0/16**" through the GUI system so that it can only be connected to through private ip addresses. 
