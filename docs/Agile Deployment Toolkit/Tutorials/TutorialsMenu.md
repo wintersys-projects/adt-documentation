@@ -1,6 +1,6 @@
 Click the link of the VPS provider you are using to gain access to the tutorials for that provider.
 
-**Note: All websites deployed in these tutorials should be accessed through an incognito tab**
+**Note: All websites deployed in these tutorials should be accessed through an incognito browser tab**
 
 [Digital Ocean](<./digitalocean/FOLLOW ME.md>)  
 
