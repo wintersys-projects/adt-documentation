@@ -342,20 +342,20 @@ If I want to deploy wordpress or drupal or moodle instead of joomla I must chang
 #### For Wordpress:
 
 >     export APPLICATION="wordpress"
->     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="WORDPRESS" #MANDATORY 
+>     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="WORDPRESS" 
 >     export APPLICATION_IDENTIFIER="2"
 
 #### For Drupal:
 
 >     export APPLICATION="drupal"
 >     export DRUPAL_VERSION="9.2.6" 
->     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:9.2.6" #MANDATORY 
+>     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:9.2.6" 
 >     export APPLICATION_IDENTIFIER="3"
 
 #### For Moodle:
 
 >     export APPLICATION="moodle"
->     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="MOODLE" #MANDATORY 
+>     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="MOODLE"
 >     export APPLICATION_IDENTIFIER="4"
 
 So, you have a template now that you can use over and over again for deploying different installations of these CMS systems. You can study the spec and learn how to modify the template in order to change machine sizes, regions, PHP settings and so on. 
