@@ -141,11 +141,12 @@ Graphically you can see what I have described in these 9 steps here:
 8) Once the machine has built you can access it as follows:
 	
 	
->     Discover what the machine's IP address is by looking at the Linode GUI system for the IP address of the build machine - In this case: 185.19.29.134
+>     Discover what the machine's IP address is by looking at the Linode GUI system for the IP address of the build machine - In this case: 172.236.22.45
 	
 Now on your laptop issue the command:
 
->     ssh -i /root/.ssh/id_rsa -p ${BUILDCLIENT_SSH_PORT} $BUILDCLIENT_USER@<buildmachineip>
+>     ssh -i /root/.ssh/id_rsa -p ${BUILDCLIENT_SSH_PORT} ${BUILDCLIENT_USER}@<buildmachineip>
+>     for example: ssh -i /root/.ssh/id_rsa -p 1035 wintersys-projects@172.236.22.45
 	
 or yours might be:
 	
