@@ -64,6 +64,10 @@ You then need the url that you want to use for your website. If you don't have a
 
 >     linode_dns_name="www.testdeploy.com"
 
+You will need to add your domain name to linode DNS which will look similar to the following if your domain name were to be vernation.uk
+
+![](images/hardcore/lin9.png "Linode Tutorial Image 9")
+
 -------------------------------
 
 You then need the username and owner of you git provider application repositories.  
