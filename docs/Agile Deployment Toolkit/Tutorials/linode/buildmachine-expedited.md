@@ -87,7 +87,7 @@ The top part of the copy that you made in 2 will now look like this:
 
 -----------------
 
-4) Take a copy of this entire updated script and keep it safe because you will likely want to use this script multiple times in future deployments remember that anyone who has a copy of this script you have made has enough information to access the build machine you are going to deploy in a minute. 
+4) Take a copy of this entire updated script and keep it safe because you will likely want to use this script multiple times in future deployments remember that anyone who has a copy of this script may find it easier to access the build machine you are going to deploy in a minute. 
 
 ---------------
 	
