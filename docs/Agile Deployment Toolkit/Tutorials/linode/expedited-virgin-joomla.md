@@ -12,9 +12,9 @@ If you don't already have a build machine running in the Linode cloud, follow th
 
 This will deploy the latest version of Joomla using template 1 which you can read about here: [template 1](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templates/linode/linode1.description) and the expedited method.
 
-If you have followed these steps your build machine is online and secured and you have an SSH session open to it from your laptop through which to initiate your build processes.
+If you have followed steps 1 and 2 above, your build machine is online and secured and you have an SSH session open to it from your laptop through which to initiate your build processes.
 
-We need several pieces of information from our cloud host and 3rd party services for a successful build to be possible:
+We need several pieces of information from our service providers and 3rd party services for a successful build to be possible:
 
 I am going to use the example of joomla to build from and so this example will build a virgin installation of the latest version of joomla
 
@@ -32,23 +32,23 @@ You can of course use a legacy version of joomla also by choosing a different ve
 
 -------------------------------------
 
-I then need a set of compute access keys so, I go to the IAM option on my linode dashboard and generate an Peronal Access token with all access granted. In my separate text file, I record:
+I then need a set of compute access keys so, I go to the API TOKENS option on my linode dashboard (top right currently) and generate an Peronal Access token with all access granted. In my separate text file, I record:
 
 >     linode_token"XXXXX"  where XXXXX is the PAT
 
-I then need a set of Object Storage (S3) access keys so, I go to the IAM option on my linode dashboard and generate an access keys with S3 Object Storage access. In my separate text file, I record:
+I then need a set of Object Storage (S3) access keys so, I go to the left of the page and click ObjectStorage->Access Keys option on my linode dashboard and generate an access keys with Linode Object Storage access. In my separate text file, I record:
 
 >     linode_access_key_s3="AAAAA"  where AAAAA and BBBBB are the actual values generated when I click "Add Key"
 >     linode_secret_key_s3="BBBBB"
 
 
-I then need a set of DNS access keys so, I go to the IAM option on my linode dashboard and generate an Personal Access token with DNS access. In my separate text file, I record:
+I then need a set of DNS access keys so, I go to the API TOKENS option on my linode dashboard and generate an Personal Access token with just DNS access. In my separate text file, I record:
 
 >     linode_token_dns="CCCCC"  where CCCCC is the actual values generated when I click "Add Key"
 
 -----------------------------------
 
-You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to linode as described [here](../../Deployment/Nameservers.md)
+You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to linode with your registrar as described [here](../../Deployment/Nameservers.md)
 
 >     linode_dns_name="www.testdeploy.com"
 
@@ -330,11 +330,14 @@ So, editing /home/wintersys-projects/adt-build-machine-scripts/templatedconfigur
 >     export INPARALLEL="0"
 
 
-If all the dashes I have added are removed, then this file (with live values and not symbolic ones) would be ready for deployment.
+If all the dashes I have added are removed, then this file (with live values and not symbolic ones) would be ready for deployment. So I run the script ExpeditedAgileDeploymentToolkit.sh as follows (and it must be done this way)
 
->     ${BUILD_HOME}/ExpeditedAgileDeploymentTookkit.sh
+>     cd ${BUILD_HOME}
+>     ./ExpeditedAgileDeploymentTookkit.sh
 
 ------------------
+
+If I want to deploy wordpress or drupal or moodle instead of joomla I must change the following values in my template
 
 #### For Wordpress:
 
