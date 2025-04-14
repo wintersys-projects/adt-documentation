@@ -125,7 +125,7 @@ So you will need to add 2 rules
 >     4. Set a root password
 >     5. Ignore SSH KEY
 >     6. Attach the build machine to your VPC
->     7. Assing the Linode to the firewall you created
+>     7. Attach the Linode to the "adt-build-machine" firewall you created
 >     8. Paste the "UserData" script that you created above into the "User Data" area
 >     9. Click Create and wait for your machine to build
 
