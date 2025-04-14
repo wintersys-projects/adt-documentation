@@ -16,7 +16,7 @@ The Agile Deployment Toolkit is a power tool for CMS deployments on VPS machines
 
 **Would you like a low barrier to entry solution using nothing but basic scripting techniques?**
 
-Then you might be interested in the Agile Deployment Toolkit which currently supports Joomla, Wordpress, Moodle and Drupal CMS applications.
+Then you might be interested in the Agile Deployment Toolkit which currently supports Joomla, Wordpress, Drupal and Moodle CMS applications.
 
 ------------
 
