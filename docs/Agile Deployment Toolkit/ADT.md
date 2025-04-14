@@ -4,7 +4,7 @@
 
 The Agile Deployment Toolkit is a power tool for CMS deployments on VPS machines. In the hands of a skilled person there are advantages to this approach. In summary:
 
-**Is shared hosting not the ideal solution for your web hosting?**
+**Is c-panel hosting not the ideal solution for your web hosting?**
 
 **Do you want to have your own set of configured VPS servers but do not want to spend the time configuring and deploying software on them?**
 
