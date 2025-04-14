@@ -81,7 +81,7 @@ The full set of services that are supported by the core of the toolkit and which
 
 **BUILD METHODS OVERVIEW**
 
-There are two types of build method you can employ to get a functioning application. There is the hardcore build (only use once you are more experienced with this tool), and the expedited build method. 
+There are two types of build method you can employ to get a functioning application. There is the **hardcore** build (only use once you are more experienced with this tool), and the **expedited** build method. 
 
 -------------------------------
 
