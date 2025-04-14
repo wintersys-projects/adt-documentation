@@ -54,7 +54,7 @@ You then need the url that you want to use for your website. If you don't have a
 
 You will need to add your domain name to linode DNS which will look similar to the following if your domain name were to be vernation.uk
 
-
+![](images/expedited/lin1.png "Linode Tutorial Image 1")
 
 -------------------------------
 
