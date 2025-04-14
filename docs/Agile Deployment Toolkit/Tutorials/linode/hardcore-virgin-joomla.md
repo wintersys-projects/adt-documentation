@@ -60,7 +60,7 @@ You now need to make a note of the email address that you have registered with y
 
 -----------------------------------
 
-You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to linode as described in ./adt-build-machine-scripts/blob/master/doco/AgileToolkitDeployment/Nameservers.md
+You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to linode as described [here](../../Deployment/Nameservers.md)
 
 >     linode_dns_name="www.testdeploy.com"
 
