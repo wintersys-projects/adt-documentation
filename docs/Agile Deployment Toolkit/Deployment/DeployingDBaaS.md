@@ -108,7 +108,7 @@ So,
   
   cluster-size, as far as I know, can be **1** or **3**  
   
->     2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:postgresql/14.4:nl-ams:g6-nanode-1:1:test-cluster:testdb1"
+>     2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:postgresql/14.4:gb-lon:g6-nanode-1:1:test-cluster:testdb1"
   
   db-type="Postgres"
   db-engine="postgresql/16"
