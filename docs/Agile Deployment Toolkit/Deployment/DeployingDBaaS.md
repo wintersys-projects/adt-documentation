@@ -90,11 +90,11 @@ So,
 
   So two example configurations might be:
   
-    1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:nl-ams:g6-nanode-1:1:test-cluster:testdb1"  
+    1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb1"  
   
   db-type="MySQL"
   db-engine="mysql/8"
-  region="nl-ams"
+  region="gb-lon"
   machine-size="g6-nanode-1"
   cluster-size="1"
   
@@ -112,7 +112,7 @@ So,
   
   db-type="Postgres"
   db-engine="postgresql/16"
-  region="nl-ams"
+  region="gb-lon"
   machine-size="g6-nanode-1"
   cluster-size="1"
   
