@@ -1,5 +1,5 @@
 # Wintersys Projects
 --------------
 
-1. [Agile Deployment Toolkit](<Agile Deployment Toolkit/ADT.md>)
+1. The first project is the [Agile Deployment Toolkit](<Agile Deployment Toolkit/ADT.md>).
 
