@@ -1,6 +1,4 @@
-There are two basic build method types (expedited and hardcore)
-
-**Expedited Build Type:**
+**EXPEDITED BUILD TYPE:**
 
 An expedited build type will involve the following steps to give you a high level overview  
 
@@ -34,7 +32,9 @@ The script will run and there will be some questions to answer. If you are an ex
 
 >     CLOUDHOST, BUILDOS=, SELECTED_TEMPLATE, BUILD_IDENTIFIER
 
-**Hardcore Build Type:**
+**HARDCORE BUILD TYPE**
+
+The hardcore build type is some extra fuss to begin with but if you are an expert then once you have a "user data" script generated you could simply keep a copy of it on your laptop and "tweak" it per deployment using the specification for guidance and a deployment would be no more effort than taking a copy of your script and pasting it into the userdata area of a new build machine and that would be it. It can be faster but its not faster if you make configuration mistakes that the expedited build process will hopefully warn you about before the build starts in ernest. If you have a "well worn (deployed multiple times)" hardcore user data script then you should be relatively confident that you have sane parameter values set in it. What I am saying, basically I am just saying that using the hardcore build type could be quicker and easier for you if you are an expert in the ADT. Below, then, are the steps that you need to generate a user data script for a hardcore build. 
 
 During a **hardcore build**, you need to
 
