@@ -112,7 +112,7 @@ You can then see your new security Group "adt-build-machine" listed
 	
 So you will need to add 2 rules  
 	
-1) Ping  
+1) Ping (ICMP)
 2) A rule to allow acccess to your build machines defined SSH_PORT from your laptop.  
    If you SSH_PORT is 1035 and your laptop IP is 111.111.111.111 then you will need a TCP rule with "CIDR 111.111.111.111/32 1035"
 
