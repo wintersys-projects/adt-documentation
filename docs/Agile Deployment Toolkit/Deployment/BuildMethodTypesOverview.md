@@ -4,13 +4,13 @@ This article just contains a workflow overview of the two different build types 
 
 An expedited build type will involve the following steps to give you a high level overview  
 
-[digitalocean](../Tutorials/digitalocean/buildmachine-expedited.md)
-
-1. You will start up a build machine for your chosen VPS provider using the following script [Build Machine](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh) as the **userdata** or **cloud-init** script for your build machine. The way you do that is you take a local copy of the script from the git repository and populate the following variables in it (which are at the top of the script). You can find out how to configure a build machine by looking at the [tutorials](../Tutorials/TutorialsMenu.md) for your current provider.
-
->     BUILDMACHINE_USER,BUILDMACHINE_PASSWORD,BUILDMACHINE_SSH_PORT,LAPTOP_IP,SSH
-
-Once these variables are suitably configured, you can copy the whole script to the cloud-init area of the machine you are provisioning as your build-machine.  
+1. Configure a build machine according to your cloudhost provider type:
+   
+  [digitalocean](../Tutorials/digitalocean/buildmachine-expedited.md)
+  [exoscale](../Tutorials/exoscale/buildmachine-expedited.md)
+  [linode](../Tutorials/linode/buildmachine-expedited.md)
+  [vultr](../Tutorials/vultr/buildmachine-expedited.md)
+ 
 
 2. Once the build machine is provisioned you can SSH onto it at the SSH port that you set above. If you want to you can add your build machine to your cloudhosts firewalling system allowing only the SSH port through from your laptop IP address.
 
@@ -25,7 +25,7 @@ and enter the password "BUILDMACHINE_PASSWORD" that you configured in the user d
 
 >     ${BUILD_HOME}/templatedconfigurations/templates/${CLOUDHOST}
 
-You can choose template 1, 2 or 3 depending on whether you are deploying a virgin, baseline or temporal type of build. There's more information about how to configure your template in the tutorials section of this website and you should also refer to the specification.  
+You can choose template 1, 2 or 3 depending on whether you are deploying a virgin, baseline or temporal type of build. You will then need to configure your chosen template according to your deployment needs and in accodance with the specification 
 
 6. Once your template is configured you can run the script "ExpeditedAgileDeploymentToolkit.sh" by issuing the commands
 
