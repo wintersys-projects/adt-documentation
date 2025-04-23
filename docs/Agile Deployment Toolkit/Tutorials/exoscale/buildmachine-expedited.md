@@ -102,7 +102,7 @@ You will need to create a security group for your build machine. You can do this
 Click on the security groups option of your exoscale GUI
 ![](images/expedited/exo1.png "Exoscale Tutorial Image 1")
 
-Click "Add Security Group" and call it **PRECISELY** "adt-build-machine" and click "Create Group"
+Click "Add Security Group" and call it "adt-build-machine" and click "Create Group"
 
 ![](images/expedited/exo2.png "Exoscale Tutorial Image 2") 
 
