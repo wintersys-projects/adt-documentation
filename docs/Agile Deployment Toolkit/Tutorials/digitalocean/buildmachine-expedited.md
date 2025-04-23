@@ -1,77 +1,88 @@
-### PRE BUILD PREPARATIONS FOR EXPEDITED BUILDS:
+**PRE BUILD PREPARATIONS FOR EXPEDITED BUILDS:**
 
 Before performing an expedited or full build, you need to set up a build machine. The way you do this for Digital Ocean is as follows:
 
 ----------------
 
-1) If you don't have an SSH key pair or if you want a specific SSH key pair for your builds, issue the following command:
+1) If you don't have an SSH key pair issue the following command:
  
->     /usr/bin/ssh-keygen -t rsa 
+>     /usr/bin/ssh-keygen -t rsa -b 4096 
 
 Your key will be saved to the indicated file, for example, **/root/.ssh/id_rsa** your path might be different such as **/home/bob/.ssh/id_rsa**
-         
+	 
 Issue the command (for example)
-  
+	 
 >     /bin/cat /root/.ssh/id_rsa.pub - this will be your <ssh-public-key-substance>
-   
-This will give you your **public** key which you need later so, take a copy of the output that is printed to the screen.
+ 	 
+This will give you your **public** key which we will refer to again, later on.
 
 --------------------
-
-2) Take a copy of the script: [Initial Script](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh)
+	
+2) Paste a copy of the script: [Initial Script](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh) into an open text file on your laptop. 
 
 ------------------
-
+	
 3) If you look into the script that you made a copy of in 2, you need to populate the following variables in your copy:
-
+	
 >     export BUILDMACHINE_USER=""
 >     export BUILDMACHINE_PASSWORD="" 
 >     export BUILDMACHINE_SSH_PORT=""
 >     export LAPTOP_IP=""
-
+	
 >     export SSH=\"\" 
-
+	 	
 Now you need to decide on a username for your build machine, a password for your build machine, a port for your build machine's ssh system and the IP address of your desktop or laptop.
+	
+If I decide on a username of "wintersys-projects" then in the copy that I made in 2, I need to change it as follows:  
 
-If I decide on a username of "wintersys-projects" then in the copy that I made in 2, I need to change it as follows:   
-
+	
 >     export BUILDMACHINE_USER="wintersys-projects"
-
+	
 If I decide on a password of "QQQPPPZZZMMM123098" then in the copy that I made in 2, I need to change it as follows:
-
+	
 >     export BUILDMACHINE_PASSWORD="QQQPPPZZZMMM123098"
-
+	
 If you decide on an SSH_PORT of "1035" then in the copy that I made in 2, I need to change it as follows:
-
->     export BUILDMACHINE_SSH_PORT="1035" 
+	
+>     export BUILDMACHINE_SSH_PORT="1035"
 
 You need to give the script your laptop IP address. You can do this by going to https://www.whatsmyip.com and so, if your ip address is: "111.111.111.111" and pasting your ip address into your copy as follows:
-
+	
 >     export LAPTOP_IP="111.111.111.111"
 
-The **public** ssh key that you took a copy of in 1 needs to be pasted as follows and also added using the ssh key GUI system:
+Obtain the substance of your ssh public key like you did in 1.
 
->     export SSH=\"<ssh-public-key-substance>\" 
+>     /bin/cat /root/.ssh/id_rsa.pub - this will be your <ssh-public-key-substance>
+
+The **public** ssh key that you took a copy of in 1 needs to be pasted as follows and also added using the ssh key GUI system:
+	
+>     export SSH=\"<ssh-public-key-substance>\"
 
 The top part of the copy that you made in 2 will now look like this:
 
->     #!/bin/bash
->    
->     /bin/mkdir /root/logs
->    
->     OUT_FILE="webserver-build-out-`/bin/date | /bin/sed 's/ //g'`"
->     exec 1>>/root/logs/${OUT_FILE}
->     ERR_FILE="webserver-build-err-`/bin/date | /bin/sed 's/ //g'`"
->     exec 2>>/root/logs/${ERR_FILE}
+>     #!/bin/sh
 >     
->     ###############################################################################################
->     # SET THESE FOR YOUR BUILD CLIENT MACHINE
->     # THIS WILL NOT START A BUILD IT WILL JUST SETUP THE TOOLKIT
->     # USE THIS IF YOU WANT TO PERFORM AN EXPEDITED OR A FULL BUILD FROM THE COMMAND LINE
->     # ssh -i <ssh-private-key> -p ${BUILDCLIENT_SSH_PORT} $BUILDCLIENT_USER@<buildclientip>
->     # $BUILDCLIENT_USER>sudo su
->     # password:${BUILDCLIENT_PASSWORD}
->     # cd adt-build-machine-scripts/logs
+>     ################################################################################################
+>     # This script is a preparatory script for your build machine. Your build machine is the machine
+>     # that is responsible for initiating the build process of your server fleet. 
+>     # As a minimum you will need a copy of this script with the following dynamic or changeable values 
+>     # set:
+>     #
+>     #   BUILDMACHINE_USER
+>     #   BUILDMACHINE_PASSWORD
+>     #   BUILDMACHINE_SSH_PORT
+>     #   LAPTOP_IP
+>     #   SSH
+>     #
+>     # You will then need to pass a copy of the entire script with these values set to the "user data"
+>     # area of the build machine you are provisioning. How to do this will vary by provider.
+>     # Once your build machine is provisioned you can SSH onto it in a way similar to this:
+>     #
+>     #     > ssh -i <ssh-private-key> -p ${BUILDMACHINE_SSH_PORT} ${BUILDMACHINE_USER}@<buildmachineip>
+>     #     > sudo su
+>     #     > password:${BUILDMACHINE_PASSWORD}
+>     #     > cd adt-build-machine-scripts
+>     #
 >     #################################################################################################
 >     export BUILDMACHINE_USER="wintersys-projects"
 >     export BUILDMACHINE_PASSWORD="QQQPPPZZZMMM123098" #Make sure any password you choose is strong enough to pass any strength enforcement rules of your OS
@@ -86,8 +97,7 @@ The top part of the copy that you made in 2 will now look like this:
 
 -----------------
 
-4) Take a copy of this entire updated script and keep it safe because you will likely want to use this script multiple times in future deployments remember that anyone who has a copy of this script you have made has enough information to access the build machine you are going to deploy in a minute. 
-
+4) Take a copy of this entire updated script and keep it safe because you will likely want to use this script multiple times in future deployments remember that anyone who has a copy of this script has some sensitive information about your build machine 
 ---------------
 
 5) What you need to do now is to use this script to spin up your build machine and you will do this by pasting it into the user data area of your build machine.
