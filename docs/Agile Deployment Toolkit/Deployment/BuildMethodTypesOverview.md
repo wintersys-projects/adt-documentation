@@ -6,10 +6,13 @@ An expedited build type will involve the following steps to give you a high leve
 
 1. Configure a build machine according to your cloudhost provider type:
    
-  [digitalocean](../Tutorials/digitalocean/buildmachine-expedited.md)
-  [exoscale](../Tutorials/exoscale/buildmachine-expedited.md)
-  [linode](../Tutorials/linode/buildmachine-expedited.md)
-  [vultr](../Tutorials/vultr/buildmachine-expedited.md)
+  [digitalocean](../Tutorials/digitalocean/buildmachine-expedited.md)  
+  
+  [exoscale](../Tutorials/exoscale/buildmachine-expedited.md)  
+  
+  [linode](../Tutorials/linode/buildmachine-expedited.md)  
+  
+  [vultr](../Tutorials/vultr/buildmachine-expedited.md)  
  
 
 2. Once the build machine is provisioned you can SSH onto it at the SSH port that you set above. If you want to you can add your build machine to your cloudhosts firewalling system allowing only the SSH port through from your laptop IP address.
@@ -25,7 +28,7 @@ and enter the password "BUILDMACHINE_PASSWORD" that you configured in the user d
 
 >     ${BUILD_HOME}/templatedconfigurations/templates/${CLOUDHOST}
 
-You can choose template 1, 2 or 3 depending on whether you are deploying a virgin, baseline or temporal type of build. You will then need to configure your chosen template according to your deployment needs and in accodance with the specification 
+You can choose template 1, 2 or 3 depending on whether you are deploying a virgin, baseline or temporal type of build. You will then need to configure your chosen template according to your deployment needs and in accodance with **[The Specification](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md)**  
 
 6. Once your template is configured you can run the script "ExpeditedAgileDeploymentToolkit.sh" by issuing the commands
 
