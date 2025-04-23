@@ -60,23 +60,29 @@ The **public** ssh key that you took a copy of in 1 needs to be pasted as follow
 
 The top part of the copy that you made in 2 will now look like this:
 
->     #!/bin/bash
->    
->     /bin/mkdir /root/logs
->    
->     OUT_FILE="webserver-build-out-`/bin/date | /bin/sed 's/ //g'`"
->     exec 1>>/root/logs/${OUT_FILE}
->     ERR_FILE="webserver-build-err-`/bin/date | /bin/sed 's/ //g'`"
->     exec 2>>/root/logs/${ERR_FILE}
+>     #!/bin/sh
 >     
->     ###############################################################################################
->     # SET THESE FOR YOUR BUILD CLIENT MACHINE
->     # THIS WILL NOT START A BUILD IT WILL JUST SETUP THE TOOLKIT
->     # USE THIS IF YOU WANT TO PERFORM AN EXPEDITED OR A FULL BUILD FROM THE COMMAND LINE
->     # ssh -i <ssh-private-key> -p ${BUILDCLIENT_SSH_PORT} $BUILDCLIENT_USER@<buildclientip>
->     # $BUILDCLIENT_USER>sudo su
->     # password:${BUILDCLIENT_PASSWORD}
->     # cd adt-build-machine-scripts/logs
+>     ################################################################################################
+>     # This script is a preparatory script for your build machine. Your build machine is the machine
+>     # that is responsible for initiating the build process of your server fleet. 
+>     # As a minimum you will need a copy of this script with the following dynamic or changeable values 
+>     # set:
+>     #
+>     #   BUILDMACHINE_USER
+>     #   BUILDMACHINE_PASSWORD
+>     #   BUILDMACHINE_SSH_PORT
+>     #   LAPTOP_IP
+>     #   SSH
+>     #
+>     # You will then need to pass a copy of the entire script with these values set to the "user data"
+>     # area of the build machine you are provisioning. How to do this will vary by provider.
+>     # Once your build machine is provisioned you can SSH onto it in a way similar to this:
+>     #
+>     #     > ssh -i <ssh-private-key> -p ${BUILDMACHINE_SSH_PORT} ${BUILDMACHINE_USER}@<buildmachineip>
+>     #     > sudo su
+>     #     > password:${BUILDMACHINE_PASSWORD}
+>     #     > cd adt-build-machine-scripts
+>     #
 >     #################################################################################################
 >     export BUILDMACHINE_USER="wintersys-projects"
 >     export BUILDMACHINE_PASSWORD="QQQPPPZZZMMM123098" #Make sure any password you choose is strong enough to pass any strength enforcement rules of your OS
