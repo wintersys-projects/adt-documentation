@@ -15,20 +15,18 @@ An expedited build type will involve the following steps to give you a high leve
   [vultr](../Tutorials/vultr/buildmachine-expedited.md)  
  
 
-2. Once the build machine is provisioned you can SSH onto it at the SSH port that you set above. If you want to you can add your build machine to your cloudhosts firewalling system allowing only the SSH port through from your laptop IP address.
-
-4. You should then issue the following command
+2. Assuming that you have followed the correct set of instructions in 1. you should have ssh'd onto your build machine and you should then issue the following command
 
 >     sudo su
 
-and enter the password "BUILDMACHINE_PASSWORD" that you configured in the user data script that you configured above 
+and enter the password "BUILDMACHINE_PASSWORD" that you configured in the user data script that you configured during stage 1
 
 4. You can then change directory to the adt-build-machine-scripts home directory which should be able to see by issuing a "ls" comamnd.
 5. What you then need to do is go and configure your template. The template is located at
 
 >     ${BUILD_HOME}/templatedconfigurations/templates/${CLOUDHOST}
 
-You can choose template 1, 2 or 3 depending on whether you are deploying a virgin, baseline or temporal type of build. You will then need to configure your chosen template according to your deployment needs and in accodance with **[The Specification](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md)**  
+You can choose template 1, 2 or 3 depending on whether you are deploying a virgin, baseline or temporal type of build. You will then need to configure your chosen template according to your deployment needs and in accordance with **[The Specification](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md)**. If you look through the tutorials for your provider you can see more detail on how to configure your template (pay particular attention to any fields in the template maked MANDATORY because you must provide live values for those in all circumstances)
 
 6. Once your template is configured you can run the script "ExpeditedAgileDeploymentToolkit.sh" by issuing the commands
 
@@ -37,7 +35,8 @@ You can choose template 1, 2 or 3 depending on whether you are deploying a virgi
 
 The script will run and there will be some questions to answer. If you are an expert and you want to avoid answering questions you can use the parameters to the script to avoid the interaction:
 
->     CLOUDHOST, BUILDOS=, SELECTED_TEMPLATE, BUILD_IDENTIFIER
+>     CLOUDHOST, BUILDOS, SELECTED_TEMPLATE, BUILD_IDENTIFIER
+>     for example: /bin/sh ./ExpeditedAgileDeploymentToolkit.sh exoscale ubuntu 2 testbuild
 
 ----------------------------
 
