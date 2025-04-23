@@ -1,12 +1,12 @@
-### PRE BUILD PREPARATIONS FOR EXPEDITED BUILDS:
+**PRE BUILD PREPARATIONS FOR EXPEDITED BUILDS:**
 
 Before performing an expedited or full build, you need to set up a build machine. The way you do this for Exoscale is as follows:
 
 ----------------
 
-1) If you don't have an SSH key pair or if you want a specific SSH key pair for your builds, issue the following command:
+1) If you don't have an SSH key pair issue the following command:
  
->     /usr/bin/ssh-keygen -t rsa 
+>     /usr/bin/ssh-keygen -t rsa -b 4096 
 
 Your key will be saved to the indicated file, for example, **/root/.ssh/id_rsa** your path might be different such as **/home/bob/.ssh/id_rsa**
 	 
@@ -14,11 +14,11 @@ Issue the command (for example)
 	 
 >     /bin/cat /root/.ssh/id_rsa.pub - this will be your <ssh-public-key-substance>
  	 
-This will give you your **public** key which you need later so, take a copy of the output that is printed to the screen. 
+This will give you your **public** key which we will refer to again, later on.
 
 --------------------
 	
-2) Take a copy of the script: [Initial Script](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh)
+2) Paste a copy of the script: [Initial Script](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh) into an open text file on your laptop. 
 
 ------------------
 	
@@ -49,7 +49,11 @@ If you decide on an SSH_PORT of "1035" then in the copy that I made in 2, I need
 You need to give the script your laptop IP address. You can do this by going to https://www.whatsmyip.com and so, if your ip address is: "111.111.111.111" and pasting your ip address into your copy as follows:
 	
 >     export LAPTOP_IP="111.111.111.111"
-	
+
+Obtain the substance of your ssh public key like you did in 1.
+
+>     /bin/cat /root/.ssh/id_rsa.pub - this will be your <ssh-public-key-substance>
+
 The **public** ssh key that you took a copy of in 1 needs to be pasted as follows and also added using the ssh key GUI system:
 	
 >     export SSH=\"<ssh-public-key-substance>\"
@@ -87,11 +91,11 @@ The top part of the copy that you made in 2 will now look like this:
 
 -----------------
 
-4) Take a copy of this entire updated script and keep it safe because you will likely want to use this script multiple times in future deployments remember that anyone who has a copy of this script you have made has enough information to access the build machine you are going to deploy in a minute. 
+4) Take a copy of this entire updated script and keep it safe because you will likely want to use this script multiple times in future deployments remember that anyone who has a copy of this script has some sensitive information about your build machine 
 
 ---------------
 	
-5) What you need to do now is to use this script to spin up your build machine and you will do this by pasting it into the user data area of your build machine.
+5) What you need to do now is to use this script to spin up your build machine and you will do this by pasting it into the "user data" area of your build machine.
 
 You will need to create a security group for your build machine. You can do this as follows:
 	
@@ -120,12 +124,12 @@ You can see in this image that port 1035 is about to be opened up to the ip addr
 
 7) You need to spin up a small machine to be your build machine by clicking "Add" on the top right of the GUI. And then follow these steps:
 
->     1. Select which template you want debian 10 (or later) or ubuntu 20.04 (or later)
+>     1. Select which template you want debian 12 or ubuntu 24.04
 >     2. Select which zone you want to deploy to, for example, CH-GVA-2
 >     3. Select instance type "Tiny" for example
 >     4. Select disk size (50GB)
->     5. Ignore SSH KEY
->     6. Make sure your security group "adt-build-machine" is set for this machine and deselect the "default" security group if it is selected. 
+>     5. Ignore the SSH KEY in the GUI (the system will get this from the "SSH" value that you pasted into your user data script above)
+>     6. Make sure your build machine is added to the security group "adt-build-machine" and deselect the "default" security group if it is selected. 
 >     7. In the "User Data" area of your VPC machine, paste the entire script that you were left with from 4.
 >     8. Click Create and wait for your machine to build
 
@@ -147,7 +151,7 @@ Now on your laptop issue the command:
 	
 or yours might be:
 	
->     ssh -i /home/${username}/.ssh/id_rsa -p ${BUILDCLIENT_SSH_PORT} $BUILDCLIENT_USER@<buildmachineip>	
+>     ssh -i /home/${username}/.ssh/id_rsa -p ${BUILDCLIENT_SSH_PORT} ${BUILDCLIENT_USER}@<buildmachineip>	
 
 Once logged in to your build machine
 
