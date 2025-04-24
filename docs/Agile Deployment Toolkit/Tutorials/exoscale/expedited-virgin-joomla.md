@@ -60,7 +60,7 @@ Now record your access key and secret key in your separate text file on your lap
 
 -----------------------------------
 
-You now need to make a note of the email address that you have registered with your exoscale account:
+You now need to make a note of the email address that you login to your exoscale account with:
 
 >     exoscale_email="peterexoscale@yahoo.com"
 
