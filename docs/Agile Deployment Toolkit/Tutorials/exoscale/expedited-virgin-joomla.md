@@ -38,6 +38,8 @@ Create an "adt" security keys role which should look like:
 
 ![](images/expedited/exo-8.png "Exoscale Tutorial Image 8")
 
+You now need to allow access to all scopes which should look like the following two images
+
 ![](images/expedited/exo-9.png "Exoscale Tutorial Image 9")
 
 ![](images/expedited/exo-10.png "Exoscale Tutorial Image 10")
