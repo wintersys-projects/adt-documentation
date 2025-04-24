@@ -78,7 +78,13 @@ You then need to get an access key for your personal github account (you are adv
 
 [Setting up personal access tokens for github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)  
 
-(your personal access token must have enough privileges to create repositories)  
+(your personal access token must have enough privileges to create repositories) 
+
+![](images/expedited/exo-13.png "Exoscale Tutorial Image 13")
+![](images/expedited/exo-14.png "Exoscale Tutorial Image 14")
+![](images/expedited/exo-15.png "Exoscale Tutorial Image 15")
+![](images/expedited/exo-16.png "Exoscale Tutorial Image 16")
+
 
 >     exoscale_github_username="adt-apps" #MANDATORY
 >     exoscale_github_key="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k4" #MANDATORY
