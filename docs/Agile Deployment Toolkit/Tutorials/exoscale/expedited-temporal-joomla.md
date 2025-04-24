@@ -4,12 +4,15 @@ YOU MUST HAVE THE MACHINES STILL RUNNING FROM THE PREVIOUS [TUTORIAL](./expedite
 
 On your build machine, you need to now make hourly periodicity [temporal backups](../../Deployment/Backups.md) of your application sourcecode and your application database.
 
+To generate your temporal backups, you have to run two commands on your build machine. At the command prompt of your build machine cd into the **helperscripts** directory of your agile deployment toolkit installation. In my case it is like this:
+
+>     cd /home/wintersys-projects/adt-build-machine-scripts/helperscripts
 
 Then perform a temporal database backup
   
 >     /bin/sh PerformDatabaseBackup.sh
  
-Answering all of the questions and picking a periodicity, for example, HOURLY in your template
+Answering all of the questions and picking a periodicity, for example, HOURLY in your template. Check in your datastore for a database temporal backup which should look similar to this picture with an appropriate timestamp for you.
   
 Then perform a temporal website sourcecode backup
   
