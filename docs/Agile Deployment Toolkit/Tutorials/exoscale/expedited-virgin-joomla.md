@@ -86,7 +86,6 @@ You then need to get an access key for your personal github account (you are adv
 So, that should be all the core credentials that I need to make a deployment. I can save my text file now (and keep it secure) because I might want to use these credentials again for other deployments or redeployments.  
 
 --------------------------------------------
---------------------------------------------
 
 So, at the command line of my build machine that we spun up earlier:
 
@@ -226,6 +225,13 @@ export INPARALLEL="0"
 If your template looks similar to the one I have provided here with all the fields marked in red having your custom values then you should be ready for deployment
 
 >     ${BUILD_HOME}/ExpeditedAgileDeploymentToolkit.sh
+
+Note: because I haven't asked you to set up system emailing (to keep this tutorial as simple as possible) you will see these below messages during the deployment but you can safely ignore them it just means that there won't be any system emails sent for this deployment iteration.
+
+IGNORE THESE IF YOU SEE THEM
+>     Your value for the variable SYSTEM_EMAIL_PROVIDER () doesn't appear to be valid please review
+>     It looks to me like the email address for the variable SYSTEM_TOEMAIL_ADDRESS () doesn't appear to be valid please review
+>     It looks to me like the email address for the variable SYSTEM_FROMEMAIL_ADDRESS () doesn't appear to be valid please review
 
 You will then need to answer the questions that you are asked and in a few minutes you should be able to install joomla using the GUI system of your browser. Please note, the credentials,port,database IP that you need to enter into the joomla GUI will be shown at the end of the build process
 
