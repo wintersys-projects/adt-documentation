@@ -11,8 +11,5 @@ This tutorial set needs to be followed sequentially in numeric order.
 
 #### 2. Hardcore Build Method (expert)
 
-This tutorial set needs to be followed sequentially in numeric order.  
+>    [Hardcore Deployment Method]](./hardcore-deployment-method.md)   
 
->    [Tutorial Set 1 (Virgin CMS Installation)](./hardcore-virgin-joomla.md)   
->    [Tutorial Set 2 (Baseline CMS Installation)](./hardcore-baseline-joomla.md)  
->    [Tutorial Set 3 (Temporal CMS Installation)](./hardcore-temporal-joomla.md)
