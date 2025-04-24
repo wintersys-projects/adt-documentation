@@ -72,11 +72,16 @@ You then need the url that you want to use for your website. If you don't have a
 
 You then need to get an access key for your personal github account (you are advised to have a separate github account of your own for this toolkit)
 
-[Setting up a github account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
-[Setting up personal access tokens for github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
-(your personal access token must have enough privileges to create repositories)
+[Setting up a github account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)  
 
-So, that should be all the core credentials that I need to make a deployment. I can save my text file now (and keep it secure) because I might want to use these credentials again for other deployments or redeployments. 
+[Setting up personal access tokens for github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)  
+
+(your personal access token must have enough privileges to create repositories)  
+
+>     exoscale_github_username="adt-apps" #MANDATORY
+>     exoscale_github_key="ghp_d51wi3xkDez6Mi53hypNm" #MANDATORY
+
+So, that should be all the core credentials that I need to make a deployment. I can save my text file now (and keep it secure) because I might want to use these credentials again for other deployments or redeployments.  
 
 --------------------------------------------
 --------------------------------------------
@@ -93,7 +98,7 @@ Then we can open up the
 
 >     vi exoscale1.tmpl
 
-I then update all fields marked "MANDATORY" (shown in red) in my template and when I am finished it looks like:
+I then update all fields marked "MANDATORY" (shown in red) in your template and when I am finished it looks like:
 
 \###############################################################################################  
 \# Refer to: ${BUILD_HOME}/templatedconfigurations/specification.md  
