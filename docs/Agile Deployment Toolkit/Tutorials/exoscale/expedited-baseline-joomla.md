@@ -34,13 +34,17 @@ Once that starts running, you need to answer the questions you are prompted for 
 
 In a minute or two your website baseline will have been generated and you should check in its repository that sourceode has been generated to it. 
 
+![](images/expedited/exo28.png "Exoscale Tutorial Image 28")
+
 Now you need to generate a baseline of the database. To do that you need to issue the command:
 
 >     /bin/sh PerformDatabaseBaseline.sh
 
-If there is a prompt for an identifier, I enter "communitybuilder" and make very sure that the repository communitybuilder-db-baseline exists
+Once that starts running, you need to answer the questions you are prompted for entering, "communitybuilder" (which must match the repository names you set above) when you are prompted for an identifier. 
 
 In short order, my database is backed up to the Github repository and again, I should check that the repository I have chosen has been updated using the github console.
+
+![](images/expedited/exo29.png "Exoscale Tutorial Image 29")
 
 -----------------------------------------------
 
