@@ -43,7 +43,7 @@ In my separate text file, I record:
 
 I then need a set of Object Storage (S3) access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with S3 access.
 
-![](images/expedited/exo8.png "Exoscale Tutorial Image 8")
+![](images/expedited/exo9.png "Exoscale Tutorial Image 9")
 
 In my separate text file, I record:
 
