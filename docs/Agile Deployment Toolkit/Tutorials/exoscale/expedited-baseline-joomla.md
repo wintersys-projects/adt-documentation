@@ -32,7 +32,7 @@ Once you are in that directory, you need to issue the command:
 
 Once that starts running, you need to answer the questions you are prompted for entering, "communitybuilder" (which must match the repository names you set above) when you are prompted for an identifier. 
 
-In a minute or two your webiste baseline will have been generated and you should check in its repository that sourceode has been generated to it. 
+In a minute or two your website baseline will have been generated and you should check in its repository that sourceode has been generated to it. 
 
 Now you need to generate a baseline of the database. To do that you need to issue the command:
 
