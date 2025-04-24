@@ -90,15 +90,15 @@ Then we can open up the
 
 I then update all fields marked "MANDATORY" in my template and when I am finished it looks like:
 
-###############################################################################################
-# Refer to: ${BUILD_HOME}/templatedconfigurations/specification.md
-###############################################################################################
+ ###############################################################################################
+ # Refer to: ${BUILD_HOME}/templatedconfigurations/specification.md
+ ###############################################################################################
 #This template is configured for virgin style builds
   
-#####MANDATORY - Bare minimum set of values that you must provide for a build to have any chance of succeeding
-#####NOT REQUIRED - isn't used by the Exoscale
+ #####MANDATORY - Bare minimum set of values that you must provide for a build to have any chance of succeeding
+ #####NOT REQUIRED - isn't used by the Exoscale
  
-#####Application Settings#########
+ #####Application Settings#########
 <span style="color:red">export APPLICATION="joomla" #MANDATORY </span>
 <span style="color:red">export APPLICATION_IDENTIFIER="1" #MANDATORY </span>
 <span style="color:red">export JOOMLA_VERSION="5.3.0" #MANDATORY (depending on the above settings - a joomla deployment) </span>
