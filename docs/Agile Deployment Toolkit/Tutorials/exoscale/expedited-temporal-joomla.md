@@ -30,7 +30,7 @@ What we are then interested in is template 3 which is at:
   
 >     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale3.tmpl
   
-I can extract the values for the following variables from template 1 or template 2 which I used in the previous tutorial and set them in template 3, replace these with your own live values:
+I can extract the values for the following variables from template 1 or template 2 which I used in the previous tutorials in the series and set them in template 3, replace these with your own live values:
 
 >     export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
 >     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
@@ -71,29 +71,5 @@ If your template is configured correctly you can now run the build process selec
 
 and answer any questions and select template 3 and have a bit of patience whilst the build runs. 
   
-  ------------------------
-  **DEPLOYMENT USING MANAGED DATABASES**
-  
-  There's something else to be aware of, if you want to deploy a managed DBaaS system instead of just using the one that is built in to the build process you can do that as detailed in [this](../..//Deployment/DeployingDBaaS.md) document
-  
-  
-  ------------------------
-  **OTHER APPLICATION TYPES**
-  
-In order to do a temporaly build from backups you have made for a different application type (wordpress, drupal or moodle) you will need to alter the following variables in your template compared to what you have used above:
-  
-  For Wordpress:
-  
->     export APPLICATION="wordpress"
->     export DIRECTORIES_TO_MOUNT="wp-content.uploads"
-  
-  For Drupal:
-  
->     export APPLICATION="drupal"
->     export DIRECTORIES_TO_MOUNT="sites.default.files"
-  
-  For Moodle:
-  
->     export APPLICATION="moodle"
->     export DIRECTORIES_TO_MOUNT="moodledata.filedir"
+
   
