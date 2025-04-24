@@ -2,7 +2,7 @@
 
 If you don't already have a build machine running in the Exoscale cloud, follow these steps to get ready for the main build)
 
-1. Begin by following this: [Build Machine Setup](./buildmachine-expedited.md)
+1. Begin by following this: [Build Machine Setup](./buildmachine.md)
 
 Following the steps in 1. will give you a build machine with access through the firewall for one machine (the laptop IP address that you provided).
 
