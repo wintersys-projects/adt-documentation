@@ -109,7 +109,7 @@ If all has gone according to plan, you will have seen a full deployment of your 
 ------------------------
 **DEPLOYMENT USING MANAGED DATABASES**
   
-There's something else to be aware of, if you want to deploy a managed DBaaS system instead of just using the one that is built in to the build process you can do that as detailed in [this](../../../doco/AgileToolkitDeployment/DeployingDBaaS.md) document
+There's something else to be aware of, if you want to deploy a managed DBaaS system instead of just using the one that is built in to the build process you can do that as detailed in [this](../../Deployment/DeployingDBaaS.md) document
   
 ------------------------
 **OTHER APPLICATION TYPES**
