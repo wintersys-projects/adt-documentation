@@ -5,7 +5,7 @@ What you need to do now is to customise your version of (Joomla) so that it is a
 
 My suggestion is for you to test this sytem by installing Community Builder from Joomlapolis (you can customise it as little or as much as you want) into your new Joomla installation. "Community Builder" can be found here: [Community Builder](https://www.joomlapolis.com). 
 
-Take 5 minutes to install Community Builder onto your new Joomla application. Once you are happy with what you have built, you need to make a baseline of it. The baseline will be written the github account that your template is set to use, in my example, it is my "adt-apps" github account yours will be something different. 
+**Take 5 minutes to install Community Builder onto your new Joomla application. Once you are happy with what you have built, you need to make a baseline of it.** The baseline will be written the github account that your template is set to use, in my example, it is my "adt-apps" github account yours will be something different. 
 
 In order to create the baseline of my custom application, I need to do the following:
 
