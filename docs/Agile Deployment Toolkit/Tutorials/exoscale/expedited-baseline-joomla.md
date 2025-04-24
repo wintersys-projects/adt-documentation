@@ -72,7 +72,7 @@ I can extract the values for the following variables from exoscale1.tmpl on my b
 >     export SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
 >     export DNS_USERNAME="peterexoscale@yahoo.com"  #MANDATORY
 >     export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
->     export CLOUDHOST_EMAIL_ADDRESS="peterexoscale@yahoo.com" #MANDATORY
+>     export CLOUDHOST_ACCOUNT_ID="peterexoscale@yahoo.com" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
 >     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
 >     export WEBSITE_URL="social.drpatient.com"  #MANDATORY
