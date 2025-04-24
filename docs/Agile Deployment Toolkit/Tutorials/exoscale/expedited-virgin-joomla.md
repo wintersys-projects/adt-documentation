@@ -80,10 +80,10 @@ You then need to get an access key for your personal github account (you are adv
 
 (your personal access token must have enough privileges to create repositories) 
 
-![](images/expedited/exo-13.png "Exoscale Tutorial Image 13")
-![](images/expedited/exo-14.png "Exoscale Tutorial Image 14")
-![](images/expedited/exo-15.png "Exoscale Tutorial Image 15")
-![](images/expedited/exo-16.png "Exoscale Tutorial Image 16")
+![](images/expedited/exo13.png "Exoscale Tutorial Image 13")
+![](images/expedited/exo14.png "Exoscale Tutorial Image 14")
+![](images/expedited/exo15.png "Exoscale Tutorial Image 15")
+![](images/expedited/exo16.png "Exoscale Tutorial Image 16")
 
 
 >     exoscale_github_username="adt-apps" #MANDATORY
