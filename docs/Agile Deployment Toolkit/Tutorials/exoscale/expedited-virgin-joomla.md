@@ -1,4 +1,6 @@
-**PREBUILD NECESSITIES**
+**EXPEDITED VIRGIN DEPLOYMENT METHOD**
+
+PREBUILD NECESSITIES
 
 If you don't already have a build machine running in the Exoscale cloud, follow these steps to get ready for the main build)
 
@@ -8,7 +10,7 @@ Following the steps in 1. will give you a build machine with access through the 
 
 -----------------------------
 
-**EXPEDITED BUILD PROCESS**
+EXPEDITED BUILD PROCESS
 
 This will deploy the latest version of Joomla using template 1 which you can read about here: [template 1](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templates/exoscale/exoscale1.description) and the expedited method.
 
