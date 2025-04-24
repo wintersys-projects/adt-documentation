@@ -44,12 +44,13 @@ I can extract the values for the following variables from template 1 or template
 >     export DNS_SECURITY_KEY="CCCCC:DDDDD"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
 >     export CLOUDHOST_EMAIL_ADDRESS="testemail@testemail.com" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
->     export WEBSITE_NAME="testsocialnetwork" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
->     export WEBSITE_URL="www.testsocialnetwork.org.uk"  #MANDATORY
->     export APPLICATION_REPOSITORY_OWNER="mytestgituser" #MANDATORY
->     export APPLICATION_REPOSITORY_USERNAME="mytestgituser" #MANDATORY
->     export APPLICATION_REPOSITORY_PASSWORD="KKKKK" #MANDATORY
->     export APPLICATION_REPOSITORY_TOKEN="KKKKK" #MANDATORY
+>     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
+>     export WEBSITE_URL="social.drpatient.uk"  #MANDATORY
+>     export APPLICATION_REPOSITORY_PROVIDER="github"   
+>     export APPLICATION_REPOSITORY_OWNER="your-github-username" #MANDATORY  
+>     export APPLICATION_REPOSITORY_USERNAME="your-github-username" #MANDATORY  
+>     export APPLICATION_REPOSITORY_PASSWORD="your-github-personal-access-token" #MANDATORY  
+>     export APPLICATION_REPOSITORY_TOKEN="your-github-personal-access-token" #MANDATORY 
   
 What I then do is adjust  
 
