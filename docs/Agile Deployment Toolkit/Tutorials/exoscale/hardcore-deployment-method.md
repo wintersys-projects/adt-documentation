@@ -12,8 +12,8 @@ Virgin class builds are associated with template1 (exoscale1.tmpl), baseline bui
 
 In this example, we will use template 1 assuming that we have followed the Vigin CMS installation tutorial.  
 
->     /bin/mkdir ./adt-build-machine-scripts/overridescripts/
->     /bin/cp ./adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale1.tmpl ./adt-build-machine-scripts/overridescripts/exoscale1override.tmpl  
+>     /bin/mkdir ${BUILD_HOME}/adt-build-machine-scripts/overridescripts/
+>     /bin/cp ${BUILD_HOME}/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale1.tmpl ${BUILD_HOME}/adt-build-machine-scripts/overridescripts/exoscale1override.tmpl  
 
 Then you need to run the script:
 
