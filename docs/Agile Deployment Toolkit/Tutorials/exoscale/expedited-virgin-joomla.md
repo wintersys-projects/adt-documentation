@@ -38,6 +38,10 @@ Create an "adt" security keys role which should look like:
 
 ![](images/expedited/exo-8.png "Exoscale Tutorial Image 8")
 
+![](images/expedited/exo-9.png "Exoscale Tutorial Image 9")
+
+![](images/expedited/exo-10.png "Exoscale Tutorial Image 10")
+
 
 
 
