@@ -67,22 +67,9 @@ You then need the url that you want to use for your website. If you don't have a
 
 >     exoscale_dns_name="www.testdeploy.com"
 
--------------------------------
-
-You then need the username and owner of you git provider application repositories.
-To do this, if you don't have a git account sign up with one (in this case using github, but, you have the choice of bitbucket and gitlab as well) and record the username that you sign up with:
-
->     gitusername="mygithubuser"
-
-Then create a "personal access token" by following: 
-
-[Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) making sure you give it all "repo" permissions as well as the "delete repository" permission
-
->     gitpersonalaccesstoken="KKKKK" where KKKKK represents your actual personal access token
-
 --------------------------------
 
-To keep this as simple as possible, I have missed out the SMTP credentials, but, you can find out more about them [here](../../../doco/AgileToolkitDeployment/DeployingSMTPService.md). If you wish to include SMTP credentials you will need to have a service offering set up with either sendpulse, mailjet or AWS SES.
+To keep this as simple as possible, I have missed out the SMTP credentials, but, you can find out more about them [here](../../Deployment/DeployingSMTPService.md). If you wish to include SMTP credentials you will need to have a service offering set up with either sendpulse, mailjet or AWS SES.
 
 So, that should be all the core credentials that I need to make a deployment. I can save my text file now (and keep it secure) because I might want to use these credentials again for other deployments or redeployments. 
 
