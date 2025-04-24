@@ -32,12 +32,20 @@ You can of course use a legacy version of joomla also by choosing a different ve
 
 -------------------------------------
 
-I then need a set of compute access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with compute access. In my separate text file, I record:
+I then need a set of compute access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with compute access.
+
+![](images/expedited/exo8.png "Exoscale Tutorial Image 8")
+
+In my separate text file, I record:
 
 >     exoscale_access_key_compute="XXXXX"  where XXXXX and YYYYY are the actual values generated when I click "Add Key"
 >     exoscale_secret_key_compute="YYYYY"
 
-I then need a set of Object Storage (S3) access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with S3 access. In my separate text file, I record:
+I then need a set of Object Storage (S3) access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with S3 access.
+
+![](images/expedited/exo9.png "Exoscale Tutorial Image 9")
+
+In my separate text file, I record:
 
 >     exoscale_access_key_s3="AAAAA"  where AAAAA and BBBBB are the actual values generated when I click "Add Key"
 >     exoscale_secret_key_s3="BBBBB"
@@ -45,8 +53,8 @@ I then need a set of Object Storage (S3) access keys so, I go to the IAM option 
 
 I then need a set of DNS access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with DNS access. 
 
-![](images/expedited/exo8.png "Exoscale Tutorial Image 8")
-![](images/expedited/exo9.png "Exoscale Tutorial Image 9")
+![](images/expedited/exo10.png "Exoscale Tutorial Image 10")
+
 
 In my separate text file, I record:
 
