@@ -36,7 +36,7 @@ You can of course use a legacy version of joomla also by choosing a different ve
 
 In production use you should use the principle of least privileges to generate 3 different access key and secret key pairs, one pair for compute, one pair for object storage scope and one pair for DNS scope, but, to make this tutorial simple we can just generate one set of keys with permissions for all three scope sets. 
 
-Create an "adt" security keys role which should look like:
+Create an "adt" IAM role which should look like:
 
 ![](images/expedited/exo-8.png "Exoscale Tutorial Image 8")
 
