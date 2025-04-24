@@ -1,4 +1,4 @@
-**EXPEDITED BUILD PROCESS**
+**EXPEDITED BASELINE DEPLOYMENT METHOD**
 
 If you have followed the tutorial [here](./expedited-virgin-joomla.md), then you will have an active Joomla, or possibly Wordpress, Drupal or Moodle installation active through your web browser.
 What you need to do now is to customise your version of (Joomla) so that it is a specialised application for example a blog or a social network and so on. 
