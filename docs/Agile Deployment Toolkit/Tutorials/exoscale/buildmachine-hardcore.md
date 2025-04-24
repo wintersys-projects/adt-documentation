@@ -1,4 +1,4 @@
-PRE BUILD PREPARATIONS FOR HARDCORE BUILDS:
+**PRE BUILD PREPARATIONS FOR HARDCORE BUILDS:**
 
 Before performing an Hardcore build, you need to set up a build machine. The way you do this for Linode is as follows:
 
