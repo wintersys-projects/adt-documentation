@@ -72,7 +72,7 @@ You then need the url that you want to use for your website. If you don't have a
 
 --------------------------------
 
-You then need to get an access key for your personal github account (you are advised to have a separate github account of your own for this toolkit)
+You then need to get an access key for your personal github account (you are advised to have a new separate github account for use with this toolkit)
 
 [Setting up a github account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)  
 
