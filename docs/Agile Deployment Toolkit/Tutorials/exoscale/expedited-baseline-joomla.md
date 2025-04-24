@@ -1,11 +1,3 @@
-**PREBUILD NECESSITIES**
-
-If you don't already have a build machine running in the Exoscale cloud, follow these steps to get ready for the main build)
-
-1. Begin by following this: [Build Machine Setup](./buildmachine.md)  
-
------------------------------
-
 **EXPEDITED BUILD PROCESS**
 
 If you have followed the tutorial [here](./expedited-virgin-joomla.md), then you will have an active Joomla, or possibly Wordpress, Drupal or Moodle installation active through your web browser.
