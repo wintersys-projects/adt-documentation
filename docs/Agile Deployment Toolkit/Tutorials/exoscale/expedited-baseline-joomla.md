@@ -1,18 +1,16 @@
 **EXPEDITED BASELINE DEPLOYMENT METHOD**
 
-If you have followed the tutorial [here](./expedited-virgin-joomla.md), then you will have an active Joomla, or possibly Wordpress, Drupal or Moodle installation active through your web browser.
+If you have followed the tutorial [here](./expedited-virgin-joomla.md), then you will have an active Joomla, installation active through your web browser.
 What you need to do now is to customise your version of (Joomla) so that it is a specialised application for example a blog or a social network and so on. 
 
-What I want to do is show you how I created my demo application in the adt-demos github account.  
+My suggestion is for you to test this sytem by installing Community Builder from Joomlapolis (you can customise it as little or as much as you want) into your new Joomla installation. "Community Builder" can be found here: [Community Builder](https://www.joomlapolis.com). 
 
-What I have done for this tutorial is install a very simple application using a tool called "Community Builder" which you can find here: [Community Builder](https://www.joomlapolis.com). Literally all I have done is follow [here](./expedited-virgin-joomla.md) and then install community builder on top of the Joomla that was installed (in literally 5 minutes)
-
-After I followed [here](./expedited-virgin-joomla.md) the next thing I had to do is to generate a baseline of my application so that the baseline can be redeployed. In my case my git account is my "adt-demos" account with Github. 
+Take 5 minutes to install Community Builder onto your new Joomla application. Once you are happy with what you have built, you need to make a baseline of it. The baseline will be written the github account that your template is set to use, in my example, it is my "adt-apps" github account yours will be something different. 
 
 In order to create the baseline of my custom application, I need to do the following:
 
 1. Choose a unique identifier for my baseline repositories, in this case I am going to call them, "communitybuilder" yours will be a different name.
-2. Go to you git provider account console with your browser, in this case it is my "adt-demos" account with Github and create two private repositories:
+2. Go to you git provider account console with your browser, in this case it is my "adt-apps" account with Github and create two **private** repositories with the following names:
 
 >     communitybuilder-webroot-sourcecode-baseline
 >     communitybuilder-db-baseline
