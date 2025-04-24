@@ -81,7 +81,7 @@ You then need to get an access key for your personal github account (you are adv
 (your personal access token must have enough privileges to create repositories)  
 
 >     exoscale_github_username="adt-apps" #MANDATORY
->     exoscale_github_key="ghp_d51wi3xkDez6Mi53hypNm" #MANDATORY
+>     exoscale_github_key="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k4" #MANDATORY
 
 So, that should be all the core credentials that I need to make a deployment. I can save my text file now (and keep it secure) because I might want to use these credentials again for other deployments or redeployments.  
 
