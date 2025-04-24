@@ -111,7 +111,7 @@ export BUILD_ARCHIVE_CHOICE="virgin"
 export BUILD_CHOICE="0"  
 export APPLICATION_NAME="Demo Application"  
     
-\#####S3 Datastore Settings####### 
+\#####S3 Datastore Settings#######    
 <span style="color:red">export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44"  #MANDATORY</span>    
 <span style="color:red">export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"  #MANDATORY</span>   
 export S3_HOST_BASE="sos-ch-gva-2.exo.io"  
@@ -128,33 +128,33 @@ export BUILDOS_VERSION="12" # One of 20.04 22.04 24.04|10 11 12
 export TOKEN="" #NOT REQUIRED  
 <span style="color:red">export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44"  #MANDATORY</span>  
 <span style="color:red">export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"  #MANDATORY</span>  
-<span style="color:red">export CLOUDHOST_ACCOUNT_ID="peterexoscale@yahoo.com"  #MANDATORY for Exoscale - this should be the account email address that you login to the portal with</span>   
+<span style="color:red">export CLOUDHOST_ACCOUNT_ID="peterexoscale@yahoo.com"  #MANDATORY </span> for Exoscale - this should be the account email address that you login to the portal with   
      
-\######DNS Settings##########
+\######DNS Settings##########  
 <span style="color:red">export DNS_USERNAME="peterexoscale@yahoo.com"  #MANDATORY</span>    
 <span style="color:red">export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"  #MANDATORY</span>    
 export DNS_CHOICE="exoscale" #you will need to set your DNS nameservers according to this choice
 
-\#####Webserver Settings########
+\#####Webserver Settings########  
 <span style="color:red">export WEBSITE_DISPLAY_NAME="Joomla Tutorial" #MANDATORY</span>    
 <span style="color:red">export WEBSITE_NAME="drpatient" #MANDATORY</span>    
 <span style="color:red">export WEBSITE_URL="www.drpatient.uk"  #MANDATORY</span>    
 export WEBSERVER_CHOICE="NGINX"
-export NUMBER_WS="1"
+export NUMBER_WS="1"  
 export MAX_WEBSERVERS="10"
    
-\#####Git settings#####
-export GIT_USER="Templated User" 
-export GIT_EMAIL_ADDRESS="templateduser@dummyemailZ123.com" 
+\#####Git settings#####  
+export GIT_USER="Templated User"   
+export GIT_EMAIL_ADDRESS="templateduser@dummyemailZ123.com"   
    
-\#####Infrastructure Repository Settings#######
-export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"
-export INFRASTRUCTURE_REPOSITORY_OWNER="wintersys-projects"
-export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"
-export INFRASTRUCTURE_REPOSITORY_PASSWORD="none"
+\#####Infrastructure Repository Settings#######  
+export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"  
+export INFRASTRUCTURE_REPOSITORY_OWNER="wintersys-projects"  
+export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"  
+export INFRASTRUCTURE_REPOSITORY_PASSWORD="none"  
     
-\###### Application Repository Settings########
-export APPLICATION_REPOSITORY_PROVIDER="github" 
+\###### Application Repository Settings########  
+export APPLICATION_REPOSITORY_PROVIDER="github"   
 <span style="color:red">export APPLICATION_REPOSITORY_OWNER="adt-apps" #MANDATORY</span>    
 <span style="color:red">export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY</span>    
 <span style="color:red">export APPLICATION_REPOSITORY_PASSWORD="ghp_d51wi3xkDez6Mi53hypNm" #MANDATORY</span>    
