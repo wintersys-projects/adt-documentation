@@ -57,6 +57,7 @@ to contain these values instead of its defaults.
 I then need to set the template to use the temporal backups that I have generated and I do that by setting these values in template3:
   
 >     export APPLICATION="joomla" #MANDATORY (joomla or wordpress or drupal or moodle)
+>     export APPLICATION_IDENTIFIER="1" #MANDATORY 
 >     export BUILD_CHOICE="2" #MANDATORY 2=hourly, 3=daily, 4=weekly, 5=monthly, 6=bimonthly
 >     export BUILD_ARCHIVE_CHOICE="hourly" #MANDATORY hourly, daily, weekly, monthly, bimonthly
 >     export PERSIST_ASSETS_TO_CLOUD="1" #MANDATORY This should only be 0 if your application has a very small number of assets
