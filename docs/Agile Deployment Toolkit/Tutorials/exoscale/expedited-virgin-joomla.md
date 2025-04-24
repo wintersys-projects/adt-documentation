@@ -26,7 +26,7 @@ To find the latest version of Joomla, I go to this URL in my browser:
 
 And I note the latest version in a separate text file:
 
->     joomla_version="4.0.4"  
+>     joomla_version="5.3.0"  
 
 You can of course use a legacy version of joomla also by choosing a different version numnber. 
 
@@ -53,23 +53,28 @@ Now create the actual key with your newly create scope:
 
 Now record your access key and secret key in your separate text file on your laptop
 
-exoscale_access_key="EXO0ca...."
-exoscale_secret_key="FVrdlN...."
+>     exoscale_access_key="EXO0ca...."  
+>     exoscale_secret_key="FVrdlN...."  
 
 -----------------------------------
 
 You now need to make a note of the email address that you have registered with your exoscale account:
 
->     exoscale_email="testemail@testemail.com"
+>     exoscale_email="peterexoscale@yahoo.com"
 
 -----------------------------------
 
 You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to exoscale as described [here](../../Deployment/Nameservers.md)
 
->     exoscale_dns_name="www.testdeploy.com"
+>     exoscale_dns_name="www.drpatient.uk"
 
 --------------------------------
 
+You then need to get an access key for your personal github account (you are advised to have a separate github account of your own for this toolkit)
+
+[Setting up a github account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
+[Setting up personal access tokens for github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+(your personal access token must have enough privileges to create repositories)
 
 So, that should be all the core credentials that I need to make a deployment. I can save my text file now (and keep it secure) because I might want to use these credentials again for other deployments or redeployments. 
 
