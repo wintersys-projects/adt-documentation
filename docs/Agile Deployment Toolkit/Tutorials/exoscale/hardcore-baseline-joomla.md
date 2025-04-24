@@ -56,16 +56,16 @@ I can copy the credentials that I need from the values that I set them to previo
 
 I can extract the values for the following variables:
 
->     export S3_ACCESS_KEY="AAAAA"  #MANDATORY
->     export S3_SECRET_KEY="BBBBB"  #MANDATORY
->     export ACCESS_KEY="XXXXX"   #MANDATORY
->     export SECRET_KEY="YYYYY"   #MANDATORY
->     export DNS_USERNAME="testemail@testemail.com"  #MANDATORY
->     export DNS_SECURITY_KEY="CCCCC:DDDDD"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
->     export CLOUDHOST_EMAIL_ADDRESS="testemail@testemail.com" #MANDATORY
+>     export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
+>     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
+>     export ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
+>     export SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
+>     export DNS_USERNAME="peterexoscale@yahoo.com"  #MANDATORY
+>     export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
+>     export CLOUDHOST_EMAIL_ADDRESS="peterexoscale@yahoo.com" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
->     export WEBSITE_NAME="testsocialnetwork" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
->     export WEBSITE_URL="www.testsocialnetwork.org.uk"  #MANDATORY
+>     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
+>     export WEBSITE_URL="social.drpatient.com"  #MANDATORY
 >     export APPLICATION_REPOSITORY_OWNER="adt-demos" #MANDATORY
 >     export APPLICATION_REPOSITORY_USERNAME="adt-demos" #MANDATORY
 
@@ -118,10 +118,6 @@ It is mandatory to edit your userdata script and modify these values within it t
 
 Now you have your userdata script take a copy of it using copy and paste and then follow [these](./buildmachine-hardcore.md) instructions PASTING THE SCRIPT YOU HAVE JUST COPIED INTO THE USERDATA AREA OF YOUR EXOSCALE MACHINE INSTEAD OF THE MODIFIED TEMPLATE. The build machine will then install **AND**  run the agile deployment toolkit. This is just an alternative method to the expedited build process which you may or may not perfer.
 
-At this point, your build machine should be up and running. Please review  
-  
-[Tightening Build Machine Firewall](../../Deployment/TightenBuildMachineAccess.md)
-
-At this point, your build machine will only accept connections from your laptop. If you need access from other ip addresses you need to use the technique described in "Tightening Build Machine Access" to grant access to additional IP addresses. This will be the case every time your laptop changes its IP address as you travel about, so, you might want to setup and configure an S3 client on your laptop to enable you to grant access to new IP addresses easily. 
+At this point, your build machine should be up and running. 
 
 If you follow these steps, then, you will have a copy of your customised Joomla application running in the cloud. Leave the servers you have deployed running for use in the next tutorial in the series.
