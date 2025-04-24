@@ -98,18 +98,18 @@ I then update all fields marked "MANDATORY" in my template and when I am finishe
 \#####MANDATORY - Bare minimum set of values that you must provide for a build to have any chance of succeeding
 \#####NOT REQUIRED - isn't used by the Exoscale
  
- #####Application Settings#########
-<span style="color:red">export APPLICATION="joomla" #MANDATORY </span>
-<span style="color:red">export APPLICATION_IDENTIFIER="1" #MANDATORY </span>
-<span style="color:red">export JOOMLA_VERSION="5.3.0" #MANDATORY (depending on the above settings - a joomla deployment) </span>
-export DRUPAL_VERSION="" #MANDATORY (depending on the above settings - a drupal deployment)
-<span style="color:red">export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="JOOMLA:5.3.0" #MANDATORY </span>
-export BASELINE_DB_REPOSITORY="VIRGIN"
-export APPLICATION_LANGUAGE="PHP" 
-export PHP_VERSION="8.4" 
-export BUILD_ARCHIVE_CHOICE="virgin"
-export BUILD_CHOICE="0"
-export APPLICATION_NAME="Demo Application"
+\#####Application Settings#########
+<span style="color:red">export APPLICATION="joomla" #MANDATORY </span>  
+<span style="color:red">export APPLICATION_IDENTIFIER="1" #MANDATORY </span>  
+<span style="color:red">export JOOMLA_VERSION="5.3.0" #MANDATORY (depending on the above settings - a joomla deployment) </span>  
+export DRUPAL_VERSION="" #MANDATORY (depending on the above settings - a drupal deployment)  
+<span style="color:red">export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="JOOMLA:5.3.0" #MANDATORY </span>  
+export BASELINE_DB_REPOSITORY="VIRGIN"  
+export APPLICATION_LANGUAGE="PHP"  
+export PHP_VERSION="8.4"  
+export BUILD_ARCHIVE_CHOICE="virgin"  
+export BUILD_CHOICE="0"  
+export APPLICATION_NAME="Demo Application"  
     
     
 >     #####S3 Datastore Settings#######
