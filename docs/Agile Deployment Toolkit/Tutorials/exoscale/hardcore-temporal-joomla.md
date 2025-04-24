@@ -2,8 +2,20 @@
 
 On your build machine, you need to now make hourly periodicity temporal backups of your application sourcecode and your application database. In summary you do this as follows and if you are following this tutorial closely you might need to change your "application github" repos/credentials in the file  
 
->     ${HOME}/runtime/webserver_configuration_settings.dat and   
+You will need to ssh onto your webserver and database machines and change these values to be your specific values 
+
+>     APPLICATION_REPOSITORY_PROVIDER="github"   
+>     APPLICATION_REPOSITORY_OWNER="your-github-username" #MANDATORY  
+>     APPLICATION_REPOSITORY_USERNAME="your-github-username" #MANDATORY  
+>     APPLICATION_REPOSITORY_PASSWORD="your-github-personal-access-token" #MANDATORY  
+>     APPLICATION_REPOSITORY_TOKEN="your-github-personal-access-token" #MANDATORY  
+
+in the files listed below on the webserver and the database respectively  
+
+>     ${HOME}/runtime/webserver_configuration_settings.dat   
 >     ${HOME}/runtime/database_configuration_settings.dat   
+
+
 
 to be something different to the demo repos from the baseline tutorial:
 
