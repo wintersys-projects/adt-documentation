@@ -118,7 +118,8 @@ If you are performing a hardcore build style then you need to additionally set t
 
 You will need to create a private network called **PRECISELY** "adt_private_net_ch-gva-2" in the "ch-gva-2" region
 
-
+![](images/expedited/exo51.png "Exoscale Tutorial Image 51")
+![](images/expedited/exo52.png "Exoscale Tutorial Image 52")
 
 You will need to create a security group for your build machine. You can do this as follows:
 	
