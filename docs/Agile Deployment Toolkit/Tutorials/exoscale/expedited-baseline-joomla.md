@@ -58,13 +58,13 @@ So, template 2 is located here on my build machine:
 
 >     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale2.tmpl
 
-For a more detailed explanation of how to modify exoscale2.tmpl please read [here](./expedited-virgin-joomla.md). Following a similar process I can update the following values in exoscale2.tmpl
-
-I can copy the credentials that I need from the values that I set them to previously in template1. So, looking in template1,
+In this case because you have already configured template 1 you can crib most of the credentials from 
 
 >     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale1.tmpl
 
-I can extract the values for the following variables:
+and use them in exoscale2.tmpl
+
+I can extract the values for the following variables from exoscale1.tmpl on my build machine and copy and paste them into the correct place in exoscale2.tmpl:
 
 >     export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
 >     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
@@ -77,20 +77,18 @@ I can extract the values for the following variables:
 >     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
 >     export WEBSITE_URL="social.drpatient.com"  #MANDATORY
 
-NOTE: for this example you need to set the following:
-
->     export APPLICATION_REPOSITORY_OWNER="adt-demos" #MANDATORY
->     export APPLICATION_REPOSITORY_USERNAME="adt-demos" #MANDATORY
 
 
-There are some other values that I need to change in /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale2.tmpl, as follows:
+There are some other values that I need to change in 
+
+>     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale2.tmpl
+
+which are different to what they are in template 1 and I can do this as follows:
 
 >     export APPLICATION="joomla" #MANDATORY (joomla or wordpress or drupal or moodle)
 >     export APPLICATION_IDENTIFIER="1" #MANDATORY (1 for joomla, 2 for wordpress, 3 for drupal, 4 for moodle)
 >     export BASELINE_DB_REPOSITORY="communitybuilder-db-baseline" #MANDATORY
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="communitybuilder-webroot-sourcecode-baseline" #MANDATORY
->     export PERSIST_ASSETS_TO_CLOUD="0" #MANDATORY This should only be 0 if your application has a very small number of assets
->     export DIRECTORIES_TO_MOUNT="" #MANDATORY - this will define which directories in your webroot will be mounted from S3, if PERSIST_ASSETS_TO_CLOUD=1
 
 You can make any other adjustments you want like if you want to choose APACHE instead of NGINX or change the size of the machines (you can find out about such things in the specification).
 
