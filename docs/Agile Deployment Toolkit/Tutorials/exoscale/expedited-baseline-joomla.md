@@ -71,9 +71,9 @@ I can extract the values for the following variables:
 >     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
 >     export ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
 >     export SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
->     export DNS_USERNAME="testemail@testemail.com"  #MANDATORY
+>     export DNS_USERNAME="peterexoscale@yahoo.com"  #MANDATORY
 >     export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
->     export CLOUDHOST_EMAIL_ADDRESS="testemail@testemail.com" #MANDATORY
+>     export CLOUDHOST_EMAIL_ADDRESS="peterexoscale@yahoo.com" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
 >     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
 >     export WEBSITE_URL="social.drpatient.com"  #MANDATORY
@@ -83,7 +83,6 @@ NOTE: for this example you need to set the following:
 >     export APPLICATION_REPOSITORY_OWNER="adt-demos" #MANDATORY
 >     export APPLICATION_REPOSITORY_USERNAME="adt-demos" #MANDATORY
 
-What I then do is adjust /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale2.tmpl to contain these values instead of its defaults. 
 
 There are some other values that I need to change in /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale2.tmpl, as follows:
 
@@ -103,7 +102,7 @@ If your template is configured correctly you can now run the build process selec
 >     cd ${BUILD_HOME}
 >     ./ExpeditedAgileDeploymentToolkit.sh
 
-and answer any questions and have a bit of patience whilst the build runs. 
+and answer any questions (selecting template 2 this time when prompted) and have a bit of patience whilst the build runs. 
 
-If you follow these steps, then, you will have a copy of your customised Joomla application running in the cloud. 
+If you follow these steps, then, you will have a copy of your community builder customised Joomla application running in the cloud. 
 **Leave the servers you have deployed running for use in the next tutorial in the series.**
