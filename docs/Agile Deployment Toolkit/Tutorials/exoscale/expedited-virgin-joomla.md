@@ -69,7 +69,6 @@ You then need the url that you want to use for your website. If you don't have a
 
 --------------------------------
 
-To keep this as simple as possible, I have missed out the SMTP credentials, but, you can find out more about them [here](../../Deployment/DeployingSMTPService.md). If you wish to include SMTP credentials you will need to have a service offering set up with either sendpulse, mailjet or AWS SES.
 
 So, that should be all the core credentials that I need to make a deployment. I can save my text file now (and keep it secure) because I might want to use these credentials again for other deployments or redeployments. 
 
