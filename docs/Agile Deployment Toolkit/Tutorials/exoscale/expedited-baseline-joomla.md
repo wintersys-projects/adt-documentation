@@ -119,3 +119,5 @@ When I went to my url www.drpatient.uk, this is what I saw, the baselined versio
 ![](images/expedited/exo37.png "Exoscale Tutorial Image 37")
 
 **Leave the servers you have deployed running for use in the next tutorial in the series.**
+
+[Temporal CMS Installation](./expedited-temporal-joomla.md)
