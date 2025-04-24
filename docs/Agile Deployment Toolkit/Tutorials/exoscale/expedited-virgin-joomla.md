@@ -43,7 +43,12 @@ I then need a set of Object Storage (S3) access keys so, I go to the IAM option 
 >     exoscale_secret_key_s3="BBBBB"
 
 
-I then need a set of DNS access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with DNS access. In my separate text file, I record:
+I then need a set of DNS access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with DNS access. 
+
+![](images/expedited/exo8.png "Exoscale Tutorial Image 8")
+![](images/expedited/exo9.png "Exoscale Tutorial Image 9")
+
+In my separate text file, I record:
 
 >     exoscale_access_key_dns="CCCCC"  where CCCCC and DDDDD are the actual values generated when I click "Add Key"
 >     exoscale_secret_key_dns="DDDDD"
