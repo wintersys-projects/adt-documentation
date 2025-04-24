@@ -99,7 +99,7 @@ I then update all fields marked "MANDATORY" in my template and when I am finishe
 >     #####NOT REQUIRED - isn't used by the Exoscale
 >     
 >     #####Application Settings#########
-- >     export APPLICATION="joomla" #MANDATORY 
+<span style="color:red">>     export APPLICATION="joomla" #MANDATORY </span>
 - >     export APPLICATION_IDENTIFIER="1" #MANDATORY
 - >     export JOOMLA_VERSION="5.3.0" #MANDATORY (depending on the above settings - a joomla deployment)
 - >     export DRUPAL_VERSION="" #MANDATORY (depending on the above settings - a drupal deployment)
