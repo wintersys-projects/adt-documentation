@@ -116,6 +116,10 @@ If you are performing a hardcore build style then you need to additionally set t
 	
 5) What you need to do now is to use this script to spin up your build machine and you will do this by pasting it into the "user data" area of your build machine.
 
+You will need to create a private network called **PRECISELY** "adt_private_net_ch-gva-2" in the "ch-gva-2" region
+
+
+
 You will need to create a security group for your build machine. You can do this as follows:
 	
 Click on the security groups option of your exoscale GUI
