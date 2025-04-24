@@ -51,52 +51,10 @@ Now create the actual key with your newly create scope:
 ![](images/expedited/exo-12.png "Exoscale Tutorial Image 12")
 
 
+Now record your access key and secret key in your separate text file on your laptop
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-I then need a set of compute access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with compute access.
-
-![](images/expedited/exo8.png "Exoscale Tutorial Image 8")
-
-In my separate text file, I record:
-
->     exoscale_access_key_compute="XXXXX"  where XXXXX and YYYYY are the actual values generated when I click "Add Key"
->     exoscale_secret_key_compute="YYYYY"
-
-I then need a set of Object Storage (S3) access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with S3 access.
-
-![](images/expedited/exo9.png "Exoscale Tutorial Image 9")
-
-In my separate text file, I record:
-
->     exoscale_access_key_s3="AAAAA"  where AAAAA and BBBBB are the actual values generated when I click "Add Key"
->     exoscale_secret_key_s3="BBBBB"
-
-
-I then need a set of DNS access keys so, I go to the IAM option on my exoscale dashboard and generate an IAM key with DNS access. 
-
-![](images/expedited/exo10.png "Exoscale Tutorial Image 10")
-
-
-In my separate text file, I record:
-
->     exoscale_access_key_dns="CCCCC"  where CCCCC and DDDDD are the actual values generated when I click "Add Key"
->     exoscale_secret_key_dns="DDDDD"
-
-**NOTE:** Alternatively you could generate one set of IAM keys and give that one set all three permissions, Compute, DNS and S3. You wouldn't have to juggle three set of keys then and could use the same key pair in all three cases.
+exoscale_access_key="EXO0ca...."
+exoscale_secret_key="FVrdlN...."
 
 -----------------------------------
 
@@ -129,6 +87,10 @@ So, to begin an expedited build process, I need to:
 Then we can open up the 
 
 >     vi exoscale1.tmpl
+
+I then update all fields marked "MANDATORY" in my template and when I am finished it looks like:
+
+
 
 This file looks like this (I have put a dashes before each line I wish to modify for this deployment which is for illustrative purposes only):
 
