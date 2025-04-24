@@ -1,5 +1,7 @@
 **GENERATING A USERDATA SCRIPT FOR THE HARDCORE DEPLOYMENY BUILD STYLE**
 
+BE AWARE THAT WHEN MAKING A HARDCORE STYLE DEPLOYMENT WITH LIVE_SSL="1" A NEW SSL CERTIFICATE IS PROVISIONED FOR EACH DEPLOYMENT AND YOU WILL RAPIDLY REACH ISSUANCE LIMITS WITH (FOR EXAMPLE, LETSENCRYPT) WHICH WILL CAUSE THE DEPLOYMENT TO FAIL
+
 To get a "hardcore" userdata script that you can use for multiple deployments what you need will need a fully configured template that the user data script can be built from. To have a fully configured template, you can follow the appropriate tutorial below depending on whether you want your userdata script to deploy a virgin CMS, a baselined application or a deployment based on a temporal backup in your datastore.
 
 [Virgin CMS Installation](./expedited-virgin-joomla.md)   
