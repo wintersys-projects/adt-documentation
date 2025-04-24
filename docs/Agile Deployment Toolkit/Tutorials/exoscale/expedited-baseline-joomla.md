@@ -15,6 +15,10 @@ In order to create the baseline of my custom application, I need to do the follo
 >     communitybuilder-webroot-sourcecode-baseline
 >     communitybuilder-db-baseline
 
+In my case it looks like the following when I create these repos in my "adt-apps" github account:
+
+
+
 Once these two repositories have been created (in my case in my adt-demos) account you are ready to make a baseline of the joomla install that you have modified. 
 
 3. To generate your baseline, you have to run two commands on your build machine. At the command prompt of your build machine cd into the **helperscripts** directory of your agile deployment toolkit installation. In my case it is like this:
