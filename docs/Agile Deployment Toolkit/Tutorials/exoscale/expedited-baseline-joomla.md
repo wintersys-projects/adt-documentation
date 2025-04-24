@@ -76,6 +76,8 @@ I can extract the values for the following variables from exoscale1.tmpl on my b
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
 >     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
 >     export WEBSITE_URL="social.drpatient.com"  #MANDATORY
+>     export APPLICATION_REPOSITORY_OWNER="adt-apps" #MANDATORY
+>     export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY
 >     export APPLICATION_REPOSITORY_PASSWORD="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k4" #MANDATORY
 >     export APPLICATION_REPOSITORY_TOKEN="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k4" #MANDATORY
 
