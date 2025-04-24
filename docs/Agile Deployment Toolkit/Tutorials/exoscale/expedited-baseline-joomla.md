@@ -67,16 +67,16 @@ I can copy the credentials that I need from the values that I set them to previo
 
 I can extract the values for the following variables:
 
->     export S3_ACCESS_KEY="AAAAA"  #MANDATORY
->     export S3_SECRET_KEY="BBBBB"  #MANDATORY
->     export ACCESS_KEY="XXXXX"   #MANDATORY
->     export SECRET_KEY="YYYYY"   #MANDATORY
+>     export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
+>     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
+>     export ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
+>     export SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
 >     export DNS_USERNAME="testemail@testemail.com"  #MANDATORY
->     export DNS_SECURITY_KEY="CCCCC:DDDDD"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
+>     export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
 >     export CLOUDHOST_EMAIL_ADDRESS="testemail@testemail.com" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
->     export WEBSITE_NAME="testdeploy" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
->     export WEBSITE_URL="www.testdeploy.com"  #MANDATORY
+>     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
+>     export WEBSITE_URL="social.drpatient.com"  #MANDATORY
 
 NOTE: for this example you need to set the following:
 
