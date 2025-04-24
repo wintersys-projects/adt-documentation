@@ -23,7 +23,7 @@ Then you need to run the script:
 
 This will leave you with a script:
 
->    ../userdatascripts/${userdatascript}   
+>    ${BUILD_HOME}/userdatascripts/${userdatascript}   
 
 where ${userdatascript} is the descriptive name you gave when prompted.  
 
