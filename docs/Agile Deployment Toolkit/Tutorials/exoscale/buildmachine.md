@@ -152,10 +152,11 @@ You can see in this image that port 1035 is about to be opened up to the ip addr
 >     2. Select which zone you want to deploy to, for example, CH-GVA-2
 >     3. Select instance type "Tiny" for example
 >     4. Select disk size (50GB)
->     5. Ignore the SSH KEY in the GUI (the system will get this from the "SSH" value that you pasted into your user data script above)
->     6. Make sure your build machine is added to the security group "adt-build-machine" and deselect the "default" security group if it is selected. 
->     7. In the "User Data" area of your VPC machine, paste the entire script that you were left with from 4.
->     8. Click Create and wait for your machine to build
+>     5. Add the build machine to the "adt_private_net_ch-gva-2" security group
+>     6. Ignore the SSH KEY in the GUI (the system will get this from the "SSH" value that you pasted into your user data script above)
+>     7. Make sure your build machine is added to the security group "adt-build-machine" and deselect the "default" security group if it is selected. 
+>     8. In the "User Data" area of your VPC machine, paste the entire script that you were left with from 4.
+>     9. Click Create and wait for your machine to build
 
 Graphically you can see what I have described in these 8 steps here:
 	
