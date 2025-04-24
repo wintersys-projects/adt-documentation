@@ -100,7 +100,7 @@ Then we can open up the
 
 >     vi exoscale1.tmpl
 
-I then update all fields marked "MANDATORY" (shown in red) in your template and when I am finished it looks like:
+I then update all fields marked "MANDATORY" (marked in red) referring to the values that I have stored in the text file in my laptop in the correct template and when I am finished it looks like:
 
 \###############################################################################################  
 \# Refer to: ${BUILD_HOME}/templatedconfigurations/specification.md  
