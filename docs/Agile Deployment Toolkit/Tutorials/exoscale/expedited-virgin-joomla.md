@@ -225,13 +225,13 @@ If your template looks similar to the one I have provided here with all the fiel
 
 >     ${BUILD_HOME}/ExpeditedAgileDeploymentToolkit.sh
 
+You will then need to answer the questions that you are asked and in a few minutes you should be able to install joomla using the GUI system of your browser. Please note, the credentials,port,database IP that you need to enter into the joomla GUI will be shown at the end of the build process
+
 -----------------------------
 
-You should now be at a point where your build machine is running and configured ready to deploy Joomla in a virgin (or uncustomised) configuration. 
+Assuming that you have your Joomla application online that's this tutorial through.   
 
----------------------------
-
-Assuming that you have your Joomla application online now after following that video, what I would do if I wanted to build a Wordpress, Moodle or Drupal installation would be to follow the same procedure with the same template, but, minimally change the template as follows:
+What I would do if I wanted to build a Wordpress, Moodle or Drupal installation would be to follow the same procedure with the same template, but, minimally change the template as follows:
 
 **For Wordpress:**
 
