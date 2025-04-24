@@ -239,9 +239,19 @@ IGNORE THESE IF YOU SEE THEM
 >     It looks to me like the email address for the variable SYSTEM_TOEMAIL_ADDRESS () doesn't appear to be valid please review
 >     It looks to me like the email address for the variable SYSTEM_FROMEMAIL_ADDRESS () doesn't appear to be valid please review
 
-You will then need to answer the questions that you are asked and in a few minutes you should be able to install joomla using the GUI system of your browser. Please note, the credentials,port,database IP that you need to enter into the joomla GUI will be shown at the end of the build process
+You will then need to answer the questions that you are asked and in a few minutes you should be able to install joomla using the GUI system of your browser. Please note, the credentials,port,database IP that you need to enter into the joomla GUI will be shown at the end of the build process.
 
------------------------------
+When I ran the build process when writing this tutorial it looked as follows:
+
+![](images/expedited/exo17.png "Exoscale Tutorial Image 17")
+![](images/expedited/exo18.png "Exoscale Tutorial Image 18")
+![](images/expedited/exo19.png "Exoscale Tutorial Image 19")
+![](images/expedited/exo20.png "Exoscale Tutorial Image 20")
+![](images/expedited/exo21.png "Exoscale Tutorial Image 21")
+![](images/expedited/exo22.png "Exoscale Tutorial Image 22")
+![](images/expedited/exo23.png "Exoscale Tutorial Image 23")
+![](images/expedited/exo24.png "Exoscale Tutorial Image 24")
+![](images/expedited/exo25.png "Exoscale Tutorial Image 25")
 
 Assuming that you have your Joomla application online that's this tutorial through.   
 
