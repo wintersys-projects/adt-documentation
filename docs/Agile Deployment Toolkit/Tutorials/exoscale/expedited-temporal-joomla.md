@@ -4,11 +4,11 @@ On your build machine, you need to now make hourly periodicity [temporal backups
 
 You will need to ssh onto your webserver and database machines and change these values to be your specific values 
 
-APPLICATION_REPOSITORY_PROVIDER="github"   
-APPLICATION_REPOSITORY_OWNER="your-github-username" #MANDATORY  
-APPLICATION_REPOSITORY_USERNAME="your-github-username" #MANDATORY  
-APPLICATION_REPOSITORY_PASSWORD="your-github-personal-access-token" #MANDATORY  
-APPLICATION_REPOSITORY_TOKEN="your-github-personal-access-token" #MANDATORY  
+>     APPLICATION_REPOSITORY_PROVIDER="github"   
+>     APPLICATION_REPOSITORY_OWNER="your-github-username" #MANDATORY  
+>     APPLICATION_REPOSITORY_USERNAME="your-github-username" #MANDATORY  
+>     APPLICATION_REPOSITORY_PASSWORD="your-github-personal-access-token" #MANDATORY  
+>     APPLICATION_REPOSITORY_TOKEN="your-github-personal-access-token" #MANDATORY  
 
 in the files listed below on the webserver and the database respectively  
 
@@ -36,16 +36,16 @@ What we are then interested in is template 3 which is at:
   
 I can extract the values for the following variables from template 1 or template 2 which I used in the previous tutorial and set them in template 3, replace these with your own live values:
 
->     export S3_ACCESS_KEY="AAAAA"  #MANDATORY
->     export S3_SECRET_KEY="BBBBB"  #MANDATORY
->     export ACCESS_KEY="XXXXX"   #MANDATORY
->     export SECRET_KEY="YYYYY"   #MANDATORY
->     export DNS_USERNAME="testemail@testemail.com"  #MANDATORY
->     export DNS_SECURITY_KEY="CCCCC:DDDDD"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
->     export CLOUDHOST_EMAIL_ADDRESS="testemail@testemail.com" #MANDATORY
+>     export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
+>     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
+>     export ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
+>     export SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
+>     export DNS_USERNAME="peterexoscale@yahoo.com"  #MANDATORY
+>     export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
+>     export CLOUDHOST_EMAIL_ADDRESS="peterexoscale@yahoo.com" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
 >     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
->     export WEBSITE_URL="social.drpatient.uk"  #MANDATORY
+>     export WEBSITE_URL="social.drpatient.com"  #MANDATORY
 >     export APPLICATION_REPOSITORY_PROVIDER="github"   
 >     export APPLICATION_REPOSITORY_OWNER="your-github-username" #MANDATORY  
 >     export APPLICATION_REPOSITORY_USERNAME="your-github-username" #MANDATORY  
@@ -73,7 +73,7 @@ If your template is configured correctly you can now run the build process selec
 >     cd ${BUILD_HOME}
 >     ./ExpeditedAgileDeploymentToolkit.sh
 
-and answer any questions and have a bit of patience whilst the build runs. 
+and answer any questions and select template 3 and have a bit of patience whilst the build runs. 
   
   ------------------------
   **DEPLOYMENT USING MANAGED DATABASES**
