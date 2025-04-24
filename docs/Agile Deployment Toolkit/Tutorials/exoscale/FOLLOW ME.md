@@ -11,5 +11,5 @@ This tutorial set needs to be followed sequentially in numeric order.
 
 #### 2. Hardcore Build Method (expert)
 
->    [Hardcore Deployment Method]](./hardcore-deployment-method.md)   
+>    [Hardcore Deployment Method](./hardcore-deployment-method.md)   
 
