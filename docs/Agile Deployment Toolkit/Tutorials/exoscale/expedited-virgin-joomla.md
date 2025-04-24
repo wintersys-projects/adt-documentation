@@ -44,6 +44,12 @@ You now need to allow access to all scopes which should look like the following 
 
 ![](images/expedited/exo-10.png "Exoscale Tutorial Image 10")
 
+Now create the actual key with your newly create scope:
+
+![](images/expedited/exo-11.png "Exoscale Tutorial Image 11")
+
+![](images/expedited/exo-12.png "Exoscale Tutorial Image 12")
+
 
 
 
