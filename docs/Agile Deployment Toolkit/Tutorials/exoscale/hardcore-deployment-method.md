@@ -23,10 +23,12 @@ Then you need to run the script:
 
 This will leave you with a script:
 
->    ${BUILD_HOME}/userdatascripts/${userdatascript}   
+>     ${BUILD_HOME}/userdatascripts/${userdatascript}   
 
 where ${userdatascript} is the descriptive name you gave when prompted.  
 
-Edit the userdata script (../userdatascripts/${userdatascript} )
+Have a look at the userdata script 
 
-Now, for this userdata script that you have generated instead of the vanilla initial script, follow  [Build Machine Setup](./buildmachine.md) as it applies to your userdata script. 
+>     vi ${BUILD_HOME}/userdatascripts/${userdatascript} 
+
+Now, substitute this userdata script that you have generated instead of the default initial script when you follow  [Build Machine Setup](./buildmachine.md). When you use your userdata script instead of the default init script, the build will proceed automatically with no need for interaction from you. Once you have a user data script you can use it for repeated deployments tweaky it as necessary for each deployment cycle.
