@@ -4,13 +4,13 @@ On your build machine, you need to now make hourly periodicity [temporal backups
 
 You will need to ssh onto your webserver and database machines and change these values to be your specific values 
 
-APPLICATION_REPOSITORY_PROVIDER="github" 
-APPLICATION_REPOSITORY_OWNER="your-github-username" #MANDATORY
-APPLICATION_REPOSITORY_USERNAME="your-github-username" #MANDATORY
-APPLICATION_REPOSITORY_PASSWORD="your-github-personal-access-token" #MANDATORY
-APPLICATION_REPOSITORY_TOKEN="your-github-personal-access-token" #MANDATORY
+APPLICATION_REPOSITORY_PROVIDER="github"   
+APPLICATION_REPOSITORY_OWNER="your-github-username" #MANDATORY  
+APPLICATION_REPOSITORY_USERNAME="your-github-username" #MANDATORY  
+APPLICATION_REPOSITORY_PASSWORD="your-github-personal-access-token" #MANDATORY  
+APPLICATION_REPOSITORY_TOKEN="your-github-personal-access-token" #MANDATORY  
 
-in the files listed below on the webserver and the database respectively
+in the files listed below on the webserver and the database respectively  
 
 >     ${HOME}/runtime/webserver_configuration_settings.dat   
 >     ${HOME}/runtime/database_configuration_settings.dat   
