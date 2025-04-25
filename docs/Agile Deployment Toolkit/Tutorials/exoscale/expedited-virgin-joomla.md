@@ -156,7 +156,7 @@ export DNS_CHOICE="exoscale" #you will need to set your DNS nameservers accordin
 <span style="color:red">export WEBSITE_DISPLAY_NAME="Joomla Tutorial" #MANDATORY</span>    
 <span style="color:red">export WEBSITE_NAME="drpatient" #MANDATORY</span>    
 <span style="color:red">export WEBSITE_URL="www.drpatient.uk"  #MANDATORY</span>    
-export WEBSERVER_CHOICE="NGINX"
+export WEBSERVER_CHOICE="NGINX"  
 export NUMBER_WS="1"  
 export MAX_WEBSERVERS="10"
    
