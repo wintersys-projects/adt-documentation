@@ -255,7 +255,7 @@ When I ran the build process when writing this tutorial it looked as follows:
 ![](images/expedited/exo23.png "Exoscale Tutorial Image 23")
 ![](images/expedited/exo24.png "Exoscale Tutorial Image 24")
 
-<span style="color:red">NOTE: To display the joomla application you must go to your website URL in your browser such as https://www.drpatient.uk</span>   
+<span style="color:red">NOTE: To display the joomla application you must go to your website URL in your browser such as https://www.drpatient.uk/installation/index.php</span>   
 
 ![](images/expedited/exo25.png "Exoscale Tutorial Image 25")
 
