@@ -250,11 +250,13 @@ When I ran the build process when writing this tutorial it looked as follows:
 ![](images/expedited/exo21.png "Exoscale Tutorial Image 21")
 ![](images/expedited/exo22.png "Exoscale Tutorial Image 22")
 
-NOTE: In this images or this part of the output you will find the credentials you must set for your joomla application
+<span style="color:red">NOTE: In this images or this part of the output you will find the credentials you must set for your joomla application</span>   
+
 ![](images/expedited/exo23.png "Exoscale Tutorial Image 23")
 ![](images/expedited/exo24.png "Exoscale Tutorial Image 24")
 
-NOTE: To display the joomla application you must go to your website URL in your browser such as https://www.drpatient.uk
+<span style="color:red">NOTE: To display the joomla application you must go to your website URL in your browser such as https://www.drpatient.uk</span>   
+
 ![](images/expedited/exo25.png "Exoscale Tutorial Image 25")
 
 Assuming that you have your Joomla application online that's this tutorial through.   
