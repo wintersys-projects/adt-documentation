@@ -250,7 +250,7 @@ When I ran the build process when writing this tutorial it looked as follows:
 ![](images/expedited/exo21.png "Exoscale Tutorial Image 21")
 ![](images/expedited/exo22.png "Exoscale Tutorial Image 22")
 
-<span style="color:red">NOTE: In this images or this part of the output you will find the credentials you must set for your joomla application</span>   
+<span style="color:red">NOTE: In this image or this part of the output you will find the credentials you must set for your joomla application</span>   
 
 ![](images/expedited/exo23.png "Exoscale Tutorial Image 23")
 ![](images/expedited/exo24.png "Exoscale Tutorial Image 24")
