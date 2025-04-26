@@ -78,7 +78,7 @@ You then need to get an access key for your personal github account (you are adv
 
 [Setting up personal access tokens for github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)  
 
-(your personal access token must have enough privileges to create repositories) 
+(your personal access token must have enough privileges to create repositories which means the "administrator" and "contents" options need to be set to read/write. Only setting these two values follows the principle of least privileges) 
 
 ![](images/expedited/exo13.png "Exoscale Tutorial Image 13")
 ![](images/expedited/exo14.png "Exoscale Tutorial Image 14")
