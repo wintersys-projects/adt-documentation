@@ -1,4 +1,4 @@
-To add a new datastore manipulation tool such as rclone or s4cmd in addition to the s3cmd that the core supports you will need to modify or add to the following files:
+To add a new datastore manipulation tool such as rclone or s5cmd in addition to the s3cmd that the core supports you will need to modify or add to the following files:
 
 >     adt-autoscaler-scripts/installscripts/InstallDatastoreTools.sh
 >     adt-autoscaler-scripts/providerscripts/datastore/InitialiseDatastoreConfig.sh
