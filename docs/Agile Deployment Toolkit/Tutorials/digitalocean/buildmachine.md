@@ -194,5 +194,17 @@ And then enter your build machine password
 In Graphical form, if you change directory to your toolkit home directory and list it should look like:
 	
 ![](images/expedited/do-9.png "DigitalOcean Tutorial Image 9")
+
+9) You can now optionally add a native firewall to your build machine and how to so that is shown in these images. In this case you will want to have port 1035 accessible from your laptop and to be able to ping the build machine from your laptop also. The below images show this process.
+
+![](images/expedited/do-18.png "DigitalOcean Tutorial Image 18")
+![](images/expedited/do-19.png "DigitalOcean Tutorial Image 19")
+![](images/expedited/do-20.png "DigitalOcean Tutorial Image 20")
+![](images/expedited/do-21.png "DigitalOcean Tutorial Image 21")
+![](images/expedited/do-22.png "DigitalOcean Tutorial Image 22")
+![](images/expedited/do-23.png "DigitalOcean Tutorial Image 23")
+![](images/expedited/do-24.png "DigitalOcean Tutorial Image 24")
+![](images/expedited/do-25.png "DigitalOcean Tutorial Image 25")
+
 		
 --------------------------------------
