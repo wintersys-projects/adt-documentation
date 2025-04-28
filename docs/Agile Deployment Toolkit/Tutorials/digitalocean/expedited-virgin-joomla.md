@@ -52,10 +52,13 @@ Now record your token in your separate text file on your laptop
 Now you need to generate an access key and a secret key for Digital Ocean Spaces which is the S3 compatible object storage offering from Digital Ocean
 How to generate your access key and your secret key is shown in the following images:
 
+![](images/expedited/do-28.png "Digital Ocean Tutorial Image 28")
+![](images/expedited/do-29.png "Digital Ocean Tutorial Image 29")
 
+Now record your spaces secret key and your spaces access key in the text file on your laptop
 
-DO00Y.....
-eAlmw.....
+>     digitaloceanspaces_access_key="DO00Y....."
+>     digitaloceanspaces_secret_key="eAlmw....."
 
 
 --------------------------
