@@ -132,11 +132,11 @@ export BUILD_CHOICE="0"
 export APPLICATION_NAME="Demo Application"  
     
 \#####S3 Datastore Settings#######    
-<span style="color:red">export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44"  #MANDATORY</span>    
-<span style="color:red">export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"  #MANDATORY</span>   
-export S3_HOST_BASE="sos-ch-gva-2.exo.io"  
-export S3_LOCATION="US" #For exoscale, this always needs to be set to "US"  
-export DATASTORE_CHOICE="exoscale"  
+<span style="color:red">export S3_ACCESS_KEY="DO00YVU7YHGD1HHDJK"  #MANDATORY</span>    
+<span style="color:red">export S3_SECRET_KEY="eAlmwh3y7eJovZSN/TxSz7RZrsbdvjvburfr7whs"  #MANDATORY</span>   
+export S3_HOST_BASE="ams3.digitaloceanspaces.com"  
+export S3_LOCATION="US" #For digitalocean, this always needs to be set to "US"  
+export DATASTORE_CHOICE="digitalocean"  
 export DIRECTORIES_TO_MOUNT="" #This should always be unset for a virgin and baseline deployments  
 export PERSIST_ASSETS_TO_CLOUD="0" #This should always be set to 0 for a virgin and baseline deployment  
      
@@ -151,9 +151,9 @@ export S3_SECRET_KEY=""  #NOT REQUIRED
 export CLOUDHOST_ACCOUNT_ID=""  #NOT REQUIRED
      
 \######DNS Settings##########  
-<span style="color:red">export DNS_USERNAME="peterexoscale@yahoo.com"  #MANDATORY</span>    
-<span style="color:red">export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"  #MANDATORY</span>    
-export DNS_CHOICE="exoscale" #you will need to set your DNS nameservers according to this choice
+<span style="color:red">export DNS_USERNAME="peterdigitalocean@yahoo.com"  #MANDATORY</span>    
+<span style="color:red">export DNS_SECURITY_KEY="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2"  #MANDATORY</span>    
+export DNS_CHOICE="digitalocean" #you will need to set your DNS nameservers according to this choice
 
 \#####Webserver Settings########  
 <span style="color:red">export WEBSITE_DISPLAY_NAME="Joomla Tutorial" #MANDATORY</span>    
@@ -195,20 +195,20 @@ export DATABASE_DBaaS_INSTALLATION_TYPE=""
 export BYPASS_DB_LAYER="0"  
     
 \#####Server Settings #######  
-export REGION="ch-gva-2"  
-export DB_SERVER_TYPE="tiny"  
-export WS_SERVER_TYPE="tiny"  
-export AS_SERVER_TYPE="tiny"   
-export AUTH_SERVER_TYPE="tiny"  
-export CLOUDHOST="exoscale"  
-export MACHINE_TYPE="EXOSCALE"  
-export SSH_PORT="1035"  
-export SERVER_TIMEZONE_CONTINENT="Europe"  
-export SERVER_TIMEZONE_CITY="London"  
-export USER="root"  
-export SYNC_WEBROOTS="0"  
-export AUTHENTICATION_SERVER="0"  
-export USER_EMAIL_DOMAIN=""  
+export REGION="lon1"
+export DB_SERVER_TYPE="s-1vcpu-1gb"
+export WS_SERVER_TYPE="s-1vcpu-1gb"
+export AS_SERVER_TYPE="s-1vcpu-1gb"
+export AUTH_SERVER_TYPE="s-1vcpu-1gb"
+export CLOUDHOST="digitalocean"
+export MACHINE_TYPE="DROPLET"
+export SSH_PORT="1035"
+export SERVER_TIMEZONE_CONTINENT="Europe"
+export SERVER_TIMEZONE_CITY="London"
+export USER="root"
+export SYNC_WEBROOTS="0"
+export AUTHENTICATION_SERVER="0"
+export USER_EMAIL_DOMAIN=""
 
 \#####Build Settings######  
 export PRODUCTION="0"  
@@ -224,11 +224,13 @@ export SSL_GENERATION_SERVICE="LETSENCRYPT"
 export SSL_LIVE_CERT="1"  
 export ALGORITHM="rsa"  
 export BUILD_MACHINE_VPC="1"  
-export VPC_IP_RANGE="10.0.0.0/24"  
+export VPC_IP_RANGE="10.106.16.0/20"  
 export VPC_NAME="adt-vpc"  
      
 \#####Build Style#######  
 export INPARALLEL="0"  
+
+IMPORTANT: Remember to set VPC_IP_RAMGE approptiately. You can get the VPC_IP_RANGE as shown in this image:
 
 
 If your template looks similar to the one I have provided here with all the fields marked in red having your custom values then you should be ready for deployment
