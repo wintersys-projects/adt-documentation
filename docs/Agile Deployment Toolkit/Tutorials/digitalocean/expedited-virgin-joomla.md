@@ -49,6 +49,14 @@ Now record your token in your separate text file on your laptop
 
 -----------------------------------
 
+Now you need to generate an access key and a secret key for Digital Ocean Spaces which is the S3 compatible object storage offering from Digital Ocean
+How to generate your access key and your secret key is shown in the following images:
+
+
+
+
+--------------------------
+
 You now need to make a note of the email address that you login to your exoscale account with:
 
 >     exoscale_email="peterexoscale@yahoo.com"
