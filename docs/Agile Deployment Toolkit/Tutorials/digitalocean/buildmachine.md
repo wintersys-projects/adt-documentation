@@ -122,16 +122,6 @@ You will need to create a VPC called **PRECISELY** "adt-vpc" in the "lon1" regio
 ![](images/expedited/do-11.png "DigitalOcean Tutorial Image 11")
 ![](images/expedited/do-12.png "DigitalOcean Tutorial Image 12")
 
-You will need to create a security group for your build machine. You can do this as follows:
-	
-Click on the security groups option of your exoscale GUI
-![](images/expedited/exo1.png "Exoscale Tutorial Image 1")
-
-Click "Add Security Group" and call it "adt-build-machine" and click "Create Group"
-
-![](images/expedited/exo2.png "Exoscale Tutorial Image 2") 
-
-You can then see your new security Group "adt-build-machine" listed  
 	
 6) Add rules to the "adt-build-machine" security group to allow pinging and your build client to connect.  
 	
