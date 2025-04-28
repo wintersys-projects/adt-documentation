@@ -54,6 +54,9 @@ How to generate your access key and your secret key is shown in the following im
 
 
 
+DO00Y.....
+eAlmw.....
+
 
 --------------------------
 
