@@ -141,22 +141,28 @@ You can see in these images that port 1035 is about to be opened up to the ip ad
 
 ---------------
 
-7) You need to spin up a small machine to be your build machine by clicking "Add" on the top right of the GUI. And then follow these steps:
+7) You need to spin up a small machine to be your build machine by clicking "Create Droplet" on the top right of the GUI. And then follow these steps:
 
->     1. Select which template you want debian 12 or ubuntu 24.04
->     2. Select which zone you want to deploy to, for example, CH-GVA-2
->     3. Select instance type "Tiny" for example
->     4. Select disk size (50GB)
->     5. Add the build machine to the "adt_private_net_ch-gva-2" security group
->     6. Ignore the SSH KEY in the GUI (the system will get this from the "SSH" value that you pasted into your user data script above)
->     7. Make sure your build machine is added to the security group "adt-build-machine" and deselect the "default" security group if it is selected. 
->     8. In the "User Data" area of your VPC machine, paste the entire script that you were left with from 4.
->     9. Click Create and wait for your machine to build
+>     1. Select which template you want debian 10 (or later) or ubuntu 20.04 (or later)
+>     2. Select which region you want to deploy to, for example, london
+>     3. Select instance size "1GB" for example
+>     4. Attach your SSH KEY
+>     5. In the "User Data" area of your VPC machine, paste the entire script that you were left with from 4.
+>     6. Click Create and wait for your machine to build
+>     7. Once the machine has built, go to "networking" -> "firewalls" and select "adt-build-machine" firewall and add your new droplet to the firewall
+
 
 Graphically you can see what I have described in these 8 steps here:
-	
-![](images/expedited/exo4.png "Exoscale Tutorial Image 4")  
-![](images/expedited/exo5.png "Exoscale Tutorial Image 5")  
+
+![](images/expedited/do-1.png "DigitalOcean Tutorial Image 1")
+![](images/expedited/do-2.png "DigitalOcean Tutorial Image 2")
+![](images/expedited/do-3.png "DigitalOcean Tutorial Image 3")
+![](images/expedited/do-4.png "DigitalOcean Tutorial Image 4")
+![](images/expedited/do-5.png "DigitalOcean Tutorial Image 5")
+![](images/expedited/do-6.png "DigitalOcean Tutorial Image 6")
+![](images/expedited/do-7.png "DigitalOcean Tutorial Image 7")
+
+
 	
 ---------------
 
