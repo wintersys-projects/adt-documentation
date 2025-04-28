@@ -23,7 +23,10 @@ Once you have changed the nameservers for your domain to linode with your domain
 
 -----------
 
->     Vultr: ns1.vultr.com ns2.vultr.com 
+>     Vultr: ns1.vultr.com ns2.vultr.com
 
+Once you have changed the nameservers for your domain to vultr with your domain name registrar you have to add your domain to vultr you can do that by following [this](https://docs.vultr.com/introduction-to-vultr-dns)
+
+------------------
 
 Cloudflare: **You will have some extra steps for Cloudflare which you can read about [here:](https://support.cloudflare.com/hc/en-us/articles/200169006-Setting-up-Custom-Nameservers-at-Cloudflare)**  
