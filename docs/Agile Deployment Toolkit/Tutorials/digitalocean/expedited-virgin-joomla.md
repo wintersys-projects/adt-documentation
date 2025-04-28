@@ -83,10 +83,10 @@ You then need to get an access key for your personal github account (you are adv
 
 (your personal access token must have enough privileges to create repositories which means the "administrator" and "contents" options need to be set to read/write. Only setting these two values follows the principle of least privileges) 
 
-![](images/expedited/exo13.png "Exoscale Tutorial Image 13")
-![](images/expedited/exo14.png "Exoscale Tutorial Image 14")
-![](images/expedited/exo15.png "Exoscale Tutorial Image 15")
-![](images/expedited/exo16.png "Exoscale Tutorial Image 16")
+![](images/expedited/do-30.png "Digital Ocean Tutorial Image 30")
+![](images/expedited/do-31.png "Digital Ocean Tutorial Image 31")
+![](images/expedited/do-32.png "Digital Ocean Tutorial Image 32")
+![](images/expedited/do-33.png "Digital Ocean Tutorial Image 33")
 
 
 >     digitalocean_github_username="adt-apps" #MANDATORY
