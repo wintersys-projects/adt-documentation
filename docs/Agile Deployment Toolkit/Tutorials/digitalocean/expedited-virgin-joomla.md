@@ -145,10 +145,10 @@ export BUILDOS="debian" # One of ubuntu|debian
 export BUILDOS_VERSION="12" # One of 20.04 22.04 24.04|10 11 12  
  
 \######Cloudhost Provider Settings#######  
-export TOKEN="" #NOT REQUIRED  
-<span style="color:red">export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44"  #MANDATORY</span>  
-<span style="color:red">export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"  #MANDATORY</span>  
-<span style="color:red">export CLOUDHOST_ACCOUNT_ID="peterexoscale@yahoo.com"  #MANDATORY </span> for Exoscale - this should be the account email address that you login to the portal with   
+<span style="color:red">export TOKEN="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY</span> 
+export S3_ACCESS_KEY=""  #NOT REQUIRED 
+export S3_SECRET_KEY=""  #NOT REQUIRED 
+export CLOUDHOST_ACCOUNT_ID=""  #NOT REQUIRED
      
 \######DNS Settings##########  
 <span style="color:red">export DNS_USERNAME="peterexoscale@yahoo.com"  #MANDATORY</span>    
