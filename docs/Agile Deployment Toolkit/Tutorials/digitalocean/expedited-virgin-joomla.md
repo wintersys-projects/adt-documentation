@@ -36,27 +36,16 @@ You can of course use a legacy version of joomla also by choosing a different ve
 
 In production use you should use the principle of least privileges to generate 2 different access tokens, one token for compute and one token for DNS scope, but, to make this tutorial simple we can just generate one token with permissions for both scope sets. 
 
-Create an "adt" IAM role which should look like:
+Create a personal access token as follows:
 
-![](images/expedited/exo-8.png "Exoscale Tutorial Image 8")
-
-You now need to allow access to all scopes which should look like the following two images
-
-![](images/expedited/exo-9.png "Exoscale Tutorial Image 9")
-
-![](images/expedited/exo-10.png "Exoscale Tutorial Image 10")
-
-Now create the actual key with your newly create scope:
-
-![](images/expedited/exo-11.png "Exoscale Tutorial Image 11")
-
-![](images/expedited/exo-12.png "Exoscale Tutorial Image 12")
+![](images/expedited/do-25.png "Digital Ocean Tutorial Image 25")
+![](images/expedited/do-26.png "Digital Ocean Tutorial Image 26")
+![](images/expedited/do-27.png "Digital Ocean Tutorial Image 27")
 
 
-Now record your access key and secret key in your separate text file on your laptop
+Now record your token in your separate text file on your laptop
 
->     exoscale_access_key="EXO0ca...."  
->     exoscale_secret_key="FVrdlN...."  
+>     digitalocean_access_token="dop_v1_51ac....."  
 
 -----------------------------------
 
