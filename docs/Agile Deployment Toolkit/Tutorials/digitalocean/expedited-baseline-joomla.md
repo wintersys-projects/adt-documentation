@@ -66,13 +66,11 @@ and use them in digitalocean2.tmpl
 
 I can extract the values for the following variables from digitalocean1.tmpl on my build machine and copy and paste them into the correct place in digitalocean2.tmpl:
 
->     export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
->     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
->     export ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
->     export SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
->     export DNS_USERNAME="peterexoscale@yahoo.com"  #MANDATORY
->     export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
->     export CLOUDHOST_ACCOUNT_ID="peterexoscale@yahoo.com" #MANDATORY
+>     export S3_ACCESS_KEY="DO00YVU7YHGD1HHDJK" #MANDATORY
+>     export S3_SECRET_KEY="eAlmwh3y7eJovZSN/TxSz7RZrsbdvjvburfr7whs" #MANDATORY
+>     export TOKEN="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY
+>     export DNS_USERNAME="peterdigitalocean@yahoo.com" #MANDATORY
+>     export DNS_SECURITY_KEY="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
 >     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
 >     export WEBSITE_URL="social.drpatient.com"  #MANDATORY
@@ -80,7 +78,7 @@ I can extract the values for the following variables from digitalocean1.tmpl on 
 >     export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY
 >     export APPLICATION_REPOSITORY_PASSWORD="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k4" #MANDATORY
 >     export APPLICATION_REPOSITORY_TOKEN="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k4" #MANDATORY
-
+>     export VPC_IP_RANGE="10.106.16.0/20"
 
 There are some other values that I need to change in 
 
