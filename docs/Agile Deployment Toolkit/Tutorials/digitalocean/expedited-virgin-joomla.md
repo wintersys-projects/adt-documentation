@@ -224,7 +224,7 @@ export SSL_GENERATION_SERVICE="LETSENCRYPT"
 export SSL_LIVE_CERT="1"  
 export ALGORITHM="rsa"  
 export BUILD_MACHINE_VPC="1"  
-export VPC_IP_RANGE="10.106.16.0/20"  
+<span style="color:red">export VPC_IP_RANGE="10.106.16.0/20" </span>  
 export VPC_NAME="adt-vpc"  
      
 \#####Build Style#######  
