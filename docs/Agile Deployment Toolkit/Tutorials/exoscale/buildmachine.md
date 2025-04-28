@@ -51,7 +51,7 @@ If you decide on an SSH_PORT of "1035" then in the copy that I made in 2, I need
 	
 >     export BUILDMACHINE_SSH_PORT="1035"
 
-You need to give the script your laptop IP address. You can do this by going to https://www.whatsmyip.com and so, if your ip address is: "111.111.111.111" and pasting your ip address into your copy as follows:
+You need to give the script your laptop IP address. You can do this by going to [what's my ip](https://www.whatsmyip.com)and so, if your ip address is: "111.111.111.111" and pasting your ip address into your copy as follows:
 	
 >     export LAPTOP_IP="111.111.111.111"
 
