@@ -28,7 +28,7 @@ Making sure you pick the same periodicity as for the temporal database backup, f
   
 What we are then interested in is template 3 which is at:
   
->     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale3.tmpl
+>     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/digitalocean/digitalocean3.tmpl
   
 I can extract the values for the following variables from template 1 or template 2 which I used in the previous tutorials in the series and set them in template 3, replace these with your own live values:
 
@@ -50,7 +50,7 @@ I can extract the values for the following variables from template 1 or template
   
 What I then do is adjust  
 
-**/home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale3.tmpl**  
+**/home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/digitalocean/digitalocean3.tmpl**  
   
 to contain these values instead of its defaults.
   
@@ -65,7 +65,7 @@ I then need to set the template to use the temporal backups that I have generate
   
 Shutdown any webservers that you have running from tutorial 2 and you are then ready to perform a temporal build, as shown below:
   
-If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (exoscale and template 3 in other words). On your build machine, do as follows:
+If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (digitalocean and template 3 in other words). On your build machine, do as follows:
 
 >     cd ${BUILD_HOME}
 >     ./ExpeditedAgileDeploymentToolkit.sh
