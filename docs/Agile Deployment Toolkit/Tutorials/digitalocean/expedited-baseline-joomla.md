@@ -105,18 +105,18 @@ If your template is configured correctly you can now run the build process selec
 and answer any questions (selecting template 2 this time when prompted) and have a bit of patience whilst the build runs. 
 
 When I ran my baseline build the output I got from the ADT was as follows:  
-![](images/expedited/exo30.png "Exoscale Tutorial Image 30")
-![](images/expedited/exo31.png "Exoscale Tutorial Image 31")
-![](images/expedited/exo32.png "Exoscale Tutorial Image 32")
-![](images/expedited/exo33.png "Exoscale Tutorial Image 33")
-![](images/expedited/exo34.png "Exoscale Tutorial Image 34")
-![](images/expedited/exo35.png "Exoscale Tutorial Image 35")
-![](images/expedited/exo36.png "Exoscale Tutorial Image 36")
+![](images/expedited/do-43.png "Exoscale Tutorial Image 43")
+![](images/expedited/do-44.png "Exoscale Tutorial Image 44")
+![](images/expedited/do-45.png "Exoscale Tutorial Image 45")
+![](images/expedited/do-46.png "Exoscale Tutorial Image 46")
+![](images/expedited/do-47.png "Exoscale Tutorial Image 47")
+![](images/expedited/do-48.png "Exoscale Tutorial Image 48")
+![](images/expedited/do-49.png "Exoscale Tutorial Image 49")
 
 If you follow these steps, then, you will have a copy of your community builder customised Joomla application running on digitalocean.
 When I went to my url www.drpatient.uk, this is what I saw, the baselined version of community builder running:
 
-![](images/expedited/exo37.png "Exoscale Tutorial Image 37")
+![](images/expedited/do-50.png "Exoscale Tutorial Image 50")
 
 **Leave the servers you have deployed running for use in the next tutorial in the series.**
 
