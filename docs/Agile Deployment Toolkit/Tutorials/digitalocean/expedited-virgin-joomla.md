@@ -232,6 +232,9 @@ export INPARALLEL="0"
 
 IMPORTANT: Remember to set VPC_IP_RAMGE approptiately. You can get the VPC_IP_RANGE as shown in this image:
 
+![](images/expedited/do-34.png "Digital Ocean Tutorial Image 34")
+
+
 
 If your template looks similar to the one I have provided here with all the fields marked in red having your custom values then you should be ready for deployment
 
