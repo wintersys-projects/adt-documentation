@@ -17,7 +17,9 @@ Once you have changed the nameservers for your domain to exoscale with your doma
 
 ----------
 
->     Linode: NS1.LINODE.COM NS2.LINODE.COM NS3.LINODE.COM NS4.LINODE.COM NS5.LINODE.COM 
+>     Linode: NS1.LINODE.COM NS2.LINODE.COM NS3.LINODE.COM NS4.LINODE.COM NS5.LINODE.COM
+
+Once you have changed the nameservers for your domain to linode with your domain name registrar you have to add your domain to linode you can do that by following [this](https://techdocs.akamai.com/cloud-computing/docs/create-a-domain)
 
 -----------
 
