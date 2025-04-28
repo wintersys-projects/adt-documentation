@@ -37,4 +37,4 @@ Once you have changed the nameservers for your domain to vultr with your domain 
 
 **CLOUDFLARE**  
 
-Cloudflare: **You will have some extra steps for Cloudflare which you can read about [here:](https://support.cloudflare.com/hc/en-us/articles/200169006-Setting-up-Custom-Nameservers-at-Cloudflare)**  
+**You will have some extra steps for Cloudflare which you can read about [here:](https://support.cloudflare.com/hc/en-us/articles/200169006-Setting-up-Custom-Nameservers-at-Cloudflare)**  
