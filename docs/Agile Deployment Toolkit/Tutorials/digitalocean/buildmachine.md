@@ -191,6 +191,5 @@ And then enter your build machine password
 In Graphical form, if you change directory to your toolkit home directory and list it should look like:
 	
 ![](images/expedited/do-9.png "DigitalOcean Tutorial Image 9")
-![](images/expedited/do-10.png "DigitalOcean Tutorial Image 10")
 		
 --------------------------------------
