@@ -71,18 +71,20 @@ If your template is configured correctly you can now run the build process selec
 and answer any questions and select template 3 and have a bit of patience whilst the build runs. 
 
 When I ran a temporal build process, I saw the following output from the ADT
-![](images/expedited/exo40.png "Exoscale Tutorial Image 40")
-![](images/expedited/exo41.png "Exoscale Tutorial Image 41")
-![](images/expedited/exo42.png "Exoscale Tutorial Image 42")
-![](images/expedited/exo43.png "Exoscale Tutorial Image 43")
-![](images/expedited/exo44.png "Exoscale Tutorial Image 44")
-![](images/expedited/exo45.png "Exoscale Tutorial Image 45")
-![](images/expedited/exo46.png "Exoscale Tutorial Image 46")
-![](images/expedited/exo47.png "Exoscale Tutorial Image 47")
+![](images/expedited/do-53.png "Exoscale Tutorial Image 53")
+![](images/expedited/do-54.png "Exoscale Tutorial Image 54")
+![](images/expedited/do-55.png "Exoscale Tutorial Image 55")
+![](images/expedited/do-56.png "Exoscale Tutorial Image 56")
+![](images/expedited/do-57.png "Exoscale Tutorial Image 57")
+![](images/expedited/do-58.png "Exoscale Tutorial Image 58")
+![](images/expedited/do-59.png "Exoscale Tutorial Image 59")
+![](images/expedited/do-60.png "Exoscale Tutorial Image 60")
+
+
 
 Notice that there are two webservers and an autoscaler running because this is a temporal build
 ![](images/expedited/exo48.png "Exoscale Tutorial Image 48")
 Notice that an images or assets bucket has been created in the datastore and is mounted within the webroot of the application as /var/www/html/images
 ![](images/expedited/exo49.png "Exoscale Tutorial Image 49")
 And this is what my community builder example looks like deployed from a temporal backup
-![](images/expedited/exo50.png "Exoscale Tutorial Image 50")
+![](images/expedited/do-61.png "Exoscale Tutorial Image 61")
