@@ -14,7 +14,7 @@ Then perform a temporal database backup
  
 Answering all of the questions and picking a periodicity, for example, HOURLY in your template. Check in your datastore for a database temporal backup which should look similar to this picture with an appropriate timestamp for you.
 
-![](images/expedited/exo38.png "Exoscale Tutorial Image 38")
+![](images/expedited/do-51.png "Exoscale Tutorial Image 51")
 
   
 Then perform a temporal website sourcecode backup
@@ -23,7 +23,7 @@ Then perform a temporal website sourcecode backup
   
 Making sure you pick the same periodicity as for the temporal database backup, for example, "HOURLY"
 
-![](images/expedited/exo39.png "Exoscale Tutorial Image 39")
+![](images/expedited/do-52.png "Exoscale Tutorial Image 52")
 
   
 What we are then interested in is template 3 which is at:
