@@ -4,7 +4,9 @@ That done, you will need to point the nameservers to the service you are using f
 
 For example:
 
->     Digital Ocean: ns1.digitalocean.com ns2.digitalocean.com ns3.digitalocean.com  
+>     Digital Ocean: ns1.digitalocean.com ns2.digitalocean.com ns3.digitalocean.com
+
+Once you have changed the nameservers for your domain to digital ocean with your domain name registrar you have to add your domain to digital ocean you can do that by following [this](https://docs.digitalocean.com/products/networking/dns/how-to/add-domains/)
 
 >     Exoscale: ns1.exoscale.ch ns1.exoscale.com ns1.exoscale.io ns1.exoscale.net  (be sure to include all of these)  
 
