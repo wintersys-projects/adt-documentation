@@ -159,7 +159,7 @@ Graphically you can see what I have described in these 8 steps here:
 ![](images/expedited/do-3.png "DigitalOcean Tutorial Image 3")
 ![](images/expedited/do-4.png "DigitalOcean Tutorial Image 4")
 
-This GUI system requires you to supply a ssh key so you can create and add one if you need to, but, the system wont use it. The ssh key that is used by your servers is the one you supplied with the user data script.
+This GUI system requires you to supply a ssh key so you can create and add one if you need to, but, the system wont use it. The ssh key that is used by your servers is the one you supplied with the user data script. We do not want to supply a password here.
 
 ![](images/expedited/do-5.png "DigitalOcean Tutorial Image 5")
 ![](images/expedited/do-6.png "DigitalOcean Tutorial Image 6")
