@@ -123,7 +123,7 @@ You will need to create a VPC called **PRECISELY** "adt-vpc" in the "lon1" regio
 ![](images/expedited/do-12.png "DigitalOcean Tutorial Image 12")
 
 	
-6) Add rules to the "adt-build-machine" security group to allow pinging and your build client to connect.  
+6) You need to create a firewall and allow port 1035 and ping requests through from your laptop machine 
 	
 So you will need to add 2 rules  
 	
@@ -131,9 +131,13 @@ So you will need to add 2 rules
 2) A rule to allow acccess to your build machines defined SSH_PORT from your laptop.  
    If you SSH_PORT is 1035 and your laptop IP is 111.111.111.111 then you will need a TCP rule with "CIDR 111.111.111.111/32 1035"
 
-You can see in this image that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
+You can see in these images that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
 	
-![](images/expedited/exo3.png "Exoscale Tutorial Image 3") 
+![](images/expedited/exo13.png "DigitalOcean Tutorial Image 13") 
+![](images/expedited/exo14.png "DigitalOcean Tutorial Image 14") 
+![](images/expedited/exo15.png "DigitalOcean Tutorial Image 15") 
+![](images/expedited/exo16.png "DigitalOcean Tutorial Image 16") 
+![](images/expedited/exo17.png "DigitalOcean Tutorial Image 17") 
 
 ---------------
 
