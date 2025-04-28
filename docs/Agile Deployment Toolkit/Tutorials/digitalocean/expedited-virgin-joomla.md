@@ -132,8 +132,8 @@ export BUILD_CHOICE="0"
 export APPLICATION_NAME="Demo Application"  
     
 \#####S3 Datastore Settings#######    
-<span style="color:red">export S3_ACCESS_KEY="DO00YVU7YHGD1HHDJK"  #MANDATORY</span>    
-<span style="color:red">export S3_SECRET_KEY="eAlmwh3y7eJovZSN/TxSz7RZrsbdvjvburfr7whs"  #MANDATORY</span>   
+<span style="color:red">export S3_ACCESS_KEY="DO00YVU7YHGD1HHDJK"  #MANDATORY</span>     
+<span style="color:red">export S3_SECRET_KEY="eAlmwh3y7eJovZSN/TxSz7RZrsbdvjvburfr7whs"  #MANDATORY</span>    
 export S3_HOST_BASE="ams3.digitaloceanspaces.com"  
 export S3_LOCATION="US" #For digitalocean, this always needs to be set to "US"  
 export DATASTORE_CHOICE="digitalocean"  
@@ -145,10 +145,10 @@ export BUILDOS="debian" # One of ubuntu|debian
 export BUILDOS_VERSION="12" # One of 20.04 22.04 24.04|10 11 12  
  
 \######Cloudhost Provider Settings#######  
-<span style="color:red">export TOKEN="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY</span> 
-export S3_ACCESS_KEY=""  #NOT REQUIRED 
-export S3_SECRET_KEY=""  #NOT REQUIRED 
-export CLOUDHOST_ACCOUNT_ID=""  #NOT REQUIRED
+<span style="color:red">export TOKEN="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY</span>  
+export S3_ACCESS_KEY=""  #NOT REQUIRED   
+export S3_SECRET_KEY=""  #NOT REQUIRED   
+export CLOUDHOST_ACCOUNT_ID=""  #NOT REQUIRED  
      
 \######DNS Settings##########  
 <span style="color:red">export DNS_USERNAME="peterdigitalocean@yahoo.com"  #MANDATORY</span>    
