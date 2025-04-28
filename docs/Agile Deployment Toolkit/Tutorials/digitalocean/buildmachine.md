@@ -161,14 +161,13 @@ Graphically you can see what I have described in these 8 steps here:
 ![](images/expedited/do-5.png "DigitalOcean Tutorial Image 5")
 ![](images/expedited/do-6.png "DigitalOcean Tutorial Image 6")
 ![](images/expedited/do-7.png "DigitalOcean Tutorial Image 7")
+![](images/expedited/do-8.png "DigitalOcean Tutorial Image 8")
 
 
 	
 ---------------
 
 8) Once the machine has built you can access it as follows:
-
-![](images/expedited/exo6.png "Exoscale Tutorial Image 6")  
 	
 >     Discover what the machine's IP address is by looking at the Exoscale GUI system for the IP address of the build machine - In this case: 185.19.29.134
 	
@@ -191,6 +190,7 @@ And then enter your build machine password
 	
 In Graphical form, if you change directory to your toolkit home directory and list it should look like:
 	
-![](images/expedited/exo7.png "Exoscale Tutorial Image 7")
+![](images/expedited/do-10.png "DigitalOcean Tutorial Image 10")
+![](images/expedited/do-11.png "DigitalOcean Tutorial Image 11")
 		
 --------------------------------------
