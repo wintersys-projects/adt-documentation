@@ -83,8 +83,8 @@ When I ran a temporal build process, I saw the following output from the ADT
 
 
 Notice that there are two webservers and an autoscaler running because this is a temporal build
-![](images/expedited/exo48.png "Exoscale Tutorial Image 48")
+![](images/expedited/do-62.png "Exoscale Tutorial Image 62")
 Notice that an images or assets bucket has been created in the datastore and is mounted within the webroot of the application as /var/www/html/images
-![](images/expedited/exo49.png "Exoscale Tutorial Image 49")
+![](images/expedited/do-63.png "Exoscale Tutorial Image 63")
 And this is what my community builder example looks like deployed from a temporal backup
 ![](images/expedited/do-61.png "Exoscale Tutorial Image 61")
