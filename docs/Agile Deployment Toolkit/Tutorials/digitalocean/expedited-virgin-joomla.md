@@ -63,15 +63,15 @@ Now record your spaces secret key and your spaces access key in the text file on
 
 --------------------------
 
-You now need to make a note of the email address that you login to your exoscale account with:
+You now need to make a note of the email address that you login to your digitalocean account with:
 
->     exoscale_email="peterexoscale@yahoo.com"
+>     digitalocean_email="peterdigitalocean@yahoo.com"
 
 -----------------------------------
 
 You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to exoscale as described [here](../../Deployment/Nameservers.md)
 
->     exoscale_dns_name="www.drpatient.uk"
+>     digitalocean_dns_name="www.drpatient.uk"
 
 --------------------------------
 
@@ -89,8 +89,8 @@ You then need to get an access key for your personal github account (you are adv
 ![](images/expedited/exo16.png "Exoscale Tutorial Image 16")
 
 
->     exoscale_github_username="adt-apps" #MANDATORY
->     exoscale_github_key="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k4" #MANDATORY
+>     digitalocean_github_username="adt-apps" #MANDATORY
+>     digitalocean_github_key="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k4" #MANDATORY
 
 So, that should be all the core credentials that I need to make a deployment. I can save my text file now (and keep it secure) because I might want to use these credentials again for other deployments or redeployments.  
 
@@ -102,11 +102,11 @@ My chosen username is "wintersys-projects"
 
 So, to begin an expedited build process, I need to:
 
->     cd /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale
+>     cd /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/digitalocean
 
 Then we can open up the 
 
->     vi exoscale1.tmpl
+>     vi digitalocean1.tmpl
 
 I then update all fields marked "MANDATORY" (marked in red) referring to the values that I have stored in the text file in my laptop in the correct template and when I am finished it looks like:
 
