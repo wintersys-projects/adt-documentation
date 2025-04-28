@@ -204,7 +204,6 @@ In Graphical form, if you change directory to your toolkit home directory and li
 ![](images/expedited/do-22.png "DigitalOcean Tutorial Image 22")
 ![](images/expedited/do-23.png "DigitalOcean Tutorial Image 23")
 ![](images/expedited/do-24.png "DigitalOcean Tutorial Image 24")
-![](images/expedited/do-25.png "DigitalOcean Tutorial Image 25")
 
 		
 --------------------------------------
