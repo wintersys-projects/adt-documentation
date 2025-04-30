@@ -23,7 +23,7 @@ If you are using digital ocean managed databases you can set the following in yo
 So an example of this would be in your template or override:
 
     1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql:lon1:1:db-s-1vcpu-1gb:8:testdbcluster1:testdb1:e265abcb-1295-1d8b-af36-0129f89456c2:testdb1"
-    2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:pg:lon1:1:db-s-1vcpu-1gb:16:testdbcluster1:testdb1:e265abcb-1295-1d8b-af36-0129f89456c2:testdb1"
+    2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:pg:lon1:1:db-s-1vcpu-1gb:17:testdbcluster1:testdb1:e265abcb-1295-1d8b-af36-0129f89456c2:testdb1"
 
 So, for the first example:  
   
@@ -42,7 +42,7 @@ So,
   **db-engine** can be **"mysql", "pg"**  
   **region** can be **"nyc1, sfo1, nyc2, ams2, sgp1, lon1, nyc3, ams3, fra1, tor1, sfo2, blr1, sfo3"**  
   **size** can be **"db-s-1vcpu-1gb", "db-s-1vcpu-2gb", "db-s-1vcpu-3gb", "db-s-2vcpu-4gb", "db-s-4vcpu-8gb", "db-s-8vcpu-16gb", "db-s-8vcpu-32gb"**  
-  **db-version** can be for **mysql = "8"** for **postgres="16"**  
+  **db-version** can be for **mysql = "8"** for **postgres="14,15,16,17"**  
   **cluster-name** can be unique string for your cluster, for example, **"testcluster"**   
   **db-name** can be a unique string for your database, for example, **"testdatabase"**  
   **adt_vpc** the unique vpc id of your machines, for example, **"e265abcb-1295-1d8b-af36-0129f89456c2"**
