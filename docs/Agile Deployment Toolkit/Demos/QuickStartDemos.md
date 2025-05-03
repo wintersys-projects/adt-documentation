@@ -38,8 +38,9 @@ Before you do anything, create a VPC in the "gb-lon" region called "adt-vpc" wit
 
 ![](images/adt-vpc.png "ADT-VPC image")  
 
-# FIREWALL?
-<span style="color:red">**Set up a native firewall to limit access to only us ourselves</span>
+Take note of the subnet, yours should be the same as in the image.
+
+<span style="color:red">**Set up a native firewall to limit access to only us ourselves**</span>
 
 You should create a native firewall for the linode you are going to deploy. In our case we want to block all connections except from the laptop that we want to allow access to. We create the firewall here, and we will attach it to our build-machine when we go through the steps needed to provision it. 
 
