@@ -166,7 +166,7 @@ You can ssh onto the build machine once it has started up with
 
 then do a
 
->      sudo su <password as per step 4 above>
+>      sudo su <password as per the value you entered for 'The password for your build machine user (required)' into the StackScript>
 >      cd adt-build-machine-scripts
 >      ./Logs.sh
 
