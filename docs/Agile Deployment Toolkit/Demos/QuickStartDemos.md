@@ -40,6 +40,8 @@ Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with 
 
 # FIREWALL?
 
+You should create a native firewall for the linode you are going to deploy. In our case we want to block all connections except
+
 ![](images/firewall-1.png "FIREWALL image 1")  
 ![](images/firewall-2.png "FIREWALL image 2")  
 ![](images/firewall-3.png "FIREWALL image 3")  
