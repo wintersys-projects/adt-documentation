@@ -105,7 +105,7 @@ You now need to update your linode DNS system with your new domain name. Click o
 
 -----------------------
 
-You should now have a **text file on your laptop** that looks similar to my sample/example configuration parameters I showed you above. If you don't have all equivalent details to those listed your build definitely won't succeed.   
+You should now have a **text file on your laptop** that looks similar to my sample/example configuration parameters I showed you above. If you don't have all equivalent details to those listed your build definitely won't succeed. You should keep your text file safe and secure as it has valuable confidential information and you can use the same text file across multiple demo deployments so once you have it you can reuse it with much less fuss for additional deployments. 
 
 <span style="color:red">**Enter the values that you have in your text file into the "AgileDeploymentToolkitDemo" Stackscript.**</span>
 
