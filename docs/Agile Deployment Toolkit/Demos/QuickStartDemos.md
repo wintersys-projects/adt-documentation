@@ -111,36 +111,36 @@ These next 15 bullet pointed steps you need to repeat each time you deploy a dem
 
 <span style="color:red">**Enter the values that you have in your text file into the "AgileDeploymentToolkitDemo" Stackscript.**</span>
 
-1. Go to "**Stackscripts**" from the GUI system of your Linode Account and find the public Stackscript "**AgileDeploymentToolkitDemo**" and click "**Deploy Linode**". You can find the StackScript you need to use [here](https://cloud.linode.com/stackscripts/635271)
+- Go to "**Stackscripts**" from the GUI system of your Linode Account and find the public Stackscript "**AgileDeploymentToolkitDemo**" and click "**Deploy Linode**". You can find the StackScript you need to use [here](https://cloud.linode.com/stackscripts/635271)
 
-2. You will then see a list of configurable text-fields that you are going to selectively enter the data from the text file you now have on your laptop. Each text-field has a label and so to configure the Stackscript, find the label as I mention it below and enter the corresponding value from your text file into that text-field
+- You will then see a list of configurable text-fields that you are going to selectively enter the data from the text file you now have on your laptop. Each text-field has a label and so to configure the Stackscript, find the label as I mention it below and enter the corresponding value from your text file into that text-field
 
-3. Label: **"SSH Public Key from your laptop (required)"** - value from YOUR text file which in my case is **"AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin"**
+- Label: **"SSH Public Key from your laptop (required)"** - value from YOUR text file which in my case is **"AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin"**
 
-4. Label: **"The username for your build machine user (required)"** - example value which in my case is **"nuocial-deployer"**
+- Label: **"The username for your build machine user (required)"** - example value which in my case is **"nuocial-deployer"**
 
-5. Label: **"The password for your build machine user (required)"** - example value which in my case is **"gdjkbcijbue2hhfdy3e8"**
+- Label: **"The password for your build machine user (required)"** - example value which in my case is **"gdjkbcijbue2hhfdy3e8"**
 
-6. Label: **"The SSH port for your build machine (required)"** - example value which in my case is **"1035"**
+- Label: **"The SSH port for your build machine (required)"** - example value which in my case is **"1035"**
 
-7. Label: **"IP address of your laptop (required)"** - value from YOUR text file which in my case is **"111.111.111.111"**
+- Label: **"IP address of your laptop (required)"** - value from YOUR text file which in my case is **"111.111.111.111"**
 
-8. Label: **"The username of your Linode account (required)"** - value from YOUR text file which in my case is **"linode-username"**
+- Label: **"The username of your Linode account (required)"** - value from YOUR text file which in my case is **"linode-username"**
 
-9. Label: **"The S3 access key for your linode object storage (required)"** - example value which in my case is **"PJX1HOLT157FQ9WCQ52K"**
+- Label: **"The S3 access key for your linode object storage (required)"** - example value which in my case is **"PJX1HOLT157FQ9WCQ52K"**
 
-10. Label: **"The S3 secret key for your linode object storage (required)"** - example value which in my case is 
+- Label: **"The S3 secret key for your linode object storage (required)"** - example value which in my case is 
 **"malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP"**
 
-11. Label: **"Your linode personal access token (which must have all necessary rights granted) (required)"** - example value which in my case is **"23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"**
+- Label: **"Your linode personal access token (which must have all necessary rights granted) (required)"** - example value which in my case is **"23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"**
 
-12.  Label: **"The email address of your DNS provider (required)"** - example value which in my case is the same email address as my linode account sign up email - **"nuocialdeployer@gmail.com"**
+-  Label: **"The email address of your DNS provider (required)"** - example value which in my case is the same email address as my linode account sign up email - **"nuocialdeployer@gmail.com"**
 
-13.  Label: **"The access token for your DNS provider (required)"** - same as your PAT which in my case is **"23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"**
+-  Label: **"The access token for your DNS provider (required)"** - same as your PAT which in my case is **"23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"**
 
-14. Label: **"The domain name of your website which must be registered with your DNS provide"** - example value which in my case is **"demo.nuocial.org.uk"**
+- Label: **"The domain name of your website which must be registered with your DNS provide"** - example value which in my case is **"demo.nuocial.org.uk"**
 
-15. Label: **"Website name if url is www.nuocial.org.uk this is nuocial (required)"** - example value which in my case is **"nuocial"**
+- Label: **"Website name if url is www.nuocial.org.uk this is nuocial (required)"** - example value which in my case is **"nuocial"**
 
 ---------------------------------------------------------------
 
