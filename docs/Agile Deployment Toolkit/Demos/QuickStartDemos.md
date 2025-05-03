@@ -45,7 +45,8 @@ You should create a native firewall for the linode you are going to deploy. In o
 ![](images/firewall-1.png "FIREWALL image 1")  
 ![](images/firewall-2.png "FIREWALL image 2")  
 ![](images/firewall-3.png "FIREWALL image 3")  
-![](images/firewall-4.png "FIREWALL image 4")  
+![](images/firewall-4.png "FIREWALL image 4") 
+NOTE: The IP address in this image is the IP address of my laptop in your case it should be the IP address of your laptop which you can find by going to: [whats my ip](https://www.whatsmyip.com)
 ![](images/firewall-5.png "FIREWALL image 5")  
 ![](images/firewall-6.png "FIREWALL image 6")  
 
