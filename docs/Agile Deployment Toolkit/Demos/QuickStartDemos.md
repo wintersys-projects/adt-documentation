@@ -58,7 +58,7 @@ In this last image, you can see that access has been granted only to our SSH por
 
 <span style="color:red">**To achieve the objective of a text file saved on your laptop with the configuration data needed for your demo deployment, please follow all of these 8 bullet-pointed steps**</span>
 
-- The system needs from you a sample username, a secure password, the ssh port that you want to connect with and the IP address of your laptop.
+- The system needs from you a username, a secure password, the ssh port that you want to connect with and the IP address of your laptop.
   You can provide a username of your own choosing, here I chose to make the username "nuocial-deployer"
   You can provide a password of your own choosing, here I chose to use the password "gdjkbcijbue2hhfdy3e8"
   You can choose an appropriate SSH port number I chose to make mine "1035"
