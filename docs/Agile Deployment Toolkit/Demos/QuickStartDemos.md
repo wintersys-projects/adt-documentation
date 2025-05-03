@@ -146,6 +146,18 @@ Before you click "Create Linode" at the bottom of the page make sure that you ar
 
 Once you click "**Create Linode**", the build will deploy which will take some minutes. 
 
+In graphical format the process of configuring your build machine for deployment should look similar to the following set of images:
+![](images/stack-1.png "STACKL image 1")  
+![](images/stack-2.png "STACKL image 1")  
+![](images/stack-3.png "STACKL image 1")  
+![](images/stack-4.png "STACKL image 1")  
+![](images/stack-5.png "STACKL image 1")  
+![](images/stack-6.png "STACKL image 1")  
+![](images/stack-7.png "STACKL image 1")  
+![](images/stack-8.png "STACKL image 1")  
+
+
+
 Once the build is completed:
 
 # OBTAIN BUILD MACHINE IP ADDRESS (IMAGE)
