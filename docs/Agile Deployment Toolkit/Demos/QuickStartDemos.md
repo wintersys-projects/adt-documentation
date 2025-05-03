@@ -30,7 +30,9 @@ SAMPLE CONFIGURATION DATA
 >     Object Storage secret key: **malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP**  
 >     Personal Access Token : **23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29**  
 >     Live Domain Name: **demo.nuocial.org.uk**  
->     Core Website Name: **nuocial**  
+>     Core Website Name: **nuocial**
+
+# VPC?
 
 Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with a subnet of "10.0.1.0/24". The VPC create screen for my requirements looks like:
 
@@ -41,7 +43,7 @@ Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with 
 
 ------------------------------------
 
-To ahcieve the objective of a text file saved on your laptop with your configuration data, please follow all of these 8 bullet-pointed steps
+<span style="color:red">**To ahcieve the objective of a text file saved on your laptop with your configuration data, please follow all of these 8 bullet-pointed steps**</span>
 
 - Open up an empty text document on your laptop and make up a username, password and ssh port for your prospective build machine. Find the ip address of your laptop by going to [whats my ip](https://www.whatsmyip.com) and enter the ip address of your laptop into your empty text document, for example,   
 
