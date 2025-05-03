@@ -43,42 +43,44 @@ Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with 
 
 ------------------------------------
 
-<span style="color:red">**To ahcieve the objective of a text file saved on your laptop with your configuration data, please follow all of these 8 bullet-pointed steps**</span>
+<span style="color:red">**To achieve the objective of a text file saved on your laptop with your configuration data, please follow all of these 8 bullet-pointed steps**</span>
 
-- Open up an empty text document on your laptop and make up a username, password and ssh port for your prospective build machine. Find the ip address of your laptop by going to [whats my ip](https://www.whatsmyip.com) and enter the ip address of your laptop into your empty text document, for example,   
+- The system needs from you a sample username, a secure password, the ssh port that you want to connect with and the IP address of your laptop.
+  You can provide a username of your own choosing, here I chose to make the username "nuocial-deployer"
+  You can provide a password of your own choosing, here I chose to use the password "gdjkbcijbue2hhfdy3e8"
+  You can choose an appropriate SSH port number I chose to make mine "1035"
+  You need to find out what the IP address of your laptop is which you can find out by going to [whats my ip](https://www.whatsmyip.com) in your browser  
 
 >       "Username: nuocial-deployer"
 >       "Password: gdjkbcijbue2hhfdy3e8"
 >       "Port: 1035"
 >       "Laptop IP: 111.111.111.111"  
 
-- Setup an account with Linode [Linode](https://www.linode.com) - make a note in your text document that you opened in 1. of the username of your Linode account, for example,  
+- If you haven't got a user account with Linode, setup an account with them which you can do at  [Linode](https://www.linode.com)
+  The systemm will need to know the username of your linode account (in other words, the username that you used to register with). Here I chose the username of my linode account to be "nuocialdeployer". Make a note of your linode account username in the text file on your laptop.
+  The system will also need to know the email address that you registered when you created your Linode account. For me, the email address is "nuocialdeployer@gmail.com"
+
+These values should be added to the text file on your laptop
  
 >        "Linode account username : nuocialdeployer"  
-
- and the email address you used to register your linode account under  for example,  
-
 >        "Linode account email address : nuocialdeployer@gmail.com"
 
-- Setup a pair of [SSH Keys](https://webdock.io/en/docs/webdock-control-panel/shell-users-and-sudo/set-up-an-ssh-key) on your laptop if you haven't already - make a note in your text document that you opened in 1 of the full public key part of the key pair you just generated for example,   
+- If you haven't got an appropriate ssh key pair on your laptop, you can follow the "Generate an SSH Key Pair" section if you your laptop is a Linux or a mac based machine and a "Generate a key pair with Putty" section if your laptop machine is a Windows based machine in [this](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/) document.  You then need to make a note of the public key that you either already had or that you have generated freshly for this demo set and store it in the credentials file you are building on your laptop. 
 
 >        "Laptop public key : ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin"  
 
 - Setup Object Storage for your account if its not already setup according to [Object Storage Setup](https://www.linode.com/docs/products/storage/object-storage/get-started/#generate-an-access-key) - make a note in your text document of the access key and the secret key for your object storage, for example,  
 
 >        "Object Storage access key : PJX1HOLT157FQ9WCQ52K "  
-
-and  
-
 >        "Object Storage secret key: malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP"  
 
-- Generate a personal access token with all read and write permissions granted according to [Generate Personal Access Token](https://www.linode.com/docs/products/tools/api/guides/manage-api-tokens/#create-an-api-token) - make a  note of your PAT in your text document for example,  
+- Generate a personal access token with (for the simplicity of this demo, in production you should use the principle of least privileges) all read and write permissions granted according to [Generate Personal Access Token](https://www.linode.com/docs/products/tools/api/guides/manage-api-tokens/#create-an-api-token) - make a note of your PAT in your text document for example,  
 
 >        "Linode Personal Access Token : 23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"  
 
-- Purchase a domain if you don't have one and change the nameservers of the domain to "**ns1.linode.com, ns2.linode.com, ns3.linode.com, ns4.linode.com and ns5.linode.com**" with your domain registrar (if you don't know how to purchase a domain and change its active nameservers, then, this toolkit probably isn't suitable for you). 
+- Purchase a domain if you don't have one [fasthosts](www.fasthosts.co.uk) and change the nameservers of the domain to "**ns1.linode.com, ns2.linode.com, ns3.linode.com, ns4.linode.com and ns5.linode.com**" with your domain registrar (if you don't know how to purchase a domain and change its active nameservers, then, this toolkit probably isn't suitable for you). 
 
-- You now need to make a note of the domain name you are using to deploy to, for example, if I have just purchased as set up a domain "**nuocial.org.uk**" in step 6, my intended domain name for my final website to be available at might be "**demo.nuocial.org.uk**" so make a note in your text file  
+- You now need to make a note of the domain name you are using to deploy to, for example, if I have just purchased as set up a domain "**nuocial.org.uk**" and my intended domain name for my final demo website is to be available at"**demo.nuocial.org.uk**" I need to  make a note of this in my text file  
 
 >        "Live Domain Name: demo.nuocial.org.uk"
 
@@ -90,9 +92,9 @@ You now need to update your linode DNS system with your new domain name. Click o
 
 -----------------------
 
-You should now have a text file on your laptop that looks similar to my sample/example configuration parameters listed above. If you don't have all equivalent details to those listed your build most probably  won't succeed.   
+You should now have a text file on your laptop that looks similar to my sample/example configuration parameters I showed you above. If you don't have all equivalent details to those listed your build definitely won't succeed.   
 
-What you now need to do to have your pre-requisite steps completed is enter the values that you have in your text file into the "**AgileDeploymentToolkitDemo**" Stackscript. To deploy the demo application, follow these steps
+What you now need to do to have your one time preparatory steps completed is enter the values that you have in your text file into the "**AgileDeploymentToolkitDemo**" Stackscript. To deploy the first demo application, follow these steps
 
 1. Go to "**Stackscripts**" from the GUI system of your Linode Account and find the public Stackscript "**AgileDeploymentToolkitDemo**" and click "**Deploy Linode**" 
 
@@ -127,11 +129,13 @@ What you now need to do to have your pre-requisite steps completed is enter the 
 
 ---------------------------------------------------------------
 
-For every demo below you need to run through all the pre-requisite steps mentioned above. For each demo, before you click "Create Linode" at the bottom of the page make sure that you are creating a linode in the correct region (gb-lon), that the Linode has a root password set. If you understand what you are doing, then the rest of the settings for your linode are left to your discretion.
+Before you click "Create Linode" at the bottom of the page make sure that you are creating this build machine Linode in the correct region (gb-lon), attach the build machine you are provisioning to the adt-vpc that you created above remembering to "**Assign a public IPv4 address for this Linode**", that the Linode has a root password set. If you understand what you are doing, then the rest of the settings for your linode are left to your discretion.
 
 Once you click "**Create Linode**", the build will deploy which will take some minutes. 
 
 Once the build is completed:
+
+# OBTAIN BUILD MACHINE IP ADDRESS (IMAGE)
 
 You can ssh onto the build machine once it has started up with
 
@@ -163,9 +167,6 @@ Once the build has completed you might have to give the Linode DNS system a few 
 
 If you are using the Linode DNS system which you are by default then you might need to clear your broswer's DNS cache between deployments for the website to display. In Chrome you can do this by going to "**chrome://net-internals/#dns**"
 
-**Note 6:**
-
-In all these examples don't forget to attach the build machine you are provisioning to the adt-vpc that you created above remembering to "**Assign a public IPv4 address for this Linode**". 
 
 --------------------------
 <span style="color:red">**After you have performed all the pre-requisite steps above, you can choose which demo you want to follow from those listed below**</span>
