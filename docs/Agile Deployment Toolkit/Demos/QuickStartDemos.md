@@ -1,8 +1,10 @@
 ## QUICK-START DEMOS 
 
 --------------------------
-<span style="color:red">**INITIAL (PRE-REQUISITE) STEPS REQUIRED FOR ALL THE DEMOS LISTED BELOW**</span>
+<span style="color:red">**FIRST STEPS**</span>
 --------------------------
+
+**These initial steps are only required the first time you make a deployment. The result of these first steps can be used repeatedly for subsequent demo deployments.** 
 
 **NOTE:** These quick start demos are only intended for use on the Linode platform using the supplied [StackScript](https://cloud.linode.com/stackscripts/635271) to demonstrate example usage cases for the Agile Deployment Toolkit as quickly and easily as possible.  The demos themselves are very quickly put together simply there for illustrative purposes they are not there to provide any truly useful function. If anyone would like to spend time crafting demos useful for real function that could be listed here that would be valued. 
 
@@ -10,7 +12,26 @@ The purpose of these quick start demos is to show you that with just some parame
 
 For more information about parameter configuration please see the [spec](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md) and [quickspec](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/quick_specification.dat)
 
-**PRE-REQUISITE STEPS MENTIONED IN THE DEMOS BELOW:**
+**FIRST DEPLOYMENT ONLY PREPARATORY STEPS**
+
+You will not need to do these steps multiple times for subsequent demos that you deploy. Once you have the result of these first time only steps you can reuse the result of these steps across you later demo deployments. What this means is that making the first deployment is more work than making any subdequent deployments after that and it's the ease with which subdequent deployments can be made which is the "looked for win" here.  
+
+** OBJECTIVE** At the end of these initial preparatory steps you should have a text file stored and saved on your laptop complete with your own values equivalent to the following:
+
+Sample/example configuration parameters:
+
+>     Build Machine User: **"nuocial-deployer"**  
+>     Build Machine Password: **"gdjkbcijbue2hhfdy3e8"**  
+>     Build Machine SSH PORT: **"1035"**  
+>     Laptop IP: **111.111.111.111**  
+>     Linode account username : **linode-username**  
+>     Linode account email address : **nuocialdeployer@gmail.com**  
+>     Laptop public key : **ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin**  
+>     Object Storage access key : **PJX1HOLT157FQ9WCQ52K**  
+>     Object Storage secret key: **malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP**  
+>     Personal Access Token : **23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29**  
+>     Live Domain Name: **demo.nuocial.org.uk**  
+>     Core Website Name: **nuocial**  
 
 Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with a subnet of "10.0.1.0/24". The VPC create screen for my requirements looks like:
 
@@ -18,23 +39,8 @@ Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with 
 
 After following the 8 bullet points below, you should have a text file on your laptop with content similar to the following sample/example values:  
 
-**Sample/example configuration parameters:**
-
-Build Machine User: **"nuocial-deployer"**  
-Build Machine Password: **"gdjkbcijbue2hhfdy3e8"**  
-Build Machine SSH PORT: **"1035"**  
-Laptop IP: **111.111.111.111**  
-Linode account username : **linode-username**  
-Linode account email address : **nuocialdeployer@gmail.com**  
-Laptop public key : **ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin**  
-Object Storage access key : **PJX1HOLT157FQ9WCQ52K**  
-Object Storage secret key: **malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP**  
-Personal Access Token : **23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29**  
-Live Domain Name: **demo.nuocial.org.uk**  
-Core Website Name: **nuocial**  
-  
 ------------------------------------
-To achieve the above please follow theses steps in turn. 
+To achieve the above please follow theses 8 steps in turn. 
 
 - Open up an empty text document on your laptop and make up a username, password and ssh port for your prospective build machine. Find the ip address of your laptop by going to [whats my ip](https://www.whatsmyip.com) and enter the ip address of your laptop into your empty text document, for example,   
 
