@@ -9,7 +9,7 @@ For more information about parameter configuration please see the [spec](https:/
 **These initial steps are only required the first time you make a deployment. The result of these first steps can be used repeatedly for subsequent demo deployments.** 
 
 --------------------------
-<span style="color:red">**FIRST DEPLOYMENT ONLY PREPARATORY STEPS**</span>
+<span style="color:red">**YOUR FIRST DEMO DEPLOYMENT PREPARATORY STEPS**</span>
 
 --------------------------
 
