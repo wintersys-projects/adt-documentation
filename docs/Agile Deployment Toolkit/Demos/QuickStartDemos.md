@@ -40,16 +40,16 @@ Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with 
 
 # FIREWALL?
 
-You should create a native firewall for the linode you are going to deploy. In our case we want to block all connections except
+You should create a native firewall for the linode you are going to deploy. In our case we want to block all connections except from the laptop that we want to allow access to. We create the firewall here, and we will attach it to our build-machine when we go through the steps needed to provision it. 
 
 ![](images/firewall-1.png "FIREWALL image 1")  
 ![](images/firewall-2.png "FIREWALL image 2")  
 ![](images/firewall-3.png "FIREWALL image 3")  
 ![](images/firewall-4.png "FIREWALL image 4") 
-NOTE: The IP address in this image is the IP address of my laptop in your case it should be the IP address of your laptop which you can find by going to: [whats my ip](https://www.whatsmyip.com)
+NOTE: The IP address in this next image is the IP address of my laptop in your case it should be the IP address of your laptop which you can find by going to: [whats my ip](https://www.whatsmyip.com)
 ![](images/firewall-5.png "FIREWALL image 5")  
+In this last image, you can see that access has been granted only to our SSH port (1035) from the IP address of our laptop. What this means is that once this firewall is attached to our build-machine everything is blocked from access except for our laptop and even then only to the specific ssh port that we have set. 
 ![](images/firewall-6.png "FIREWALL image 6")  
-
 
 
 ------------------------------------
