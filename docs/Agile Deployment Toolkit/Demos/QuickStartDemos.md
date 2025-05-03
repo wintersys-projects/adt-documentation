@@ -40,6 +40,14 @@ Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with 
 
 # FIREWALL?
 
+![](images/firewall-1.png "FIREWALL image 1")  
+![](images/firewall-2.png "FIREWALL image 2")  
+![](images/firewall-3.png "FIREWALL image 3")  
+![](images/firewall-4.png "FIREWALL image 4")  
+![](images/firewall-5.png "FIREWALL image 5")  
+![](images/firewall-6.png "FIREWALL image 6")  
+
+
 
 ------------------------------------
 
