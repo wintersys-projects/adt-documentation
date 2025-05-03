@@ -14,7 +14,9 @@ For more information about parameter configuration please see the [spec](https:/
 --------------------------
 
 You will not need to do these steps multiple times for subsequent demos that you deploy.   
+
 **IF YOU ALREADY HAVE A FILE ON YOUR LAPTOP WITH VALID CREDENTIALS STORED IN IT THAT YOU PREVIOUSLY GENERATED, GO DIRECTLY TO THE "POPULATE YOUR STACKSCRIPT" SECTION**.  
+
 Once you have the result of these first time only steps you can reuse the result of these steps across you later demo deployments. What this means is that making the first deployment is more work than making any subdequent deployments after that and it's the ease with which subsequent deployments can be made which is the "looked for win" here.  
 
 **OBJECTIVE** At the end of these initial preparatory steps you should have a text file stored and saved on your laptop complete with your own values equivalent to the following:
