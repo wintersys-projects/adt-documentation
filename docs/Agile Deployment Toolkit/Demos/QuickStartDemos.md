@@ -91,7 +91,7 @@ These values should be added to the text file on your laptop
 
 >        "Linode Personal Access Token : 23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"  
 
-- Purchase a domain if you don't have one [fasthosts](www.fasthosts.co.uk) and change the nameservers of the domain to "**ns1.linode.com, ns2.linode.com, ns3.linode.com, ns4.linode.com and ns5.linode.com**" with your domain registrar (if you don't know how to purchase a domain and change its active nameservers, then, this toolkit probably isn't suitable for you). 
+- Purchase a domain if you don't have one [fasthosts](https://www.fasthosts.co.uk) and change the nameservers of the domain to "**ns1.linode.com, ns2.linode.com, ns3.linode.com, ns4.linode.com and ns5.linode.com**" with your domain registrar (if you don't know how to purchase a domain and change its active nameservers, then, this toolkit probably isn't suitable for you). 
 
 - You now need to make a note of the domain name you are using to deploy to, for example, if I have just purchased as set up a domain "**nuocial.org.uk**" and my intended domain name for my final demo website is to be available at"**demo.nuocial.org.uk**" I need to  make a note of this in my text file  
 
