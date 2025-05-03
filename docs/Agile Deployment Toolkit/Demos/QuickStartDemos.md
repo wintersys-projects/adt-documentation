@@ -22,7 +22,7 @@ SAMPLE CONFIGURATION DATA
 >     Build Machine User: **"nuocial-deployer"**  
 >     Build Machine Password: **"gdjkbcijbue2hhfdy3e8"**  
 >     Build Machine SSH PORT: **"1035"**  
->     Laptop IP: **111.111.111.111**  
+>     Laptop IP: **77.99.28.105**  
 >     Linode account username : **linode-username**  
 >     Linode account email address : **nuocialdeployer@gmail.com**  
 >     Laptop public key : **ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin**  
@@ -67,7 +67,7 @@ In this last image, you can see that access has been granted only to our SSH por
 >       "Username: nuocial-deployer"
 >       "Password: gdjkbcijbue2hhfdy3e8"
 >       "Port: 1035"
->       "Laptop IP: 111.111.111.111"  
+>       "Laptop IP: 77.99.28.105"  
 
 - If you haven't got a user account with Linode, setup an account with them which you can do at  [Linode](https://www.linode.com)
   The systemm will need to know the username of your linode account (in other words, the username that you used to register with). Here I chose the username of my linode account to be "nuocialdeployer". Make a note of your linode account username in the text file on your laptop.
@@ -75,7 +75,7 @@ In this last image, you can see that access has been granted only to our SSH por
 
 These values should be added to the text file on your laptop
  
->        "Linode account username : nuocialdeployer"  
+>        "Linode account username : linode-username"  
 >        "Linode account email address : nuocialdeployer@gmail.com"
 
 - If you haven't got an appropriate ssh key pair on your laptop, you can follow the "Generate an SSH Key Pair" section if you your laptop is a Linux or a mac based machine and a "Generate a key pair with Putty" section if your laptop machine is a Windows based machine in [this](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/) document.  You then need to make a note of the public key that you either already had or that you have generated freshly for this demo set and store it in the credentials file you are building on your laptop. 
@@ -117,7 +117,7 @@ You should now have a text file on your laptop that looks similar to my sample/e
 
 4. Label: **"The username for your build machine user (required)"** - example value which in my case is **"nuocial-deployer"**
 
-5. Label: **"The password for your build machine user (required)"** - example value which in my case is **"Hjdhufghks124$£"**
+5. Label: **"The password for your build machine user (required)"** - example value which in my case is **"gdjkbcijbue2hhfdy3e8"**
 
 6. Label: **"The SSH port for your build machine (required)"** - example value which in my case is **"1035"**
 
