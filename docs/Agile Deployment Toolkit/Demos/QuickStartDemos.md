@@ -17,7 +17,7 @@ You will not need to do these steps multiple times for subsequent demos that you
 
 **OBJECTIVE** At the end of these initial preparatory steps you should have a text file stored and saved on your laptop complete with your own values equivalent to the following:
 
-Sample/example configuration parameters:
+SAMPLE CONFIGURATION DATA
 
 >     Build Machine User: **"nuocial-deployer"**  
 >     Build Machine Password: **"gdjkbcijbue2hhfdy3e8"**  
@@ -38,10 +38,10 @@ Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with 
 
 # FIREWALL?
 
-After following the 8 bullet points below, you should have a text file on your laptop with content similar to the following sample/example values:  
 
 ------------------------------------
-To achieve the above please follow theses 8 steps in turn. 
+
+To ahcieve the objective of a text file saved on your laptop with your configuration data, please follow all of these 8 bullet-pointed steps
 
 - Open up an empty text document on your laptop and make up a username, password and ssh port for your prospective build machine. Find the ip address of your laptop by going to [whats my ip](https://www.whatsmyip.com) and enter the ip address of your laptop into your empty text document, for example,   
 
