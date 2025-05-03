@@ -32,7 +32,7 @@ SAMPLE CONFIGURATION DATA
 >     Live Domain Name: **demo.nuocial.org.uk**  
 >     Core Website Name: **nuocial**
 
-<span style="color:red">**Set up a VPC so that our servers and our build machine are in the same VPC</span>
+<span style="color:red">**Set up a VPC so that our servers and our build machine are in the same VPC**</span>
 
 Before you do anything, create a VPC in the "gb-lon" region called "adt-vpc" with a subnet of "10.0.1.0/24". The VPC create screen for my requirements looks like:
 
@@ -107,7 +107,7 @@ You now need to update your linode DNS system with your new domain name. Click o
 
 You should now have a **text file on your laptop** that looks similar to my sample/example configuration parameters I showed you above. If you don't have all equivalent details to those listed your build definitely won't succeed.   
 
-<span style="color:red">**Enter the values that you have in your text file into the "**AgileDeploymentToolkitDemo**" Stackscript.**</span>
+<span style="color:red">**Enter the values that you have in your text file into the "AgileDeploymentToolkitDemo" Stackscript.**</span>
 
 1. Go to "**Stackscripts**" from the GUI system of your Linode Account and find the public Stackscript "**AgileDeploymentToolkitDemo**" and click "**Deploy Linode**" 
 
