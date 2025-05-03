@@ -73,7 +73,7 @@ The full set of services that are supported by the core of the toolkit and which
 1. For VPS services, one of - **Digital Ocean**, **Linode**, **Exoscale** or **Vultr**
 2. For Email services, one of - **Amazon SES**, **Mailjet** or **Sendpulse**
 3. For Git based services, one of - **Bitbucket**, **Github** or **Gitlab**
-4. For DNS services, one of - **Cloudflare**, **Digital Ocean**, **Exoscale**, **Linode**, **Vultr** 
+4. For DNS services, one of - **Cloudflare DNS**, **Digital Ocean DNS**, **Exoscale DNS**, **Linode DNS**, **Vultr DNS** 
 5. For S3 compatible object store services, one of - **Digital Ocean Spaces**, **Exoscale Object Store**, **Linode Object Store**, **Vultr Object Store**
 6. I chose these VPS providers to deploy with because they have managed database offerings, if you wish to make a production ready deployment with this toolkit it is recommended that you make your deployment using their managed database offerings. For development deployments, you can use the default "apt" database install to your own VPS system within your VPC that this toolkit provides. 
 
