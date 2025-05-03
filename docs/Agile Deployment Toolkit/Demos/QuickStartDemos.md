@@ -36,7 +36,7 @@ Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with 
 
 ![](images/adt-vpc.png "ADT-VPC image")  
 
-#FIREWALL?
+# FIREWALL?
 
 After following the 8 bullet points below, you should have a text file on your laptop with content similar to the following sample/example values:  
 
