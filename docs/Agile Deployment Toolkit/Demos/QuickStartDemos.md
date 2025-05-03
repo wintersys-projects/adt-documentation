@@ -32,13 +32,14 @@ SAMPLE CONFIGURATION DATA
 >     Live Domain Name: **demo.nuocial.org.uk**  
 >     Core Website Name: **nuocial**
 
-# VPC?
+<span style="color:red">**Set up a VPC so that our servers and our build machine are in the same VPC</span>
 
-Before you do anything, create a VPC in the gb-lon region called "adt-vpc" with a subnet of "10.0.1.0/24". The VPC create screen for my requirements looks like:
+Before you do anything, create a VPC in the "gb-lon" region called "adt-vpc" with a subnet of "10.0.1.0/24". The VPC create screen for my requirements looks like:
 
 ![](images/adt-vpc.png "ADT-VPC image")  
 
 # FIREWALL?
+<span style="color:red">**Set up a native firewall to limit access to only us ourselves</span>
 
 You should create a native firewall for the linode you are going to deploy. In our case we want to block all connections except from the laptop that we want to allow access to. We create the firewall here, and we will attach it to our build-machine when we go through the steps needed to provision it. 
 
