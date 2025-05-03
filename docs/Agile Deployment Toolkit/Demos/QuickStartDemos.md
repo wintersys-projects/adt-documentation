@@ -142,13 +142,9 @@ These next 15 bullet pointed steps you need to repeat each time you deploy a dem
 
 - Label: **"Website name if url is www.nuocial.org.uk this is nuocial (required)"** - example value which in my case is **"nuocial"**
 
----------------------------------------------------------------
 
-Before you click "Create Linode" at the bottom of the page make sure that you are creating this build machine Linode in the correct region (gb-lon), attach the build machine you are provisioning to the adt-vpc that you created above remembering to "**Assign a public IPv4 address for this Linode**", that the Linode has a root password set. If you understand what you are doing, then the rest of the settings for your linode are left to your discretion.
+In graphical format the process of configuring your build machine for deployment should look similar to the following set of images:  
 
-Once you click "**Create Linode**", the build will deploy which will take some minutes. 
-
-In graphical format the process of configuring your build machine for deployment should look similar to the following set of images:
 ![](images/stack-1.png "STACKL image 1")  
 ![](images/stack-2.png "STACKL image 1")  
 ![](images/stack-3.png "STACKL image 1")  
@@ -158,7 +154,7 @@ In graphical format the process of configuring your build machine for deployment
 ![](images/stack-7.png "STACKL image 1")  
 ![](images/stack-8.png "STACKL image 1")  
 
-
+Once you click "**Create Linode**" (as shown in the last image), the build will deploy which will take some minutes. 
 
 Once the build is completed:
 
@@ -166,7 +162,7 @@ Once the build is completed:
 
 You can ssh onto the build machine once it has started up with
 
->      ssh -p 1035 nuocial-deployer@<build-machine-ip>
+>      ssh -p <build-machine-port> <username>@<build-machine-ip>
 
 then do a
 
