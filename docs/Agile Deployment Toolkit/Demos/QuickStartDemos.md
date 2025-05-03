@@ -440,20 +440,23 @@ You can then deploy your Linode using your Stackscript and wait for your Drupal 
 
 You will see a message asking you to remove _J* file from the installation folder. Once you see this message wait until your system clock on your laptop cycles to the next minute and the system will have deleted it for you. You can then scroll down and click "Install Joomla" 
 
-**Note:**   
+You can install "opensocial" or "Drupal CMS" by making the following modifications to the 9 settings that you made in this demo.   
 
-You can install a vanilla copy of [OpenSocial](https://www.getopensocial.com/) instead of a version of Drupal by making the following adjustments to the 8 steps outlined above for demo 10 
+**OPENSOCIAL**  
 
->     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:social" 
+To install [OPENSOCIAL](https://www.getopensocial.com/) make the following modification to the steps above:
 
-**IMPORTANT**   
+At the time of writing, PHP8.1 is the highest supported version of PHP by opensocial so you need to set these values to install opensocial 
+>     set "PHP VERSION" to "8.1"
+>     set "The Display name for your website e.g. My Demo Website" to "My Opensocial Demo"  
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:social"
 
-and at the time of writing, PHP8.1 is the supported version for opensocial so you need to also set  
->     "PHP VERSION" to "8.1"
+**DRUPAL CMS**  
 
-Change the value 
->     "The Display name for your website e.g. My Demo Website" to "My Opensocial Demo"  
->     "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:social"  
+You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the modification to the steps above:
+
+>     set "The Display name for your website e.g. My Demo Website" to "My Druapl CMS Demo"  
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:cms"
 
 >     root@localhost:/home/agile-deployer/adt-build-machine-scripts# ./Log.sh
 >     Which cloudhost do you want to view logs for DigitalOcean (do), Exoscale (exo), Linode (lin) or Vultr (vul)
