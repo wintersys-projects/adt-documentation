@@ -1,10 +1,5 @@
 ## QUICK-START DEMOS 
 
---------------------------
-<span style="color:red">**FIRST STEPS**</span>
-
---------------------------
-
 **NOTE:** These quick start demos are only intended for use on the Linode platform using the supplied [StackScript](https://cloud.linode.com/stackscripts/635271) to demonstrate example usage cases for the Agile Deployment Toolkit as quickly and easily as possible.  The demos themselves are very quickly put together simply there for illustrative purposes they are not there to provide any truly useful function. If anyone would like to spend time crafting demos useful for real function that could be listed here that would be valued. 
 
 The purpose of these quick start demos is to show you that with just some parameters you can achieve a lot using the Agile Deployment Toolkit with the possibility of going much deeper into it if you choose to.
@@ -13,7 +8,10 @@ For more information about parameter configuration please see the [spec](https:/
 
 **These initial steps are only required the first time you make a deployment. The result of these first steps can be used repeatedly for subsequent demo deployments.** 
 
-**FIRST DEPLOYMENT ONLY PREPARATORY STEPS**
+--------------------------
+<span style="color:red">**FIRST DEPLOYMENT ONLY PREPARATORY STEPS**</span>
+
+--------------------------
 
 You will not need to do these steps multiple times for subsequent demos that you deploy. Once you have the result of these first time only steps you can reuse the result of these steps across you later demo deployments. What this means is that making the first deployment is more work than making any subdequent deployments after that and it's the ease with which subdequent deployments can be made which is the "looked for win" here.  
 
