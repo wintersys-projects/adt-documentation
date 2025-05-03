@@ -4,7 +4,7 @@ When you install a CMS system out of the box you have a virgin CMS installation 
 
 Here is the workflow that I am suggesting for how the concept of "application directories" could work:
 
-1. An application developer installs a base CMS, say Joomla onto their own servers and takes meticulous care about developing a very high quality application to meet a common business need, say, ecommerce or social networking or blogging. 
+1. An application developer installs using the ADT a base CMS, say Joomla onto their own servers and takes meticulous care about developing a very high quality application to meet a common business need, say, ecommerce or social networking or blogging. 
 2. When the application developer is completely satisfied with the application that he has developed, he creates a set of baseline respositories (making sure that there's no sensitive credentials in the baseline of his application that he makes). 
 3. He then registers his application with an application directory (either his own or a community one) together with an in depth description and possibly demo of what his application is and how his appilication works. 
 4. A customer then looks through the application directory and sees the application that he likes or wants and (possibly for a fee) he gains access to the application repository sourcecode which he can then install on his servers using the ADT. 
