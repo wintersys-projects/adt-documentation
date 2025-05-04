@@ -111,7 +111,7 @@ You now need to update your linode DNS system with your new domain name. Click o
 
 <span style="color:red">**POPULATE YOUR STACKSCRIPT**</span>
 
-You should now have a **text file on your laptop** that looks similar to my sample/example configuration parameters I showed you above. If you don't have all equivalent details to those listed your build definitely won't succeed. You should keep your text file safe and secure as it has valuable confidential information and you can use the same text file across multiple demo deployments so once you have it you can reuse it with much less fuss for additional deployments. 
+You should now have a **text file on your laptop** that looks similar to "SAMPLE CONFIGURATION DATA" I showed you above. If you don't have all equivalent details to those listed your build definitely won't succeed. You should keep your text file safe and secure as it has valuable confidential information and you can use the same text file across multiple demo deployments so once you have it you can reuse it with much less fuss for additional deployments. 
 
 These next 15 bullet pointed steps you need to repeat each time you deploy a demo. Everything above this point in the proceedings you only need to do the first time you make a deployment but when you make second or third deployments <span style="color:red">as long as you have got valid credentials in the text file on your laptop THIS is your start point </span> rather than the beginning of these instructions. 
 
