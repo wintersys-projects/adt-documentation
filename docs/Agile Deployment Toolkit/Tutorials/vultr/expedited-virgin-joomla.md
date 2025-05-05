@@ -266,7 +266,7 @@ When I ran the build process when writing this tutorial it looked as follows:
 
 <span style="color:red">NOTE: To display the joomla application you must go to your website URL in your browser such as https://www.drpatient.uk/installation/index.php</span>   
 
-![](images/expedited/do-42.png "Digital Ocean Tutorial Image 42")
+![](images/expedited/Vultr33.png "Vultr Tutorial Image 33")
 
 Assuming that you have your Joomla application online that's this tutorial through.   
 
