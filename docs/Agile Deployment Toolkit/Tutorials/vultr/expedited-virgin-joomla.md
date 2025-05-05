@@ -56,8 +56,8 @@ How to generate your access key and your secret key is shown in the following im
 
 Now record your vultr object storage secret key and your vultr object storage access key in the text file on your laptop
 
->     vultrobjectstorage_access_key="DO00Y....."
->     vultrobjectstorage_secret_key="eAlmw....."
+>     vultrobjectstorage_access_key="JkfklfuHD....."
+>     vultrobjectstorage_secret_key="kjdin34ngfjne....."
 
 
 --------------------------
