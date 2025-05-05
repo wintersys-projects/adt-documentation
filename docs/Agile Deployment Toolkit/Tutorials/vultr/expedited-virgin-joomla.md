@@ -38,9 +38,8 @@ In production use you should use the principle of least privileges to generate 2
 
 Create a personal access token as follows:
 
-![](images/expedited/do-25.png "Digital Ocean Tutorial Image 25")
-![](images/expedited/do-26.png "Digital Ocean Tutorial Image 26")
-![](images/expedited/do-27.png "Digital Ocean Tutorial Image 27")
+![](images/expedited/vult13.png "Vultr Tutorial Image 13")
+![](images/expedited/vult14.png "Vultr Tutorial Image 14")
 
 
 Now record your token in your separate text file on your laptop
