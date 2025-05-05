@@ -45,7 +45,7 @@ Create a personal access token as follows:
 
 Now record your token in your separate text file on your laptop
 
->     vultr_access_token="dop_v1_51ac....."  
+>     vultr_access_token="51ackfnkjnjng....."  
 
 -----------------------------------
 
