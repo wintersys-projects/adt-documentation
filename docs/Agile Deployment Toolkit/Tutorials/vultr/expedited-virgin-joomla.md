@@ -53,6 +53,8 @@ How to generate your access key and your secret key is shown in the following im
 
 ![](images/expedited/vultr15.png "Vultr Tutorial Image 15")
 ![](images/expedited/vultr16.png "Vultr Tutorial Image 16")
+![](images/expedited/vultr21.png "Digital Ocean Tutorial Image 21")
+![](images/expedited/vultr22.png "Digital Ocean Tutorial Image 22")
 
 Now record your vultr object storage secret key and your vultr object storage access key in the text file on your laptop
 
@@ -86,8 +88,7 @@ You then need to get an access key for your personal github account (you are adv
 ![](images/expedited/vultr18.png "Digital Ocean Tutorial Image 18")
 ![](images/expedited/vultr19.png "Digital Ocean Tutorial Image 19")
 ![](images/expedited/vultr20.png "Digital Ocean Tutorial Image 20")
-![](images/expedited/vultr21.png "Digital Ocean Tutorial Image 21")
-![](images/expedited/vultr22.png "Digital Ocean Tutorial Image 22")
+
 
 
 >     vultr_github_username="adt-apps" #MANDATORY
