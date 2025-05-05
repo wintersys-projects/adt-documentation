@@ -290,4 +290,8 @@ What I would do if I wanted to build a Wordpress, Moodle or Drupal installation 
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:9.2.6" #MANDATORY 
 >     export APPLICATION_IDENTIFIER="3"
 
-**For Moodle:**
+**For Moodle:**  
+
+>     export APPLICATION="moodle"
+>     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="MOODLE" #MANDATORY 
+>     export APPLICATION_IDENTIFIER="4"
