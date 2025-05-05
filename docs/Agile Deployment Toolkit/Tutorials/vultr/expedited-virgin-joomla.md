@@ -53,6 +53,9 @@ How to generate your access key and your secret key is shown in the following im
 
 ![](images/expedited/vultr15.png "Vultr Tutorial Image 15")
 ![](images/expedited/vultr16.png "Vultr Tutorial Image 16")
+![](images/expedited/vultr25.png "Vultr Tutorial Image 25")
+![](images/expedited/vultr26.png "Vultr Tutorial Image 26")
+
 
 
 Now record your vultr object storage secret key and your vultr object storage access key in the text file on your laptop
