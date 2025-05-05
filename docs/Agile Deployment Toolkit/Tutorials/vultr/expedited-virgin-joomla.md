@@ -1,6 +1,6 @@
 **EXPEDITED VIRGIN DEPLOYMENT METHOD**
 
-PREBUILD NECESSITIES 
+PREBUILD NECESSITIES  
 
 If you don't already have a build machine running in the Exoscale cloud, follow these steps to get ready for the main build)
 
