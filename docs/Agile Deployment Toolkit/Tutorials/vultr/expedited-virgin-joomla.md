@@ -76,8 +76,8 @@ You then need the url that you want to use for your website. If you don't have a
 
 >     vultr_dns_name="www.drpatient.uk"
 
-![](images/expedited/vultr23.png "Digital Ocean Tutorial Image 23")
-![](images/expedited/vultr24.png "Digital Ocean Tutorial Image 24")
+![](images/expedited/vultr23.png "Vultr Tutorial Image 23")
+![](images/expedited/vultr24.png "Vultr Tutorial Image 24")
 
 --------------------------------
 
@@ -89,10 +89,10 @@ You then need to get an access key for your personal github account (you are adv
 
 (your personal access token must have enough privileges to create repositories which means the "administrator" and "contents" options need to be set to read/write. Only setting these two values follows the principle of least privileges) 
 
-![](images/expedited/vultr17.png "Digital Ocean Tutorial Image 17")
-![](images/expedited/vultr18.png "Digital Ocean Tutorial Image 18")
-![](images/expedited/vultr19.png "Digital Ocean Tutorial Image 19")
-![](images/expedited/vultr20.png "Digital Ocean Tutorial Image 20")
+![](images/expedited/vultr17.png "Vultr Tutorial Image 17")
+![](images/expedited/vultr18.png "Vultr Tutorial Image 18")
+![](images/expedited/vultr19.png "Vultr Tutorial Image 19")
+![](images/expedited/vultr20.png "Vultr Tutorial Image 20")
 
 
 
@@ -253,16 +253,18 @@ You will then need to answer the questions that you are asked and in a few minut
 
 When I ran the build process when writing this tutorial it looked as follows:
 
-![](images/expedited/do-35.png "Digital Ocean Tutorial Image 35")
-![](images/expedited/do-36.png "Digital Ocean Tutorial Image 36")
-![](images/expedited/do-37.png "Digital Ocean Tutorial Image 37")
-![](images/expedited/do-38.png "Digital Ocean Tutorial Image 38")
-![](images/expedited/do-39.png "Digital Ocean Tutorial Image 39")
+![](images/expedited/vultr27.png "Vultr Tutorial Image 27")
+![](images/expedited/vultr28.png "Vultr Tutorial Image 28")
+![](images/expedited/vultr29.png "Vultr Tutorial Image 29")
+![](images/expedited/vultr30.png "Vultr Tutorial Image 30")
+![](images/expedited/vultr31.png "Vultr Tutorial Image 31")
+![](images/expedited/vultr32.png "Vultr Tutorial Image 32")
+
 
 <span style="color:red">NOTE: In this image or this part of the output you will find the credentials you must set for your joomla application</span>   
 
-![](images/expedited/do-40.png "Digital Ocean Tutorial Image 40")
-![](images/expedited/do-41.png "Digital Ocean Tutorial Image 41")
+![](images/expedited/vultr33.png "Vultr Tutorial Image 33")
+![](images/expedited/vultr34.png "Vultr Tutorial Image 34")
 
 <span style="color:red">NOTE: To display the joomla application you must go to your website URL in your browser such as https://www.drpatient.uk/installation/index.php</span>   
 
