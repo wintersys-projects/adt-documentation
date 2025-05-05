@@ -65,7 +65,7 @@ Now record your vultr object storage secret key and your vultr object storage ac
 
 You now need to make a note of the email address that you login to your vultr account with:
 
->     vultr_email="peterdigitalocean@yahoo.com"
+>     vultr_email="petervultr@yahoo.com"
 
 -----------------------------------
 
@@ -102,7 +102,7 @@ My chosen username is "wintersys-projects"
 
 So, to begin an expedited build process, I need to:
 
->     cd /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/digitalocean
+>     cd /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/vultr
 
 Then we can open up the 
 
