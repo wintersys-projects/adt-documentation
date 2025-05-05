@@ -259,11 +259,11 @@ When I ran the build process when writing this tutorial it looked as follows:
 ![](images/expedited/vultr30.png "Vultr Tutorial Image 30")
 ![](images/expedited/vultr31.png "Vultr Tutorial Image 31")
 ![](images/expedited/vultr32.png "Vultr Tutorial Image 32")
-
+![](images/expedited/vultr33.png "Vultr Tutorial Image 33")
 
 <span style="color:red">NOTE: In this image or this part of the output you will find the credentials you must set for your joomla application</span>   
 
-![](images/expedited/vultr33.png "Vultr Tutorial Image 33")
+
 ![](images/expedited/vultr34.png "Vultr Tutorial Image 34")
 
 <span style="color:red">NOTE: To display the joomla application you must go to your website URL in your browser such as https://www.drpatient.uk/installation/index.php</span>   
