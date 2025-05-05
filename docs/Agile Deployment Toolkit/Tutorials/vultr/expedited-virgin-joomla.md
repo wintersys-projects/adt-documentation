@@ -58,7 +58,7 @@ How to generate your access key and your secret key is shown in the following im
 
 Now record your vultr object storage secret key and your vultr object storage access key in the text file on your laptop
 
->     vultrobjectstorage_access_key="JkfklfuHD....."
+>     vultrobjectstorage_access_key="B0ICCHUR3M8C1JXXC6CA"
 >     vultrobjectstorage_secret_key="kjdin34ngfjne....."
 
 
@@ -134,7 +134,7 @@ export BUILD_CHOICE="0"
 export APPLICATION_NAME="Demo Application"  
     
 \#####S3 Datastore Settings#######    
-<span style="color:red">export S3_ACCESS_KEY="YVU7YHGD1HHDJKJDHFW"  #MANDATORY</span>     
+<span style="color:red">export S3_ACCESS_KEY="B0ICCHUR3M8C1JXXC6CA"  #MANDATORY</span>     
 <span style="color:red">export S3_SECRET_KEY="eAlmwh3y7eJovZSN/JDJkS7RZrsbdvjvburfr7whs"  #MANDATORY</span>    
 export S3_HOST_BASE="ams1.vultrobjects.com"  
 export S3_LOCATION="US" #For digitalocean, this always needs to be set to "US"  
