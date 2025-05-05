@@ -103,6 +103,13 @@ The top part of the copy that you made in 2 will now look like this:
 
 5) What you need to do now is to use this script to spin up your build machine and you will do this by pasting it into the user data area of your build machine.
 
+You will need to create a VPC for your machines to attach to. You should call your VPC "adt-vpc" and you can see me creating my VPC in the following images:
+
+![](images/expedited/vultr9.png "Vultr Tutorial Image 9")
+![](images/expedited/vultr10.png "Vultr Tutorial Image 10")
+![](images/expedited/vultr11.png "Vultr Tutorial Image 11")
+
+
 You will need to create a firewall for your build machine. You can do this by creating a firewall on this page:
 
 Click on the Networking main option and the "firewalls" sub option of your vultr GUI
