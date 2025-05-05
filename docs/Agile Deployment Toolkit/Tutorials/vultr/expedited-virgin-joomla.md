@@ -237,6 +237,11 @@ export VPC_NAME="adt-vpc"
 \#####Build Style#######  
 export INPARALLEL="0"  
 
+**NOTE:** you can find what the VPC_IP_RANGE should be for your case by looking at:  
+
+![](images/expedited/vultr34.png "Vultr Tutorial Image 34")
+
+
 
 If your template looks similar to the one I have provided here with all the fields marked in red having your custom values then you should be ready for deployment
 
@@ -266,7 +271,7 @@ When I ran the build process when writing this tutorial it looked as follows:
 
 <span style="color:red">NOTE: To display the joomla application you must go to your website URL in your browser such as https://www.drpatient.uk/installation/index.php</span>   
 
-![](images/expedited/Vultr33.png "Vultr Tutorial Image 33")
+![](images/expedited/vultr33.png "Vultr Tutorial Image 33")
 
 Assuming that you have your Joomla application online that's this tutorial through.   
 
