@@ -38,8 +38,8 @@ In production use you should use the principle of least privileges to generate 2
 
 Create a personal access token as follows:
 
-![](images/expedited/vult13.png "Vultr Tutorial Image 13")
-![](images/expedited/vult14.png "Vultr Tutorial Image 14")
+![](images/expedited/vultr13.png "Vultr Tutorial Image 13")
+![](images/expedited/vultr14.png "Vultr Tutorial Image 14")
 
 
 Now record your token in your separate text file on your laptop
@@ -51,8 +51,8 @@ Now record your token in your separate text file on your laptop
 Now you need to generate an access key and a secret key for Vultr Object Storage which is the S3 compatible object storage offering from Vultr
 How to generate your access key and your secret key is shown in the following images:
 
-![](images/expedited/do-28.png "Digital Ocean Tutorial Image 28")
-![](images/expedited/do-29.png "Digital Ocean Tutorial Image 29")
+![](images/expedited/vultr15.png "Vultr Tutorial Image 15")
+![](images/expedited/vultr16.png "Vultr Tutorial Image 16")
 
 Now record your vultr object storage secret key and your vultr object storage access key in the text file on your laptop
 
