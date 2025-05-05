@@ -49,13 +49,13 @@ Now record your token in your separate text file on your laptop
 
 -----------------------------------
 
-Now you need to generate an access key and a secret key for Digital Ocean Spaces which is the S3 compatible object storage offering from Digital Ocean
+Now you need to generate an access key and a secret key for Vultr Object Storage which is the S3 compatible object storage offering from Vultr
 How to generate your access key and your secret key is shown in the following images:
 
 ![](images/expedited/do-28.png "Digital Ocean Tutorial Image 28")
 ![](images/expedited/do-29.png "Digital Ocean Tutorial Image 29")
 
-Now record your spaces secret key and your spaces access key in the text file on your laptop
+Now record your vultr object storage secret key and your vultr object storage access key in the text file on your laptop
 
 >     vultrobjectstorage_access_key="DO00Y....."
 >     vultrobjectstorage_secret_key="eAlmw....."
@@ -63,13 +63,13 @@ Now record your spaces secret key and your spaces access key in the text file on
 
 --------------------------
 
-You now need to make a note of the email address that you login to your digitalocean account with:
+You now need to make a note of the email address that you login to your vultr account with:
 
 >     vultr_email="peterdigitalocean@yahoo.com"
 
 -----------------------------------
 
-You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to exoscale as described [here](../../Deployment/Nameservers.md)
+You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to vultr as described [here](../../Deployment/Nameservers.md)
 
 >     vultr_dns_name="www.drpatient.uk"
 
