@@ -53,8 +53,7 @@ How to generate your access key and your secret key is shown in the following im
 
 ![](images/expedited/vultr15.png "Vultr Tutorial Image 15")
 ![](images/expedited/vultr16.png "Vultr Tutorial Image 16")
-![](images/expedited/vultr21.png "Digital Ocean Tutorial Image 21")
-![](images/expedited/vultr22.png "Digital Ocean Tutorial Image 22")
+
 
 Now record your vultr object storage secret key and your vultr object storage access key in the text file on your laptop
 
@@ -73,6 +72,9 @@ You now need to make a note of the email address that you login to your vultr ac
 You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to vultr as described [here](../../Deployment/Nameservers.md)
 
 >     vultr_dns_name="www.drpatient.uk"
+
+![](images/expedited/vultr23.png "Digital Ocean Tutorial Image 23")
+![](images/expedited/vultr24.png "Digital Ocean Tutorial Image 24")
 
 --------------------------------
 
