@@ -139,13 +139,14 @@ You can see in this image that port 1035 is about to be opened up to the ip addr
 
 7) You need to spin up a small machine to be your build machine by clicking "Create Server" on the top right of the GUI. And then follow these steps:
 
->     1. Select which template you want debian 10 (or later) or ubuntu 20.04 (or later)
+>     1. Select shared CPU server type
 >     2. Select which region you want to deploy to, for example, london
->     3. Select instance size "1GB" for example
->     4. Add the machine to a VPC called "adt-vpc" in your current region
->     5. In the "User Data" area of your machine, paste the entire script that you were left with from 4.
->     6. Click Create and wait for your machine to build
->     7. Once the machine has built, go to "networking" -> "firewalls" and select "adt-build-machine" firewall and add your new droplet to the firewall
+>     3. Select which OS you want to deploy (debian or ubuntu)
+>     4. Attach the firewall adt-buildmachine that you created above
+>     5. Select Public IPV4, VPC Network, Cloud-init data
+>     5. In the "User Data" area of your machine, paste the entire script that you were left with from above
+>     6. Attach the machine to the adt-vpc that you created above
+>     6. Click Deploy and wait for your machine to build
 
 Graphically you can see what I have described in these 8 steps here:
 
