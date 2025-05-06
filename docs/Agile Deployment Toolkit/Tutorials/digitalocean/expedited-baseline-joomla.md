@@ -73,7 +73,7 @@ I can extract the values for the following variables from digitalocean1.tmpl on 
 >     export DNS_SECURITY_KEY="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
 >     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
->     export WEBSITE_URL="social.drpatient.com"  #MANDATORY
+>     export WEBSITE_URL="www.drpatient.com"  #MANDATORY
 >     export APPLICATION_REPOSITORY_OWNER="adt-apps" #MANDATORY
 >     export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY
 >     export APPLICATION_REPOSITORY_PASSWORD="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k4" #MANDATORY
