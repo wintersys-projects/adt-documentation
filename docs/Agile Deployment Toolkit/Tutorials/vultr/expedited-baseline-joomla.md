@@ -56,20 +56,20 @@ I am then interested in template 2 because that is the template that is used for
 
 So, template 2 is located here on my build machine:
 
->     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/digitalocean/digitalocean2.tmpl
+>     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/vultr/vultr2.tmpl
 
 In this case because you have already configured template 1 you can crib most of the credentials from 
 
->     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/digitalocean/digitalocean1.tmpl
+>     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/vultr/vultr1.tmpl
 
-and use them in digitalocean2.tmpl
+and use them in vultr2.tmpl
 
-I can extract the values for the following variables from digitalocean1.tmpl on my build machine and copy and paste them into the correct place in digitalocean2.tmpl:
+I can extract the values for the following variables from vultr1.tmpl on my build machine and copy and paste them into the correct place in digitalocean2.tmpl:
 
 >     export S3_ACCESS_KEY="DO00YVU7YHGD1HHDJK" #MANDATORY
 >     export S3_SECRET_KEY="eAlmwh3y7eJovZSN/TxSz7RZrsbdvjvburfr7whs" #MANDATORY
 >     export TOKEN="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY
->     export DNS_USERNAME="peterdigitalocean@yahoo.com" #MANDATORY
+>     export DNS_USERNAME="petervultr@yahoo.com" #MANDATORY
 >     export DNS_SECURITY_KEY="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
 >     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
@@ -103,17 +103,17 @@ If your template is configured correctly you can now run the build process selec
 and answer any questions (selecting template 2 this time when prompted) and have a bit of patience whilst the build runs. 
 
 When I ran my baseline build the output I got from the ADT was as follows:  
-![](images/expedited/do-38.png "Exoscale Tutorial Image 38")
-![](images/expedited/do-39.png "Exoscale Tutorial Image 39")
-![](images/expedited/do-40.png "Exoscale Tutorial Image 40")
-![](images/expedited/do-41.png "Exoscale Tutorial Image 41")
-![](images/expedited/do-42.png "Exoscale Tutorial Image 42")
-![](images/expedited/do-43.png "Exoscale Tutorial Image 43")
+![](images/expedited/vultr38.png "Vultr Tutorial Image 38")
+![](images/expedited/vultr39.png "VultrTutorial Image 39")
+![](images/expedited/vultr40.png "Vultr Tutorial Image 40")
+![](images/expedited/vultr41.png "Vultr Tutorial Image 41")
+![](images/expedited/vultr42.png "Vultr Tutorial Image 42")
+![](images/expedited/vultr43.png "Vultr Tutorial Image 43")
 
 If you follow these steps, then, you will have a copy of your community builder customised Joomla application running on digitalocean.
 When I went to my url www.drpatient.uk, this is what I saw, the baselined version of community builder running:
 
-![](images/expedited/do-50.png "Exoscale Tutorial Image 50")
+![](images/expedited/do-50.png "Vultr Tutorial Image 50")
 
 **Leave the servers you have deployed running for use in the next tutorial in the series.**
 
