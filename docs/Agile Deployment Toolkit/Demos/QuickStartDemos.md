@@ -151,6 +151,9 @@ You will then see a list of configurable text-fields that you are going to selec
 In graphical format the process of configuring your build machine for deployment should look similar to the following set of images:  
 
 ![](images/stack-1.png "STACKL image 1")  
+
+Click "Deploy Linode" at the top right of the page  
+
 ![](images/stack-2.png "STACKL image 1")  
 ![](images/stack-3.png "STACKL image 1")  
 ![](images/stack-4.png "STACKL image 1")  
