@@ -103,13 +103,12 @@ If your template is configured correctly you can now run the build process selec
 and answer any questions (selecting template 2 this time when prompted) and have a bit of patience whilst the build runs. 
 
 When I ran my baseline build the output I got from the ADT was as follows:  
+![](images/expedited/do-38.png "Exoscale Tutorial Image 38")
+![](images/expedited/do-39.png "Exoscale Tutorial Image 39")
+![](images/expedited/do-40.png "Exoscale Tutorial Image 40")
+![](images/expedited/do-41.png "Exoscale Tutorial Image 41")
+![](images/expedited/do-42.png "Exoscale Tutorial Image 42")
 ![](images/expedited/do-43.png "Exoscale Tutorial Image 43")
-![](images/expedited/do-44.png "Exoscale Tutorial Image 44")
-![](images/expedited/do-45.png "Exoscale Tutorial Image 45")
-![](images/expedited/do-46.png "Exoscale Tutorial Image 46")
-![](images/expedited/do-47.png "Exoscale Tutorial Image 47")
-![](images/expedited/do-48.png "Exoscale Tutorial Image 48")
-![](images/expedited/do-49.png "Exoscale Tutorial Image 49")
 
 If you follow these steps, then, you will have a copy of your community builder customised Joomla application running on digitalocean.
 When I went to my url www.drpatient.uk, this is what I saw, the baselined version of community builder running:
