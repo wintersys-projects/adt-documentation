@@ -28,7 +28,7 @@ Making sure you pick the same periodicity as for the temporal database backup, f
   
 What we are then interested in is template 3 which is at:
   
->     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/digitalocean/digitalocean3.tmpl
+>     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/vultr/vultr3.tmpl
   
 I can extract the values for the following variables from template 1 or template 2 which I used in the previous tutorials in the series and set them in template 3, replace these with your own live values:
 
@@ -48,7 +48,7 @@ I can extract the values for the following variables from template 1 or template
 > 
 What I then do is adjust  
 
-**/home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/digitalocean/digitalocean3.tmpl**  
+**/home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/vultr/vultr3.tmpl**  
   
 to contain these values instead of its defaults.
   
