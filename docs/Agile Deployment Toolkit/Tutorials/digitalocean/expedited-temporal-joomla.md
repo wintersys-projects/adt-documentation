@@ -14,7 +14,7 @@ Then perform a temporal database backup
  
 Answering all of the questions and picking a periodicity, for example, HOURLY in your template. Check in your datastore for a database temporal backup which should look similar to this picture with an appropriate timestamp for you.
 
-![](images/expedited/do-52.png "Exoscale Tutorial Image 52")
+![](images/expedited/do-52.png "Digital Ocean Tutorial Image 52")
 
   
 Then perform a temporal website sourcecode backup
@@ -23,7 +23,7 @@ Then perform a temporal website sourcecode backup
   
 Making sure you pick the same periodicity as for the temporal database backup, for example, "HOURLY"
 
-![](images/expedited/do-51.png "Exoscale Tutorial Image 51")
+![](images/expedited/do-51.png "Digital Ocean Tutorial Image 51")
 
   
 What we are then interested in is template 3 which is at:
@@ -71,20 +71,20 @@ If your template is configured correctly you can now run the build process selec
 and answer any questions and select template 3 and have a bit of patience whilst the build runs. 
 
 When I ran a temporal build process, I saw the following output from the ADT
-![](images/expedited/do-53.png "Exoscale Tutorial Image 53")
-![](images/expedited/do-54.png "Exoscale Tutorial Image 54")
-![](images/expedited/do-55.png "Exoscale Tutorial Image 55")
-![](images/expedited/do-56.png "Exoscale Tutorial Image 56")
-![](images/expedited/do-57.png "Exoscale Tutorial Image 57")
-![](images/expedited/do-58.png "Exoscale Tutorial Image 58")
-![](images/expedited/do-59.png "Exoscale Tutorial Image 59")
-![](images/expedited/do-60.png "Exoscale Tutorial Image 60")
+![](images/expedited/do-53.png "Digital Ocean Tutorial Image 53")
+![](images/expedited/do-54.png "Digital Ocean Tutorial Image 54")
+![](images/expedited/do-55.png "Digital Ocean Tutorial Image 55")
+![](images/expedited/do-56.png "Digital Ocean Tutorial Image 56")
+![](images/expedited/do-57.png "Digital Ocean Tutorial Image 57")
+![](images/expedited/do-58.png "Digital Ocean Tutorial Image 58")
+![](images/expedited/do-59.png "Digital Ocean Tutorial Image 59")
+![](images/expedited/do-60.png "Digital Ocean Tutorial Image 60")
 
 
 
 Notice that there are two webservers and an autoscaler running because this is a temporal build
-![](images/expedited/do-62.png "Exoscale Tutorial Image 62")
+![](images/expedited/do-62.png "Digital Ocean Tutorial Image 62")
 Notice that an images or assets bucket has been created in the datastore and is mounted within the webroot of the application as /var/www/html/images
-![](images/expedited/do-63.png "Exoscale Tutorial Image 63")
+![](images/expedited/do-63.png "Digital Ocean Tutorial Image 63")
 And this is what my community builder example looks like deployed from a temporal backup
-![](images/expedited/do-61.png "Exoscale Tutorial Image 61")
+![](images/expedited/do-61.png "Digital Ocean Tutorial Image 61")
