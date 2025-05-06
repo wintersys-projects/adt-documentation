@@ -68,9 +68,9 @@ I can extract the values for the following variables from vultr1.tmpl on my buil
 
 >     export S3_ACCESS_KEY="DO00YVU7YHGD1HHDJK" #MANDATORY
 >     export S3_SECRET_KEY="eAlmwh3y7eJovZSN/TxSz7RZrsbdvjvburfr7whs" #MANDATORY
->     export TOKEN="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY
+>     export TOKEN="AEWBXAWCFMMKESEHGSHGSHJD42JXD6HXECJT7XXA" #MANDATORY
 >     export DNS_USERNAME="petervultr@yahoo.com" #MANDATORY
->     export DNS_SECURITY_KEY="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY
+>     export DNS_SECURITY_KEY="AEWBXAWCFMMKESEHGSHGSHJD42JXD6HXECJT7XXA" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
 >     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
 >     export WEBSITE_URL="social.drpatient.com"  #MANDATORY
