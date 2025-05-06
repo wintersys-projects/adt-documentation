@@ -64,10 +64,11 @@ In this case because you have already configured template 1 you can crib most of
 
 and use them in vultr2.tmpl
 
-I can extract the values for the following variables from vultr1.tmpl on my build machine and copy and paste them into the correct place in digitalocean2.tmpl:
+I can extract the values for the following variables from vultr1.tmpl on my build machine and copy and paste them into the correct place in vultr2.tmpl:
 
->     export S3_ACCESS_KEY="DO00YVU7YHGD1HHDJK" #MANDATORY
->     export S3_SECRET_KEY="eAlmwh3y7eJovZSN/TxSz7RZrsbdvjvburfr7whs" #MANDATORY
+
+>     export S3_ACCESS_KEY="B0ICCHUR3M8C1JXXC6CA" #MANDATORY
+>     export S3_SECRET_KEY="kjdin34ngfjne....." #MANDATORY
 >     export TOKEN="AEWBXAWCFMMKESEHGSHGSHJD42JXD6HXECJT7XXA" #MANDATORY
 >     export DNS_USERNAME="petervultr@yahoo.com" #MANDATORY
 >     export DNS_SECURITY_KEY="AEWBXAWCFMMKESEHGSHGSHJD42JXD6HXECJT7XXA" #MANDATORY
@@ -82,7 +83,7 @@ I can extract the values for the following variables from vultr1.tmpl on my buil
 
 There are some other values that I need to change in 
 
->     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/digitalocean/digitalocean2.tmpl
+>     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/vultr/vultr2.tmpl
 
 which are different to what they are in template 1 and I can do this as follows:
 
