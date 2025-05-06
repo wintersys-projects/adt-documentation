@@ -10,12 +10,12 @@ To get a "hardcore" userdata script that you can use for multiple deployments wh
 
 Once you have made a deployment using one of these tutorials then you can be confident that the template associated with the deployment is valid and knowing that you have a valid template you can go ahead and create a hardcore build userdata script. 
 
-Virgin class builds are associated with template1 (digitalocean1.tmpl), baseline builds are associated with template 2 (digitalocean2.tmpl) and temporal builds are associated with template 3 (digitalocean3.tmpl)
+Virgin class builds are associated with template1 (vultr1.tmpl), baseline builds are associated with template 2 (vultr2.tmpl) and temporal builds are associated with template 3 (vultr3.tmpl)
 
 In this example, we will use template 1 assuming that we have followed the Vigin CMS installation tutorial.  
 
 >     /bin/mkdir ${BUILD_HOME}/adt-build-machine-scripts/overridescripts/
->     /bin/cp ${BUILD_HOME}/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/digitalocean1.tmpl ${BUILD_HOME}/adt-build-machine-scripts/overridescripts/digitalocean1override.tmpl  
+>     /bin/cp ${BUILD_HOME}/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/vultr1.tmpl ${BUILD_HOME}/adt-build-machine-scripts/overridescripts/vultr1override.tmpl  
 
 Then you need to run the script:
 
