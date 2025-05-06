@@ -151,8 +151,10 @@ Graphically you can see what I have described in these 8 steps here:
 
 ![](images/expedited/vultr4.png "Vultr Tutorial Image 4")
 ![](images/expedited/vultr5.png "Vultr Tutorial Image 5")
-![](images/expedited/vultr6.png "Vultr Tutorial Image 6")
+![](images/expedited/vultr35.png "Vultr Tutorial Image 35")
 ![](images/expedited/vultr7.png "Vultr Tutorial Image 7")
+![](images/expedited/vultr37.png "Vultr Tutorial Image 37")
+
 ---------------
 
 8) Once the machine has built you can access it as follows: 
