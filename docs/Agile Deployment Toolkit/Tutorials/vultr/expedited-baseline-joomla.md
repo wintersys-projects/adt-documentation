@@ -96,7 +96,7 @@ You can make any other adjustments you want like if you want to choose APACHE in
 
 With your baseline template fully configured, you are now ready to perform a baseline build (in other words, directly install a live application starting from zilch).
 
-If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (digitalocean and template 2 in other words). On your build machine, do as follows:
+If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (vultr and template 2 in other words). On your build machine, do as follows:
 
 >     cd ${BUILD_HOME}
 >     ./ExpeditedAgileDeploymentToolkit.sh
@@ -111,7 +111,7 @@ When I ran my baseline build the output I got from the ADT was as follows:
 ![](images/expedited/vultr42.png "Vultr Tutorial Image 42")
 ![](images/expedited/vultr43.png "Vultr Tutorial Image 43")
 
-If you follow these steps, then, you will have a copy of your community builder customised Joomla application running on digitalocean.
+If you follow these steps, then, you will have a copy of your community builder customised Joomla application running on vultr.
 When I went to my url www.drpatient.uk, this is what I saw, the baselined version of community builder running:
 
 ![](images/expedited/vultr44.png "Vultr Tutorial Image 44")
