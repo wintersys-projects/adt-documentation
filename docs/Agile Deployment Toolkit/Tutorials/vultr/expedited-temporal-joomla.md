@@ -71,14 +71,15 @@ If your template is configured correctly you can now run the build process selec
 and answer any questions and select template 3 and have a bit of patience whilst the build runs. 
 
 When I ran a temporal build process, I saw the following output from the ADT
-![](images/expedited/do-53.png "Digital Ocean Tutorial Image 53")
-![](images/expedited/do-54.png "Digital Ocean Tutorial Image 54")
-![](images/expedited/do-55.png "Digital Ocean Tutorial Image 55")
-![](images/expedited/do-56.png "Digital Ocean Tutorial Image 56")
-![](images/expedited/do-57.png "Digital Ocean Tutorial Image 57")
-![](images/expedited/do-58.png "Digital Ocean Tutorial Image 58")
-![](images/expedited/do-59.png "Digital Ocean Tutorial Image 59")
-![](images/expedited/do-60.png "Digital Ocean Tutorial Image 60")
+![](images/expedited/vultr47.png "Digital Ocean Tutorial Image 47")
+![](images/expedited/vultr48.png "Digital Ocean Tutorial Image 48")
+![](images/expedited/vultr49.png "Digital Ocean Tutorial Image 49")
+![](images/expedited/vultr50.png "Digital Ocean Tutorial Image 50")
+![](images/expedited/vultr51.png "Digital Ocean Tutorial Image 51")
+![](images/expedited/vultr52.png "Digital Ocean Tutorial Image 52")
+![](images/expedited/vultr53.png "Digital Ocean Tutorial Image 53")
+![](images/expedited/vultr54.png "Digital Ocean Tutorial Image 54")
+
 
 
 
