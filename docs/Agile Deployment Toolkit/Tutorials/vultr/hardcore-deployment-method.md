@@ -35,4 +35,4 @@ Have a look at the userdata script
 
 Now, substitute this userdata script that you have generated instead of the default initial script when you follow  [Build Machine Setup](./buildmachine.md). When you use your userdata script instead of the default init script, the build will proceed automatically with no need for interaction from you. Once you have a user data script you can use it for repeated deployments tweaky it as necessary for each deployment cycle.
 
-**NOTE: remember to set "SELECTED_TEMPLATE" when you are using your own userdata script, you don't have to set SELECTED_TEMPLATE when using the default initial script**
+<span style="color:red">**NOTE: remember to set SELECTED_TEMPLATE in your user data script when you are deploying your own hardcore style user data script </span>
