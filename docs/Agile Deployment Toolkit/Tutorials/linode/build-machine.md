@@ -144,8 +144,8 @@ You can then see your new Firewall "adt-build-machine" listed which you will att
 >     3. Select machine type "Nanode" for example
 >     5. Set machine name "build-machine" and a secure root password (the scripts will disable root access later on)
 >     6. Ignore the SSH KEY in the GUI (the system will get this from the "SSH" value that you pasted into your user data script above)
->     7. Make sure your build machine is added to the security group "adt-build-machine" and deselect the "default" security group if it is selected. 
->     8. In the "User Data" area of your VPC machine, paste the entire script that you were left with from 4.
+>     7. Add the machine to the VPC making sure to enable "public IP address" 
+>     8. In the "User Data" area of your machine, paste the user data script as shown in the image below
 >     9. Click Create and wait for your machine to build
 
 Graphically you can see what I have described in these 8 steps here:
