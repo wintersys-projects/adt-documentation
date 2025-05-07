@@ -164,9 +164,9 @@ Click "Deploy Linode" at the top right of the page
 
 Once you click "**Create Linode**" (as shown in the last image), the build will deploy which will take some minutes. 
 
-Once the build is completed:
+Once the build is completed you can get the IP address of your build machine through the Linode GUI system (in this case: 172.237.116.127)
 
-# OBTAIN BUILD MACHINE IP ADDRESS (IMAGE)
+![](images/expedited/lin1.png "Linode Tutorial Image 1")
 
 You can ssh onto the build machine once it has started up with
 
