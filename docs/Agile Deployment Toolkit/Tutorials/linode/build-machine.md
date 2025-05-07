@@ -52,7 +52,7 @@ If you decide on an SSH_PORT of "1035" then in the copy that I made in 2, I need
 
 You need to give the script your laptop IP address. You can do this by going to [what's my ip](https://www.whatsmyip.com)and so, if your ip address is: "111.111.111.111" and pasting your ip address into your copy as follows:
 	
->     export LAPTOP_IP="111.111.111.111"
+>     export LAPTOP_IP="77.95.18.143"
 
 Obtain the substance of your ssh public key like you did in 1.
 
@@ -91,7 +91,7 @@ The top part of the copy that you made in 2 will now look like this:
 >     export BUILDMACHINE_USER="wintersys-projects"
 >     export BUILDMACHINE_PASSWORD="QQQPPPZZZMMM123098" #Make sure any password you choose is strong enough to pass any strength enforcement rules of your OS
 >     export BUILDMACHINE_SSH_PORT="1035"
->     export LAPTOP_IP="111.111.111.111"
+>     export LAPTOP_IP="77.95.18.143"
 >      
 >     /bin/echo "
 >     #BASE OVERRIDES
@@ -159,7 +159,7 @@ Graphically you can see what I have described in these 8 steps here:
 
 ![](images/expedited/exo6.png "Exoscale Tutorial Image 6")  
 	
->     Discover what the machine's IP address is by looking at the Exoscale GUI system for the IP address of the build machine - In this case: 185.19.29.134
+>     Discover what the machine's IP address is by looking at the Linode GUI system for the IP address of the build machine - In this case: 185.19.29.134
 	
 Now on your laptop issue the command:
 
