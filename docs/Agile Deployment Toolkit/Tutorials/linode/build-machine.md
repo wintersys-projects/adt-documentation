@@ -117,32 +117,23 @@ If you are performing a hardcore build style then you need to additionally set t
 
 You will need to create a private network called **PRECISELY** "adt-vpc" in the "gb-lon" region
 
-![](images/expedited/exo51.png "Exoscale Tutorial Image 51")
-![](images/expedited/exo52.png "Exoscale Tutorial Image 52")
+![](images/expedited/lin10.png "Linode Tutorial Image 10")
+![](images/expedited/lin11.png "Linode Tutorial Image 11")
+![](images/expedited/lin12.png "Linode Tutorial Image 12")
 
-You will need to create a security group for your build machine. You can do this as follows:
+You will need to create a firewall for your build machine. You can do this as follows:
 	
-Click on the security groups option of your exoscale GUI
-![](images/expedited/exo1.png "Exoscale Tutorial Image 1")
+Click on the firewalls option of your linode GUI and follow what is shown in these images. You need to allow access to your build machine from your laptop to the port you have defined above (in my case 1035)
+![](images/expedited/lin13.png "Linode Tutorial Image 13")
+![](images/expedited/lin14.png "Linode Tutorial Image 14")
+![](images/expedited/lin15.png "Linode Tutorial Image 15")
+![](images/expedited/lin16.png "Linode Tutorial Image 16")
+![](images/expedited/lin17.png "Linode Tutorial Image 17")
+![](images/expedited/lin18.png "Linode Tutorial Image 18")
 
-Click "Add Security Group" and call it "adt-build-machine" and click "Create Group"
 
-![](images/expedited/exo2.png "Exoscale Tutorial Image 2") 
-
-You can then see your new security Group "adt-build-machine" listed  
+You can then see your new Firewall "adt-build-machine" listed which you will attach to your "build machine" later on
 	
-6) Add rules to the "adt-build-machine" security group to allow pinging and your build client to connect.  
-	
-So you will need to add 2 rules  
-	
-1) Ping (ICMP)
-2) A rule to allow acccess to your build machines defined SSH_PORT from your laptop.  
-   If you SSH_PORT is 1035 and your laptop IP is 111.111.111.111 then you will need a TCP rule with "CIDR 111.111.111.111/32 1035"
-
-You can see in this image that port 1035 is about to be opened up to the ip address of my laptop 111.111.111.111/32  
-	
-![](images/expedited/exo3.png "Exoscale Tutorial Image 3") 
-
 ---------------
 
 7) You need to spin up a small machine to be your build machine by clicking "Add" on the top right of the GUI. And then follow these steps:
