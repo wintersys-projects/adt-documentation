@@ -138,10 +138,10 @@ You can then see your new Firewall "adt-build-machine" listed which you will att
 
 7) You need to spin up a small machine to be your build machine by clicking "Add" on the top right of the GUI. And then follow these steps:
 
->     1. Select which template you want debian 12 or ubuntu 24.04
->     2. Select which zone you want to deploy to, for example, CH-GVA-2
->     3. Select instance type "Tiny" for example
->     4. Select disk size (50GB)
+>     1. Click on "Create Linode"
+>     2. Select which region you want to deploy to, for example, gb-lon
+>     3. Select OS and version "Ubuntu 24.04"
+>     3. Select machine type "Nanode" for example
 >     5. Add the build machine to the "adt_private_net_ch-gva-2" security group
 >     6. Ignore the SSH KEY in the GUI (the system will get this from the "SSH" value that you pasted into your user data script above)
 >     7. Make sure your build machine is added to the security group "adt-build-machine" and deselect the "default" security group if it is selected. 
