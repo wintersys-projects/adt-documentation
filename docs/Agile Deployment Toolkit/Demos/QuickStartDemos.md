@@ -150,23 +150,23 @@ You will then see a list of configurable text-fields that you are going to selec
 
 In graphical format the process of configuring your build machine for deployment should look similar to the following set of images:  
 
-![](images/stack-1.png "STACKL image 1")  
+![](images/stack-1.png "STACK image 1")  
 
 Click "Deploy Linode" at the top right of the page  
 
-![](images/stack-2.png "STACKL image 1")  
-![](images/stack-3.png "STACKL image 1")  
-![](images/stack-4.png "STACKL image 1")  
-![](images/stack-5.png "STACKL image 1")  
-![](images/stack-6.png "STACKL image 1")  
-![](images/stack-7.png "STACKL image 1")  
-![](images/stack-8.png "STACKL image 1")  
+![](images/stack-2.png "STACK image 1")  
+![](images/stack-3.png "STACK image 1")  
+![](images/stack-4.png "STACK image 1")  
+![](images/stack-5.png "STACK image 1")  
+![](images/stack-6.png "STACK image 1")  
+![](images/stack-7.png "STACK image 1")  
+![](images/stack-8.png "STACK image 1")  
 
 Once you click "**Create Linode**" (as shown in the last image), the build will deploy which will take some minutes. 
 
 Once the build is completed you can get the IP address of your build machine through the Linode GUI system (in this case: 172.237.116.127)
 
-![](images/expedited/lin1.png "Linode Tutorial Image 1")
+![](images/lin1.png "Linode Tutorial Image 1")
 
 You can ssh onto the build machine once it has started up with
 
