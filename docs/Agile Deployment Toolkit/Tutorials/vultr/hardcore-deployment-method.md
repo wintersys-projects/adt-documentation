@@ -15,7 +15,7 @@ Virgin class builds are associated with template1 (vultr1.tmpl), baseline builds
 In this example, we will use template 1 assuming that we have followed the Vigin CMS installation tutorial.  
 
 >     /bin/mkdir ${BUILD_HOME}/adt-build-machine-scripts/overridescripts/
->     /bin/cp ${BUILD_HOME}/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/vultr1.tmpl ${BUILD_HOME}/adt-build-machine-scripts/overridescripts/vultr1override.tmpl  
+>     /bin/cp ${BUILD_HOME}/adt-build-machine-scripts/templatedconfigurations/templates/vultr/vultr1.tmpl ${BUILD_HOME}/adt-build-machine-scripts/overridescripts/vultr1override.tmpl  
 
 Then you need to run the script:
 
