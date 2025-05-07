@@ -150,9 +150,12 @@ You can then see your new Firewall "adt-build-machine" listed which you will att
 
 Graphically you can see what I have described in these 8 steps here:
 	
-![](images/expedited/exo4.png "Exoscale Tutorial Image 4")  
-![](images/expedited/exo5.png "Exoscale Tutorial Image 5")  
-	
+![](images/expedited/lin19.png "Linode Tutorial Image 19")
+![](images/expedited/lin20.png "Linode Tutorial Image 20")
+![](images/expedited/lin21.png "Linode Tutorial Image 21")
+![](images/expedited/lin22.png "Linode Tutorial Image 22")
+![](images/expedited/lin23.png "Linode Tutorial Image 23")
+![](images/expedited/lin24.png "Linode Tutorial Image 24")
 ---------------
 
 8) Once the machine has built you can access it as follows:
