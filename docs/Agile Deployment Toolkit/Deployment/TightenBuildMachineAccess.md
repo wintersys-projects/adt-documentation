@@ -24,9 +24,13 @@ This is what you have to do if you don't have access to your build machine or yo
 
 1. Install S3CMD on your laptop/desktop and configure it so it can access your S3 compatible object store for your cloudhost.  
   
-2. If it doesn't exist, create a bucket on your datastore called  
+2. Look for the correct bucket in your datastore (you will need to check the date on the bucket if there are multiple buckets like this with different unique identifiers or you can find out which is the correct identifier by looking at the crontab on the build machine).
 
->      s3://authip-adt-allowed 
+>      s3://authip-adt-allowed<unique-identifier>
+
+For example:
+
+>      s3://authip-adt-allowed-i7q3dz
 
 where the build identifier is the build identifier that you gave to the particular build you want to access (you will need to create a bucket for each build you want to protect if you have multiple builds on the same machine).  
 
@@ -37,16 +41,16 @@ where the build identifier is the build identifier that you gave to the particul
    
 4. Upload this file to your s3 
 
->     /usr/bin/s3cmd put authorised-ips.dat s3://authip-adt-allowed/authorised-ips.dat. 
+>     /usr/bin/s3cmd put authorised-ips.dat s3://s3://authip-adt-allowed-i7q3dz/authorised-ips.dat. 
    
 The file must be named that precisely for the build machine to pick it up and reconfigure or tighten the firewall. You can grant and revoke access to different ip adresses by reuploading or uploading a different authorised-ips.dat file to the correct S3 bucket. This means your build machine can't be accessed from any ip address except for the ones that you authorise. A bit of a process, but, once its done you are all set. 
 
 When you deploy using using a user data script you will see that you are required to enter your laptop ip address so that it can be granted access to the build machine. This works well enough, but, you might want to either deploy without using our example override scripts in which case firewall tightening isn't initially built in or, your laptop IP address might change, if you use it from a different network, for example, and this would leave you potentially locked out from your build machine. So, this whole palaver is what means that you can update your bucket in your S3 datastore directly with a new ip address and the build machine will pick up that a new ip address needs to be granted access. This way you will never be locked out of your build machine by IP address. Also, as I have shown adding multiple ip addresses to your authorised-ips.dat file in your datastore you could have a team of people all in different locations who you are effectively granting access to your build machine to. You can use any S3 client from your laptop to add a new ip address to  
 
->     s3://authip-adt-allowed/authorised-ips.dat  
+>     s3://s3://authip-adt-allowed-i7q3dz/authorised-ips.dat  
 
 if you are ever locked out from your build machine. The build machine is then completely firewalled off accept for the specific ip addresses and ports you have granted access to. Make sure your team know this or have access to add ip addresses because if their IP changes, they will be locked out. To action the update you also need to create a file  
 
->     s3://authip-adt-allowed/FIREWALL-EVENT
+>     s3://s3://authip-adt-allowed-i7q3dz/FIREWALL-EVENT
 
 Now review the native firewall called "adt-build-machine" with your cloudhost and allow the additional IP address through the GUI also. 
