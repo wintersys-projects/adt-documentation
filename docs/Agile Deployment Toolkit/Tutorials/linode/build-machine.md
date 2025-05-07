@@ -1,6 +1,6 @@
 **PRE BUILD PREPARATIONS FOR BUILD MACHINE** 
 
-Before performing an expedited or full build, you need to set up a build machine. The way you do this for Exoscale is as follows:
+Before performing an expedited or full build, you need to set up a build machine. The way you do this for Linode is as follows:
 
 ----------------
 
@@ -40,7 +40,6 @@ Now you need to decide on a username for your build machine, a password for your
 	
 If I decide on a username of "wintersys-projects" then in the copy that I made in 2, I need to change it as follows:  
 
-	
 >     export BUILDMACHINE_USER="wintersys-projects"
 	
 If I decide on a password of "QQQPPPZZZMMM123098" then in the copy that I made in 2, I need to change it as follows:
@@ -116,7 +115,7 @@ If you are performing a hardcore build style then you need to additionally set t
 	
 5) What you need to do now is to use this script to spin up your build machine and you will do this by pasting it into the "user data" area of your build machine.
 
-You will need to create a private network called **PRECISELY** "adt_private_net_ch-gva-2" in the "ch-gva-2" region
+You will need to create a private network called **PRECISELY** "adt-vpc" in the "gb-lon" region
 
 ![](images/expedited/exo51.png "Exoscale Tutorial Image 51")
 ![](images/expedited/exo52.png "Exoscale Tutorial Image 52")
