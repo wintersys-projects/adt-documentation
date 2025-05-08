@@ -34,9 +34,9 @@ I can extract the values for the following variables from template 1 or template
 
 >     export S3_ACCESS_KEY="D0USS8R23RBK70TK" #MANDATORY
 >     export S3_SECRET_KEY="TqdUIUd3NuYSVd2MiZCFfPzXPXnoS" #MANDATORY
->     export TOKEN="AEWBXAWCFMMKESEHGSHGSHJD42JXD6HXECJT7XXA" #MANDATORY
+>     export TOKEN="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05c" #MANDATORY
 >     export DNS_USERNAME="peterlinode@yahoo.com" #MANDATORY
->     export DNS_SECURITY_KEY="AEWBXAWCFMMKESEHGSHGSHJD42JXD6HXECJT7XXA" #MANDATORY
+>     export DNS_SECURITY_KEY="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05c" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
 >     export WEBSITE_NAME="topdog-insiders" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
 >     export WEBSITE_URL="www.topdog-insiders.uk"  #MANDATORY
