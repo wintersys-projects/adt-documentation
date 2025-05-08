@@ -17,8 +17,8 @@ In order to create the baseline of my custom application, I need to do the follo
 
 In my case it looks like the following when I create these repos in my "adt-apps" github account:
 
-![](images/expedited/exo26.png "Exoscale Tutorial Image 26")
-![](images/expedited/exo27.png "Exoscale Tutorial Image 27")
+![](images/expedited/lin50.png "Linode Tutorial Image 50")
+![](images/expedited/lin51.png "Linode Tutorial Image 51")
 
 Once these two repositories have been created (in my case in my adt-demos) account you are ready to make a baseline of the joomla install that you have modified. 
 
