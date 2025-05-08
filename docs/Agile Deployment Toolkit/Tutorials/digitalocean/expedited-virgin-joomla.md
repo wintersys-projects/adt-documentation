@@ -279,8 +279,8 @@ What I would do if I wanted to build a Wordpress, Moodle or Drupal installation 
 **For Drupal:**
 
 >     export APPLICATION="drupal"
->     export DRUPAL_VERSION="9.2.6" 
->     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:9.2.6" #MANDATORY 
+>     export DRUPAL_VERSION="11.0.1" 
+>     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:11.0.1" #MANDATORY 
 >     export APPLICATION_IDENTIFIER="3"
 
 **For Moodle:**
