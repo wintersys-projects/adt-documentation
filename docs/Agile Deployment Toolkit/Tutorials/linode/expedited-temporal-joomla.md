@@ -14,7 +14,7 @@ Then perform a temporal database backup
  
 Answering all of the questions and picking a periodicity, for example, HOURLY in your template. Check in your datastore for a database temporal backup which should look similar to this picture with an appropriate timestamp for you.
 
-![](images/expedited/lin61.png "Vultr Tutorial Image 61")
+![](images/expedited/lin63.png "Vultr Tutorial Image 63")
 
   
 Then perform a temporal website sourcecode backup
