@@ -67,14 +67,14 @@ and use them in linode2.tmpl
 I can extract the values for the following variables from linode1.tmpl on my build machine and copy and paste them into the correct place in linode2.tmpl:
 
 >     export S3_ACCESS_KEY="D0USS8R23RBK70TK" #MANDATORY
->     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
+>     export S3_SECRET_KEY="TqdUIUd3NuYSVd2MiZCFfPzXPXnoS" #MANDATORY
 >     export TOKEN="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05c" #MANDATORY
 >     export DNS_USERNAME="peterlinode@yahoo.com"  #MANDATORY
->     export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
->     export CLOUDHOST_ACCOUNT_ID="peterexoscale@yahoo.com" #MANDATORY
+>     export DNS_SECURITY_KEY="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05c"   #MANDATORY - 
+>     export CLOUDHOST_ACCOUNT_ID="peterlinode@yahoo.com" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
->     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
->     export WEBSITE_URL="www.drpatient.com"  #MANDATORY
+>     export WEBSITE_NAME="topdog-insiders" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
+>     export WEBSITE_URL="www.topdog-insiders.uk"  #MANDATORY
 >     export APPLICATION_REPOSITORY_OWNER="adt-apps" #MANDATORY
 >     export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY
 >     export APPLICATION_REPOSITORY_PASSWORD="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k4" #MANDATORY
@@ -113,7 +113,7 @@ When I ran my baseline build the output I got from the ADT was as follows:
 ![](images/expedited/exo36.png "Exoscale Tutorial Image 36")
 
 If you follow these steps, then, you will have a copy of your community builder customised Joomla application running on exoscale.
-When I went to my url www.drpatient.uk, this is what I saw, the baselined version of community builder running:
+When I went to my url www.topdog-insiders.uk, this is what I saw, the baselined version of community builder running:
 
 ![](images/expedited/exo37.png "Exoscale Tutorial Image 37")
 
