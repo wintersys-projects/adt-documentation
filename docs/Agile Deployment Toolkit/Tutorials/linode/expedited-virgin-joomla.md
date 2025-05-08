@@ -88,14 +88,14 @@ You then need to get an access key for your personal github account (you are adv
 
 (your personal access token must have enough privileges to create repositories which means the "administrator" and "contents" options need to be set to read/write. Only setting these two values follows the principle of least privileges) 
 
-![](images/expedited/exo13.png "Exoscale Tutorial Image 13")
-![](images/expedited/exo14.png "Exoscale Tutorial Image 14")
-![](images/expedited/exo15.png "Exoscale Tutorial Image 15")
-![](images/expedited/exo16.png "Exoscale Tutorial Image 16")
+![](images/expedited/lin38.png "Exoscale Tutorial Image 38")
+![](images/expedited/lin39.png "Exoscale Tutorial Image 39")
+![](images/expedited/lin40.png "Exoscale Tutorial Image 40")
+![](images/expedited/lin41.png "Exoscale Tutorial Image 41")
 
 
->     exoscale_github_username="adt-apps" #MANDATORY
->     exoscale_github_key="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k4" #MANDATORY
+>     linode_github_username="adt-apps" #MANDATORY
+>     linode_github_key="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k4" #MANDATORY
 
 So, that should be all the core credentials that I need to make a deployment. I can save my text file now (and keep it secure) because I might want to use these credentials again for other deployments or redeployments.  
 
@@ -107,11 +107,11 @@ My chosen username is "wintersys-projects"
 
 So, to begin an expedited build process, I need to:
 
->     cd /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale
+>     cd /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/linode
 
 Then we can open up the 
 
->     vi exoscale1.tmpl
+>     vi linode1.tmpl
 
 I then update all fields marked "MANDATORY" (marked in red) referring to the values that I have stored in the text file in my laptop in the correct template and when I am finished it looks like:
 
