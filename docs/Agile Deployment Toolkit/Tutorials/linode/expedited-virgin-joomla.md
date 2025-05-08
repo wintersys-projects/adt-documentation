@@ -267,7 +267,7 @@ When I ran the build process when writing this tutorial it looked as follows:
 
 <span style="color:red">NOTE: To display the joomla application you must go to your website URL in your browser such as https://www.topdog-insiders.uk/installation/index.php</span>   
 
-![](images/expedited/exo25.png "Exoscale Tutorial Image 25")
+![](images/expedited/lin49.png "Exoscale Tutorial Image 49")
 
 Assuming that you have your Joomla application online that's this tutorial through.   
 
