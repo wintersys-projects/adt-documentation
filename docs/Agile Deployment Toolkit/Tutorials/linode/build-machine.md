@@ -128,6 +128,8 @@ Click on the firewalls option of your linode GUI and follow what is shown in the
 ![](images/expedited/lin14.png "Linode Tutorial Image 14")
 ![](images/expedited/lin15.png "Linode Tutorial Image 15")
 ![](images/expedited/lin16.png "Linode Tutorial Image 16")
+
+**YOU CAN GET THE IP ADDRESS OF YOUR LAPTOP AT [what's my ip](https://whatsmyip.com) AND ADD IT TO YOUR NEW FIREWALL**
 ![](images/expedited/lin17.png "Linode Tutorial Image 17")
 ![](images/expedited/lin18.png "Linode Tutorial Image 18")
 
