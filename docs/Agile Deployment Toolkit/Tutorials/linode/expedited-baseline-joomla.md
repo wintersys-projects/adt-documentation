@@ -104,13 +104,14 @@ If your template is configured correctly you can now run the build process selec
 and answer any questions (selecting template 2 this time when prompted) and have a bit of patience whilst the build runs. 
 
 When I ran my baseline build the output I got from the ADT was as follows:  
-![](images/expedited/exo30.png "Exoscale Tutorial Image 30")
-![](images/expedited/exo31.png "Exoscale Tutorial Image 31")
-![](images/expedited/exo32.png "Exoscale Tutorial Image 32")
-![](images/expedited/exo33.png "Exoscale Tutorial Image 33")
-![](images/expedited/exo34.png "Exoscale Tutorial Image 34")
-![](images/expedited/exo35.png "Exoscale Tutorial Image 35")
-![](images/expedited/exo36.png "Exoscale Tutorial Image 36")
+![](images/expedited/lin54.png "Linode Tutorial Image 54")
+![](images/expedited/lin55.png "Linode Tutorial Image 55")
+![](images/expedited/lin56.png "Linode Tutorial Image 56")
+![](images/expedited/lin57.png "Linode Tutorial Image 57")
+![](images/expedited/lin58.png "Linode Tutorial Image 58")
+![](images/expedited/lin59.png "Linode Tutorial Image 59")
+![](images/expedited/lin60.png "Linode Tutorial Image 60")
+
 
 If you follow these steps, then, you will have a copy of your community builder customised Joomla application running on linode.
 When I went to my url www.topdog-insiders.uk, this is what I saw, the baselined version of community builder running:
