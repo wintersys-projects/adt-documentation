@@ -137,11 +137,11 @@ export BUILD_CHOICE="0"
 export APPLICATION_NAME="Demo Application"  
     
 \#####S3 Datastore Settings#######    
-<span style="color:red">export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44"  #MANDATORY</span>    
-<span style="color:red">export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"  #MANDATORY</span>   
-export S3_HOST_BASE="sos-ch-gva-2.exo.io"  
+<span style="color:red">export S3_ACCESS_KEY="D0USS8R23RBK70TK"  #MANDATORY</span>    
+<span style="color:red">export S3_SECRET_KEY="TqdUIUd3NuYSVd2MiZCFfPzXPXnoS"  #MANDATORY</span>   
+export S3_HOST_BASE="gb-lon-1.linodeobjects.com"  
 export S3_LOCATION="US" #For exoscale, this always needs to be set to "US"  
-export DATASTORE_CHOICE="exoscale"  
+export DATASTORE_CHOICE="linode"  
 export DIRECTORIES_TO_MOUNT="" #This should always be unset for a virgin and baseline deployments  
 export PERSIST_ASSETS_TO_CLOUD="0" #This should always be set to 0 for a virgin and baseline deployment  
      
@@ -153,12 +153,12 @@ export BUILDOS_VERSION="12" # One of 20.04 22.04 24.04|10 11 12
 <span style="color:red">export TOKEN="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05c"  #MANDATORY</span> 
 export S3_ACCESS_KEY="" #NOT REQUIRED
 export S3_SECRET_KEY="" #NOT REQUIRED
-<span style="color:red">export CLOUDHOST_ACCOUNT_ID="peterexoscale@yahoo.com"  #MANDATORY </span> for Exoscale - this should be the account email address that you login to the portal with   
+<span style="color:red">export CLOUDHOST_ACCOUNT_ID="peterlinode@yahoo.com"  #MANDATORY </span> for Linode - this should be the account email address that you login to the portal with   
      
 \######DNS Settings##########  
-<span style="color:red">export DNS_USERNAME="peterexoscale@yahoo.com"  #MANDATORY</span>    
-<span style="color:red">export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"  #MANDATORY</span>    
-export DNS_CHOICE="exoscale" #you will need to set your DNS nameservers according to this choice
+<span style="color:red">export DNS_USERNAME="peterlinode@yahoo.com"  #MANDATORY</span>    
+<span style="color:red">export DNS_SECURITY_KEY="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05c"  #MANDATORY</span>    
+export DNS_CHOICE="linode" #you will need to set your DNS nameservers according to this choice
 
 \#####Webserver Settings########  
 <span style="color:red">export WEBSITE_DISPLAY_NAME="Joomla Tutorial" #MANDATORY</span>    
