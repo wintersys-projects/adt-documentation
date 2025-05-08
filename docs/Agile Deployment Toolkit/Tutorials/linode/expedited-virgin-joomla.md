@@ -34,23 +34,12 @@ You can of course use a legacy version of joomla also by choosing a different ve
 
 -------------------------------------
 
-In production use you should use the principle of least privileges to generate 3 different access key and secret key pairs, one pair for compute, one pair for object storage scope and one pair for DNS scope, but, to make this tutorial simple we can just generate one set of keys with permissions for all three scope sets. 
+In production use you should use the principle of least privileges to generate a personal access token but here we just give open scope for ease of the tutorial. We will generate a PAT with ability to manipulate DNS records as well as compute and use the same key for both but in production you should have one PAT that just has DNS scope and one key which has scope for all your other needs. 
 
-Create an "adt" IAM role which should look like:
 
-![](images/expedited/exo-8.png "Exoscale Tutorial Image 8")
+3 different access key and secret key pairs, one pair for compute, one pair for object storage scope and one pair for DNS scope, but, to make this tutorial simple we can just generate one set of keys with permissions for all three scope sets. 
 
-You now need to allow access to all scopes which should look like the following two images
 
-![](images/expedited/exo-9.png "Exoscale Tutorial Image 9")
-
-![](images/expedited/exo-10.png "Exoscale Tutorial Image 10")
-
-Now create the actual key with your newly create scope:
-
-![](images/expedited/exo-11.png "Exoscale Tutorial Image 11")
-
-![](images/expedited/exo-12.png "Exoscale Tutorial Image 12")
 
 
 Now record your access key and secret key in your separate text file on your laptop
