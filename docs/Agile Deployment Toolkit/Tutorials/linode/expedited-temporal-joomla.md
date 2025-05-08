@@ -63,7 +63,7 @@ I then need to set the template to use the temporal backups that I have generate
   
 Shutdown any webservers that you have running from tutorial 2 and you are then ready to perform a temporal build, as shown below:
   
-If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (vultr and template 3 in other words). On your build machine, do as follows:
+If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (linode and template 3 in other words). On your build machine, do as follows:
 
 >     cd ${BUILD_HOME}
 >     ./ExpeditedAgileDeploymentToolkit.sh
