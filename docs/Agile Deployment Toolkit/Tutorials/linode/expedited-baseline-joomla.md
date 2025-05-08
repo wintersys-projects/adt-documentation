@@ -68,8 +68,7 @@ I can extract the values for the following variables from linode1.tmpl on my bui
 
 >     export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
 >     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
->     export ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
->     export SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
+>     export TOKEN="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05c" #MANDATORY
 >     export DNS_USERNAME="peterlinode@yahoo.com"  #MANDATORY
 >     export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
 >     export CLOUDHOST_ACCOUNT_ID="peterexoscale@yahoo.com" #MANDATORY
