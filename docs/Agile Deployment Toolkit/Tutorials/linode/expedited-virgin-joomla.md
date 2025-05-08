@@ -45,12 +45,21 @@ In production use you should use the principle of least privileges and have one 
 Now record your access key and secret key in your separate text file on your laptop
 
 >     linode_personal_access_token="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05c"
->
-> 
+
+--------------------------------
+
+We now need to set up a key pair for Object Storage
+
+![](images/expedited/lin31.png "Exoscale Tutorial Image 31")
+![](images/expedited/lin32.png "Exoscale Tutorial Image 32")
+![](images/expedited/lin33.png "Exoscale Tutorial Image 33")
+![](images/expedited/lin34.png "Exoscale Tutorial Image 34")
+![](images/expedited/lin35.png "Exoscale Tutorial Image 35")
+![](images/expedited/lin36.png "Exoscale Tutorial Image 36")
+![](images/expedited/lin37.png "Exoscale Tutorial Image 37")
 
 
-
-Now record your Object Storage access keys:
+Now record your Object Storage access keys in the text file on your laptop:
 
 >     linode_object_storage_access_key="D0USS8R23RBK70TK"
 >     linode_object_storage_secret_key="TqdUIUd3NuYSVd2MiZCFfPzXPXnoS"
@@ -59,13 +68,13 @@ Now record your Object Storage access keys:
 
 You now need to make a note of the email address that you login to your exoscale account with:
 
->     exoscale_email="peterexoscale@yahoo.com"
+>     linode_email="peterlinode@yahoo.com"
 
 -----------------------------------
 
 You then need the url that you want to use for your website. If you don't have a DNS URL for your website, you need to purchase one and set the nameservers to exoscale as described [here](../../Deployment/Nameservers.md)
 
->     exoscale_dns_name="www.drpatient.uk"
+>     linode_dns_name="www.drpatient.uk"
 
 --------------------------------
 
