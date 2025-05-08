@@ -252,17 +252,18 @@ You will then need to answer the questions that you are asked and in a few minut
 
 When I ran the build process when writing this tutorial it looked as follows:
 
-![](images/expedited/exo17.png "Exoscale Tutorial Image 17")
-![](images/expedited/exo18.png "Exoscale Tutorial Image 18")
-![](images/expedited/exo19.png "Exoscale Tutorial Image 19")
-![](images/expedited/exo20.png "Exoscale Tutorial Image 20")
-![](images/expedited/exo21.png "Exoscale Tutorial Image 21")
-![](images/expedited/exo22.png "Exoscale Tutorial Image 22")
+![](images/expedited/lin42.png "Exoscale Tutorial Image 42")
+![](images/expedited/lin43.png "Exoscale Tutorial Image 43")
+![](images/expedited/lin44.png "Exoscale Tutorial Image 44")
+![](images/expedited/lin45.png "Exoscale Tutorial Image 45")
+![](images/expedited/lin46.png "Exoscale Tutorial Image 46")
 
 <span style="color:red">NOTE: In this image or this part of the output you will find the credentials you must set for your joomla application</span>   
 
-![](images/expedited/exo23.png "Exoscale Tutorial Image 23")
-![](images/expedited/exo24.png "Exoscale Tutorial Image 24")
+
+![](images/expedited/lin47.png "Exoscale Tutorial Image 47")
+![](images/expedited/lin48.png "Exoscale Tutorial Image 48")
+
 
 <span style="color:red">NOTE: To display the joomla application you must go to your website URL in your browser such as https://www.drpatient.uk/installation/index.php</span>   
 
