@@ -50,8 +50,10 @@ Now record your access key and secret key in your separate text file on your lap
 
 We now need to set up a key pair for Object Storage
 
-![](images/expedited/lin31.png "Exoscale Tutorial Image 31")
-![](images/expedited/lin32.png "Exoscale Tutorial Image 32")
+![](images/expedited/lin31.png "Exoscale Tutorial Image 31")  
+
+Create a scratch bucket in order to active Object Storage if Object Storage  is not already active on your account  
+
 ![](images/expedited/lin33.png "Exoscale Tutorial Image 33")
 ![](images/expedited/lin34.png "Exoscale Tutorial Image 34")
 ![](images/expedited/lin35.png "Exoscale Tutorial Image 35")
