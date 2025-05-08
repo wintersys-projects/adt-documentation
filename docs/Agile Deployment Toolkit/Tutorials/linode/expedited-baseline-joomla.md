@@ -62,9 +62,9 @@ In this case because you have already configured template 1 you can crib most of
 
 >     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/linode/linode1.tmpl
 
-and use them in exoscale2.tmpl
+and use them in linode2.tmpl
 
-I can extract the values for the following variables from exoscale1.tmpl on my build machine and copy and paste them into the correct place in linode2.tmpl:
+I can extract the values for the following variables from linode1.tmpl on my build machine and copy and paste them into the correct place in linode2.tmpl:
 
 >     export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
 >     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
