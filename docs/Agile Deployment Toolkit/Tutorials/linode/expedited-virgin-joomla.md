@@ -44,8 +44,16 @@ In production use you should use the principle of least privileges and have one 
 
 Now record your access key and secret key in your separate text file on your laptop
 
->     linode_personal_access_token="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05ce50781e8"
+>     linode_personal_access_token="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05c"
+>
+> 
 
+
+
+Now record your Object Storage access keys:
+
+>     linode_object_storage_access_key="D0USS8R23RBK70TK"
+>     linode_object_storage_secret_key="TqdUIUd3NuYSVd2MiZCFfPzXPXnoS"
 
 -----------------------------------
 
