@@ -36,8 +36,10 @@ You can of course use a legacy version of joomla also by choosing a different ve
 
 In production use you should use the principle of least privileges and have one key for DNS and one key for compute but here we will generate a single personal access token with ability to manipulate DNS records as well as compute and use the same key for both but in production you should have one PAT that just has DNS scope and one key which has scope for all your other needs. 
 
-
-
+![](images/expedited/lin27.png "Exoscale Tutorial Image 27")
+![](images/expedited/lin28.png "Exoscale Tutorial Image 28")
+![](images/expedited/lin29.png "Exoscale Tutorial Image 29")
+![](images/expedited/lin30.png "Exoscale Tutorial Image 30")
 
 
 Now record your access key and secret key in your separate text file on your laptop
