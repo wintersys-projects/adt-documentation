@@ -56,21 +56,21 @@ I am then interested in template 2 because that is the template that is used for
 
 So, template 2 is located here on my build machine:
 
->     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale2.tmpl
+>     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/linode/linode2.tmpl
 
 In this case because you have already configured template 1 you can crib most of the credentials from 
 
->     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale1.tmpl
+>     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/linode/linode1.tmpl
 
 and use them in exoscale2.tmpl
 
-I can extract the values for the following variables from exoscale1.tmpl on my build machine and copy and paste them into the correct place in exoscale2.tmpl:
+I can extract the values for the following variables from exoscale1.tmpl on my build machine and copy and paste them into the correct place in linode2.tmpl:
 
 >     export S3_ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
 >     export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
 >     export ACCESS_KEY="EXO0a940f1387e31e370e91dc44" #MANDATORY
 >     export SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM" #MANDATORY
->     export DNS_USERNAME="peterexoscale@yahoo.com"  #MANDATORY
+>     export DNS_USERNAME="peterlinode@yahoo.com"  #MANDATORY
 >     export DNS_SECURITY_KEY="EXO0a940f1387e31e370e91dc44:a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"   #MANDATORY - This is your access key and your secret key, written: DNS_SECURITY_KEY="${ACCESS_KEY}:${SECRET_KEY}"
 >     export CLOUDHOST_ACCOUNT_ID="peterexoscale@yahoo.com" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
@@ -84,7 +84,7 @@ I can extract the values for the following variables from exoscale1.tmpl on my b
 
 There are some other values that I need to change in 
 
->     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/exoscale/exoscale2.tmpl
+>     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/linode/linode2.tmpl
 
 which are different to what they are in template 1 and I can do this as follows:
 
