@@ -71,14 +71,18 @@ If your template is configured correctly you can now run the build process selec
 and answer any questions and select template 3 and have a bit of patience whilst the build runs. 
 
 When I ran a temporal build process, I saw the following output from the ADT
-![](images/expedited/vultr47.png "Digital Ocean Tutorial Image 47")
-![](images/expedited/vultr48.png "Digital Ocean Tutorial Image 48")
-![](images/expedited/vultr49.png "Digital Ocean Tutorial Image 49")
-![](images/expedited/vultr50.png "Digital Ocean Tutorial Image 50")
-![](images/expedited/vultr51.png "Digital Ocean Tutorial Image 51")
-![](images/expedited/vultr52.png "Digital Ocean Tutorial Image 52")
-![](images/expedited/vultr53.png "Digital Ocean Tutorial Image 53")
-![](images/expedited/vultr54.png "Digital Ocean Tutorial Image 54")
+
+![](images/expedited/lin64.png "Vultr Tutorial Image 64")
+![](images/expedited/lin65.png "Vultr Tutorial Image 65")
+![](images/expedited/lin66.png "Vultr Tutorial Image 66")
+![](images/expedited/lin67.png "Vultr Tutorial Image 67")
+![](images/expedited/lin68.png "Vultr Tutorial Image 68")
+![](images/expedited/lin69.png "Vultr Tutorial Image 69")
+![](images/expedited/lin70.png "Vultr Tutorial Image 70")
+![](images/expedited/lin71.png "Vultr Tutorial Image 71")
+
+
+
 
 
 Notice that an images or assets bucket has been created in the datastore and is mounted within the webroot of the application as /var/www/html/images  
