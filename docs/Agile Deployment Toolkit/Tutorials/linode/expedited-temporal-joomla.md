@@ -32,7 +32,7 @@ What we are then interested in is template 3 which is at:
   
 I can extract the values for the following variables from template 1 or template 2 which I used in the previous tutorials in the series and set them in template 3, replace these with your own live values:
 
->     export S3_ACCESS_KEY="B0ICCHUR3M8C1JXXC6CA" #MANDATORY
+>     export S3_ACCESS_KEY="D0USS8R23RBK70TK" #MANDATORY
 >     export S3_SECRET_KEY="kjdin34ngfjne....." #MANDATORY
 >     export TOKEN="AEWBXAWCFMMKESEHGSHGSHJD42JXD6HXECJT7XXA" #MANDATORY
 >     export DNS_USERNAME="peterlinode@yahoo.com" #MANDATORY
