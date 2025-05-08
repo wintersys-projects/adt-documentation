@@ -86,6 +86,6 @@ When I ran a temporal build process, I saw the following output from the ADT
 
 
 Notice that an images or assets bucket has been created in the datastore and is mounted within the webroot of the application as /var/www/html/images  
-![](images/expedited/vultr55.png "Vultr Tutorial Image 55")
+![](images/expedited/lin72.png "Vultr Tutorial Image 72")
 And this is what my community builder example looks like deployed from a temporal backup  
-![](images/expedited/vultr44.png "Vultr Tutorial Image 44")
+![](images/expedited/lin73.png "Vultr Tutorial Image 73")
