@@ -28,18 +28,18 @@ Making sure you pick the same periodicity as for the temporal database backup, f
   
 What we are then interested in is template 3 which is at:
   
->     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/vultr/vultr3.tmpl
+>     /home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/linode/linode3.tmpl
   
 I can extract the values for the following variables from template 1 or template 2 which I used in the previous tutorials in the series and set them in template 3, replace these with your own live values:
 
 >     export S3_ACCESS_KEY="B0ICCHUR3M8C1JXXC6CA" #MANDATORY
 >     export S3_SECRET_KEY="kjdin34ngfjne....." #MANDATORY
 >     export TOKEN="AEWBXAWCFMMKESEHGSHGSHJD42JXD6HXECJT7XXA" #MANDATORY
->     export DNS_USERNAME="petervultr@yahoo.com" #MANDATORY
+>     export DNS_USERNAME="peterlinode@yahoo.com" #MANDATORY
 >     export DNS_SECURITY_KEY="AEWBXAWCFMMKESEHGSHGSHJD42JXD6HXECJT7XXA" #MANDATORY
 >     export WEBSITE_DISPLAY_NAME="Test Social Network" #MANDATORY
->     export WEBSITE_NAME="drpatient" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
->     export WEBSITE_URL="www.drpatient.com"  #MANDATORY
+>     export WEBSITE_NAME="topdog-insiders" #MANDATORY - This is the exact value of the core of your WEBSITE_URL, for example, www.nuocial.org.uk would be nuocial
+>     export WEBSITE_URL="www.topdog-insiders.uk"  #MANDATORY
 >     export APPLICATION_REPOSITORY_OWNER="adt-apps" #MANDATORY
 >     export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY
 >     export APPLICATION_REPOSITORY_PASSWORD="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k4" #MANDATORY
@@ -48,7 +48,7 @@ I can extract the values for the following variables from template 1 or template
 > 
 What I then do is adjust  
 
-**/home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/vultr/vultr3.tmpl**  
+**/home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/linode/linode3.tmpl**  
   
 to contain these values instead of its defaults.
   
