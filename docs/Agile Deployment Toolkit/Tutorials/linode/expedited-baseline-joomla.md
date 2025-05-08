@@ -96,7 +96,7 @@ You can make any other adjustments you want like if you want to choose APACHE in
 
 With your baseline template fully configured, you are now ready to perform a baseline build (in other words, directly install a live application starting from zilch).
 
-If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (exoscale and template 2 in other words). On your build machine, do as follows:
+If your template is configured correctly you can now run the build process selecting the appropriate template and cloudhost (linode and template 2 in other words). On your build machine, do as follows:
 
 >     cd ${BUILD_HOME}
 >     ./ExpeditedAgileDeploymentToolkit.sh
@@ -112,7 +112,7 @@ When I ran my baseline build the output I got from the ADT was as follows:
 ![](images/expedited/exo35.png "Exoscale Tutorial Image 35")
 ![](images/expedited/exo36.png "Exoscale Tutorial Image 36")
 
-If you follow these steps, then, you will have a copy of your community builder customised Joomla application running on exoscale.
+If you follow these steps, then, you will have a copy of your community builder customised Joomla application running on linode.
 When I went to my url www.topdog-insiders.uk, this is what I saw, the baselined version of community builder running:
 
 ![](images/expedited/exo37.png "Exoscale Tutorial Image 37")
