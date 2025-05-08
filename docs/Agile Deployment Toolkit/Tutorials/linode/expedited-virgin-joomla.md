@@ -57,6 +57,7 @@ Create a scratch bucket in order to active Object Storage if Object Storage  is 
 ![](images/expedited/lin33.png "Exoscale Tutorial Image 33")
 ![](images/expedited/lin34.png "Exoscale Tutorial Image 34")
 ![](images/expedited/lin35.png "Exoscale Tutorial Image 35")
+Create access keys with **UNLIMITED** access to your current region (gb-lon)  
 ![](images/expedited/lin36.png "Exoscale Tutorial Image 36")
 ![](images/expedited/lin37.png "Exoscale Tutorial Image 37")
 
