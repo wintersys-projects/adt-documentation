@@ -131,6 +131,8 @@ Click on the firewalls option of your linode GUI and follow what is shown in the
 ![](images/expedited/lin17.png "Linode Tutorial Image 17")
 ![](images/expedited/lin18.png "Linode Tutorial Image 18")
 
+**DONT FORGET TO SAVE YOUR FIREWALL UPDATES (THE SAVE BUTTON IS BOTTOM RIGHT)**
+
 
 You can then see your new Firewall "adt-build-machine" listed which you will attach to your "build machine" later on
 	
@@ -184,6 +186,6 @@ And then enter your build machine password
 	
 In Graphical form, if you change directory to your toolkit home directory and list it should look like:
 	
-![](images/expedited/exo7.png "Exoscale Tutorial Image 7")
+![](images/expedited/lin26.png "Linode Tutorial Image 26")
 		
 --------------------------------------
