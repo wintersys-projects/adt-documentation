@@ -34,18 +34,16 @@ You can of course use a legacy version of joomla also by choosing a different ve
 
 -------------------------------------
 
-In production use you should use the principle of least privileges to generate a personal access token but here we just give open scope for ease of the tutorial. We will generate a PAT with ability to manipulate DNS records as well as compute and use the same key for both but in production you should have one PAT that just has DNS scope and one key which has scope for all your other needs. 
+In production use you should use the principle of least privileges and have one key for DNS and one key for compute but here we will generate a single personal access token with ability to manipulate DNS records as well as compute and use the same key for both but in production you should have one PAT that just has DNS scope and one key which has scope for all your other needs. 
 
-
-3 different access key and secret key pairs, one pair for compute, one pair for object storage scope and one pair for DNS scope, but, to make this tutorial simple we can just generate one set of keys with permissions for all three scope sets. 
 
 
 
 
 Now record your access key and secret key in your separate text file on your laptop
 
->     exoscale_access_key="EXO0ca...."  
->     exoscale_secret_key="FVrdlN...."  
+>     linode_personal_access_token="20c698ca4f7e0338c4c886bc7bc8e6d86f6f2148b05ce50781e8"
+
 
 -----------------------------------
 
