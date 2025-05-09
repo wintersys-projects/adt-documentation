@@ -66,7 +66,8 @@ You can learn more about application directories **[here](<Development/Applicati
 
 **THE CORE**
 
-With the core of the Agile Deployment Toolkit, it will make use of a set of services and providers. I elected to use Digital Ocean, Exoscale, Linode and Vultr to deploy on, or, as deployment options, but, the toolkit is designed to be forked and extended to support other providers maybe AWS, Rackspace, Google Cloud and so on. You should work from your own forks of the repositories because you will likely want to change the configurations of APACHE, NGINX, or LIGHTTPD or other products with configuration profiles within the sourcefiles of your forked repository and you can't do that if you deploy off the this main core set "wintersys" provided repositories. 
+With the core of the Agile Deployment Toolkit, it will make use of a set of services and providers. I elected to use Digital Ocean, Exoscale, Linode and Vultr to deploy on, or, as deployment options, but, the toolkit is designed to be forked and extended to support other providers maybe AWS, Rackspace, Google Cloud and so on. 
+In ordinary usage, you should work from your own forks of the repositories because you will likely want to change the configurations of APACHE, NGINX, or LIGHTTPD or other products with configuration profiles within the sourcefiles of your forked repository and you can't do that if you deploy off the this main core set "wintersys" provided repositories. 
 
 The full set of services that are supported by the core of the toolkit and which you can extend in your forks is:
 
