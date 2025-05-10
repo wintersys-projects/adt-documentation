@@ -219,14 +219,20 @@ If you want to install these tools in a different way such as from source and so
 
 -----------------------------------------------------------------
 
-#Note, "MySQL" isn't configurable through this file only Maria DB is
-
 If your template is configured to install mariadb you can install it as follows:
 >     MARIADB:cloud-init
 to install the current version
 
 and to install a specific version by apt-get
 >     MARIADB:repo:11.5.2
+
+-------------------------------------------------------------------
+
+If your template is configured to install mariadb you can install it as follows:
+
+Install a specific version of mysql (for example, 9.2.0) - you need to only pick version numbers which correspond to the version numbers listed [here](https://dev.mysql.com/downloads/mysql)  
+
+>     MYSQL:repo:9.2.0
 
 -------------------------------------------------------------------
 
