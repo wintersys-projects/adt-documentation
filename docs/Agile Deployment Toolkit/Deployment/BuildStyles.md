@@ -228,7 +228,7 @@ and to install a specific version by apt-get
 
 -------------------------------------------------------------------
 
-If your template is configured to install mariadb you can install it as follows:
+If your template is configured to install MySQL you can install it as follows:
 
 Install a specific version of mysql (for example, 9.2.0) - you need to only pick version numbers which correspond to the version numbers listed [here](https://dev.mysql.com/downloads/mysql)  
 
