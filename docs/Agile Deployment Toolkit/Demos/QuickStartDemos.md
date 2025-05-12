@@ -512,7 +512,7 @@ You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the mo
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "MOODLE"   
 
 You can then deploy your Linode using your Stackscript and wait for your Moodle install will come online  
-Once moodle is installed, I go to demo.nuocial.org.uk/moodle and you should do the same for your domain.
+Once moodle is installed, I go to demo.nuocial.org.uk/index.php and you should do the same for your domain.
 
 >     OK, I'll be kind and show you one time your moodle database credentials.
 >     Please make a note of them but remember to keep them safe and secret
