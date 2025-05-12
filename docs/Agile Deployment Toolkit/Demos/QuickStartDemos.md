@@ -553,7 +553,54 @@ Wait for the application install to have been completed and available at:
 
 -----------------
 
-### Demo 13 (Sample Virgin Moodle Install from a Baseline Repository)  
+### Demo 13 (Sample Virgin Wordpress Install from a Baseline Repository)  
+
+This is a sample virgin wordpress installation from baselined repositories.  
+
+1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
+2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
+
+>     set "The number (1, 2 or 3) of the template you are using" to "2"  
+>     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Wordpress Installation"  
+>     set "APPLICATION" to "wordpress"  
+>     set "APPLICATION IDENTIFIER" to "2"  
+>     set "BASELINE DB REPOSITORY" to "wordpress-db-baseline" 
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "wordpress-webroot-sourcecode-baseline"
+
+Wait for the application install to have been completed and available at:
+
+>      https://<dns-url>
+
+
+Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ".
+
+
+-----------------
+
+### Demo 14 (Sample Virgin Drupal Install from a Baseline Repository)  
+
+This is a sample virgin drupal installation from baselined repositories.  
+
+1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
+2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
+
+>     set "The number (1, 2 or 3) of the template you are using" to "2"  
+>     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Drupal Installation"  
+>     set "APPLICATION" to "drupal"  
+>     set "APPLICATION IDENTIFIER" to "3"  
+>     set "BASELINE DB REPOSITORY" to "drupal11.1.7-db-baseline" 
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "drupal11.1.7-webroot-sourcecode-baseline"
+
+Wait for the application install to have been completed and available at:
+
+>      https://<dns-url>
+
+
+Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ".
+
+-----------------
+
+### Demo 15 (Sample Virgin Moodle Install from a Baseline Repository)  
 
 This is a sample virgin moodle installation from baselined repositories.  
 
