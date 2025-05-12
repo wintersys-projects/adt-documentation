@@ -528,7 +528,7 @@ Once moodle is installed, I go to demo.nuocial.org.uk/index.php and you should d
 >     You can make up your own database prefix but make sure to include the '_' character at the end of your prefix (for example 'dbprefix_')
 >     #########################################
 >     ####################################################################
->     Moodle should be available at: https://<your-dns>/moodle
+>     Moodle should be available at: https://<your-dns>
 >     ####################################################################
 
 ----------------------------
