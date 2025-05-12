@@ -550,10 +550,12 @@ This is just a sample joomla install there's no sample data or anything it just 
 Wait for the application install to have been completed and available at:
 
 >      https://<dns-url>
------------------
-### Demo 13 (Sample Virgin Moodle Install from a Baseline Repository)
 
-This is a sample virgin moodle installation from baselined repositories.
+-----------------
+
+### Demo 13 (Sample Virgin Moodle Install from a Baseline Repository)  
+
+This is a sample virgin moodle installation from baselined repositories.  
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
 2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
