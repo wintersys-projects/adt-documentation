@@ -535,7 +535,7 @@ Once moodle is installed, I go to demo.nuocial.org.uk/index.php and you should d
 
 ### Demo 12 (Sample Virgin Joomla Install from a Baseline Repository)
 
-This is just a sample joomla install there's no sample data or anything it just shows you how you could baseline a virgin joomla installation for maximum ease when making repeated virgin CMS deployments. You can do the same thing for Wordpress, Drupal or Moodle if you chose to. The advantage to creating a baseline of a virgin installation of a CMS is that you don't have to enter any parameters into the application GUI because the system deals with it all for you and so you can make faster deployments once you have a baseline to build from. The disadvantage is that you have to update the installed CMS from the administrator backend to the latest version because the baseline you made some weeks/months ago will be several releases back from current.
+This is just a sample joomla install there's no sample data or anything it just shows you how you could baseline a virgin joomla installation for maximum ease when making repeated virgin CMS deployments. The advantage to creating a baseline of a virgin installation of a CMS is that you don't have to enter any parameters into the application GUI because the system deals with it all for you and so you can make faster deployments once you have a baseline to build from. The disadvantage is that you have to update the installed CMS from the administrator backend to the latest version because the baseline you made some weeks/months ago will be several releases back from current.
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
 2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
@@ -550,4 +550,24 @@ This is just a sample joomla install there's no sample data or anything it just 
 Wait for the application install to have been completed and available at:
 
 >      https://<dns-url>
+-----------------
+### Demo 13 (Sample Virgin Moodle Install from a Baseline Repository)
 
+This is a sample virgin moodle installation from baselined repositories.
+
+1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
+2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
+
+>     set "The number (1, 2 or 3) of the template you are using" to "2"  
+>     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Moodle Installation"  
+>     set "APPLICATION" to "moodle"  
+>     set "APPLICATION IDENTIFIER" to "4"  
+>     set "BASELINE DB REPOSITORY" to "moodle5.0-db-baseline" 
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "moodle5.0-webroot-sourcecode-baseline"
+
+Wait for the application install to have been completed and available at:
+
+>      https://<dns-url>
+
+
+Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ$$".
