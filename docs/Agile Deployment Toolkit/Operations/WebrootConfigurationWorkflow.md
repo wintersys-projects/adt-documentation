@@ -22,19 +22,6 @@ settings in your template.
 - When **PERSIST_ASSETS_TO_CLOUD** is 1, then you can set which directories of your applications webroot you wish to be stored in the cloud (the S3 Data storage). Please refer to the specification for more details on how to set the value of **DIRECTORIES_TO_MOUNT**. If **SYNC_WEBROOTS** is 1, the directories mounted from S3 will not be included in the syncing process.
 
 --------
-There is a special case where if 
-
->     PERSIST_ASSETS_TO_CLOUD=1
-
-you can set 
-
->     DIRECTORIES_TO_MOUNT="WHOLE-WEBROOT"
-
-What this will do is it will mount the entire webroot of your application from the Datastore. There will be performance issues and in my testing I can only get this approach to work if I use the rclone option in **${BUILD_HOME}/builddescriptors/buildstyles.dat** on the build  machine. You are welcome to see if you can get this to work using one of the other solutions such as "s3fs", "goofys" or "geesefs".
-
-I haven't done any testing as to what your costs would be if you used this technique if they are high it might be possible to get them down using finely configured caching for rclone
-
---------
 
 The workflow for the assets for the application are arranged as follows. 
 
