@@ -258,6 +258,7 @@ To set the build chain style, set it here. You can modify the toolkit to support
 You can choose which datastore tool you want to install here by choosing one of these:
 
 >     DATASTORETOOL:s3cmd:repo
+>     DATASTORETOOL:s3cmd:source
 >     DATASTORETOOL:s5cmd:binary
 
 ---------------------------------------------------------------------
