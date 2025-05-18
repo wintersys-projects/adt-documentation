@@ -260,6 +260,7 @@ You can choose which datastore tool you want to install here by choosing one of 
 >     DATASTORETOOL:s3cmd:repo
 >     DATASTORETOOL:s3cmd:source
 >     DATASTORETOOL:s5cmd:binary
+>     DATASTORETOOL:s5cmd:source
 
 ---------------------------------------------------------------------
 
