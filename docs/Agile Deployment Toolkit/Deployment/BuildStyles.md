@@ -211,9 +211,14 @@ NOTE that when there are multiple separate terms/values the token ## is the deli
 You can decide which datastore mount tool to install and how as follows:
 
 >     DATASTOREMOUNTTOOL:rclone:repo if you want to install rclone as your datastore mount tool
+>     DATASTOREMOUNTTOOL:rclone:source if you want to install rclone as your datastore mount tool
+>     DATASTOREMOUNTTOOL:rclone:binary if you want to install rclone as your datastore mount tool
 >     DATASTOREMOUNTTOOL:s3fs:repo if you want to install s3fs as your datastore mount tool
+>     DATASTOREMOUNTTOOL:s3fs:source if you want to install s3fs as your datastore mount tool
 >     DATASTOREMOUNTTOOL:goof:binary if you want to install goofys as your datastore mount tool
+>     DATASTOREMOUNTTOOL:goof:source if you want to install goofys as your datastore mount tool
 >     DATASTOREMOUNTTOOL:geesefs:binary if you want to install geesefs as your datastore mount tool
+>     DATASTOREMOUNTTOOL:geesefs:source if you want to install geesefs as your datastore mount tool
 
 If you want to install these tools in a different way such as from source and so on you are free to modify the toolkit
 
