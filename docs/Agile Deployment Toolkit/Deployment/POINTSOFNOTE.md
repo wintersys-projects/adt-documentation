@@ -8,48 +8,35 @@
 
 >     Agile-Infrastructure-Webserver-Scripts/providerscripts/webserver/configuration/
 
-5. To alter your test database configuration, you can modify the file:
-
->     Agile-Infrastructure-Database-Scripts/providerscripts/database/singledb/mariadb/InitialiseMariaDB.sh
-
-for Maria DB
  
- and the file
- 
->     Agile-Infrastructure-Database-Scripts/providerscripts/database/singledb/postgres/InitialisePostgresDB.sh**
+5. If you are using s3fs for your shared storage, then, if you delete the buckets using the Cloudhost provider's gui system (digital ocean at least has a period when a deleted bucket cannot be recreated) or the s3cmd tool there tends to be a period of time with some providers when buckets of the same name cannot be created again. If you run the scripts during this period and they require the same bucket name as a bucket that you have recently deleted using the GUI, you will get unpredictable behaviour. If you wait till the grace period expires, then, you will be able to complete the execution of the scripts successfully or, better yet, don't delete the buckets using the gui unless you are finished with them entirely.  
 
-for Postgres
- 
-6. If you are using s3fs for your shared storage, then, if you delete the buckets using the Cloudhost provider's gui system (digital ocean at least has a period when a deleted bucket cannot be recreated) or the s3cmd tool there tends to be a period of time with some providers when buckets of the same name cannot be created again. If you run the scripts during this period and they require the same bucket name as a bucket that you have recently deleted using the GUI, you will get unpredictable behaviour. If you wait till the grace period expires, then, you will be able to complete the execution of the scripts successfully or, better yet, don't delete the buckets using the gui unless you are finished with them entirely.  
+6. If you make multiple builds and have, for example, "testbuild-1", "testbuild-2" and so on, you need to name them (\<identifier\>-BUILD_IDENTIFIER), "1-testbuild", "2-testbuild" rather than "testbuild-1" and "testbuild-2", this is because in some places the "BUILD_IDENTIFIER" might get truncated and you would lose the distinction.    
 
-7. If you make multiple builds and have, for example, "testbuild-1", "testbuild-2" and so on, you need to name them (\<identifier\>-BUILD_IDENTIFIER), "1-testbuild", "2-testbuild" rather than "testbuild-1" and "testbuild-2", this is because in some places the "BUILD_IDENTIFIER" might get truncated and you would lose the distinction.    
-
-8. The Agile Deployment Toolkit supports the following application database:
+7. The Agile Deployment Toolkit supports the following application database:
 
 >     Joomla 5 using MySQL, MariaDB or Postgres is supported  
 >     Wordpress using MySQL or MariaDB is supported  (no Postgres by default with Wordpress)   
 >     Drupal using MySQL, MariaDB or Postgres is supported   
 >     Moodle using MySQL, MariaDB or Postgres is supported  
  
-9. These builds depend on external services, if a service is down, github for example, the build may well not complete.
+8. These builds depend on external services, if a service is down, github for example, the build may well not complete.
 
-10. If you get problems with SSL certificate issuance during a build, it is most likely because of "rate limiting". This is most likely to occur if you are using the "hardcore" build method because the other build methods reuse previously issued certificates that are still valid. 
-
-11. Be aware of firewall rules limits which are different by provider. If you had a great number of servers for some providers, the number of firewall rules might be a limiter. 
+9. Be aware of firewall rules limits which are different by provider. If you had a great number of servers for some providers, the number of firewall rules might be a limiter. 
  
-12. This toolkit is intended to by used in such a way that managed DBs are only used when making PRODUCTION deployments. When you are in development mode it is expected that you will use the database that these scripts install on your VPS servers.  
+10. This toolkit is intended to by used in such a way that managed DBs are only used when making PRODUCTION deployments. When you are in development mode it is expected that you will use the database that these scripts install on your VPS servers.  
  
-13. Remove termination protection for a managed database on Exoscale as follows:
+11. Remove termination protection for a managed database on Exoscale as follows:
  
 >     exo dbaas update <db-name - eg: testdb1> -z <region: eg. ch-gva-2> --termination-protection=false
 
-14. If you are planning to deploy to a DBaaS solution then you should do your development on equivalent database types. For example if your final DBaaS deployment is to a MYSQL instance then you should baseline using MySQL as your development database type, not Maria and likewise if your final DBaaS type is Maria DB, you should develop against Maria DB rarther than MySQL. You do this by setting DATABASE_INSTALLATION_TYPE in your template
+12. If you are planning to deploy to a DBaaS solution then you should do your development on equivalent database types. For example if your final DBaaS deployment is to a MYSQL instance then you should baseline using MySQL as your development database type, not Maria and likewise if your final DBaaS type is Maria DB, you should develop against Maria DB rarther than MySQL. You do this by setting DATABASE_INSTALLATION_TYPE in your template
 
-15. Note that when you make a baseline of an application you have developed, you will have used a URL to develop against such as "dev.testsite.uk". What this system does is when the baseline is being generated scripts replace all occurences of dev.testsite.uk with a placeholder token which isn't domain specific for both the webroot sourcecode and the database sql script. What this means is that the baseline can be deployed to any domain then because the placeholder token is replaced with the domain name of the target domain in all sourcecode. So, the same baseline can be deployed to "www.cargarage.com" or it can be deployed to "cafe.gardencentre.uk" or any other domain you choose. In this way any baselines you generate are flexible to deploy to any domain that you choose meaning that you can create a library of baselines that can be deployed any number of times to any number of domain names.
+13. Note that when you make a baseline of an application you have developed, you will have used a URL to develop against such as "dev.testsite.uk". What this system does is when the baseline is being generated scripts replace all occurences of dev.testsite.uk with a placeholder token which isn't domain specific for both the webroot sourcecode and the database sql script. What this means is that the baseline can be deployed to any domain then because the placeholder token is replaced with the domain name of the target domain in all sourcecode. So, the same baseline can be deployed to "www.cargarage.com" or it can be deployed to "cafe.gardencentre.uk" or any other domain you choose. In this way any baselines you generate are flexible to deploy to any domain that you choose meaning that you can create a library of baselines that can be deployed any number of times to any number of domain names.
 
 Please note, for Wordpress, I had to make use of [serfix](https://github.com/astockwell/serfix) because of the well known serialization issue with wordpress when doing this. 
 
-16. Note, with some providers, if you want to connect using the provided console to your machines as the root user you might not be able to. Depending on the condition of the machine you are trying to connect to you maybe be able to connect using the SERVER_USERNAME or if it is a recurring problem that you can reproduce by re-deploying you may need to comment out "PermitRootLogin" and allow "PasswordAuthentication" from the cloud-init script that the machine is built using such as:
+14. Note, with some providers, if you want to connect using the provided console to your machines as the root user you might not be able to. Depending on the condition of the machine you are trying to connect to you maybe be able to connect using the SERVER_USERNAME or if it is a recurring problem that you can reproduce by re-deploying you may need to comment out "PermitRootLogin" and allow "PasswordAuthentication" from the cloud-init script that the machine is built using such as:
 
 >     ${BUILD_HOME}/providerscripts/server/cloud-init/vultr/webserver.yaml
 
