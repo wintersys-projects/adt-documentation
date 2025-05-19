@@ -17,14 +17,21 @@ This whole process is basically a hands off process and should only need manual 
 
 In a bit more detail, this process can be described as:
 
-As part of the pre-build process on the build-machine a test is made to see if these files already exist from a previous build
+
+
+As part of the pre-build process on the build-machine a test is made to see if these files already exist in the datastore for our current domain from a previous build
+
+>     ${BUILD_HOME}/providerscripts/datastore/GetFromDatastore.sh ${ssl_bucket}/fullchain.pem ${BUILD_HOME}/runtimedata/${CLOUDHOST}/${BUILD_IDENTIFIER}/ssl/${WEBSITE_URL}
+>     ${BUILD_HOME}/providerscripts/datastore/GetFromDatastore.sh ${ssl_bucket}/privkey.pem ${BUILD_HOME}/runtimedata/${CLOUDHOST}/${BUILD_IDENTIFIER}/ssl/${WEBSITE_URL}
+
+If we now have certificates from a previous build they are now available at:  
 
 >     ${BUILD_HOME}/runtimedata/${CLOUDHOST}/${BUILD_IDENTIFIER}/ssl/${WEBSITE_URL}/fullchain.pem 
 >     ${BUILD_HOME}/runtimedata/${CLOUDHOST}/${BUILD_IDENTIFIER}/ssl/${WEBSITE_URL}/privkey.pem 
 
-If they exist then a check is made to see if they are valid certificates. If the certificates are valid they are copied to the datastore. If they are not valid then new certificates are generated and stored in these same files and then copied to the S3 datastore. A check is made to see that the certificates have copied successfully to the datastore.
+If they exist then a check is made to see if they are valid certificates. If the certificates are valid they are copied to the config datastore. If they are not valid then new certificates are generated and stored in these same files and then copied to the S3 config datastore. A check is made to see that the certificates have copied successfully to the config datastore.
 
-What 1. means is that at the end of the pre-build process SSL certificates will be available in the datastore which can be used by any webserver as its SSL certificate. When each webserver is built either the initial build process webserver or a webserver which has been built as part of an autoscaling event the certificate the certificates generated in 1. will be copied to the new webserver from the datastore and can then be used by that webserver as its SSL certificate. Each webserver stores its ssl certificates at
+We must have valid certificates on the build machine now and they are copied to the webserver and placed in the following location:  
 
 >     ${HOME}/ssl/live/${WEBSITE_URL}/*.pem
 
