@@ -4,8 +4,12 @@ The staging certificates will give you a browser warning when you visit your sit
 
 "Staging certificates" have no issuance limits where as "full certificates" do have issuance limits
 
+To issue a live certificate set:
+
 >     SSL_LIVE_CERT="1"
 
 rather than
 
 >     SSL_LIVE_CERT="0"
+
+which will issue a staging certificate. 
