@@ -4,11 +4,12 @@ Each webserver in your system requires a valid SSL cerificate. Currenly an SSL c
 
 When the build is being initiated on the build machine part of what happens is as follows:
 
-1. The build machine checks if there is an SSL certificate available for the current domain, cloudhost and build identifier on the file system of the build machine. If there is (and it is valid) then that certificate is used
-2. If there is no pre-existing SSL certificate on the file system of the build-machine that meets our needs then a new certificate is generated or supplied by the person making the deployment
-3. One way or another we have to have an acceptable SSL certificate and the certificate we have is copied to the S3 datastore that is shared with the webservers. A check is made to ensure that the SSL certificate has been successfully copied to the S3 Datastore
-4. When each webserver builds then it copies the certificate from the S3 Datastore to its own filesystem and configures the webserver  to use this certificate for its SSL needs. We can then forget about the SSL certificate for a while.
-5. Every night a cronjob runs that checks the validity of the SSL certificate on each webserver. If the certificate is found to be short on validity or is about to expire, then one of the webservers will generate a new certificate and copy that cerificate to the S3 datastore, overwriting the original certificate. All the other webservers then copy this "new" SSL certificate to their own file systems and restart their webservers. 
+1. The build machine checks for VALID ssl certificates in the datastore. If valid certificates are found (from previous builds for the same domain that we are deploying to those certificates are used for this deployment. 
+2. The build machine checks if there is an SSL certificate available for the current domain, cloudhost and build identifier on the file system of the build machine. If there is (and it is valid) then that certificate is used
+3. If there is no pre-existing SSL certificate (either in the datastore or on the filesystem) of the build-machine that meets our needs then a new certificate is generated or supplied by the person making the deployment if manual certificate provision is set
+4. One way or another we have to have an acceptable SSL certificate and the certificate we have is copied to the config S3 datastore that is shared with the webservers. A check is made to ensure that the SSL certificate has been successfully copied to the S3 Datastore
+5. When each webserver builds then it copies the certificate from the S3 configuration Datastore to its own filesystem and sets up the webserver to use this certificate for its SSL needs. We can then forget about the SSL certificate for a while.
+6. Every night a cronjob runs that checks the validity of the SSL certificate on each webserver. If the certificate is found to be short on validity or is about to expire, then one of the webservers will generate a new certificate and copy that cerificate to the S3 configuration datastore, overwriting the original certificate. All the other webservers then copy this "new" SSL certificate to their own file systems and restart their webservers to install it. 
 
 This whole process is basically a hands off process and should only need manual intervention if something is off with the process for some reason so unless you are manually deploying an SSL certificate as a deployer you shouldn't need to to anything to have your web property SSL secured. 
 
