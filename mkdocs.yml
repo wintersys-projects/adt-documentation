@@ -4,7 +4,6 @@ theme:
   name: readthedocs
   logo: assets/wintersys.png
 
-
 extra_css:
   - stylesheets/extra.css
 
