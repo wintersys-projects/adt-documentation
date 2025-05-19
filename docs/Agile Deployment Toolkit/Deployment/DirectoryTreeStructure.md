@@ -227,7 +227,12 @@ Here you will find an expose on the directory structures of the various differen
 
 ```${HOME}/runtime/FIREWALL-ACTIVE``` - this file is present if we believe that the firewall is active
 
-```${HOME}/runtime/initialiseDB.sql``` - this is the SQL dump file that was used to populate the database tables when the application was installed
+
+```${HOME}/runtime/mariadb-init/initialiseDB.sql``` - this is the intialisation configuration that creates the application database and username/password in your mariadb database
+
+```${HOME}/runtime/mysql-init/initialiseDB.sql``` - this is the intialisation configuration that creates the application database and username/password in your mysql database
+
+```${HOME}/runtime/postgres-init/initialiseDB.sql``` - this is the intialisation configuration that creates the application database and username/password in your postgres database
 
 ```${HOME}/runtime/installedsoftware``` - this directory serves as a record as to which software has been installed on this machine. It can be referred to if the software needs to be updated so that we know what packages to update and what pacakges to leave alone
 
