@@ -55,13 +55,13 @@ So,
   
 If you are using exoscale managed databases you can set the following in your template or override
 
->     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<region>:<size>:<db-name>"  
+>     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<region>:<size>:<db-name>:<db-username>:<db-password>"  
 >     DATABASE_INSTALLATION_TYPE="DBaaS"  
 
 So an example of this would be in your template or override: 
 
-    1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql:ch-gva-2:hobbyist-2:testdb1"  
-    2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:pg:ch-gva-2:hobbyist-2:testdb1"  
+    1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql:ch-gva-2:hobbyist-2:testdb1:testuser1:testpassword1"  
+    2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:pg:ch-gva-2:hobbyist-2:testdb1:testuser1:testpassword1"  
   
 So, for the first example:  
   
@@ -70,6 +70,8 @@ db-engine="mysql"
 region="ch-gva-2"  
 size="hobbyist-2"  
 db-name="testdb1" 
+db-username="testuser1"
+db-password="testpassword1"
 
 So,  
   
