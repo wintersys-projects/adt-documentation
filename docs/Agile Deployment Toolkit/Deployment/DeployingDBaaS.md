@@ -69,9 +69,9 @@ db-type="MySQL"
 db-engine="mysql"  
 region="ch-gva-2"  
 size="hobbyist-2"  
-db-name="testdb1" 
-db-username="testuser1"
-db-password="testpassword1"
+db-name="testdb1"   
+db-username="testuser1"  
+db-password="testpassword1"  
 
 So,  
   
