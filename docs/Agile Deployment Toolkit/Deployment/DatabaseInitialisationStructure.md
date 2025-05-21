@@ -1,3 +1,6 @@
+This is a brief look at the directory structure of how you can arrange intialisation and configuration files for your databases. Here we only look at "selfmanaged" but it works the same for "dbaas" deployments as well where you need custom configuration or intitialisation for your use case. 
+
+
 >     ${HOME}/providerscripts/database/selfmanaged/postgres/live:  
 >     total 4  
 >     -rw-r--r-- 1 root root 227 May 21 22:19 postgres.psql ( you can write any intialisation you want for your datbase here in psql )  
