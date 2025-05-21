@@ -58,6 +58,6 @@ Get the IP address of your database server by
 
      Once you have done that, run the script /usr/bin/config and wait a couple of minutes and then go to step 12
 
-11. Check that your new website is online and make a baselines of the webroot and database by following [how to baseline](,/Baselines.md)
+11. Check that your new website is online and make a baselines of the webroot and database by following [how to baseline](./Baselines.md)
     
 12. Once you have made baselines you can deploy them with different DNS settings and in 12 steps or so you have migrated to us from your old provider. 
