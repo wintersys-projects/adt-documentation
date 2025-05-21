@@ -31,7 +31,7 @@ You then need to issue the command:
 
 Get the IP address of your database server by 
 
-8. Lets turn our attention to the database machine now. From step 5 you have the database sql file in your &#0036;HOME/migration directory. With this new database dump you can use whichever script is relevant below:
+8. Lets turn our attention to the database machine now. From step 5 you have the database sql file in your ${HOME}/migration directory. With this new database dump you can use whichever script is relevant below:
 
 >     run ${HOME}/providerscripts/utilties/remote/ConnectToMySQLDB.sh (for mysql) or
 >     run ${HOME}/providerscripts/utilities/remote/ConnecToPostgresDB.sh (for postgres)
@@ -58,6 +58,6 @@ Get the IP address of your database server by
 
      Once you have done that, run the script /usr/bin/config and wait a couple of minutes and then go to step 12
 
-11. Check that your new website is online and make a baselines of the webroot and database by following [how to baseline](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/master/doco/AgileToolkitDeployment/BaselinesAndBackups.md)
+11. Check that your new website is online and make a baselines of the webroot and database by following [how to baseline](,/Baselines.md)
     
 12. Once you have made baselines you can deploy them with different DNS settings and in 12 steps or so you have migrated to us from your old provider. 
