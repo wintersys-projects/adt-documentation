@@ -38,7 +38,7 @@ Get the IP address of your database server by
 
    and then, you need to provide the database dump to the script so full commands would be something like:
 
->     run ${HOME}/utilties/ConnectToMySQLDB.sh < &#0036;HOME/migrations/database_archive.sql
+>     run ${HOME}/utilties/remote/ConnectToMySQLDB.sh < ${HOME}/migrations/database_archive.sql
 
    If it all runs successfully your database from your original hosting provider is now imported into your database and we can go back to the webserver to take some final steps to bring our new application online
 
@@ -48,11 +48,11 @@ Get the IP address of your database server by
 
    and you also need to make a note of what port your database machine is running on which you can do by looking for the value DBPORT in 
    
->     ${HOME}/.ssh/database_configuration_settings.dat
+>     ${HOME}/runtime/database_configuration_settings.dat
 
 9. On your webserver change the value of BUILDARCHIVECHOICE in file
 
->      ${HOME}/.ssh/webserver_configuration_settings.dat from "BUILDARCHIVECHOICE:virgin" to "BUILDARCHIVECHOICE:baseline"
+>      ${HOME}/runtime/webserver_configuration_settings.dat from "BUILDARCHIVECHOICE:virgin" to "BUILDARCHIVECHOICE:baseline"
 
 10. Go to &#0036;{HOME}/runtime and select the correspoding configuration file joomla's is "joomla_configuration.php" and find and change the database prefix (is probably set to jos_ for joomla) to be ther value of the database prefix that you saved in step 2. You also need to change the ip address of the database and if necessary the port that the database is running on (you made a note of them both at the end of step 8.
 
