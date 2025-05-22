@@ -137,12 +137,12 @@ So,
   
   If you are using Vultr Managed Databases you can set the following in your template override:
  
->     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<db-engine-version>:<region>:<machine-size>:<db-name>:<cluster-name>:<vpc-id>"
+>     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<db-engine-version>:<region>:<machine-size>:<db-name>:<db-username>:<db-password>:<cluster-name>:<vpc-id>"
 >     DATABASE_INSTALLATION_TYPE="DBaaS"
   
 So, two example configurations might be:
 
->     1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql:8:lhr:vultr-dbaas-hobbyist-cc-1-25-1:testdb:TestDatabase:2fb13fd1-3145-3127-7132-13f28f1912c1" 
+>     1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql:8:lhr:vultr-dbaas-hobbyist-cc-1-25-1:testdb:testuser1:testpassword123:TestDatabase:2fb13fd1-3145-3127-7132-13f28f1912c1" 
 
   db-type = MySQL  
   db-engine = mysql  
@@ -150,11 +150,13 @@ So, two example configurations might be:
   region = lhr  
   machine-size = vultr-dbaas-hobbyist-cc-1-25-1  
   db-name = testdb  
+  db-username = testuser1  
+  db-password = testpassword123
   cluster-name = TestDatabase  
   vpc-id = 2fb13fd1-3145-3127-7132-13f28f1912c1
   
   
->     2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:pg:14:lhr:vultr-dbaas-hobbyist-cc-1-25-1:testdb:TestDatabase:2fb13fd1-3145-3127-7132-13f28f1912c1" 
+>     2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:pg:14:lhr:vultr-dbaas-hobbyist-cc-1-25-1:testdb:testuser1:testpassword123:TestDatabase:2fb13fd1-3145-3127-7132-13f28f1912c1" 
 
   db-type = Postgres  
   db-engine = pg  
@@ -162,6 +164,8 @@ So, two example configurations might be:
   region = lhr  
   machine-size = vultr-dbaas-hobbyist-cc-1-25-1  
   db-name = testdb  
+  db-username = testuser1  
+  db-password = testpassword123
   cluster-name = TestDatabase  
   vpc-id = 2fb13fd1-3145-3127-7132-13f28f1912c1
 
