@@ -317,7 +317,7 @@ This is just a sample wordpress template with some sample data installed which w
 >     set "BASELINE DB REPOSITORY" to "opensocial-db-baseline" (with sample data) or "opensocialvanilla-db-baseline" (without sample data)  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "opensocial-webroot-sourcecode-baseline" (with sample data) or "opensocialvanilla-webroot-sourcecode-baseline" (without sample data)  
 
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"  
+Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"  
 
 ---------------------------
 
