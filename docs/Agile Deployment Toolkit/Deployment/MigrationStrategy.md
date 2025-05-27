@@ -31,7 +31,7 @@ DATABASE
 
 1. download a copy of a database dump of your website to your laptop and call it (mandatory naming don't call it anything else) applicationDB.sql/.psql
 
-2. copy the following shell script to your laptop
+2. copy the following shell script to your laptop and call it RemoveApplicationBranding.sh
 
 >     #!/bin/sh
 >     
@@ -47,9 +47,13 @@ DATABASE
 >     /bin/sed -i "s/@${}/@applicationdomain.tld/g" ./applicationDB.sql/.psql
 >     /bin/sed -i "s/${ROOT_DOMAIN}/applicationdomain.tld/g" ./applicationDB.sql/.psql
 
+3. Run the shellscript passing in the original website url. For example:
+
+>     /bin/sh ./RemoveApplicationBranding.sh www.nuocial.uk
+
 3. Create a private repository called
 
->     <identifier\>-db-baseline
+>     <identifier>-db-baseline
 
 with your git provider
 
