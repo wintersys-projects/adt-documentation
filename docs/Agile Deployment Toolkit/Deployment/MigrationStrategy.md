@@ -25,7 +25,14 @@ WEBROOT
 
 >     <identifier>-webroot-sourcecode-baseline
 
-and push the entire contents of your working directory to the repository
+and push the entire contents of your working directory to the repository in a similar way to this:
+
+>     git init
+>     git add .
+>     git commit -m "first commit"
+>     git branch -M main
+>     git remote add origin https://github.com/adt-apps/<identifier>-webroot-sourcecode-baseline.git
+>     git push -u origin main
 
 DATABASE
 
@@ -47,6 +54,8 @@ DATABASE
 >     /bin/sed -i "s/@${}/@applicationdomain.tld/g" ./applicationDB.sql/.psql
 >     /bin/sed -i "s/${ROOT_DOMAIN}/applicationdomain.tld/g" ./applicationDB.sql/.psql
 
+3. NOTE: if you are changing the domain name of your website and you are deploying a wordpress application you will need to run application.sql through a tool called "serfix" for it to work correctly. You can find serfix [here](https://github.com/astockwell/serfix)
+
 3. Run the shellscript passing in the original website url. For example:
 
 >     /bin/sh ./RemoveApplicationBranding.sh www.nuocial.uk
@@ -57,6 +66,13 @@ DATABASE
 
 with your git provider
 
-5. Push the file applicationDB.sql to this repository
+5. Push the file applicationDB.sql to this repository similar to what follows:
+
+>     git init
+>     git add .
+>     git commit -m "first commit"
+>     git branch -M main
+>     git remote add origin https://github.com/adt-apps/<identifier>-db-baseline.git
+>     git push -u origin main
 
 You can now deploy your website as you would any other baselined website
