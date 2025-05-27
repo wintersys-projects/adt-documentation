@@ -21,7 +21,11 @@ WEBROOT
 
 3. Create dba.dat files and remove any configuration files for example /home/bob/scratchconfiguration.php /home/bob/scratchwp-config.php
 
-4. Create a private repository with your git provider \<identity\>-webroot-sourcecode-baseline and push the entire contents of your working directory to the repository
+4. Create a private repository with your git provider
+
+>     <identifier>-webroot-sourcecode-baseline
+
+and push the entire contents of your working directory to the repository
 
 DATABASE
 
@@ -43,8 +47,12 @@ DATABASE
 >     /bin/sed -i "s/@${}/@applicationdomain.tld/g" ./applicationDB.sql/.psql
 >     /bin/sed -i "s/${ROOT_DOMAIN}/applicationdomain.tld/g" ./applicationDB.sql/.psql
 
-3. Create a private repository called \<identifier\>-db-baseline with your git provider
+3. Create a private repository called
 
-4. Push the file applicationDB.sql to this repository
+>     <identifier\>-db-baseline
+
+with your git provider
+
+5. Push the file applicationDB.sql to this repository
 
 You can now deploy your website as you would any other baselined website
