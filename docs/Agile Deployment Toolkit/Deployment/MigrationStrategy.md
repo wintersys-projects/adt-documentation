@@ -1,6 +1,9 @@
 WEBROOT
 
-1. download a copy of your websites webroot to your linux laptop and extract it into a working  directory (${working_dir} for example /home/bob/scratch
+1. download a copy of your website's webroot to your linux laptop and extract it into a working  directory (${working_dir} for example /home/bob/scratch
+
+**IF YOU WANT TO GIVE YOUR MIGRATED WEBSITE A DIFFERENT DOMAIN NAME, FOLLOW THIS STEP (you can search and replace in a gui instead if you want)
+IF YOU ARE DEPLOYING TO THE SAME DOMAIN NAME AS YOU PREVIOUSLY WERE, YOU CAN SKIP THIS STEP**
 
 2. copy this shellscript to your linux laptop and call it RemoveApplicationBranding.sh
 
@@ -12,12 +15,12 @@ WEBROOT
 >     root_domain="`/bin/echo ${website_url} | /usr/bin/awk -F'.' '{$1=""}1' | /bin/sed 's/^ //g' | /bin/sed 's/ /./g'`"
 >     
 >     /usr/bin/find ${working_directory} -type f -exec sed -i -e "s/${domainspecifier}/ApplicationDomainSpec/g" -e "s/${website_url}/applicationdomainwww.tld/g" -e "s/${root_domain}/applicationrootdomain.tld/g" {} \;
-
-3. Run the script RemoveApplicationBranding.sh passing the website url of your original website and the working directory where you extracted your webroot to as parameters, for example:
+ 
+Run the script RemoveApplicationBranding.sh passing the website url of your original website and the working directory where you extracted your webroot to as parameters, for example:
 
 >     /bin/sh ./RemoveApplicationBranding.sh www.nuocial.uk /home/bob/scratch
 
-3. Create dba.dat files and remove any configuration files for example /home/bob/scratchconfiguration.php /home/bob/scratchwp-config.php
+3. Make sure dba.dat dbe.dat and dbp.dat files and present and correct and remove any configuration files for example /home/bob/scratch/configuration.php for joomla or /home/bob/scratch/wp-config.php for wordpress
 
 4. Create a private repository with your git provider
 
@@ -36,6 +39,8 @@ DATABASE
 
 1. download a copy of a database dump of your website to your laptop and call it (mandatory naming don't call it anything else) applicationDB.sql/.psql
 
+**IF YOU WANT TO GIVE YOUR MIGRATED WEBSITE A DIFFERENT DOMAIN NAME, FOLLOW THIS STEP (you can search and replace in a gui instead if you want)
+IF YOU ARE DEPLOYING TO THE SAME DOMAIN NAME AS YOU PREVIOUSLY WERE, YOU CAN SKIP THIS STEP**
 2. copy the following shell script to your laptop and call it RemoveApplicationBranding.sh
 
 >     #!/bin/sh
@@ -48,11 +53,11 @@ DATABASE
 >     /bin/sed -i "s/@${root_domain}/@applicationdomain.tld/g" ./applicationDB.sql|.psql
 >     /bin/sed -i "s/${root_domain}/applicationdomain.tld/g" ./applicationDB.sql|.psql
 
-3. NOTE: if you are changing the domain name of your website and you are deploying a wordpress application you will need to run application.sql through a tool called "serfix" for it to work correctly. You can find serfix [here](https://github.com/astockwell/serfix)
-
-3. Run the shellscript passing in the original website url. For example:
+Run the shellscript passing in the original website url. For example:
 
 >     /bin/sh ./RemoveApplicationBranding.sh www.nuocial.uk
+
+**NOTE:** If you are changing the domain name of your website and you are deploying a wordpress application you will need to run applicationDB.sql through a tool called "serfix" for it to work correctly. You can find serfix [here](https://github.com/astockwell/serfix)
 
 3. Create a private repository called
 
