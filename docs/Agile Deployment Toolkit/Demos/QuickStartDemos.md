@@ -540,6 +540,7 @@ This is just a sample joomla install there's no sample data or anything it just 
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
 2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
+3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
 
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Joomla Installation"  
@@ -560,6 +561,7 @@ This is a sample virgin wordpress installation from baselined repositories.
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
 2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
+3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
 
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Wordpress Installation"  
@@ -584,6 +586,8 @@ This is a sample virgin drupal installation from baselined repositories.
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
 2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
+3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
+
 
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Drupal Installation"  
@@ -607,6 +611,8 @@ This is a sample virgin moodle installation from baselined repositories.
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
 2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
+3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
+
 
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Moodle Installation"  
