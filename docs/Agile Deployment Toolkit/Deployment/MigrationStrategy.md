@@ -14,7 +14,7 @@ IF YOU ARE DEPLOYING TO THE SAME DOMAIN NAME AS YOU PREVIOUSLY WERE, YOU CAN SKI
 >     
 >     root_domain="`/bin/echo ${website_url} | /usr/bin/awk -F'.' '{$1=""}1' | /bin/sed 's/^ //g' | /bin/sed 's/ /./g'`"
 >     
->     /usr/bin/find ${working_directory} -type f -exec sed -i -e "s/${domainspecifier}/ApplicationDomainSpec/g" -e "s/${website_url}/applicationdomainwww.tld/g" -e "s/${root_domain}/applicationrootdomain.tld/g" {} \;
+>     /usr/bin/find ${working_directory} -type f -exec sed -i -e "s/${website_url}/applicationdomainwww.tld/g" -e "s/${root_domain}/applicationrootdomain.tld/g" {} \;
  
 Run the script RemoveApplicationBranding.sh passing the website url of your original website and the working directory where you extracted your webroot to as parameters, for example:
 
