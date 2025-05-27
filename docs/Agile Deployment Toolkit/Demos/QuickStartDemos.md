@@ -304,7 +304,7 @@ This is just a sample wordpress template with some sample data installed which w
 
 ---------------------------
 
-### Demo 7 (Sample Drupal Application)
+### Demo 7 (Sample Drupal Based Opensocial Application)
 
 [Opensocial](https://getopensocial.com)
 
