@@ -51,8 +51,8 @@ DATABASE
 >          
 >     /bin/sed -i "s/${domainspecifier}/ApplicationDomainSpec/g" ./applicationDB.sql/.psql
 >     /bin/sed -i "s/${website_url}/www.applicationdomain.tld/g" ./applicationDB.sql/.psql
->     /bin/sed -i "s/@${}/@applicationdomain.tld/g" ./applicationDB.sql/.psql
->     /bin/sed -i "s/${ROOT_DOMAIN}/applicationdomain.tld/g" ./applicationDB.sql/.psql
+>     /bin/sed -i "s/@${root_domain}/@applicationdomain.tld/g" ./applicationDB.sql/.psql
+>     /bin/sed -i "s/${root_domain}/applicationdomain.tld/g" ./applicationDB.sql/.psql
 
 3. NOTE: if you are changing the domain name of your website and you are deploying a wordpress application you will need to run application.sql through a tool called "serfix" for it to work correctly. You can find serfix [here](https://github.com/astockwell/serfix)
 
