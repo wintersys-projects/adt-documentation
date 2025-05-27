@@ -11,8 +11,6 @@ WEBROOT
 >     
 >     root_domain="`/bin/echo ${website_url} | /usr/bin/awk -F'.' '{$1=""}1' | /bin/sed 's/^ //g' | /bin/sed 's/ /./g'`"
 >     
->     domainspecifier="`/bin/echo ${website_url} | /usr/bin/awk -F'.' '{ for(i = 1; i <= NF; i++) { print $i; } }' | /usr/bin/cut -c1-3 | /usr/bin/tr '\n' '-' | /bin/sed 's/-//g'`"
->     
 >     /usr/bin/find ${working_directory} -type f -exec sed -i -e "s/${domainspecifier}/ApplicationDomainSpec/g" -e "s/${website_url}/applicationdomainwww.tld/g" -e "s/${root_domain}/applicationrootdomain.tld/g" {} \;
 
 3. Run the script RemoveApplicationBranding.sh passing the website url of your original website and the working directory where you extracted your webroot to as parameters, for example:
@@ -46,10 +44,6 @@ DATABASE
 >     
 >     root_domain="`/bin/echo ${website_url} | /usr/bin/awk -F'.' '{$1=""}1' | /bin/sed 's/^ //g' | /bin/sed 's/ /./g'`"
 >    
->     
->     domainspecifier="`/bin/echo ${website_url} | /usr/bin/awk -F'.' '{ for(i = 1; i <= NF; i++) { print $i; } }' | /usr/bin/cut -c1-3 | /usr/bin/tr '\n' '-' | /bin/sed 's/-//g'`"
->          
->     /bin/sed -i "s/${domainspecifier}/ApplicationDomainSpec/g" ./applicationDB.sql|.psql
 >     /bin/sed -i "s/${website_url}/www.applicationdomain.tld/g" ./applicationDB.sql|.psql
 >     /bin/sed -i "s/@${root_domain}/@applicationdomain.tld/g" ./applicationDB.sql|.psql
 >     /bin/sed -i "s/${root_domain}/applicationdomain.tld/g" ./applicationDB.sql|.psql
