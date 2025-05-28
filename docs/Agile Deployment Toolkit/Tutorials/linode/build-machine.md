@@ -159,7 +159,6 @@ Graphically you can see what I have described in these 10 steps here:
 ![](images/expedited/lin20.png "Linode Tutorial Image 20")
 ![](images/expedited/lin21.png "Linode Tutorial Image 21")
 ![](images/expedited/lin22.png "Linode Tutorial Image 22")
-![](images/expedited/lin23a.png "Linode Tutorial Image 23a")
 ![](images/expedited/lin23b.png "Linode Tutorial Image 23b")
 ![](images/expedited/lin23c.png "Linode Tutorial Image 23c")
 
