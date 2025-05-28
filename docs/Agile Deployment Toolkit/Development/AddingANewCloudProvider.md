@@ -26,7 +26,7 @@ To support another cloudhost provider (for example, AWS, google cloud, OVH cloud
 >     adt-build-machine-scripts/templatedconfigurations/quick_specification.dat
 >     adt-build-machine-scripts/templatedconfigurations/specification.md
 
->     adt-database-scripts/applicationdb/maria/InstallApplicationDB.sh
+>     adt-database-scripts/application/db/maria/InstallApplicationDB.sh
 >     adt-database-scripts/installscripts/InstallPackageManager.sh
 
 >     adt-webserver-scripts/installscripts/InstallPackageManager.sh
