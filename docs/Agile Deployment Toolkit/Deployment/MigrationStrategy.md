@@ -20,7 +20,7 @@ Run the script RemoveApplicationBranding.sh passing the website url of your orig
 
 >     /bin/sh ./RemoveApplicationBranding.sh www.nuocial.uk /home/bob/scratch
 
-3. Make sure dba.dat dbe.dat and dbp.dat files and present and correct and remove any configuration files for example /home/bob/scratch/configuration.php for joomla or /home/bob/scratch/wp-config.php for wordpress
+3. Make sure dba.dat dbe.dat and dbp.dat (and for moodle dbt.dat) files are present and correct and remove any configuration files for example /home/bob/scratch/configuration.php for joomla or /home/bob/scratch/wp-config.php for wordpress
 
 4. Create a private repository with your git provider
 
