@@ -34,10 +34,10 @@ In the case when its not a virgin installation of an application type that we ar
 
 This is done in the 
 
->     ${BUILD_HOME}/providerscripts/application/SetApplicationConfig.sh 
+>     ${BUILD_HOME}/application/SetApplicationConfig.sh 
 
 file on the build machine
 
 The webserver downloads and installs the application specific configuration file that the build-machine has kindly prepared for it in the file:
 
->     ${HOME}/providerscripts/application/configuration/SetApplicationConfiguration.sh
+>     ${HOME}/application/configuration/SetApplicationConfiguration.sh
