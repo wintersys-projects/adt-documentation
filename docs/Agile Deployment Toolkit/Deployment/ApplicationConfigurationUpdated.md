@@ -44,13 +44,13 @@ and then run /usr/bin/config, here are the steps that the system goes through to
 
 - The script
 
->     ${HOME}/providerscripts/application/configuration/ApplicationConfigurationUpdate.sh
+>     ${HOME}/application/configuration/ApplicationConfigurationUpdate.sh
 
 will be run and this will run a syntax check and copy the configuration file to the S3 datastore.
 
 - Every minute, each webserver looks for an updated configuration file for the installed application type when the script:
 
->     ${HOME}/providerscripts/application/configuration/SetApplicationConfiguration.sh
+>     ${HOME}/application/configuration/SetApplicationConfiguration.sh
 
 is run. When this script is run and a new configuration file is discovered in the S3 datastore, the new configuration file is copied by the current webserver and each other webserver in turn to their
 
