@@ -6,7 +6,6 @@ To support another cloudhost provider (for example, AWS, google cloud, OVH cloud
 >     adt-autoscaler-scripts/providerscripts/cloudhost/GetOperatingSystemVersion.sh
 >     adt-autoscaler-scripts/providerscripts/cloudhost/InitialiseCloudhostConfig.sh
 >     adt-autoscaler-scripts/providerscripts/dns/*
->     adt-autoscaler-scripts/providerscripts/security/firewall/GetProxyDNSIPs.sh
 >     adt-autoscaler-scripts/providerscripts/security/firewall/TightenDBaaSFirewall.sh
 >     adt-autoscaler-scripts/providerscripts/server/*
 >     adt-autoscaler-scripts/security/SetupFirewall.sh
