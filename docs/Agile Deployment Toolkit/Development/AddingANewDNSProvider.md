@@ -3,7 +3,6 @@ To add a new DNS provider you will need to review and add to the following files
 >     adt-autoscaler-scripts/autoscaler/AddIPToDNS.sh
 >     adt-autoscaler-scripts/autoscaler/GetDNSIPs.sh
 >     adt-autoscaler-scripts/autoscaler/RemoveIPFromDNS.sh
->     adt-autoscaler-scripts/providerscripts/security/firewall/GetProxyDNSIPs.sh
 
 >     adt-build-machine-scripts/buildscripts/FinaliseBuildProcessing.sh
 >     adt-build-machine-scripts/initscripts/InitialiseDNSRecord.sh
