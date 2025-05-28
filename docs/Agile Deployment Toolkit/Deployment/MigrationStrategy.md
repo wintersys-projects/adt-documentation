@@ -1,6 +1,6 @@
 WEBROOT
 
-1. download a copy of your website's webroot to your linux laptop and extract it into a working  directory (${working_dir} for example /home/bob/scratch. Depending on what application you are deploying files which might be outside the webroot (for example moodledata for moodle) or private (for drupal) you need to make sure that if there are such directories they are present at the top level of your webroot. You can look at what is expected during installation by reviewing files such as [this](https://github.com/wintersys-projects/adt-webserver-scripts/blob/main/providerscripts/application/customise/drupal/CustomiseApplication.sh)
+1. download a copy of your website's webroot to your linux laptop and extract it into a working  directory (${working_dir} for example /home/bob/scratch. Depending on what application you are deploying files which might be outside the webroot (for example moodledata for moodle) or private (for drupal) you need to make sure that if there are such directories they are present at the top level of your webroot. You can look at what is expected during installation by reviewing files such as [this](https://github.com/wintersys-projects/adt-webserver-scripts/blob/main/application/customise/drupal/CustomiseApplication.sh)
 
 **IF YOU WANT TO GIVE YOUR MIGRATED WEBSITE A DIFFERENT DOMAIN NAME, FOLLOW THIS STEP (you can search and replace in a gui instead if you want)
 IF YOU ARE DEPLOYING TO THE SAME DOMAIN NAME AS YOU PREVIOUSLY WERE, YOU CAN SKIP THIS STEP**
