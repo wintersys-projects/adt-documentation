@@ -43,13 +43,13 @@ on the database machine
 
 The cron script calls
 
->     ${HOME}/providerscripts/backupscripts/Backup.sh
+>     ${HOME}/application/backupscripts/Backup.sh
 
 on the webserver machine  
 
 and  
 
->     ${HOME}/providerscripts/backupscripts/Backup.sh
+>     ${HOME}/application/backupscripts/Backup.sh
 
 on the database machine  
 
