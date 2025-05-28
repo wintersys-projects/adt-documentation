@@ -10,8 +10,8 @@ The core supports joomla,wordpress,drupal and moodle. If you want to support fur
 >     adt-build-machine-scripts/templatedconfigurations/quick_specification.dat
 >     adt-build-machine-scripts/templatedconfigurations/specification.md
 
->     adt-webserver-scripts/providerscripts/application/configuration/*
->     adt-webserver-scripts/providerscripts/application/monitoring/CheckServerAlive.sh
->     adt-webserver-scripts/providerscripts/application/processing/*
+>     adt-webserver-scripts/application/configuration/*
+>     adt-webserver-scripts/application/monitoring/CheckServerAlive.sh
+>     adt-webserver-scripts/application/processing/*
 
 The most major part of the integration is likely to be adt-webserver-scripts/providerscripts/webserver/configuration and will most likely take the majority of your effort
