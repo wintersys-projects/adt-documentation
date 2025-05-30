@@ -24,15 +24,15 @@ will be written to the S3 Datastore and this will mean that autoscaler 1 will bu
 
 There is also the script
 
->     ${HOME}/providerscripts/utilities/processing/ScalingUpdateEvent.sh
+>     ${HOME}/utilities/processing/ScalingUpdateEvent.sh
 
 available on each autoscaler that you can set up to be called from cron such that you configure scaling up and scaling down events for that webserver at specific times. If, for example, you wanted to scale up for the morning period scale down a bit at lunch time, scale up a bit in the afternoon and then scale down overnight then you could set up a set of time dependent calls to this script with your required webserver numbers. 
 
 Your cron situation might look like:
 
->     30 8 * * *  export HOME="${HOME}" && ${HOME}/providerscripts/utilities/processing/ScalingUpdateEvent.sh 10"
->     00 12 * * *  export HOME="${HOME}" && ${HOME}/providerscripts/utilities/processing/ScalingUpdateEvent.sh 6"
->     00 14 * * *  export HOME="${HOME}" && ${HOME}/providerscripts/utilities/processing/ScalingUpdateEvent.sh 10"
->     30 17 * * *  export HOME="${HOME}" && ${HOME}/providerscripts/utilities/processing/ScalingUpdateEvent.sh 3"
+>     30 8 * * *  export HOME="${HOME}" && ${HOME}/utilities/processing/ScalingUpdateEvent.sh 10"
+>     00 12 * * *  export HOME="${HOME}" && ${HOME}/utilities/processing/ScalingUpdateEvent.sh 6"
+>     00 14 * * *  export HOME="${HOME}" && ${HOME}/utilities/processing/ScalingUpdateEvent.sh 10"
+>     30 17 * * *  export HOME="${HOME}" && ${HOME}/utilities/processing/ScalingUpdateEvent.sh 3"
 
 If you want to scale up to 10 at 8:30AM scale down to 6 during a 2 hour lunch window, scale up to 10 again for the afternoon and then scale down to 3 overnight. 
