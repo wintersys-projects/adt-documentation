@@ -16,8 +16,8 @@ I am not sure how possible this is but if you wanted to have a go at deploying t
 
 >     adt-autoscaler-scripts/installscripts/*
 >     adt-autoscaler-scripts/providerscripts/cloudhost/*
->     adt-autoscaler-scripts/providerscripts/utilities/processing/RunServiceCommand.sh
->     adt-autoscaler-scripts/providerscripts/utilities/software/UpdateSoftware.sh
+>     adt-autoscaler-scripts/utilities/processing/RunServiceCommand.sh
+>     adt-autoscaler-scripts/utilities/software/UpdateSoftware.sh
 
 >     adt-build-machine-scripts/ExpeditedAgileDeploymentToolkit.sh
 >     adt-build-machine-scripts/helperscripts/RunServiceCommand.sh
@@ -31,9 +31,9 @@ I am not sure how possible this is but if you wanted to have a go at deploying t
 >     adt-build-machine-scripts/templatedconfigurations/templateoverrides/OverrideScript.sh
 
 >     adt-database-scripts/installscripts/*
->     adt-database-scripts/providerscripts/utilities/processing/RunServiceCommand.sh
->     adt-database-scripts/providerscripts/utilities/software/UpdateSoftware.sh
+>     adt-database-scripts/utilities/processing/RunServiceCommand.sh
+>     adt-database-scripts/utilities/software/UpdateSoftware.sh
 
 >     adt-webserver-scripts/installscripts/*
->     adt-webserver-scripts/providerscripts/utilities/processing/RunServiceCommand.sh
->     adt-webserver-scripts/providerscripts/utilities/software/UpdateSoftware.sh
+>     adt-webserver-scripts/utilities/processing/RunServiceCommand.sh
+>     adt-webserver-scripts/utilities/software/UpdateSoftware.sh
