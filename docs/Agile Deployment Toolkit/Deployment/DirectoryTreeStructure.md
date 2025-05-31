@@ -126,7 +126,7 @@ Here you will find an expose on the directory structures of the various differen
 
 ```${HOME}/runtime/POTENTIAL_STALLED_BUILD``` - Every newly provisioned webserver is considered potentially stalled, because a build can stall for reasons out of our control on rare occassions such as networking outages and so on. A webserver machine is considered potentially stalled by default until we hear from it that it isn't and we continue on from there then.
 
-```${HOME}/runtime/probed_ips/``` - this directory contrains probed webserver ips so that we can keep track of which webservers ultimately are OK to keep running and which webservers (for example, failed to respond to a curl command) need to be terminated.
+```${HOME}/runtime/probed_ips/``` - this directory contains probed webserver ips so that we can keep track of which webservers ultimately are OK to keep running and which webservers (for example, failed to respond to a curl command) need to be terminated.
 
 ```${HOME}/runtime/UPDATEDSSL``` - This is just a flag that tells us when our SSL certificate has been updated. 
 
