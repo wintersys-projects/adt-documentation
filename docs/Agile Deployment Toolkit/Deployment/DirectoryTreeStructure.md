@@ -24,7 +24,7 @@ Here you will find an expose on the directory structures of the various differen
 
 ```${BUILD_HOME}/runtimedata/${cloudhost}/${build_identifier}/autoscaler_configuration_settings.dat``` - this is the autoscaler environment settings generated from the template and possibly user input. This file will be ssh copied to any autoscaler machine that is provisioned  
 
-```${BUILD_HOME}/runtimedata/${cloudhost}/${build_identifier}/build_environment``` - this is a copy of the environment as it was immediately prior to the commencement of a build. It can be referre to to see what the system thinks things were set to and compared to what you think it should be set to  
+```${BUILD_HOME}/runtimedata/${cloudhost}/${build_identifier}/build_environment``` - this is a copy of the environment as it was immediately prior to the commencement of a build. It can be referred to to see what the system thinks things were set to and compared to what you think it should be set to  
 
 ```${BUILD_HOME}/runtimedata/${cloudhost}/${build_identifier}/CLOUDHOST:${cloudhost}``` - this is alread set in the directtory path and also in the ACTIVE_CLOUDHOST file but it is also recorded here for convenient access  
 
