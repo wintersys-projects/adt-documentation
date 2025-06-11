@@ -11,3 +11,15 @@ Here is the process that I would use to make that possible:
 >     ${BUILD_HOME}/helperscripts/ObtainWholeMachineBackupFromDatabaseMachine.sh
 >     ${BUILD_HOME}/helperscripts/ObtainWholeMachineBackupFromReveseProxyMachine.sh
 >     ${BUILD_HOME}/helperscripts/ObtainWholeMachineBackupFromWebserverMachine.sh
+
+This will generate a set of backups in 
+
+>     ${BUILD_HOME}/runtimedata/wholemachinebackups
+
+under the appropriate domain name. 
+
+What I can then do is that if I want to build with that particular configuration using a whole machine backup, I simply set
+
+>    BUILD_FROM_BACKUP="1"
+
+In the template that I want to use to perform the build from. What will happen then is that machines will build as usual but with a trimmed down "cloud-init" process and what will happen is that instead of installing software and so on the build process will upload the appropriate backup from the build machine and extract it onto the machine. This will contain the appropriate software and so on. This might interest you if you are interested in efficient usage of resources because building out software from repositories for each deployment is a less efficient way of building your machines than simply extracting an archive that you hold on a machine on the same subnet as your target machine(s). 
