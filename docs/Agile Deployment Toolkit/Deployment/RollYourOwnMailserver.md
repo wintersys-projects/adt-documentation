@@ -1,7 +1,7 @@
 There are a few solutions to providing email services for your users:
 
 1. Allow any domain email addresses in your application, like gmail, yahoo and so on.
-2. If you want your users to have their own custom domain, you might have to pay for a custom domain email service, free ones seemed a bit thin on the ground to me
+2. If you want your users to have their own custom domain, you might have to pay for a custom domain email service, free ones seemed a bit thin on the ground to me. a service that i have seen, but havent tried or endorse is called 'freeola'.
 3. If you want to run your own email server, you can run one using "iRedmail" or "Mail in a box" or "Modoba". Please be aware it is not a trivial undertaking to run your own mail server. 
 
 **NOTE** Cloudflare are providing an email routing service which you can setup to route people's emails through your domain to their own email address on gmail or hotmail or whatever. This requires that your domain is setup with Cloudflare, however and it remains to be seen if email addresses routing through Cloudflare can be setup programmatically through their API (in which case it would be great to have people register with their gmail address, detect it, and swap it out for a domain specific address which reroutes to their gmail address using cloudflare email routing) or whether you would have to have an admin manually add people to the service.
