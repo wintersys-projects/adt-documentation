@@ -1,3 +1,5 @@
+If you want to build machines with modsecurity active then that means that there has to be compilation of the webserver and modsecurity itself from source which can take up to 15 minutes per machine. This isn't really an acceptable level of time to wait for a machine to spin up so I provide a way of "cloning" machines so that they can then be built from those clones rather than from scratch which gets the provisioning time down to a couple of minutes. If you want to have faster provisioning times (particularly if you are compiling your webservers from source) then you might want performm one build run and then redeploy by building from whole machine backups which I describe how to do here. 
+
 I provide a method for taking whole machine backups that can then be used to build from in short order. 
 This might be useful if you were building a lot of things from source because it can take some minutes for certain pieces of software to compile. 
 A faster way (over time) might be to make the effort to build the machines in full and then take backups of the machines and build off those in the future.
