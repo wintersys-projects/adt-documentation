@@ -29,13 +29,13 @@ As part of the preparation for the build process on the build machine when you r
 
 Here is the workflow.
 
-- You deploy from a baselined copy of your application (**PERSIST_ASSETS_TO_CLOUD**) must be "0".
+- You deploy from a baselined copy of your application (**PERSIST_ASSETS_TO_DATASTORE**) must be "0".
 
-- You make an HOURLY backup from this active version of your website (because **PERIST_ASSETS_TO_CLOUD**="0" the assets of the application will be stored as part of the backup)
+- You make an HOURLY backup from this active version of your website (because **PERIST_ASSETS_TO_DATASTORE**="0" the assets of the application will be stored as part of the backup)
 
 - Once you have temporal backups of your website that contain all assets you take the active deployment that you made the backups from offline.
 
-- You then confligure your system to deploy from a temporal backup setting **PERSIST_ASSETS_TO_CLOUD** to "1" and DIRECTORIES_TO_MOUNT to (for example if you are deploying joomla) to "images"
+- You then confligure your system to deploy from a temporal backup setting **PERSIST_ASSETS_TO_DATASTORE** to "1" and DIRECTORIES_TO_MOUNT to (for example if you are deploying joomla) to "images"
 
 - When you deploy from the temporal backup the build machine will make a copy of the assets from your temporal backup to the S3 datastore in an identifiable bucket (one bucket for each specific directory that you set for your application)
 
