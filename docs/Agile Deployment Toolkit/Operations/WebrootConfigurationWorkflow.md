@@ -25,7 +25,7 @@ settings in your template.
 
 The workflow for the assets for the application are arranged as follows. 
 
-As part of the preparation for the build process on the build machine when you run "ExpeditedAgileDeploymentToolkit.sh" when you build from a temporal backup, **PERSIST_ASSETS_TO_CLOUD** is set to 1 and **DIRECTORIES_TO_MOUNT** has a value that matches the webroot structure of your application, then the assets will be copied from the temporal backup to the S3 datastore and mounted in place of the assets actually being on the webserver as part of your application.
+As part of the preparation for the build process on the build machine when you run "ExpeditedAgileDeploymentToolkit.sh" when you build from a temporal backup, **PERSIST_ASSETS_TO_DATASTORE** is set to 1 and **DIRECTORIES_TO_MOUNT** has a value that matches the webroot structure of your application, then the assets will be copied from the temporal backup to the S3 datastore and mounted in place of the assets actually being on the webserver as part of your application.
 
 Here is the workflow.
 
