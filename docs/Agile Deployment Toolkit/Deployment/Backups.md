@@ -57,7 +57,7 @@ You pass in the build periodicity **"HOURLY", "DAILY", "WEEKLY", "MONTHLY", "BIM
 
 -------------------------------------------------------------------------------------------------------------
 
-**IF THE APPLICATION IS CONFIGURED TO STORE ASSETS IN THE CLOUD AND THEN MOUNTED THEY ARE NOT PART OF THE BACKUPS (PERSIST_ASSETS_TO_CLOUD=1)**
+**IF THE APPLICATION IS CONFIGURED TO STORE ASSETS IN THE CLOUD AND THEN MOUNTED THEY ARE NOT PART OF THE BACKUPS (PERSIST_ASSETS_TO_DATASTORE=1)**
 	
 Its normal (and required) to set 
 
