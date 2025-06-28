@@ -128,7 +128,7 @@ To enable the datastore you can set the following values appropriately in any of
 To mount an application's assets directory set the following values appropriately in template 3. In this example I use joomla where the assets directory is the images subdirectory
 
 >     export DIRECTORIES_TO_MOUNT="images"
->     export PERSIST_ASSETS_TO_CLOUD="1"
+>     export PERSIST_ASSETS_TO_DATASTORE="1"
 
 --------------------------------------------------------------
 
