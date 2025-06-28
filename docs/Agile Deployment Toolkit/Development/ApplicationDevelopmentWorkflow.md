@@ -14,6 +14,6 @@ temporal backup of your running baseline, the assets set by "DIRECTORIES_TO_MOUN
 6. You are then all set to easily make "full" deployments of your application but just remember to set
 "PERSIST_ASSETS_TO_DATASTORE" and  "DIRECTORIES_TO_MOUNT"
 to fit with what you set when you made the baseline. By persisting user assets to the datastore you can cope with very large numbers of user assets
-as long as you have the finances to allow it because the asset sets are offloaded to the datastore rather than being  on the filesystem of your webserver(s). 
+as long as you have the finances to allow it because the asset sets are offloaded to the datastore rather than being  on the filesystem of your webserver(s).
 
 NOTE: If you already have a baseline or you are using a baseline of an application provided by a 3rd party then you only need to perform from step 3 onwards in the steps listed above
