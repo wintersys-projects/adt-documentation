@@ -6,7 +6,7 @@ Website assets can be treated in a few ways.
 
 The most relevant parts of the configuration are the 
 
->     PERSIST_ASSETS_TO_CLOUD
+>     PERSIST_ASSETS_TO_DATASTORE
 
 and 
 
@@ -17,9 +17,9 @@ settings in your template.
 
 - If you are deploying a virgin website installation or a baseline website installation then **PERIST_ASSETS_TO_CLOUD** should always be 0.
 
-- If you are deploying from a temporal backup then **PERSIST_ASSETS_TO_CLOUD** can be 1.
+- If you are deploying from a temporal backup then **PERSIST_ASSETS_TO_DATASTORE** can be 1.
 
-- When **PERSIST_ASSETS_TO_CLOUD** is 1, then you can set which directories of your applications webroot you wish to be stored in the cloud (the S3 Data storage). Please refer to the specification for more details on how to set the value of **DIRECTORIES_TO_MOUNT**. If **SYNC_WEBROOTS** is 1, the directories mounted from S3 will not be included in the syncing process.
+- When **PERSIST_ASSETS_TO_DATASTORE** is 1, then you can set which directories of your applications webroot you wish to be stored in the cloud (the S3 Data storage). Please refer to the specification for more details on how to set the value of **DIRECTORIES_TO_MOUNT**. If **SYNC_WEBROOTS** is 1, the directories mounted from S3 will not be included in the syncing process.
 
 --------
 
