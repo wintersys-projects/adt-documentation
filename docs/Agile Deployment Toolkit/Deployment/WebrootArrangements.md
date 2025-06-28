@@ -4,7 +4,7 @@ If you just have a single webserver with not many user generated assets then you
 
 ```SYNC_WEBROOTS="0"```  
 ```DIRECTORIES_TO_MOUNT=""```  
-```PERSIST_ASSETS_TO_CLOUD="0"```  
+```PERSIST_ASSETS_TO_DATASTORE="0"```  
 
 #### Arrangement 2
 
@@ -12,7 +12,7 @@ You can have arrangment 1 on multiple webservers and have the webroots synchroni
 
 ```SYNC_WEBROOTS="1"```  
 ```DIRECTORIES_TO_MOUNT=""```  
-```PERSIST_ASSETS_TO_CLOUD="0"```  
+```PERSIST_ASSETS_TO_DATASTORE="0"```  
 
 #### Arrangment 3
 
@@ -20,7 +20,7 @@ You have a lot of user generated assets and multiple webroots/webserver machines
 
 ```SYNC_WEBROOTS="1"```  
 ```DIRECTORIES_TO_MOUNT="images"```  
-```PERSIST_ASSETS_TO_CLOUD="1"```  
+```PERSIST_ASSETS_TO_DATASTORE="1"```  
 
 #### Arrangement 4
 
@@ -28,4 +28,4 @@ Its possible that VPS providers are going to start supporting proper shared file
 
 ```SYNC_WEBROOTS="0"```  
 ```DIRECTORIES_TO_MOUNT=""```  
-```PERSIST_ASSETS_TO_CLOUD=""```  
+```PERSIST_ASSETS_TO_DATASTORE=""```  
