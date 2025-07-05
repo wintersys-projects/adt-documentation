@@ -30,15 +30,15 @@ This is what you have to do if you don't have access to your build machine or yo
 
 1. Install S3CMD on your laptop/desktop and configure it so it can access your S3 compatible object store for your cloudhost.  
   
-2. Look for the correct bucket in your datastore (you will need to check the date on the bucket if there are multiple buckets like this with different unique identifiers or you can find out which is the correct identifier by looking at the crontab on the build machine).
+2. Look for the correct bucket in your datastore with the nomenclature:
 
 >      s3://authip-adt-allowed<unique-identifier>
 
 For example:
 
->      s3://authip-adt-allowed-i7q3dz
+>      s3://authip-adt-allowed-92-91-154-22
 
-where the build identifier is the build identifier that you gave to the particular build you want to access (you will need to create a bucket for each build you want to protect if you have multiple builds on the same machine).  
+where the unique identifier is based on the ip address of the current build machine. 
 
 3. Edit a file (authorised-ips.dat) on your laptop and on separate lines put the ip addresses of each machine you want to grant access rights to your build machine to taking special care to include your own laptop's IP address. So, if your laptop ip address is 111.111.111.111 and your colleagues laptop ip address is 222.222.222.222 then your file authorised-ips.dat will look like:  
    
