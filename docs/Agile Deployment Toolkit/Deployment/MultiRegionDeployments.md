@@ -308,3 +308,138 @@ export CLOUDHOST="linode"
 
 
 You will need to first deploy the primary region infrastrucuture (gb-lon) and once that is complete and online, deploy the secondary region and any further regions that you want to deploy for. The DBaaS instance is in the gb-lon region and the machines in nl-ams will connect to the database instance in the gb-lon domain across the Internet. As I understand it the traffic is encrypted by default but to be but don't take my word for it check it out with linode because it might be necessary to provide SSL certs when connecting to the DBaaS system across the Internet. 
+
+I then made a deployment to a third region (with a different vendor, exoscale) and this is what my template looked like when I made a deployment to a different vendor and had all the different regions tied together through the cloudflare DNS system and all having them access the shared Linode DBaaS system. Remember I chose to intitiate all these builds from the same build machine running on Linode. 
+
+\###############################################################################################  
+\# Refer to: ${BUILD_HOME}/templatedconfigurations/specification.md  
+\###############################################################################################  
+\#This template is configured for temporal style builds  
+
+\#####MANDATORY - The bare minimum set of values that you need to provide to have any chance of a successful build  
+\#####NOT REQUIRED - isn't used by the Exoscale  
+
+\#####Application Settings#########  
+export APPLICATION="joomla" #MANDATORY  
+export APPLICATION_IDENTIFIER="1" #MANDATORY  
+export JOOMLA_VERSION=""   
+export DRUPAL_VERSION=""    
+export APPLICATION_BASELINE_SOURCECODE_REPOSITORY=""  
+export BASELINE_DB_REPOSITORY=""  
+export APPLICATION_LANGUAGE="PHP"   
+export PHP_VERSION="8.4"    
+export BUILD_ARCHIVE_CHOICE="hourly"  
+export BUILD_CHOICE="2"  
+export APPLICATION_NAME="Demo Application"  
+
+\#####S3 Datastore Settings#######  
+export S3_ACCESS_KEY="GPIJ6HS1MY6LU7QE243V"  
+export S3_SECRET_KEY="Ru9aX4oBxK3W1Ga1eTNj4c96SV8AQzsk4p6KXdvT"  
+export S3_HOST_BASE="nl-ams-1.linodeobjects.com"   
+export S3_LOCATION="US" #For linode, this always needs to be set to "US"  
+export DATASTORE_CHOICE="linode"   
+export DIRECTORIES_TO_MOUNT="images" #This should always be unset for a virgin and baseline deployments  
+export PERSIST_ASSETS_TO_DATASTORE="1" #This should always be set to 0 for a virgin and baseline deployment  
+
+\#####OS Settings#########  
+export BUILDOS="debian" # One of ubuntu|debian  
+export BUILDOS_VERSION="12" # One of 20.04 22.04 24.04|10 11 12  
+
+\######Cloudhost Provider Settings#######  
+export TOKEN="" #NOT REQUIRED  
+export ACCESS_KEY="EXO7hfgu476gfvfnsu4nfbgy223dhf"   #MANDATORY  
+export SECRET_KEY="jcbh846tfg2vdugihdhevuft2ojknbub374fbjbsksbd"   #MANDATORY  
+export CLOUDHOST_ACCOUNT_ID="testcoders@yahoo.com"  #MANDATORY for Exoscale - this should be the account email address that you login to the portal with  
+
+\######DNS Settings##########  
+export DNS_USERNAME="dnsusername@email.com" #MANDATORY  
+export DNS_SECURITY_KEY="cfjdhfh38jdh2hdhfjw8r21hd73is9d" #MANDATORY  
+export DNS_CHOICE="cloudflare" #you will need to set your DNS nameservers according to this choice  
+
+\#####Webserver Settings########  
+export WEBSITE_DISPLAY_NAME="Joomla Demo" #MANDATORY  
+export WEBSITE_NAME="codetesters" #MANDATORY  
+export WEBSITE_URL="www.codetesters.uk"  #MANDATORY  
+export WEBSERVER_CHOICE="APACHE"  
+export REVERSE_PROXY_WEBSERVER="APACHE"  
+export NO_WEBSERVERS="1"  
+export MAX_WEBSERVERS="10"  
+export MOD_SECURITY="0"  
+
+\#####Git settings#####  
+export GIT_USER="Templated User"  
+export GIT_EMAIL_ADDRESS="templateduser@dummyemailZ123.com"  
+
+\#####Infrastructure Repository Settings#######  
+export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"  
+export INFRASTRUCTURE_REPOSITORY_OWNER="wintersys-projects"  
+export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"  
+export INFRASTRUCTURE_REPOSITORY_PASSWORD="none"  
+
+\###### Application Repository Settings########  
+export APPLICATION_REPOSITORY_PROVIDER="github"  
+export APPLICATION_REPOSITORY_OWNER="adt-apps" #MANDATORY  
+export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY  
+export APPLICATION_REPOSITORY_PASSWORD="github_pat_11BELT3NQ03fCHpjdjn7y3hjdhkf37DHHS8jfh38fjfy3o9qoskfogjJHHJDJkfhskfu3osdjf"  
+export APPLICATION_REPOSITORY_TOKEN="github_pat_11BELT3NQ03fCHpjdjn7y3hjdhkf37DHHS8jfh38fjfy3o9qoskfogjJHHJDJkfhskfu3osdjf"  
+
+\##### System Email Settings#########  
+export SYSTEM_EMAIL_PROVIDER=""  
+export SYSTEM_EMAIL_PROVIDER="2"  
+export SYSTEM_TOEMAIL_ADDRESS="webmaster@codetesters.uk"  
+export SYSTEM_FROMEMAIL_ADDRESS="webmaster@codetesters.uk"  
+export SYSTEM_EMAIL_USERNAME="gf72fdhkocnv28de7e8ifjjw8f2"  
+export SYSTEM_EMAIL_PASSWORD="hfjh47fi328rjfh28folmajfigj"  
+export EMAIL_NOTIFICATION_LEVEL="ERROR"  
+
+\##### Database Settings######  
+export DB_PORT="2035"  
+export DATABASE_INSTALLATION_TYPE="DBaaS"  
+export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd"  
+<span style="color:red">export BYPASS_DB_LAYER="1" </span>    
+
+\#####Server Settings #######  
+<span style="color:red">export REGION="ch-gva-2" </span>  
+export DB_SERVER_TYPE="tiny"  
+export WS_SERVER_TYPE="tiny"  
+export AS_SERVER_TYPE="tiny"  
+export AUTH_SERVER_TYPE="tiny"  
+export RP_SERVER_TYPE="tiny"  
+export MACHINE_TYPE="EXOSCALE"  
+export SSH_PORT="1035"  
+export SERVER_TIMEZONE_CONTINENT="Europe"  
+export SERVER_TIMEZONE_CITY="London"  
+export USER="root"  
+export SYNC_WEBROOTS="1"  
+export USER_EMAIL_DOMAIN=""  
+
+\#####Build Settings######  
+export PRODUCTION="1"  
+export DEVELOPMENT="0"  
+export NO_AUTOSCALERS="1"  
+<span style="color:red">export NO_REVERSE_PROXY="1" </span>   
+export AUTHENTICATION_SERVER="0"  
+export BUILD_FROM_BACKUP="0"  
+ 
+\#####Security Settings#####  
+export ACTIVE_FIREWALLS="3"  
+export PUBLIC_KEY_NAME="AGILE_TOOLKIT_PUBLIC_KEY"  
+export SSL_GENERATION_METHOD="AUTOMATIC"  
+export SSL_GENERATION_SERVICE="LETSENCRYPT"  
+export SSL_LIVE_CERT="1"  
+export ALGORITHM="rsa"  
+<span style="color:red">export BUILD_MACHINE_VPC="0" </span>  
+export VPC_IP_RANGE="10.0.0.0/24"  #MANDATORY   
+export VPC_NAME="adt-vpc"  
+
+\#####Multi Region Deployments#####  
+<span style="color:red">export MULTI_REGION="1" </span>  
+<span style="color:red">export PRIMARY_REGION="0" </span>  
+<span style="color:red">export DBaaS_PUBLIC_ENDPOINT="a327564-akamai-prod-370219-default.g2a.akamaidb.net" </span>  
+
+
+\#####Build Style#######  
+export INPARALLEL="1"  
+
+export BUILD_IDENTIFIER="test-ch-gva"  
+export CLOUDHOST="exoscale"  
