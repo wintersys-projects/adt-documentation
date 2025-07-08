@@ -28,7 +28,9 @@ You need to take a similar approach with other providers if you want to deploy t
 
 TEMPLATE FOR THE PRIMARY REGION (gb-lon)
 
-When you make a multi region deployment the advice is that you should set the BUILD_IDENTIFER to include the region that is being deployed to, for example, testdeploy-gb-lon for the gb-lon domain and testdeploy-nl-ams for the nl-ams domain under linode. I have one build machine in the gb-lon region
+When you make a multi region deployment the advice is that you should set the BUILD_IDENTIFER to include the region that is being deployed to, for example, testdeploy-gb-lon for the gb-lon domain and testdeploy-nl-ams for the nl-ams domain under linode. I have one build machine in the gb-lon region.
+
+Highlighted in red are the settings in the templates that you need to take particular care with when making a multi-region deployment
 
 
 
@@ -121,7 +123,7 @@ When you make a multi region deployment the advice is that you should set the BU
 >     export BYPASS_DB_LAYER="0"
 >     
 >     #####Server Settings #######
->     export REGION="gb-lon"
+>     <span style="color:red"> export REGION="gb-lon"</span>    
 >     export DB_SERVER_TYPE="g6-nanode-1"
 >     export WS_SERVER_TYPE="g6-nanode-1"
 >     export AS_SERVER_TYPE="g6-nanode-1"
@@ -150,20 +152,20 @@ When you make a multi region deployment the advice is that you should set the BU
 >     export SSL_GENERATION_SERVICE="LETSENCRYPT"
 >     export SSL_LIVE_CERT="1"
 >     export ALGORITHM="ed25519"
->     export BUILD_MACHINE_VPC="1"
+>     <span style="color:red">export BUILD_MACHINE_VPC="1"</span>    
 >     export VPC_IP_RANGE="10.0.1.0/24"
->     export VPC_NAME="adt-vpc-gb-lon"
+>     <span style="color:red">export VPC_NAME="adt-vpc-gb-lon" </span>    
 >     
 >     #####Multi Region Deployments#####
->     export MULTI_REGION="1"
->     export PRIMARY_REGION="1"
+>     <span style="color:red">export MULTI_REGION="1"</span>   
+>     <span style="color:red">export PRIMARY_REGION="1"</span>   
 >     export DBaaS_PUBLIC_ENDPOINT=""
 >     
 >     #####Build Style#######
 >     export INPARALLEL="1"
 >     
 >     
->     export BUILD_IDENTIFIER="test-gb-lon"
+>     <span style="color:red">export BUILD_IDENTIFIER="test-gb-lon"  </span>   
 >     export CLOUDHOST="linode"
 
 
@@ -257,7 +259,7 @@ Here is my template for the nl-ams region when I am deploying a primary region o
 >     export DB_PORT="2035"
 >     export DATABASE_INSTALLATION_TYPE="DBaaS"
 >     export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd"
->     export BYPASS_DB_LAYER="1"
+>     <span style="color:red">export BYPASS_DB_LAYER="1" </span>
 >     
 >     #####Server Settings #######
 >     export REGION="nl-ams"
@@ -289,20 +291,20 @@ Here is my template for the nl-ams region when I am deploying a primary region o
 >     export SSL_GENERATION_SERVICE="LETSENCRYPT"
 >     export SSL_LIVE_CERT="1"
 >     export ALGORITHM="ed25519"
->     export BUILD_MACHINE_VPC="0"
+>     <span style="color:red">export BUILD_MACHINE_VPC="0" </span>
 >     export VPC_IP_RANGE="10.0.1.0/24"
->     export VPC_NAME="adt-vpc-nl-ams"
+>     <span style="color:red">export VPC_NAME="adt-vpc-nl-ams" </span>
 >     
 >     #####Multi Region Deployments#####
->     export MULTI_REGION="1"
->     export PRIMARY_REGION="0"
->     export DBaaS_PUBLIC_ENDPOINT="a47568393-akamai-prod-6748387-default.g2a.akamaidb.net"
+>     <span style="color:red">export MULTI_REGION="1"  </span>
+>     <span style="color:red">export PRIMARY_REGION="0" </span>
+>     <span style="color:red">export DBaaS_PUBLIC_ENDPOINT="a47568393-akamai-prod-6748387-default.g2a.akamaidb.net" </span>
 >     
 >     #####Build Style#######
 >     export INPARALLEL="1"
 >     
 >     
->     export BUILD_IDENTIFIER="test-nl-ams"
+>     <span style="color:red">export BUILD_IDENTIFIER="test-nl-ams"</span>
 >     export CLOUDHOST="linode"
 
 
