@@ -34,9 +34,9 @@ Highlighted in red are the settings in the templates that you need to take parti
 
 
 
-\###############################################################################################
-\# Refer to: \${BUILD_HOME}/templatedconfigurations/specification.md
-\###############################################################################################
+\###############################################################################################  
+\# Refer to: ${BUILD_HOME}/templatedconfigurations/specification.md
+\###############################################################################################  
 \#This template is configured for temporal style builds
 
 \#####MANDATORY - the bare minimum set of values that you need to provide to have any chance of a successful build  
