@@ -168,7 +168,7 @@ When you make a multi region deployment the advice is that you should set the BU
 
 
 
-Here is my template for the nl-ams region when I am deploying a primary domain to gb-lon and a secondary domain to nl-ams under linode
+Here is my template for the nl-ams region when I am deploying a primary region of gb-lon and a secondary domain to nl-ams under linode
 
 
 >     ###############################################################################################
