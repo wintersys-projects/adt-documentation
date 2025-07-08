@@ -20,6 +20,8 @@ When making a multi region deployment you will need to provide the public DBaaS 
 
 Every region will need to provision its own reverse proxy machines because multi-region deployments are only possible when each individual region uses reverse proxies to forward traffic to the fleet of webservers for that region. 
 
+Here I have used one build machine running  in the gb-lon to perform the builds for all regions of the multi region deployment but you could have a different build machine in/for each region and that would encapsulate each region nicely and make it simpler to have different teams responsible for primary, and secondary and even tertiary regions. 
+
 ---------------------
 
 Shown below are my template configurations if I want to deploy a primary region of gb-lon and a secondary region of nl-ams for my application on the linode platform.
