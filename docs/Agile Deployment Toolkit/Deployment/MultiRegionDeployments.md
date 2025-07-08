@@ -166,6 +166,9 @@ export INPARALLEL="1"
 <span style="color:red">export BUILD_IDENTIFIER="test-gb-lon"  </span>  
 export CLOUDHOST="linode"  
 
+
+---------------------------
+
 Here is my template for the nl-ams region when I am deploying a primary region of gb-lon and a secondary domain to nl-ams under linode
 
 
