@@ -169,7 +169,7 @@ export CLOUDHOST="linode"
 
 ---------------------------
 
-Here is my template for the nl-ams region when I am deploying a primary region of gb-lon and a secondary domain to nl-ams under linode
+Here is my template for the nl-ams region when I am deploying to a primary region of gb-lon using the template above and to a secondary region to nl-ams using the template below both (in this case) under Linode
 
 
 \###############################################################################################  
