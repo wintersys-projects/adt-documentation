@@ -3,7 +3,7 @@ To support another cloudhost provider (for example, AWS, google cloud, OVH cloud
 
 >     adt-autoscaler-scripts/installscripts/InstallCloudhostTools.sh
 >     adt-autoscaler-scripts/installscripts/InstallPackageManager.sh
->     adt-autoscaler-scripts/providerscripts/cloudhost/GetOperatingSystemVersion.sh
+>     adt-autoscaler-scripts/providerscripts/server/GetOperatingSystemVersion.sh
 >     adt-autoscaler-scripts/providerscripts/cloudhost/InitialiseCloudhostConfig.sh
 >     adt-autoscaler-scripts/providerscripts/dns/*
 >     adt-autoscaler-scripts/providerscripts/dbaas/TightenDBaaSFirewall.sh
@@ -16,7 +16,7 @@ To support another cloudhost provider (for example, AWS, google cloud, OVH cloud
 >     adt-build-machine-scripts/initscripts/InitialiseCloudhostConfig.sh
 >     adt-build-machine-scripts/initscripts/InitialiseDatabaseService.sh
 >     adt-build-machine-scripts/installscripts/InstallCloudhostTools.sh
->     adt-build-machine-scripts/providerscripts/cloudhost/GetOperatingSystemVersion.sh
+>     adt-build-machine-scripts/providerscripts/server/GetOperatingSystemVersion.sh
 >     adt-build-machine-scripts/providerscripts/dns/*
 >     adt-build-machine-scripts/providerscripts/security/*
 >     adt-build-machine-scripts/providerscripts/server/*
