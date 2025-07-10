@@ -480,3 +480,8 @@ And then you can see that the scaling up process opens up the ip-filter to allow
 ![](images/dbaas-ipfilter-scaleup.png "Exoscale DBaaS ip-filter scale up Image")
 
 Here is shown 10 ip addresses that are allowed to access the database. 
+
+I then ran a one off apache bench test and here are the results:
+
+![](images/apache-bench-profiling.png "Apache Bench Image")
+
