@@ -444,5 +444,21 @@ export INPARALLEL="1"
 export BUILD_IDENTIFIER="test-ch-gva"  
 export CLOUDHOST="exoscale"  
 
+---------------------------------
 
-![](images/linode-firewall.png "Linode Firewall Image")
+In this example, the Exoscale vendor is the PRIMARY_REGION with the machine marked "VM....." as the build machine from which the servers of all vendors are built and deployed from. In other words, its the machine on which the templates are configured. 
+
+![](images/exoscale-servers.png "Exoscale Servers Image")
+
+The Digital Ocean servers are running as a secondary region. 
+![](images/digitalocean-servers.png "Digital Ocean Servers Image")
+
+The Linode servers are running as a 3rd region. 
+
+![](images/linode-servers.png "Linode Servers Image")
+
+The Vultr servers are running as a 4th region
+
+![](images/vultr-servers.png "Vultr Servers Image")
+
+
