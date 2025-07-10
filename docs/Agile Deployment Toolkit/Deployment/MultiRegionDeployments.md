@@ -461,4 +461,10 @@ The Vultr servers are running as a 4th region
 
 ![](images/vultr-servers.png "Vultr Servers Image")
 
+If you notice that there's a reverse proxy machine on for each vendor and as there are 4 vendors with one reverse proxy each we would expect there to be four ip addresses added to the DNS system and there are. 
+
+![](images/cloudflare-dns.png "Cloudflare DNS Image")
+
+In a live deployment you would most likely want 2 reverse proxies per vendor for resilience. I might as well note here as well that you will see that only exoscale has a DB layer deployed which is a single point of failure (in terms of backups and so on) so in a live system you will most likely want a DV layer on a second region as well, which you can do by setting BYPASS_DB_LAYER to 1 ("1" because the primary domain is active already)
+
 
