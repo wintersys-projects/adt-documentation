@@ -446,7 +446,7 @@ export CLOUDHOST="exoscale"
 
 ---------------------------------
 
-In this example, the Exoscale vendor is the PRIMARY_REGION with the machine marked "VM....." as the build machine from which the servers of all vendors are built and deployed from. In other words, its the machine on which the templates are configured. 
+In this example, the Exoscale vendor is the PRIMARY_REGION with the machine marked "VM....." as the build machine from which the servers of all vendors are built and deployed from. In other words, its the machine on which the templates are configured.  The DBaaS service used in this example is the DBaaS service offering from Exoscale and all the other vendors connect in to the DBaaS deployed through the primary domain mechanism across the Internet (performance seems to be OK as far as it goes).
 
 ![](images/exoscale-servers.png "Exoscale Servers Image")
 
