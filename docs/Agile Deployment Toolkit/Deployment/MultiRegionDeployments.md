@@ -24,9 +24,10 @@ Here I have used one build machine running  in the gb-lon to perform the builds 
 
 ---------------------
 
+#### EXAMPLE 1 (PRIMARY REGION Linode running gb-lon)
+
 Shown below are my template configurations if I want to deploy a primary region of gb-lon and a secondary region of nl-ams for my application on the linode platform.
 You need to take a similar approach with other providers if you want to deploy to multiple regions
-
 
 TEMPLATE FOR THE PRIMARY REGION (gb-lon)
 
@@ -445,6 +446,8 @@ export BUILD_IDENTIFIER="test-ch-gva"
 export CLOUDHOST="exoscale"  
 
 ---------------------------------
+
+#### EXAMPLE 2 (PRIMARY REGION Exoscale running ch-gva)
 
 In this example, the Exoscale vendor is the PRIMARY_REGION with the machine marked "VM....." as the build machine from which the servers of all vendors are built and deployed from. In other words, its the machine on which the templates are configured.  The DBaaS service used in this example is the DBaaS service offering from Exoscale and all the other vendors connect in to the DBaaS deployed through the primary domain mechanism across the Internet (performance seems to be OK as far as it goes).
 
