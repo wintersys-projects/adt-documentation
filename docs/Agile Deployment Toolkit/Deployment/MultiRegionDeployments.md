@@ -469,14 +469,14 @@ In a live deployment you would most likely want 2 reverse proxies per vendor for
 
 You can see the DBaaS system on Exoscale has had its ip-filter to allow the database (VPS) machine runnning on the exoscale server fleet (ip address: ) to have access to the DBaaS system along with all the webserver ip addresses acrosss all the vendors. This list of IP addresses that have been granted access to our DBaaS system (the rest of the world is firewalled off) look as follows:
 
-![](images/cloudflare-dns.png "Exoscale DBaaS ip-filter Image")
+![](images/dbaas-ipfilter.png "Exoscale DBaaS ip-filter Image")
 
 So, for fun I scaled up the server fleet running on the Vultr vendor to 5 webservers which you can see here
 
-![](images/cloudflare-dns.png "Cloudflare DNS Image")
+![](images/vultr-servers-scaledup.png "Vultr Servers Scaledup")
 
 And then you can see that the scaling up process opens up the ip-filter to allow the ip addresses of our new webservers as you can see here:
 
-![](images/cloudflare-dns.png "Exoscale DBaaS ip-filter Image")
+![](images/dbaas-ipfilter-scaleup.png "Exoscale DBaaS ip-filter scale up Image")
 
 
