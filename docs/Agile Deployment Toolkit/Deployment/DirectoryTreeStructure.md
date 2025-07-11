@@ -142,6 +142,10 @@ Here you will find an expose on the directory structures of the various differen
 
 ```${HOME}/runtime/autoscaler_configuration_settings.dat ${HOME}/runtime/webserver_configuration_settings.dat ${HOME}/runtime/buildstyles.dat``` - these files are the configuration files for the autoscaler. You could alter the size of webservers that you are provisioning or change the SMTP provider being used or possibly other configuration settings by making alterations to these files  
 
+```${HOME}/runtime/cloud-init/webserver.yaml``` - The provider/vendor specific customised/generated yaml cloud-init file for webservers that the current autoscaler will be provisioning
+
+```${HOME}/runtime/dbaas_allowed_ips/ip_list.dat``` - When a DBaaS solution is being used in multi-region mode, then, this is the list of IP addresses of the webservers that are allowed to connect to the DBaaS instance. The public ip address of a webserver being run by a different vendor to where the DBaaS instance is running must have its public IP address in the list of allowed IP addresses of the DBaaS instance for it to be able to connect
+
 ----------------------------
 
 #### Webserver machines
