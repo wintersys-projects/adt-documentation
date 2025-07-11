@@ -2,7 +2,6 @@ The following is the list of buckets that can be created in the datastore during
 
 
 ##### Buckets that persist across multiple deployments
-------------------------------------------------
 
 >     1. s3://<website-url>-assets-<asset-type>
 >     2. s3://<website-url>-assets-<asset-type>-backup-$$
@@ -21,7 +20,7 @@ The following is the list of buckets that can be created in the datastore during
 7. This is where backups of the db of the application is stored for a specific period (hourly, daily and so on)
 
 ##### Buckets that are unique to each deployment
------------------------------------------
+
 >     1. s3://<website-url>-config-<unique-token>
 
 1. This is the main configuration bucket where the configuration details of the application can be stored. This bucket is uniquely generated for each deployment run for a specific domain. 
