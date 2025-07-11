@@ -211,6 +211,8 @@ Here you will find an expose on the directory structures of the various differen
 
 ```${HOME}/runtime/ALL_CORE_SOFTWARE_INSTALLED``` - this is just a placeholder which tells us that the core software has all been installed
 
+```${HOME}/runtime/WEBSERVER_CONFIG_LOCATION.dat``` - this stores the location of the webserver configuration file for ease of access elsewhere
+
 ------------------------------
 
 #### Database Machines
