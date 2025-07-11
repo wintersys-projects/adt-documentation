@@ -291,3 +291,14 @@ Here you will find an expose on the directory structures of the various differen
 ```dbe.dat``` - marker file to remind us of which database the original install was made to
 
 ```joomla_configuration.php wordpress_config.php drupal_settings.php moodle_config.php``` - the various configuration files for our applications
+
+```${HOME}/runtime/mysql-init/initialiseDB-user.sql``` - customised sql script for creating a user during mysql DB initialisation
+
+```${HOME}/runtime/mysql-init/initialiseDB.sql``` - customised sql script for creating and initialising a database during  database initialisation
+
+```${HOME}/runtime/postgres-init/initialiseDB.psql``` - customised psql script for creating a user during mysql DB initialisation
+
+```${HOME}/runtime/mysql-init/initialiseDB.psql``` - customised psql script for creating and initialising a database during  database initialisation
+
+
+
