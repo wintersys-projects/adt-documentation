@@ -85,6 +85,8 @@ Here you will find an expose on the directory structures of the various differen
 
 ```${BUILD_HOME}/templatedconfiguration``` - Anything to do with the templates that are used to perform the build prcess is located here. In ordinary operation you will most likely clone the ADT and head to this directory to populate the variables of the appropriate template for your cloudhost of choice and build style with the values necessary for the build to proceed. 
 
+```${HOME}/runtime/overridehtaccess/htaccess.conf``` - If you  want to override the htaccess file for your webserver this is where it will be. You need to place the htaccess file under ${HOME}/providerscript/webserver/configuration/.... for it to be transfered to here during deployment
+
 ----------------------------
 
 #### Autoscaler  machines
