@@ -488,3 +488,11 @@ I then ran a one off apache bench test and here are the results:
 
 ![](images/apache-bench-profiling.png "Apache Bench Image")
 
+------------------------------
+
+RESILIENCE IN MULTI REGION DEPLOYMENTS
+
+In the examples I have given, there is one build machine in one region and all the other regions on different vendors are built from that one build machine. If you want maximum resilience, then, what you need to do is have a build machine for each region that you are deploying to. That way a whole region can be taken offline (whilst other regions are kept online) with no difference in result to the end user. If a region has a problem then it can be swapped out and rebuilt or deployed to a different region if there is a regional issue and so on. This makes the way you are approaching your deployment resilient to regional outages and if you are deploying to different vendors, an outage at a particular provider. 
+
+-------------------------
+
