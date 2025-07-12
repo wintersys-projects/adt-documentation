@@ -503,3 +503,9 @@ If you really wanted to go to town it might be possible to use "multi region DBa
 [Anazon Aurora Global Database](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html)  
 [Anazon Aurora Write Forwarding](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-write-forwarding.html)  
 
+-----------------------------
+
+RESILIENCE OF AUTHENTICATOR MACHINES IN MULTI-REGION DEPLOYMENTS
+
+I only support one active authenticator type server at a time as the simplest design approach. That can seem like a single point of failure, but, what you can do if you don't want to risk that problem is deploy multiple backup authenticator machines in different regions but only have the IP address of one of those machines active at any one time in the DNS system. In other words, you can have "n" authenticator machines running but only "1" active in the DNS system (in other words, only one machine that is accessible by your customers through  DNS lookup).  If your active authenticator machine fails for some reason what you can do is switch over the authenticator machine that is active to be your secondary or tertiary authenticator machine whilst you work on resolving the problem with your original authentication machine. This will mean as little disruption as possible for your users. 
+
