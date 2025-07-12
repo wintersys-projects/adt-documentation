@@ -38,6 +38,6 @@ This is done in the
 
 file on the build machine
 
-The webserver downloads and installs the application specific configuration file that the build-machine has kindly prepared for it in the file:
+The application specific configuration file that the build-machine has kindly prepared for is installed by the file:
 
->     ${HOME}/application/configuration/SetApplicationConfiguration.sh
+>     ${HOME}/application/configuration/InitialiseApplicationConfiguration.sh
