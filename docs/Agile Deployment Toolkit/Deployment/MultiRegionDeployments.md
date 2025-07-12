@@ -496,3 +496,10 @@ In the examples I have given, there is one build machine in one region and all t
 
 -------------------------
 
+MULTI REGION DBaaS DEPLOYMENTS (Not currently supported but could be with some work (and money - I don't have the money to deploy expensive cross regional databases for testing purposes))
+
+If you really wanted to go to town it might be possible to use "multi region DBaaS deployments" by integrating AWS Aurora making your application accessible with low latency globally. The solution I have provided is only really suitable for specific geographical regions as it stands because the "database" is only located in a particular geographic location or region which means that if you go on holiday to Australia and you want to access an application local to the UK (in other words, a DBaaS solution local to the UK, for example). Without multi-region databases you will have high latency problems. 
+
+[Anazon Aurora Global Database](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html)  
+[Anazon Aurora Write Forwarding](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database-write-forwarding.html)  
+
