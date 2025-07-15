@@ -511,3 +511,9 @@ RESILIENCE OF AUTHENTICATOR MACHINES IN MULTI-REGION DEPLOYMENTS
 
 I only support one active authenticator type server at a time as the simplest design approach. That can seem like a single point of failure, but, what you can do if you don't want to risk that problem is deploy multiple backup authenticator machines in different regions but only have the IP address of one of those machines active at any one time in the DNS system. In other words, you can have "n" authenticator machines running but only "1" active in the DNS system (in other words, only one machine that is accessible by your customers through  DNS lookup).  If your active authenticator machine fails for some reason what you can do is switch over the authenticator machine that is active by altering the DNS record to be your secondary or tertiary authenticator machine whilst you work on resolving the problem with your original authentication machine. This will mean as little disruption as possible for your users. 
 
+--------------------------
+
+AUTHENTICATION SERVER
+
+You can deploy authentication servers to multiple regions but only the ip address of the authenticator in the primary region will have its ip address added to the DNS system. This is done for design reasons, in other words, you can't have more than one authenticator machine in the DNS system at once. The purpose for having authentications servers which are not used in secondary regions is for resilience. Having only one authentication server in the primary domain is a single point of failure and so by having backup autentication machines in other regions you can swap out the ip of the primary domain authenticator if it has a problem and swap in a secondary domain authenticator which will then do the same job. 
+
