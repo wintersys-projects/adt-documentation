@@ -220,8 +220,6 @@ You can decide which datastore mount tool to install and how as follows:
 >     DATASTOREMOUNTTOOL:geesefs:binary if you want to install geesefs as your datastore mount tool
 >     DATASTOREMOUNTTOOL:geesefs:source if you want to install geesefs as your datastore mount tool
 
-If you want to install these tools in a different way such as from source and so on you are free to modify the toolkit
-
 -----------------------------------------------------------------
 
 If your template is configured to install mariadb you can install it as follows:
