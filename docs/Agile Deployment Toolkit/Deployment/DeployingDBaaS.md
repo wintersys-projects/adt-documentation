@@ -17,13 +17,13 @@ which is described below for each DBaaS provider that is supported. With the **D
 
 If you are using digital ocean managed databases you can set the following in your template or override
 
->     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<region>:<size>:<db-version>:<cluster-name>:<db-name>:<adt_vpc>:<database_name>"** 
+>     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<db-engine>:<region>:<size>:<db-version>:<cluster-name>:<db-name>:<db-username>:<db-password>:<adt_vpc>"** 
 >     DATABASE_INSTALLATION_TYPE="DBaaS"**
   
 So an example of this would be in your template or override:
 
-    1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql:lon1:1:db-s-1vcpu-1gb:8:testdbcluster1:testdb1:e265abcb-1295-1d8b-af36-0129f89456c2:testdb1"
-    2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:pg:lon1:1:db-s-1vcpu-1gb:17:testdbcluster1:testdb1:e265abcb-1295-1d8b-af36-0129f89456c2:testdb1"
+    1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql:lon1:1:db-s-1vcpu-1gb:8:testdbcluster1:testdb1:testdbuser:nhjfjfubfhbvdhv765g:e265abcb-1295-1d8b-af36-0129f89456c2"
+    2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:pg:lon1:1:db-s-1vcpu-1gb:17:testdbcluster1:testdb1:testdbuser:nhjfjfubfhbvdhv765g:e265abcb-1295-1d8b-af36-0129f89456c2"
 
 So, for the first example:  
   
@@ -34,6 +34,8 @@ size="db-s-1vcpu-1gb"
 db-version="8"  (mysql 8)  
 cluster-name="testdbcluster1"  
 db-name="testdb1"  
+db-username="testdbuser"
+db-password="nhjfjfubfhbvdhv765g"
 adt_vpc="e265abcb-1295-1d8b-af36-0129f89456c2"
   
 So,  
@@ -45,6 +47,8 @@ So,
   **db-version** can be for **mysql = "8"** for **postgres="14,15,16,17"**  
   **cluster-name** can be unique string for your cluster, for example, **"testcluster"**   
   **db-name** can be a unique string for your database, for example, **"testdatabase"**  
+  **db-username** can be a unique string for your database, for example, **"testdbuser"**  
+  **db-password** can be a unique string for your database, for example, **"nhjfjfubfhbvdhv765g"**  
   **adt_vpc** the unique vpc id of your machines, for example, **"e265abcb-1295-1d8b-af36-0129f89456c2"**
 
   Once the managed database is provisioned set its "trusted ip" addresses to "10.0.0.0/16" through the GUI system so that it can only be connected to through private ip addresses. 
