@@ -8,7 +8,7 @@ Here is an example for the Linode firewall. You can see that all IP addresses th
 
 List of IP addresses allowed and denied (you should set your specific laptop ip to allow when you  start work and deny when you finish work). 
 ![](images/linode-firewall-ips.png "Linode Firewall Allowd IP addresses Image")
-The interfaces that the firewall applies to 
+The interfaces that the firewall "adt-build-machine" applies to 
 ![](images/linode-firewall-machines.png "Linode Firewall Machine Interfaces Image")
 
 -------------------------
