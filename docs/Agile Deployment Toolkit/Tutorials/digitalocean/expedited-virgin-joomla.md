@@ -142,7 +142,7 @@ export PERSIST_ASSETS_TO_DATASTORE="0" #This should always be set to 0 for a vir
      
 \#####OS Settings#########  
 export BUILDOS="debian" # One of ubuntu|debian  
-export BUILDOS_VERSION="12" # One of 20.04 22.04 24.04|10 11 12  
+export BUILDOS_VERSION="12" #  24.04 (or later for BUILDOS="ubuntu") | 12 (or later for BUILDOS="debian")
  
 \######Cloudhost Provider Settings#######  
 <span style="color:red">export TOKEN="dop_v1_51ac97f187fadb12ac70022521dbafh3f56259608fad0dadafbb594e2417ab78dba2" #MANDATORY</span>  
