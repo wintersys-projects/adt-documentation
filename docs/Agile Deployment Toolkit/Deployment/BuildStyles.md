@@ -1,4 +1,4 @@
-The file 
+The file  
 
 >     ${BUILD_HOME}/builddescriptors/buildstyles.dat
 
