@@ -446,9 +446,7 @@ To find your database credentials log on to your build machine and do the follow
 
 You can then deploy your Linode using your Stackscript and wait for your Drupal install will come online  
 
-You will see a message asking you to remove _J* file from the installation folder. Once you see this message wait until your system clock on your laptop cycles to the next minute and the system will have deleted it for you. You can then scroll down and click "Install Joomla" 
-
-You can install "opensocial" or "Drupal CMS" by making the following modifications to the 9 settings that you made in this demo.   
+You can install "Opensocial" or "Drupal CMS" by making the following modifications to the 9 settings that you made in this demo.   
 
 **OPENSOCIAL**  
 
