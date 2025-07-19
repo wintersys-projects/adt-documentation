@@ -144,7 +144,7 @@ To deploy to Debian 12 machines, set these values in any of your templates
 To deploy to Ubuntu 24.04 machines, set these values in any of your templates
 
 >     export BUILDOS="ubuntu"
->     export BUILDOS_VERSION="22.04"
+>     export BUILDOS_VERSION="24.04"
 
 --------------------------------------------------------------
 
