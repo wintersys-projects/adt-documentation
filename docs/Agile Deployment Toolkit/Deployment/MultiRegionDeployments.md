@@ -517,3 +517,11 @@ AUTHENTICATION SERVER
 
 You can deploy authentication servers to multiple regions but only the ip address of the authenticator in the primary region will have its ip address added to the DNS system. This is done for design reasons, in other words, you can't have more than one authenticator machine in the DNS system at once. The purpose for having authentications servers which are not used in secondary regions is for resilience. Having only one authentication server in the primary domain is a single point of failure and so by having backup autentication machines in other regions you can swap out the ip of the primary domain authenticator if it has a problem and swap in a secondary domain authenticator which will then do the same job. 
 
+---------------------------------
+
+MULTI-PROVIDER DATASTORE SYNCING
+
+I haven't done anything to implement this, but, just to make a mental note that you are likely only relying on one provider as your datastore service and using that samee provider for all datastore activities even in multi-provider deployments.
+If you want complete resilience to catastrophy you might want to consider replicating your datastore buckets from one provider to other providers so that you have backups, for example that are multi-provider resilient.
+You can do this (replicate your datastore buckets to other providers) using rclone and how to do that is described [here](https://forum.rclone.org/t/server-side-copy-sync-between-to-s3-buckets-different-providers/30597)
+
