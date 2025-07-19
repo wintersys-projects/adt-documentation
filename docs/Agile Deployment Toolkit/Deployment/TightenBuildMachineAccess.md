@@ -6,7 +6,7 @@ Following these steps will activate/confgure the UFW firewall on your build mach
 
 Here is an example for the Linode firewall. You can see that all IP addresses that I have allowed access to the build machine from are set to a deny state except the one I am currently accessing from. When I have finished with the build machine that IP address can also be set to "deny" and if I want to access the build machine from another one of my ip addresses I set that IP address to allow during access and then back to deny once my work is complete. 
 
-![](images/linode-firewall.png "Linode Firewall Image")
+![](images/linode-firewall-ips.png "Linode Firewall Image")
 
 -------------------------
 
