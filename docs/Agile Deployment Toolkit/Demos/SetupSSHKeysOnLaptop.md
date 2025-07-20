@@ -29,9 +29,19 @@ You will also be prompted for a passphrase to access your keys, its advisable to
 
 This will give you your public key which will look similar to one of the following depending on your algorithm:
 
+>     ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD...........KfwdTda8LM8Ll6CNupE6/+lanhURM9HDNX47Q== adt-laptop
+>     ecdsa-sha2-nistp521 AAAAE2VjZHNhLXN...........dYR+eN/dA4ISk5awQfKzug== adt-laptop
+>     ssh-ed25519 AAAAC3NzaC1lZDI1NTE.........arK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop
 
->     ecdsa-sha2-nistp521 AAAAE2VjZHNhLXN......redacted......dYR+eN/dA4ISk5awQfKzug== adt-laptop
->     ssh-ed25519 AAAAC3NzaC1lZDI1NTE.....redacted.....arK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop
+6. Whatever output you have from step 5 is your public key. You need to have a copy of your public key to use later on, add it to your adt-credentials.txt file by chooding the appropiate one of the following depending on your algorithm:
+
+>     /bin/echo "MY ADT PUBLIC KEY: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD...........KfwdTda8LM8Ll6CNupE6/+lanhURM9HDNX47Q== adt-laptop" >> ~/adt-credentials.txt
+>     /bin/echo "MY ADT PUBLIC KEY: ecdsa-sha2-nistp521 AAAAE2VjZHNhLXN...........dYR+eN/dA4ISk5awQfKzug== adt-laptop" >> ~/adt-credentials.txt
+>     /bin/echo "MY ADT PUBLIC KEY: ssh-ed25519 AAAAC3NzaC1lZDI1NTE.........arK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop" >> ~/adt-credentials.txt
+
+
+
+
 
 
 
