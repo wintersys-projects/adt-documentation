@@ -84,3 +84,17 @@ Once your account is setup record the username that you registered with as well 
 
 ---------------------
 
+#### Step 7 (Setting up DNS nameservers with fasthosts.co.uk)
+
+I used fasthosts.co.uk, you might want to use someone different. I will document how to do the nameserver setup with fasthosts.co.uk
+
+1. To purchase a domain of your choice with fasthosts.co.uk, go [here](https://www.fasthosts.co.uk/domain-names/uk-domains)
+2. Once you have your domain setup the nameservers for use with this demo you need to set your nameservers for your domain to
+
+NS1.LINODE.COM  
+NS2.LINODE.COM  
+NS3.LINODE.COM  
+NS4.LINODE.COM  
+NS5.LINODE.COM  
+
+[this](https://youtu.be/SnZOP1s_H9M) describes how to update your nameservers with fasthosts. 
