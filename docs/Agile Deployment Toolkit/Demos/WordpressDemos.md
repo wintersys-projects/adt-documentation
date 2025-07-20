@@ -1,3 +1,6 @@
+I HOPE THIS IS CLEAR, IF YOU WANT TO INSTALL THESE APPLICATIONS YOU NEED THE EXACT SAME STACKCRIPT CONFIGURATION AS FOR THE DEFAULT DEMO
+BUT WITH THESE SPECIFIC ALTERATIONS FOR EACH APPLICATION TYPE/STYLE
+
 ### Demo 1 (Sample Wordpress Application)
 
 This is just a sample wordpress template with some sample data installed which will show you how you can get a pre-built site up and running with this toolkit
