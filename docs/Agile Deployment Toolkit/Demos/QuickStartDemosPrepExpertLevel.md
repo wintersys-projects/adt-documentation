@@ -63,8 +63,9 @@ NS3.LINODE.COM
 NS4.LINODE.COM
 NS5.LINODE.COM
 
+And then add your domain to Linode DNS Manager as a primary domain
 
-
+![](images/adt-demos-dns.png "Adt-demo DNS 1") 
 
 #### VPC
 
