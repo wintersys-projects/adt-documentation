@@ -60,23 +60,23 @@ outline below for the specific application type you are deploying.
 
 #### VIRGIN CMS INSTALLS
 
-If you are interested in Virgin CMS installs, apply the appropriate tweeks to your Stackscipt [here](./VirginCMSDemos.md)
+If you are interested in Virgin CMS installs, apply the appropriate [StackScript tweeks](./VirginCMSDemos.md) to your Stackscipt. 
 
 #### SAMPLE JOOMLA APPLICATIONS
 
-If you are interested in installing Joomla based demos, apply the appropriate tweeks to your Stackscipt [here](./JoomlaDemos.md)
+If you are interested in installing Joomla based demos, apply the appropriate [StackScript tweeks](./JoomlaDemos.md) to your Stackscipt 
 
 #### SAMPLE WORDPRESS APPLICATIONS
 
-If you are interested in installing Wordpress based demos, apply the appropriate tweeks to your Stackscipt [here](./WordpressDemos.md)
+If you are interested in installing Wordpress based demos, apply the appropriate [StackScript tweeks](./WordpressDemos.md) to your Stackscipt 
 
 #### SAMPLE DRUPAL APPLICATIONS
 
-If you are interested in installing Drupal based demos, apply the appropriate tweeks to your Stackscipt [here](./DrupalDemos.md)
+If you are interested in installing Drupal based demos, apply the appropriate [StackScript tweeks](./DrupalDemos.md) to your Stackscipt 
 
 #### SAMPLE MOODLE APPLICATIONS
 
-If you are interested in installing Moodle based demos, apply the appropriate tweeks to your Stackscipt [here](./MoodleDemos.md)
+If you are interested in installing Moodle based demos, apply the appropriate [StackScript tweeks](./MoodleDemos.md) to your Stackscipt. 
 
 ----------------------
 
