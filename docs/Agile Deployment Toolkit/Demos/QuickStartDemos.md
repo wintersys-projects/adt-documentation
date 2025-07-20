@@ -40,7 +40,7 @@ then do a
 
 After you have performed all the pre-requisite steps above, you can choose which demo you want to follow from those listed below**</span>
 
-
+<br/><br/> 
 
 ----------------
 
@@ -53,6 +53,7 @@ There are also test users and their usernames and passwords are: "testuser1" and
 
 ----------------
 
+<br/><br/> 
 
 
 ## Additional Demo Applications (each will require some extra configuration steps)
