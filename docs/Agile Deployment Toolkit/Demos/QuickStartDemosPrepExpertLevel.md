@@ -53,6 +53,11 @@ Once you have collated all this information your **~/adt-credentials.txt** the c
 
 ----------------------------
 
+Now you need to setup your VPC and your Firewall. I'll just show you the images of mine
+**MAKE SURE YOUR SUBNET RANGE IS and THE VPC NAME is adt-vpc and is in the gb-lon region**
+
+
+
 Once you have all these values, you can populate your Stackscript which will then look similar to:
 
 
