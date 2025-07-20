@@ -1,11 +1,11 @@
+I HOPE THIS IS CLEAR, IF YOU WANT TO INSTALL THESE APPLICATIONS YOU NEED THE EXACT SAME STACKCRIPT CONFIGURATION AS FOR THE DEFAULT DEMO
+BUT WITH THESE SPECIFIC ALTERATIONS FOR EACH APPLICATION TYPE/STYLE
 
 ### Demo 1 (Sample Joomla Application)
 
 This is just a sample joomla install with some sample data installed 
 
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
-3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ".
+1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ".
  
 >      set "The Display name for your website e.g. My Demo Website" to "My Joomla Demo"  
 >      set "BASELINE DB REPOSITORY" to "joomlademo-db-baseline" 
@@ -19,14 +19,12 @@ This is just a sample joomla install with some sample data installed
 
 This is just a sample joomla install with the astroid framework installed
 
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.  
+1. Once the application is installed, the username is "admin" and the password is "mnbcxz098321QQZZ"
  
 >      set "The Display name for your website e.g. My Demo Website" to "My Astroid Demo"   
 >      set "BASELINE DB REPOSITORY" to "astroid-db-baseline" 
 >      set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "astroid-webroot-sourcecode-baseline"   
 
-Once the application is installed, the username is "admin" and the password is "mnbcxz098321QQZZ"
 
 ----------------------------
 ### Demo 3 (Sample Joomla Kunena Application) 
@@ -35,21 +33,16 @@ Once the application is installed, the username is "admin" and the password is "
 
 This is just a sample joomla install with the kunena forum installed
 
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
+1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"
  
 >     set "The Display name for your website e.g. My Demo Website" to "My Kunena Demo"   
 >     set "BASELINE DB REPOSITORY" to "kunena-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "kunena-webroot-sourcecode-baseline"   
 
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"
 
 ----------------------------
 
 ### Demo 4 (Sample Joomlart Free Templates Example Applications) 
-
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
 
 #### Demo JA Template One  
 
