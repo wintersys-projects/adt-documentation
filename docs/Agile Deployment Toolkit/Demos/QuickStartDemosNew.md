@@ -23,7 +23,7 @@ Step 1:
 
 Go to the linux shell on your laptop. Create a text file in your home directory called "adt-credentials.txt"
 
->     vi ${HOME}/.adt-credentials.txt
+>     vi ~/adt-credentials.txt
 
 Step 2:
 
