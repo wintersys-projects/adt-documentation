@@ -54,11 +54,14 @@ Once you have collated all this information your **~/adt-credentials.txt** the c
 ----------------------------
 
 Now you need to setup your VPC and your Firewall. I'll just show you the images of mine
-MAKE SURE YOUR SUBNET RANGE IS **10.0.1.0/24** and THE VPC NAME is **adt-vpc** and is in the **gb-lon** region
+MAKE SURE YOUR SUBNET RANGE IS **10.0.1.0/24** and THE VPC NAME is **adt-vpc** and is in the **gb-lon** region  
+
 ![](images/adt-demo5.png "Adt-demo 5") 
 ![](images/adt-demo6.png "Adt-demo 6") 
 
-And the firewall:
+And the firewall:  
+
+
 ![](images/adt-demos-firewall1.png "Adt-demo firewall 1") 
 ![](images/adt-demos-firewall2.png "Adt-demo firewall 2") 
 
