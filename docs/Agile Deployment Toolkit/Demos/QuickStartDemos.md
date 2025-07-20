@@ -9,163 +9,20 @@ For more information about parameter configuration please see the [spec](https:/
 **These initial steps are only required the first time you make a deployment. The result of these first steps can be used repeatedly for subsequent demo deployments.** 
 
 --------------------------
-<span style="color:red">**YOUR ONE TIME INITIAL PREPARATORY STEPS**</span>
+<span style="color:red">**YOUR ONE TIME MANDATORY PREPARATORY STEPS**</span>
 
 --------------------------
 
-You will not need to do these steps multiple times for subsequent demos that you deploy.   
+There are mandatory steps to follow in full before any of the demos can be deployed.
 
-**IF YOU ALREADY HAVE A FILE ON YOUR LAPTOP WITH VALID CREDENTIALS STORED IN IT THAT YOU PREVIOUSLY GENERATED, GO DIRECTLY TO THE "POPULATE YOUR STACKSCRIPT" SECTION**.  
+If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
+If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)  
 
-Once you have the result of these first time only steps you can reuse the result of these steps across you later demo deployments. What this means is that making the first deployment is more work than making any subdequent deployments after that and it's the ease with which subsequent deployments can be made which is the "looked for win" here.  
+The last thing you should have done in completing these preparatory steps is "Create Linode" and then wait for the servers to deploy.
 
-**OBJECTIVE** At the end of these initial preparatory steps you should have a text file stored and saved on your laptop complete with your own values equivalent to the following:
+Once you click "**Create Linode**", the build will deploy which will take some minutes. 
 
-SAMPLE CONFIGURATION DATA
-
->     Laptop public key : **ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin**  
->     Build Machine User: **"nuocial-deployer"**  
->     Build Machine Password: **"gdjkbcijbue2hhfdy3e8"**  
->     Build Machine SSH PORT: **"1035"**  
->     Laptop IP: **77.99.28.105**
->     Object Storage access key : **PJX1HOLT157FQ9WCQ52K**  
->     Object Storage secret key: **malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP**
->     Personal Access Token : **23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29**  
->     Linode account username : **linode-username**  
->     DNS Username email address (linode account email address) : **nuocialdeployer@gmail.com**
->     DNS Security key : (same as Personal Access Token) : **23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29**
->     Core Website Name: **nuocial**
->     Live Website Domain : **demo.nuocial.org.uk**  
-
-<span style="color:red">**Set up a VPC so that our servers and our build machine are in the same VPC**</span>
-
-Before you do anything, create a VPC in the "gb-lon" region called "adt-vpc" with a subnet of "10.0.1.0/24". The VPC create screen for my requirements looks like:
-
-![](images/adt-vpc.png "ADT-VPC image")  
-
-Take note of the subnet, yours should be the same as in the image.
-
-<span style="color:red">**Set up a native firewall to limit access to only us ourselves**</span>
-
-You should create a native firewall for the linode you are going to deploy. In our case we want to block all connections except from the laptop that we want to allow access to. We create the firewall here, and we will attach it to our build-machine when we go through the steps needed to provision it. 
-
-![](images/firewall-1.png "FIREWALL image 1")  
-![](images/firewall-2.png "FIREWALL image 2")  
-![](images/firewall-3.png "FIREWALL image 3")  
-![](images/firewall-4.png "FIREWALL image 4") 
-NOTE: The IP address in this next image is the IP address of my laptop in your case it should be the IP address of your laptop which you can find by going to: [whats my ip](https://www.whatsmyip.com)
-![](images/firewall-5.png "FIREWALL image 5")  
-In this last image, you can see that access has been granted only to our SSH port (1035) from the IP address of our laptop. What this means is that once this firewall is attached to our build-machine everything is blocked from access except for our laptop and even then only to the specific ssh port that we have set. 
-![](images/firewall-6.png "FIREWALL image 6")  
-
-
-------------------------------------
-
-<span style="color:red">**To achieve the objective of a text file saved on your laptop with the configuration data needed for your demo deployment, please follow all of these 8 bullet-pointed steps**</span>
-
-- The system needs from you a username, a secure password, the ssh port that you want to connect with and the IP address of your laptop.
-  You can provide a username of your own choosing, here I chose to make the username "nuocial-deployer"
-  You can provide a password of your own choosing, here I chose to use the password "gdjkbcijbue2hhfdy3e8"
-  You can choose an appropriate SSH port number I chose to make mine "1035"
-  You need to find out what the IP address of your laptop is which you can find out by going to [whats my ip](https://www.whatsmyip.com) in your browser  
-
->       "Username: nuocial-deployer"
->       "Password: gdjkbcijbue2hhfdy3e8"
->       "Port: 1035"
->       "Laptop IP: 77.99.28.105"  
-
-- If you haven't got a user account with Linode, setup an account with them which you can do at  [Linode](https://www.linode.com)
-  The systemm will need to know the username of your linode account (in other words, the username that you used to register with). Here I chose the username of my linode account to be "nuocialdeployer". Make a note of your linode account username in the text file on your laptop.
-  The system will also need to know the email address that you registered when you created your Linode account. For me, the email address is "nuocialdeployer@gmail.com"
-
-These values should be added to the text file on your laptop
- 
->        "Linode account username : linode-username"  
->        "Linode account email address : nuocialdeployer@gmail.com"
-
-- If you haven't got an appropriate ssh key pair on your laptop, you can follow the "[Generate an SSH Key Pair](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh)" section if your laptop is a Linux or a MacOS based machine and a "[Generate a key pair with Putty](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh)" section if your laptop machine is a Windows based machine. You should generate an **rsa key pair** if you want maximum compatibility and an **ed25519 key pair** if you want maximum security. You then need to make a note of the public key that you either already had or that you have generated freshly for this demo set and store it in the credentials file you are building on your laptop. 
-
->        "Laptop public key : ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin"  
-
-- Setup Object Storage for your account if its not already setup according to [Object Storage Setup](https://www.linode.com/docs/products/storage/object-storage/get-started/#generate-an-access-key) - make a note in your text document of the access key and the secret key for your object storage, for example,  
-
->        "Object Storage access key : PJX1HOLT157FQ9WCQ52K "  
->        "Object Storage secret key: malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP"  
-
-- Generate a personal access token with (for the simplicity of this demo, in production you should use the principle of least privileges) all read and write permissions granted according to [Generate Personal Access Token](https://www.linode.com/docs/products/tools/api/guides/manage-api-tokens/#create-an-api-token) - make a note of your PAT in your text document for example,  
-
->        "Linode Personal Access Token : 23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"  
-
-- Purchase a domain if you don't have one [fasthosts](https://www.fasthosts.co.uk) and change the nameservers of the domain to "**ns1.linode.com, ns2.linode.com, ns3.linode.com, ns4.linode.com and ns5.linode.com**" with your domain registrar (if you don't know how to purchase a domain and change its active nameservers, then, this toolkit probably isn't suitable for you). 
-
-- You now need to make a note of the domain name you are using to deploy to, for example, if I have just purchased as set up a domain "**nuocial.org.uk**" and my intended domain name for my final demo website is to be available at"**demo.nuocial.org.uk**" I need to  make a note of this in my text file  
-
->        "Live Domain Name: demo.nuocial.org.uk"
-
-You now need to update your linode DNS system with your new domain name. Click on "**Domains**" from the Linode GUI and add your domain name as a "**Primary Domain**" to the Linode DNS system in my case the primary domain will be "**nuocial.org.uk**"
-
-- You need to make a note of the "core website name" which is "**nuocial**" if your domain name is "**demo.nuocial.org.uk**" and "testwebsite" if your domain name is "demo.testwebsite.uk"
-
->      "Core website name: nuocial"
-
------------------------
-
-<span style="color:red">**POPULATE YOUR STACKSCRIPT**</span>
-
-You should now have a **text file on your laptop** that looks similar to "SAMPLE CONFIGURATION DATA" I showed you above. If you don't have all equivalent details to those listed your build definitely won't succeed. You should keep your text file safe and secure as it has valuable confidential information and you can use the same text file across multiple demo deployments so once you have it you can reuse it with much less fuss for additional deployments. 
-
-These next 15 bullet pointed steps you need to repeat each time you deploy a demo. Everything above this point in the proceedings you only need to do the first time you make a deployment but when you make second or third deployments <span style="color:red">as long as you have got valid credentials in the text file on your laptop THIS is your start point </span> rather than the beginning of these instructions. 
-
-<span style="color:red">**Enter the values that you have in your text file into the "AgileDeploymentToolkitDemo" Stackscript.**</span>
-
-- Go to "**Stackscripts**" from the GUI system of your Linode Account and find the public Stackscript "**AgileDeploymentToolkitDemo**" and click "**Deploy Linode**". You can find the StackScript you need to use [here](https://cloud.linode.com/stackscripts/635271)
-You will then see a list of configurable text-fields that you are going to selectively enter the data from the text file you now have on your laptop. Each text-field has a label and so to configure the Stackscript, find the label as I mention it below and enter the corresponding value from your text file into that text-field
-
-- Label: **"SSH Public Key from your laptop (required)"** - value from YOUR text file which in my case is **"AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin"**
-
-- Label: **"The username for your build machine user (required)"** - example value which in my case is **"nuocial-deployer"**
-
-- Label: **"The password for your build machine user (required)"** - example value which in my case is **"gdjkbcijbue2hhfdy3e8"**
-
-- Label: **"The SSH port for your build machine (required)"** - example value which in my case is **"1035"**
-
-- Label: **"IP address of your laptop (required)"** - value from YOUR text file which in my case is **77.99.28.105**
-
-- Label: **"The username of your Linode account (required)"** - value from YOUR text file which in my case is **"linode-username"**
-
-- Label: **"The S3 access key for your linode object storage (required)"** - example value which in my case is **"PJX1HOLT157FQ9WCQ52K"**
-
-- Label: **"The S3 secret key for your linode object storage (required)"** - example value which in my case is 
-**"malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP"**
-
-- Label: **"Your linode personal access token (which must have all necessary rights granted) (required)"** - example value which in my case is **"23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"**
-
--  Label: **"The email address of your DNS provider (required)"** - example value which in my case is the same email address as my linode account sign up email - **"nuocialdeployer@gmail.com"**
-
--  Label: **"The access token for your DNS provider (required)"** - same as your PAT which in my case is **"23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29"**
-
-- Label: **"The domain name of your website which must be registered with your DNS provide"** - example value which in my case is **"demo.nuocial.org.uk"**
-
-- Label: **"Website name if url is www.nuocial.org.uk this is nuocial (required)"** - example value which in my case is **"nuocial"**
-
-
-In graphical format the process of configuring your build machine for deployment should look similar to the following set of images:  
-
-![](images/stack-1.png "STACK image 1")  
-
-Click "Deploy Linode" at the top right of the page  
-
-![](images/stack-2.png "STACK image 1")  
-![](images/stack-3.png "STACK image 1")  
-![](images/stack-4.png "STACK image 1")  
-![](images/stack-5.png "STACK image 1")  
-![](images/stack-6.png "STACK image 1")  
-![](images/stack-7.png "STACK image 1")  
-![](images/stack-8.png "STACK image 1")  
-
-Once you click "**Create Linode**" (as shown in the last image), the build will deploy which will take some minutes. 
-
-Once the build is completed you can get the IP address of your build machine through the Linode GUI system (in this case: 172.237.116.127)
+Once the build is completed (or earlier if you like, once the build machine is up) you can get the IP address of your build machine through the Linode GUI system (in my case: 172.237.116.127)
 
 ![](images/lin1.png "Linode Tutorial Image 1")
 
