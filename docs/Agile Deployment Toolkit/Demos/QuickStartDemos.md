@@ -50,6 +50,8 @@ Once the application is installed, the username is "webmaster" and the password 
 
 Additional Demo Applications (each will require some extra configuration steps)
 
+1. If you are interested in installing Joomla based systems, click [here](./JoomlaDemos.md)  
+
 
 ### Demo 6 (Sample Wordpress Application)
 
