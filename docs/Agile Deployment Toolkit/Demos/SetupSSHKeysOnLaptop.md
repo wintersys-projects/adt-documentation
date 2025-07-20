@@ -7,7 +7,7 @@
 If you see a message "No such file or directory" that means that you don't have any existing SSH keypairs.
 
 2. Depending on whether you have existing keypairs or not you can decide to use one of your existing keys or whether to generate a new keypair.
-   If you have existing keys and you are geneating new a new keypair be careful not to overwrite your existing keys. If you are using an existing
+   If you have existing keys and you are generating new a new keypair be careful not to overwrite your existing keys. If you are using an existing
    keypair that you already had, skip to step 4
 
 4. Geneate a new keypair. You can choose your prefered algorithm from **ONE** of the following:
