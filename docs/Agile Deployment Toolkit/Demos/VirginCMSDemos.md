@@ -3,9 +3,6 @@ BUT WITH THESE SPECIFIC ALTERATIONS FOR EACH APPLICATION TYPE/STYLE
 
 ### Demo 1 (Virgin Joomla install)  
 
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
-
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Joomla Demo"  
 >     set "APPLICATION" to "joomla"  
@@ -16,8 +13,9 @@ BUT WITH THESE SPECIFIC ALTERATIONS FOR EACH APPLICATION TYPE/STYLE
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "JOOMLA:5.1.2"  
 
+----------------------
 
-You can then deploy your Linode using your Stackscript and wait for your Joomla install will come online at the URL you specified in your stackscript
+Once the build is completed the credentials for your application will be available.
 
 To find your database credentials log on to your build machine and do the following:
 
@@ -51,15 +49,10 @@ To find your database credentials log on to your build machine and do the follow
 >     You are not using the default port for your database
 >     REMEMBER to tell joomla this by putting the database hostname as 10.0.1.4:2035 when you enter it in the GUI during the install process
 
-You will need to wait for a minute before the _J security check file is removed which this system does automatically for you before you can proceed to completion of the installation
 
 ---------------------------
 
 ### Demo 2 (Virgin Wordpress install)  
-
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
-
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Wordpress Demo"  
@@ -68,11 +61,11 @@ You will need to wait for a minute before the _J security check file is removed 
 >     set "BUILD CHOICE" to "0"  
 >     set "BUILD ARCHIVE CHOICE" to "virgin"  
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "WORDPRESS"    
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "WORDPRESS"
 
-You can then deploy your Linode using your Stackscript and wait for your Wordpress install will come online 
+--------------------
 
-To find your database credentials log on to your build machine and do the following:
+Once the build is completed the credentials for your application will be available.
 
 >     root@localhost:/home/agile-deployer/adt-build-machine-scripts# ./Log.sh
 >     Which cloudhost do you want to view logs for DigitalOcean (do), Exoscale (exo), Linode (lin) or Vultr (vul)
@@ -111,9 +104,6 @@ To find your database credentials log on to your build machine and do the follow
 
 ### Demo 3 (Virgin Drupal install)  
 
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript. 
-
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Drupal Demo" 
 >     set "APPLICATION" to "drupal"   
@@ -124,13 +114,9 @@ To find your database credentials log on to your build machine and do the follow
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:10.0.10"   
 
-You can then deploy your Linode using your Stackscript and wait for your Drupal install will come online  
-
-You can install "Opensocial" or "Drupal CMS" by making the following modifications to the 9 settings that you made in this demo.   
-
 **OPENSOCIAL**  
 
-To install [OPENSOCIAL](https://www.getopensocial.com/) make the following modification to the steps above:
+You can install [OPENSOCIAL](https://www.getopensocial.com/) by making the following alterations to the above 9 settings  
 
 At the time of writing, PHP8.1 is the highest supported version of PHP by opensocial so you need to set these values to install opensocial 
 >     set "PHP VERSION" to "8.1"
@@ -139,10 +125,16 @@ At the time of writing, PHP8.1 is the highest supported version of PHP by openso
 
 **DRUPAL CMS**  
 
-You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the modification to the steps above:
+You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the following alterations to the above 9 settings  
+
+You can install  by making the modification to the steps above:
 
 >     set "The Display name for your website e.g. My Demo Website" to "My Druapl CMS Demo"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:cms"
+
+------------------------
+
+Once the build is completed the credentials for your application will be available.
 
 >     root@localhost:/home/agile-deployer/adt-build-machine-scripts# ./Log.sh
 >     Which cloudhost do you want to view logs for DigitalOcean (do), Exoscale (exo), Linode (lin) or Vultr (vul)
@@ -178,9 +170,6 @@ You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the mo
 
 ### Demo 4 (Virgin Moodle install)  
 
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
-
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Moodle Demo"  
 >     set "APPLICATION" to "moodle"  
@@ -190,8 +179,9 @@ You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the mo
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "MOODLE"   
 
-You can then deploy your Linode using your Stackscript and wait for your Moodle install will come online  
-Once moodle is installed, I go to demo.nuocial.org.uk/index.php and you should do the same for your domain.
+------------------------
+
+Once the build is completed the credentials for your application will be available.
 
 >     OK, I'll be kind and show you one time your moodle database credentials.
 >     Please make a note of them but remember to keep them safe and secret
@@ -214,11 +204,9 @@ Once moodle is installed, I go to demo.nuocial.org.uk/index.php and you should d
 
 ### Demo 5 (Sample Virgin Joomla Install from a Baseline Repository)
 
-This is just a sample joomla install there's no sample data or anything it just shows you how you could baseline a virgin joomla installation for maximum ease when making repeated virgin CMS deployments. The advantage to creating a baseline of a virgin installation of a CMS is that you don't have to enter any parameters into the application GUI because the system deals with it all for you and so you can make faster deployments once you have a baseline to build from. The disadvantage is that you have to update the installed CMS from the administrator backend to the latest version because the baseline you made some weeks/months ago will be several releases back from current.
+This is just a sample virgin joomla install there's no sample data or anything it just shows you how you could baseline a virgin joomla installation for maximum ease when making repeated virgin CMS deployments. The advantage to creating a baseline of a virgin installation of a CMS is that you don't have to enter any parameters into the application GUI because the system deals with it all for you and so you can make faster deployments once you have a baseline to build from. The disadvantage is that you have to update the installed CMS from the administrator backend to the latest version because the baseline you made some weeks/months ago will be several releases back from current.
 
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
-3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
+1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
 
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Joomla Installation"  
@@ -237,9 +225,7 @@ Wait for the application install to have been completed and available at:
 
 This is a sample virgin wordpress installation from baselined repositories.  
 
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
-3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
+1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
 
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Wordpress Installation"  
@@ -252,19 +238,13 @@ Wait for the application install to have been completed and available at:
 
 >      https://<dns-url>
 
-
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ".
-
-
 -----------------
 
 ### Demo 7 (Sample Virgin Drupal Install from a Baseline Repository)  
 
 This is a sample virgin drupal installation from baselined repositories.  
 
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
-3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
+1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
 
 
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
@@ -278,18 +258,13 @@ Wait for the application install to have been completed and available at:
 
 >      https://<dns-url>
 
-
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ".
-
 -----------------
 
 ### Demo 8 (Sample Virgin Moodle Install from a Baseline Repository)  
 
 This is a sample virgin moodle installation from baselined repositories.  
 
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
-3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ$$"
+1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ$$"
 
 
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
@@ -302,6 +277,3 @@ This is a sample virgin moodle installation from baselined repositories.
 Wait for the application install to have been completed and available at:
 
 >      https://<dns-url>
-
-
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ$$".
