@@ -8,14 +8,14 @@ For more information about parameter configuration please see the [spec](https:/
 
 <br/>
 
-**These initial steps are only required the first time you make a deployment. The result of these first steps can be used repeatedly for subsequent demo deployments.** 
+
 
 --------------------------
 <span style="color:red">**YOUR ONE TIME MANDATORY PREPARATORY STEPS**</span>
 
 --------------------------
 
-There are mandatory steps to follow in full before any of the demos can be deployed.
+**These initial steps are only required to get your data items the first time you make a deployment. The result of these first steps can be used repeatedly for subsequent demo deployments as long as the data items used, access keys and so on haven't expired, been deleted or rotated** 
 
 <br/>
 
@@ -26,7 +26,7 @@ There are mandatory steps to follow in full before any of the demos can be deplo
 
 <span style="color:red">DO NOT PASS HERE IF YOU HAVEN'T SUCCESSFULLY COMPLETED EITHER STEP 1 (beginner) **OR** STEP2 (expert) ACCORDING TO YOUR EXPERIENCE</span>
 
-Once you clicked "**Create Linode**" according to the mandatory steps above the default demo application built with joomla and community builder will deploy which will take some minutes. 
+Once you clicked "**Create Linode**" according to the mandatory steps above the default demo application built with Joomla and Community Builder will deploy which will take some minutes. 
 
 Once the build is completed (or earlier if you like, once the build machine is up and pingable) you can get the IP address of your build machine through the Linode GUI system (in my case: 172.237.116.127)
 
