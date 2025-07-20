@@ -27,7 +27,7 @@ You will also be prompted for a passphrase to access your keys, its advisable to
 >     2. /bin/grep "adt-laptop" ~/.ssh/id_ecdsa.pub  
 >     3. /bin/grep "adt-laptop" ~/.ssh/id_ed25519.pub
 
-This will give you your public key which will look similar to one of the following depending on your algorithm:
+This will give you your public key which will look similar to **ONE** of the following depending on your algorithm:
 
 >     1. ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD...........KfwdTda8LM8Ll6CNupE6/+lanhURM9HDNX47Q== adt-laptop
 >     2. ecdsa-sha2-nistp521 AAAAE2VjZHNhLXN...........dYR+eN/dA4ISk5awQfKzug== adt-laptop
