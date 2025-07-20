@@ -37,9 +37,9 @@ Once you have collated all this information your **~/adt-credentials.txt** the c
 
 ````S3 ACCESS KEY:  "XHGBD8edjDBJjBDU2" (generated from linode gui for the gb-lon region with full access)````  
 
-````S3 SECRET KEY:  "jkdjnvunrvvoiinrvovinoi30ejfoinrviunjqkljwnfef" (generated from linoe gui for the gb-lon region with full access)````  
+````S3 SECRET KEY:  "jkdjnvunrvvoiinrvovinoi30ejfoinrviunjqkljwnfef" (for the gb-lon region with full access)````  
 
-````LINODE PAT : "difhinrgfgi84f9j4f9j302rrijfubnervggihjjregi34nfin4fine4fi2" (generated from linode gui with full access rights)````  
+````LINODE PAT : "difhinrgfgi84f9j4f9j302rrijfubnervggihjjregi34nfin4fine4fi2" (full access rights)````  
 
 ````LINODE USERNAME (Cloudhost account ID) : "mylinodeusername" (your free choice)````  
 
