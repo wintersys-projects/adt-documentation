@@ -101,5 +101,6 @@ NS5.LINODE.COM
 
 You then need to add the domain to the Linode DNS manager to do that you simply click "Domain" and then "Create Domain" and add the root domain that is registered you just bought from fasthosts and populate the form as follows:
 
-adt-demos-dns.png
+![](images/adt-demos-dns.png "Adt-demo DNS 1") 
+
 and click "Create Domain". Your DNS system should then be all set. 
