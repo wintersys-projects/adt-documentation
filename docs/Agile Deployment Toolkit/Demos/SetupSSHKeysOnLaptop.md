@@ -10,7 +10,7 @@ If you see a message "No such file or directory" that means that you don't have 
    If you have existing keys and you are geneating new a new keypair be careful not to overwrite your existing keys. If you are using an existing
    keypair that you already had, skip to step 4
 
-4. Geneate a new keypair. You can choose your prefered algorithm from one of the following (you can apply a passphrase to access your keypair by entering it between the quotes for the -N option):
+4. Geneate a new keypair. You can choose your prefered algorithm from one of the following:
 
 >     /usr/bin/ssh-keygen -t rsa -b 4096 -C "adt-laptop"
 >     /usr/bin/ssh-keygen -t ecdsa -b 521 -C "adt-laptop"
