@@ -37,7 +37,8 @@ LINODE PAT : **difhinrgfgi84f9j4f9j302rrijfubnervggihjjregvine4ifnji34nfin4fine4
 LINODE USERNAME (Cloudhost account ID) : **mylinodeusername** (your free choice)  
 DNS USERNAME (Cloudhost account email address) : **myemailaddress@gmail.com** (your free choice)  
 DNS SECURITY KEY (same as the full access PAT above) : **difhinrgfgi84f9j4f9j302rrijfubnervggihjjregvine4ifnji34nfin4fine4fi2**  
-WEBSITE NAME (core of the website url below) : **nuocial**  (if website url = www.nuocial.uk this is "nuocial" if its www.tester.uk this is "tester"  
+WEBSITE NAME (core of the website url below) : **nuocial**   
+(if website url = www.nuocial.uk this is "nuocial" if its www.tester.co.uk this is "tester")  
 WEBSITE URL (the domain name you have registered with your registrar) : **adtdemo.nuocial.uk**  
 
 
