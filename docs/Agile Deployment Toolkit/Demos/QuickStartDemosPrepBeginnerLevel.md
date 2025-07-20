@@ -88,8 +88,8 @@ Once your account is setup record the username that you registered with as well 
 
 I used fasthosts.co.uk, you might want to use someone different. I will document how to do the nameserver setup with fasthosts.co.uk
 
-1. To purchase a domain of your choice with fasthosts.co.uk, go [here](https://www.fasthosts.co.uk/domain-names/uk-domains)
-2. Once you have your domain setup the nameservers for use with this demo you need to set your nameservers for your domain to
+1. To purchase a domain of your choice (for example, nuocial.uk) from fasthosts.co.uk, go [here](https://www.fasthosts.co.uk/domain-names/uk-domains)
+2. To use Linode's DNS Manager as the authoritative name servers for your domain, you need to change the name servers on your registrar (in my case fasthosts, yours might be different) and so note that the process for this varies for each registrar. Whatever your registrar, you need to set the nameservers for the domain you have purchsed/intend to use to:
 
 NS1.LINODE.COM  
 NS2.LINODE.COM  
@@ -98,3 +98,8 @@ NS4.LINODE.COM
 NS5.LINODE.COM  
 
 [this](https://youtu.be/SnZOP1s_H9M) describes how to update your nameservers with fasthosts. 
+
+You then need to add the domain to the Linode DNS manager to do that you simply click "Domain" and then "Create Domain" and add the root domain that is registered you just bought from fasthosts and populate the form as follows:
+
+
+and click "Create Domain". Your DNS system should then be all set. 
