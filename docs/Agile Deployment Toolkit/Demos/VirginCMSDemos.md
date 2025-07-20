@@ -1,3 +1,6 @@
+I HOPE THIS IS CLEAR, IF YOU WANT TO INSTALL THESE APPLICATIONS YOU NEED THE EXACT SAME STACKCRIPT CONFIGURATION AS FOR THE DEFAULT DEMO
+BUT WITH THESE SPECIFIC ALTERATIONS FOR EACH APPLICATION TYPE/STYLE
+
 ### Demo 1 (Virgin Joomla install)  
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
