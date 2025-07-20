@@ -104,3 +104,47 @@ You then need to add the domain to the Linode DNS manager to do that you simply 
 ![](images/adt-demos-dns.png "Adt-demo DNS 1") 
 
 and click "Create Domain". Your DNS system should then be all set. 
+
+### Step 8 - VPC
+
+Now you need to setup your VPC. I'll just show you the images of mine
+MAKE SURE YOUR SUBNET RANGE IS **10.0.1.0/24** and THE VPC NAME is **adt-vpc** and is in the **gb-lon** region  
+
+The whole (adt-vpc) setup
+
+![](images/adt-demo5.png "Adt-demo 5") 
+
+And the subnet:  
+
+![](images/adt-demo6.png "Adt-demo 6") 
+
+
+### Step 9 - FIREWALL
+
+And now the firewall:  
+
+
+![](images/adt-demos-firewall1.png "Adt-demo firewall 1") 
+
+What it looks like (remember to hit the save button)  
+
+![](images/adt-demos-firewall2.png "Adt-demo firewall 2") 
+
+
+So using your values from your **~/adt-credentials.dat** file you can populate your Stackscript which will then look similar to:
+
+![](images/stackscript1.png "Stackscript 1")  
+![](images/stackscript2.png "Stackscript 2")  
+
+And now setup the rest of your linode and click ** CREATE LINODE** the process of which should look like these images
+
+![](images/adt-demo1.png "Adt-demo 1")  
+![](images/adt-demo2.png "Adt-demo 2") 
+![](images/adt-demo3.png "Adt-demo 3") 
+![](images/adt-demo4.png "Adt-demo 4") 
+
+The build will then run and you can check the ssh onto the machine using the username you gave and password to do a sudo and check the logs to see how the build is progressing and if there are any problems. 
+
+
+
+
