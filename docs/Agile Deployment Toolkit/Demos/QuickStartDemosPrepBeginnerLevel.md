@@ -67,3 +67,5 @@ Once your account is setup record the username that you registered with as well 
 >     /bin/echo "MY LINODE EMAIL : adtdemos@gmail.com" >> ~/adt-credentials.txt
 
 -------------------
+
+#### Step 5 (Setting up a full access Personal Access Token on your Linode Account)
