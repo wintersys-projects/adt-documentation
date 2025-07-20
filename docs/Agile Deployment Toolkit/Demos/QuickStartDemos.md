@@ -50,6 +50,10 @@ Once the application is installed, the username is "webmaster" and the password 
 
 Additional Demo Applications (each will require some extra configuration steps)
 
+#### VITGIN CMS INSTALLS
+
+If you are interested in installing Joomla based systems, click [here](./VirginCMSDemos.md)
+
 #### SAMPLE JOOMLA APPLICATIONS
 
 If you are interested in installing Joomla based systems, click [here](./JoomlaDemos.md)
