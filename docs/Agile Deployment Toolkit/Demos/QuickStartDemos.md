@@ -33,7 +33,7 @@ SAMPLE CONFIGURATION DATA
 >     Personal Access Token : **23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29**  
 >     Linode account username : **linode-username**  
 >     DNS Username email address (linode account email address) : **nuocialdeployer@gmail.com**
->     DNS Security key : (same as Personal Access Token : **23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29**
+>     DNS Security key : (same as Personal Access Token) : **23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29**
 >     Core Website Name: **nuocial**
 >     Live Website Domain : **demo.nuocial.org.uk**  
 
