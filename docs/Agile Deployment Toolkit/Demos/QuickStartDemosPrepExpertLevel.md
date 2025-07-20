@@ -27,7 +27,7 @@ Once you have collated all this information your **~/adt-credentials.txt** the c
 
 LAPTOP PUBLIC KEY: ssh-ed25519 AAAAC3NzaC1lZD.......zGBarK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop  
 
-LINUX USERE: **agile-deployer**  (your free choice)  
+##### LINUX USERE: **agile-deployer**  (your free choice)  
 ---------------
 LINUX USER PASSWORD: **XXXXXXXXXXXX** (your free choice make sure its strong)  
 ---------------
