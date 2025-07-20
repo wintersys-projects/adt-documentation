@@ -13,13 +13,13 @@ For more information about parameter configuration please see the [spec](https:/
 
 --------------------------
 
-Pre-requisites:
+#### Pre-requisites:
 
 - A personal laptop with access to a linux shell
 - A user account with sudo or administrative privileges
 - Terminal or command line access
 
-Step 1:
+#### Step 1:
 
 Go to the linux shell on your laptop. Create a text file in your home directory called "adt-credentials.txt"
 
@@ -27,7 +27,7 @@ Go to the linux shell on your laptop. Create a text file in your home directory 
 
 ---------------------------------
 
-Step 2 (Setting up an SSH Keypair on your laptop):
+#### Step 2 (Setting up an SSH Keypair on your laptop):
 
 1. If you have an existing SSH Key-pair you want to use that is available from your local linux terminal simply save a copy of your public key to your **~/adt-credentials.txt** file from step 1 above for ease of reference later on, for example:
 
@@ -39,7 +39,7 @@ Step 2 (Setting up an SSH Keypair on your laptop):
 
 ------------------------------------
 
-Step 3 (Recording the IP address of your latop machine)
+#### Step 3 (Recording the IP address of your latop machine)
 
 1. Issue the following command from your linux terminal on your laptop
 
@@ -57,7 +57,7 @@ NOTE: you can also use services such as [whats my ip](https://whatsmyip.com) if 
 
 -----------------
 
-Step 4 (Setting up a Linode Account)
+#### Step 4 (Setting up a Linode Account)
 
 1. If you don't have a Linode account then you can setup a new Linode account for yourself by following: [Setup Linode Account](https://techdocs.akamai.com/cloud-computing/docs/getting-started). You are advised to setup two factor authentication to protect your account. 
 
@@ -66,5 +66,4 @@ Once your account is setup record the username that you registered with as well 
 >     /bin/echo "MY LINODE USERNAME : adtdemosuser" >> ~/adt-credentials.txt
 >     /bin/echo "MY LINODE EMAIL : adtdemos@gmail.com" >> ~/adt-credentials.txt
 
-
-
+-------------------
