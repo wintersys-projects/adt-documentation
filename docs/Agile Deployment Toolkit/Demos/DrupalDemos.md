@@ -1,4 +1,4 @@
-### Demo 7 (Sample Drupal Based Opensocial Application)
+### Demo 1 (Sample Drupal Based Opensocial Application)
 
 [Opensocial](https://getopensocial.com)
 
