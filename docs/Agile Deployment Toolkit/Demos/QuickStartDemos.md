@@ -52,7 +52,7 @@ Additional Demo Applications (each will require some extra configuration steps)
 
 #### VIRGIN CMS INSTALLS
 
-If you are interested in installing Virgin CMS installs, click [here](./VirginCMSDemos.md)
+If you are interested in Virgin CMS installs, click [here](./VirginCMSDemos.md)
 
 #### SAMPLE JOOMLA APPLICATIONS
 
