@@ -15,24 +15,27 @@ For more information about parameter configuration please see the [spec](https:/
 
 There are mandatory steps to follow in full before any of the demos can be deployed.
 
-If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
-If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)  
+1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
+2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
 
-The last thing you should have done in completing these preparatory steps is "Create Linode" and then wait for the servers to deploy.
+<span style="color:red">DO NOT PASS HERE IF YOU HAVEN'T FULLY AND SUCCESSFULLY COMPLETED EITHER STEP 1 (beginner) **OR** STEP2 (expert) ACCORDING TO YOUR CHOICE</span>
 
-Once you click "**Create Linode**", the build will deploy which will take some minutes. 
+The last thing you should have done in completing these mandatory steps is "Create Linode" and then wait for the servers to deploy.
 
-Once the build is completed (or earlier if you like, once the build machine is up) you can get the IP address of your build machine through the Linode GUI system (in my case: 172.237.116.127)
+Once you clicked "**Create Linode**", the build will deploy which will take some minutes. 
+
+Once the build is completed (or earlier if you like, once the build machine is up and pingable) you can get the IP address of your build machine through the Linode GUI system (in my case: 172.237.116.127)
 
 ![](images/lin1.png "Linode Tutorial Image 1")
 
 You can ssh onto the build machine once it has started up with
 
 >      ssh -p <build-machine-port> <username>@<build-machine-ip>
+>      for example in my case this is: ssh -p 1035 agile-deployer@172.237.116.127
 
 then do a
 
->      sudo su <password as per the value you entered for 'The password for your build machine user (required)' into the StackScript>
+>      sudo su <password as per the value you entered for 'The password for your build machine user (required)' into the StackScript and stored in your ~/adt-credentials.txt file>
 >      cd adt-build-machine-scripts
 >      ./Logs.sh
 
