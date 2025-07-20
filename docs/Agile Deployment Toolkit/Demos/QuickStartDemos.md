@@ -36,19 +36,6 @@ then do a
 >      cd adt-build-machine-scripts
 >      ./Logs.sh
 
-**Note 1:**
-
-Be aware that a new SSL certificate is issued each time you run this Stackscript which means that if you do multiple deployments you will run into "rate limiting" problems. If you need to perform multiple build cycles for a particular domain you are best off using the expedited method as described [here](<../Tutorials/linode/FOLLOW ME.md>). You can also set SSL_LIVE_CERT to 0 to use a staging certificate which doesn't have such restrictive rate limiting as a production certificate but it will likely give you a browser security warning when you access your website. 
-
-**Note 2:**
-
-Once the build has completed you might have to give the Linode DNS system a few minutes to refresh with the IP address that has been added for this build. 
-
-**Note 3:** 
-
-If you are using the Linode DNS system which you are by default then you might need to clear your broswer's DNS cache between deployments for the website to display. In Chrome you can do this by going to "**chrome://net-internals/#dns**"
-
-
 --------------------------
 <span style="color:red">**After you have performed all the pre-requisite steps above, you can choose which demo you want to follow from those listed below**</span>
 
