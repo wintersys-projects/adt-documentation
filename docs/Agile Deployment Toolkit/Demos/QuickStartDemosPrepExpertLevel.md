@@ -53,7 +53,22 @@ Once you have collated all this information your **~/adt-credentials.txt** the c
 
 ----------------------------
 
-Now you need to setup your VPC and your Firewall. I'll just show you the images of mine
+#### DNS
+
+To use Linode's DNS Manager as the authoritative name servers for your domain, you need to change the name servers on your registrar to:  
+
+NS1.LINODE.COM
+NS2.LINODE.COM
+NS3.LINODE.COM
+NS4.LINODE.COM
+NS5.LINODE.COM
+
+
+
+
+#### VPC
+
+Now you need to setup your VPC. I'll just show you the images of mine
 MAKE SURE YOUR SUBNET RANGE IS **10.0.1.0/24** and THE VPC NAME is **adt-vpc** and is in the **gb-lon** region  
 
 The whole (adt-vpc) setup
@@ -63,6 +78,9 @@ The whole (adt-vpc) setup
 And the subnet:  
 
 ![](images/adt-demo6.png "Adt-demo 6") 
+
+
+#### FIREWALL
 
 And now the firewall:  
 
