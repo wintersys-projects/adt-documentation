@@ -19,7 +19,7 @@ For more information about parameter configuration please see the [spec](https:/
 - A user account with sudo or administrative privileges
 - Terminal or command line access
 
-#### Step 1:
+#### Step 1 (Get a Linux Laptop):
 
 Go to the linux shell on your laptop. Create a text file in your home directory called "adt-credentials.txt"
 
