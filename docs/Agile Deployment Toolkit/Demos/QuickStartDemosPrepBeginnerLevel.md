@@ -69,3 +69,7 @@ Once your account is setup record the username that you registered with as well 
 -------------------
 
 #### Step 5 (Setting up a full access Personal Access Token on your Linode Account)
+
+1. To set up a Personal Access token for Linode you can follow [here](https://techdocs.akamai.com/cloud-computing/docs/manage-personal-access-tokens). For the purpose of this demo, you want full acccess rights (its lazy but simple) and you can do that by clicking the an "access value" of "Select all" and "Read/Write" in other words, the circle at the top right of the grid of access rights when it displays. When you generate your personal acccess token it will be displayed to you and you should add it to your **~/adt-credentials.txt** file before you dismiss it, for example,
+
+>      /bin/echo "MY LINODE PAT:       " >> ~/adt-credentials.txt
