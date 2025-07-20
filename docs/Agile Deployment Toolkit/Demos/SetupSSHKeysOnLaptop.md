@@ -12,9 +12,9 @@ If you see a message "No such file or directory" that means that you don't have 
 
 4. Geneate a new keypair. You can choose your prefered algorithm from **ONE** of the following:
 
->     /usr/bin/ssh-keygen -t rsa -b 4096 -C "adt-laptop"
->     /usr/bin/ssh-keygen -t ecdsa -b 521 -C "adt-laptop"
->     /usr/bin/ssh-keygen -t ed25519 -b 521 -C "adt-laptop"
+>     1. /usr/bin/ssh-keygen -t rsa -b 4096 -C "adt-laptop"
+>     2. /usr/bin/ssh-keygen -t ecdsa -b 521 -C "adt-laptop"
+>     3. /usr/bin/ssh-keygen -t ed25519 -b 521 -C "adt-laptop"
 
 You will be now prompted to choose the location for the key pair.
 Press Enter to save the key pair in the default location (~/.ssh/id_rsa).
@@ -23,21 +23,21 @@ You will also be prompted for a passphrase to access your keys, its advisable to
 
 5. Assuming that your key is located in **~/.ssh/id_rsa** or **~/.ssh/id_ecdsa** or **~/.ssh/id_ed25519** depending on which algorithm you chose, type **ONE** of:
 
->     /bin/grep "adt-laptop" ~/.ssh/id_rsa.pub
->     /bin/grep "adt-laptop" ~/.ssh/id_ecdsa.pub  
->     /bin/grep "adt-laptop" ~/.ssh/id_ed25519.pub
+>     1. /bin/grep "adt-laptop" ~/.ssh/id_rsa.pub
+>     2. /bin/grep "adt-laptop" ~/.ssh/id_ecdsa.pub  
+>     3. /bin/grep "adt-laptop" ~/.ssh/id_ed25519.pub
 
 This will give you your public key which will look similar to one of the following depending on your algorithm:
 
->     ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD...........KfwdTda8LM8Ll6CNupE6/+lanhURM9HDNX47Q== adt-laptop
->     ecdsa-sha2-nistp521 AAAAE2VjZHNhLXN...........dYR+eN/dA4ISk5awQfKzug== adt-laptop
->     ssh-ed25519 AAAAC3NzaC1lZDI1NTE.........arK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop
+>     1. ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD...........KfwdTda8LM8Ll6CNupE6/+lanhURM9HDNX47Q== adt-laptop
+>     2. ecdsa-sha2-nistp521 AAAAE2VjZHNhLXN...........dYR+eN/dA4ISk5awQfKzug== adt-laptop
+>     3. ssh-ed25519 AAAAC3NzaC1lZDI1NTE.........arK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop
 
 6. Whatever output you have from step 5 is your public key. You need to have a copy of your public key to use later on, add it to your adt-credentials.txt file by chooding the appropiate **ONE** of the following depending on your algorithm:
 
->     /bin/echo "MY ADT PUBLIC KEY: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD...........KfwdTda8LM8Ll6CNupE6/+lanhURM9HDNX47Q== adt-laptop" >> ~/adt-credentials.txt
->     /bin/echo "MY ADT PUBLIC KEY: ecdsa-sha2-nistp521 AAAAE2VjZHNhLXN...........dYR+eN/dA4ISk5awQfKzug== adt-laptop" >> ~/adt-credentials.txt
->     /bin/echo "MY ADT PUBLIC KEY: ssh-ed25519 AAAAC3NzaC1lZDI1NTE.........arK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop" >> ~/adt-credentials.txt
+>     1. /bin/echo "MY ADT PUBLIC KEY: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD...........KfwdTda8LM8Ll6CNupE6/+lanhURM9HDNX47Q== adt-laptop" >> ~/adt-credentials.txt
+>     2. /bin/echo "MY ADT PUBLIC KEY: ecdsa-sha2-nistp521 AAAAE2VjZHNhLXN...........dYR+eN/dA4ISk5awQfKzug== adt-laptop" >> ~/adt-credentials.txt
+>     3. /bin/echo "MY ADT PUBLIC KEY: ssh-ed25519 AAAAC3NzaC1lZDI1NTE.........arK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop" >> ~/adt-credentials.txt
 
 
 
