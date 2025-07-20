@@ -21,7 +21,7 @@ Press Enter to save the key pair in the default location (~/.ssh/id_rsa).
 You may be warned if you are about to overwrite any existing SSH keys and if you very sure you are OK with that press Y.
 You will also be prompted for a passphrase to access your keys, its advisable to enter one. 
 
-5. Assuming that your key is located in ~/.ssh/id_rsa or ~/.ssh/id_ecdsa or ~/.ssh/id_ed25519 depending on which algorithm you chose, type one of:
+5. Assuming that your key is located in **~/.ssh/id_rsa** or **~/.ssh/id_ecdsa** or **~/.ssh/id_ed25519** depending on which algorithm you chose, type one of:
 
 >     /bin/grep "adt-laptop" ~/.ssh/id_rsa.pub
 >     /bin/grep "adt-laptop" ~/.ssh/id_ecdsa.pub  
