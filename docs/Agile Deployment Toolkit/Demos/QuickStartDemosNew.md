@@ -12,3 +12,7 @@ For more information about parameter configuration please see the [spec](https:/
 <span style="color:red">**YOUR ONE TIME INITIAL PREPARATORY STEPS**</span>
 
 --------------------------
+
+Step 1:
+
+[Setup SSH Keys For Your Personal Laptop](./SetupSSHKeysOnLaptop.md)
