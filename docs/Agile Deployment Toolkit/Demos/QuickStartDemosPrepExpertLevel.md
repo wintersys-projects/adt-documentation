@@ -23,7 +23,9 @@ You need the the following credentials available to run the quick start demos. T
 6. A domain name with a registrar of your choice using the linode nameservers (www.nuocial.uk) for example
 7. A VPC in the gb-lon region called adt-vpc
 
-Once you have collated all this information your **~/adt-credentials.txt** file should look like:
+Once you have collated all this information your **~/adt-credentials.txt** file should look similar to:
+
+
 
 
 
