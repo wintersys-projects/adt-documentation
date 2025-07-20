@@ -68,7 +68,7 @@ If you are interested in installing Drupal based demos, click [here](./DrupalDem
 
 #### SAMPLE MOODLE APPLICATIONS
 
-If you are interested in installing Drupal based demos, click [here](./MoodleDemos.md)
+If you are interested in installing Moodle based demos, click [here](./MoodleDemos.md)
 
 
 
