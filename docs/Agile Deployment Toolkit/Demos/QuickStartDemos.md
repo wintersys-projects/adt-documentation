@@ -18,124 +18,38 @@ There are mandatory steps to follow in full before any of the demos can be deplo
 1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
 2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
 
-<span style="color:red">DO NOT PASS HERE IF YOU HAVEN'T FULLY AND SUCCESSFULLY COMPLETED EITHER STEP 1 (beginner) **OR** STEP2 (expert) ACCORDING TO YOUR CHOICE</span>
+<span style="color:red">DO NOT PASS HERE IF YOU HAVEN'T SUCCESSFULLY COMPLETED EITHER STEP 1 (beginner) **OR** STEP2 (expert) ACCORDING TO YOUR EXPERIENCE</span>
 
-The last thing you should have done in completing these mandatory steps is "Create Linode" and then wait for the servers to deploy.
-
-Once you clicked "**Create Linode**", the build will deploy which will take some minutes. 
+Once you clicked "**Create Linode**" according to the mandatory steps above the default demo application built with joomla and community builder will deploy which will take some minutes. 
 
 Once the build is completed (or earlier if you like, once the build machine is up and pingable) you can get the IP address of your build machine through the Linode GUI system (in my case: 172.237.116.127)
 
 ![](images/lin1.png "Linode Tutorial Image 1")
 
-You can ssh onto the build machine once it has started up with
+You can ssh onto your build machine with
 
 >      ssh -p <build-machine-port> <username>@<build-machine-ip>
 >      for example in my case this is: ssh -p 1035 agile-deployer@172.237.116.127
 
 then do a
 
->      sudo su <password as per the value you entered for 'The password for your build machine user (required)' into the StackScript and stored in your ~/adt-credentials.txt file>
+>      sudo su
+>      <password> (as per the value you entered for 'The password for your build machine user (required)' into the StackScript and stored in your ~/adt-credentials.txt file)
 >      cd adt-build-machine-scripts
 >      ./Logs.sh
 
---------------------------
-<span style="color:red">**After you have performed all the pre-requisite steps above, you can choose which demo you want to follow from those listed below**</span>
+After you have performed all the pre-requisite steps above, you can choose which demo you want to follow from those listed below**</span>
 
---------------------------
-
-### Demo 1 (Sample Community Builder Joomla application) 
+### Demo 1 (Sample Joomla and Community Builder application)
+DEFAULT DEMO REQUIRES NO ADDITION CONFIGURATION
 
 [Community Builder](https://www.joomlapolis.com)
 
-1. Follow the all the pre-requisite at the top of this page 
-2. You can play with additional settings such as machine size and so on in any of these demos, but, this first demo application should install without needing any additional steps above and beyond what is outlined in the pre-requisite steps.   
-3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ". There are also test users and their usernames and passwords are: "testuser1" and "mnbcxz098321QQZZ" and "testuser2" "mnbcxz098321QQZZ"
-
----------------------------
-
-### Demo 2 (Sample Joomla Application)
-
-This is just a sample joomla install with some sample data installed 
-
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
-3. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ".
- 
->      set "The Display name for your website e.g. My Demo Website" to "My Joomla Demo"  
->      set "BASELINE DB REPOSITORY" to "joomlademo-db-baseline" 
->      set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "joomlademo-webroot-sourcecode-baseline"  
-
----------------------------
-
-### Demo 3 (Sample Joomla Astroid Application) 
-
-[Astroid Framework](https://astroidframe.work/)
-
-This is just a sample joomla install with the astroid framework installed
-
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.  
- 
->      set "The Display name for your website e.g. My Demo Website" to "My Astroid Demo"   
->      set "BASELINE DB REPOSITORY" to "astroid-db-baseline" 
->      set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "astroid-webroot-sourcecode-baseline"   
-
-Once the application is installed, the username is "admin" and the password is "mnbcxz098321QQZZ"
-
-----------------------------
-### Demo 4 (Sample Joomla Kunena Application) 
-
-[Kunena](https://www.kunena.org)
-
-This is just a sample joomla install with the kunena forum installed
-
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
- 
->     set "The Display name for your website e.g. My Demo Website" to "My Kunena Demo"   
->     set "BASELINE DB REPOSITORY" to "kunena-db-baseline" 
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "kunena-webroot-sourcecode-baseline"   
-
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"
-
-----------------------------
-
-### Demo 5 (Sample Joomlart Free Templates Example Applications) 
-
-1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
-2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
-
-#### Demo JA Template One  
-
-[Joomlart Purity](https://www.joomlart.com/joomla/templates/ja-purity-iv)
-This is just a sample joomla install with the purity template installed 
-
->     set "BASELINE DB REPOSITORY" to "purity-db-baseline" 
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "purity-webroot-sourcecode-baseline"   
-
-OR  
-
-#### Demo JA Template Two  
-[Joomlart Stark](https://www.joomlart.com/joomla/templates/ja-stark)
-This is just a sample joomla install with the stark template installed 
-
->     set "BASELINE DB REPOSITORY" to "stark-db-baseline" 
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "stark-webroot-sourcecode-baseline"  
-
-OR 
-
-#### Demo JA Template Three  
-[Joomlart Campaign](https://www.joomlart.com/joomla/templates/ja-campaign)
-This is just a sample joomla install with the stark template installed 
-
->     set "BASELINE DB REPOSITORY" to "campaign-db-baseline" 
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "campaign-webroot-sourcecode-baseline"    
+Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ". There are also test users and their usernames and passwords are: "testuser1" and "mnbcxz098321QQZZ" and "testuser2" "mnbcxz098321QQZZ"
 
 
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"
+Additional Demo Applications (each will require some extra configuration steps)
 
-----------------------------
 
 ### Demo 6 (Sample Wordpress Application)
 
