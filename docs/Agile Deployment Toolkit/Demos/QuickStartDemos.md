@@ -42,11 +42,11 @@ After you have performed all the pre-requisite steps above, you can choose which
 
 
 
-DEFAULT DEMO REQUIRES NO ADDITION CONFIGURATION
+```DEFAULT DEMO REQUIRES NO ADDITION CONFIGURATION
 
 [Community Builder](https://www.joomlapolis.com)
 
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ". There are also test users and their usernames and passwords are: "testuser1" and "mnbcxz098321QQZZ" and "testuser2" "mnbcxz098321QQZZ"
+Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ". There are also test users and their usernames and passwords are: "testuser1" and "mnbcxz098321QQZZ" and "testuser2" "mnbcxz098321QQZZ"```
 
 
 Additional Demo Applications (each will require some extra configuration steps)
