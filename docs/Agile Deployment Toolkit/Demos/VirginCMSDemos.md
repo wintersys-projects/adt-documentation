@@ -1,4 +1,4 @@
-### Demo 8 (Virgin Joomla install)  
+### Demo 1 (Virgin Joomla install)  
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
 2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
@@ -52,7 +52,7 @@ You will need to wait for a minute before the _J security check file is removed 
 
 ---------------------------
 
-### Demo 9 (Virgin Wordpress install)  
+### Demo 2 (Virgin Wordpress install)  
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
 2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
@@ -106,7 +106,7 @@ To find your database credentials log on to your build machine and do the follow
  
 -----------------------
 
-### Demo 10 (Virgin Drupal install)  
+### Demo 3 (Virgin Drupal install)  
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
 2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript. 
@@ -173,7 +173,7 @@ You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the mo
 
 --------------------------
 
-### Demo 11 (Virgin Moodle install)  
+### Demo 4 (Virgin Moodle install)  
 
 1. Assuming that you have your valid credentials in your credentials file on your laptop (if you don't know what this is, go to the beginning of this document and start there) follow the steps in "POPULATE YOUR STACKSCRIPT" above.
 2. Once the steps in POPULATE YOUR STACKCRIPT have been followed fully, make the following additional changes to the advanced settings of your Stackscript.
@@ -207,8 +207,9 @@ Once moodle is installed, I go to demo.nuocial.org.uk/index.php and you should d
 >     Moodle should be available at: https://<your-dns>
 >     ####################################################################
 
+----------------------------------------
 
-### Demo 12 (Sample Virgin Joomla Install from a Baseline Repository)
+### Demo 5 (Sample Virgin Joomla Install from a Baseline Repository)
 
 This is just a sample joomla install there's no sample data or anything it just shows you how you could baseline a virgin joomla installation for maximum ease when making repeated virgin CMS deployments. The advantage to creating a baseline of a virgin installation of a CMS is that you don't have to enter any parameters into the application GUI because the system deals with it all for you and so you can make faster deployments once you have a baseline to build from. The disadvantage is that you have to update the installed CMS from the administrator backend to the latest version because the baseline you made some weeks/months ago will be several releases back from current.
 
@@ -229,7 +230,7 @@ Wait for the application install to have been completed and available at:
 
 -----------------
 
-### Demo 13 (Sample Virgin Wordpress Install from a Baseline Repository)  
+### Demo 6 (Sample Virgin Wordpress Install from a Baseline Repository)  
 
 This is a sample virgin wordpress installation from baselined repositories.  
 
@@ -254,7 +255,7 @@ Once the application is installed, the username is "webmaster" and the password 
 
 -----------------
 
-### Demo 14 (Sample Virgin Drupal Install from a Baseline Repository)  
+### Demo 7 (Sample Virgin Drupal Install from a Baseline Repository)  
 
 This is a sample virgin drupal installation from baselined repositories.  
 
@@ -279,7 +280,7 @@ Once the application is installed, the username is "webmaster" and the password 
 
 -----------------
 
-### Demo 15 (Sample Virgin Moodle Install from a Baseline Repository)  
+### Demo 8 (Sample Virgin Moodle Install from a Baseline Repository)  
 
 This is a sample virgin moodle installation from baselined repositories.  
 
