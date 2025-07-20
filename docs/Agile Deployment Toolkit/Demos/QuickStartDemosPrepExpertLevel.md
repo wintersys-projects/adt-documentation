@@ -25,7 +25,7 @@ You need the the following credentials available to run the quick start demos. T
 
 Once you have collated all this information your **~/adt-credentials.txt** the complete file you will need to perform a build should look similar to:
 
-    LAPTOP PUBLIC KEY: "ssh-ed25519 AAAAC3NzaC1lZD.......zGBarK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop"  
+    ````LAPTOP PUBLIC KEY: "ssh-ed25519 AAAAC3NzaC1lZD.......zGBarK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop"````  
 
     LINUX USERE: "agile-deployer"  (your free choice)  
 
