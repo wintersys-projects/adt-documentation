@@ -136,7 +136,7 @@ So using your values from your **~/adt-credentials.dat** file you can populate y
 ![](images/stackscript1.png "Stackscript 1")  
 ![](images/stackscript2.png "Stackscript 2")  
 
-And now setup the rest of your linode and click ** CREATE LINODE** the process of which should look like these images
+And now setup the rest of your linode and click **CREATE LINODE** the process of which should look like these images
 
 ![](images/adt-demo1.png "Adt-demo 1")  
 ![](images/adt-demo2.png "Adt-demo 2") 
