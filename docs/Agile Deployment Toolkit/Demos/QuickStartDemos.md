@@ -55,30 +55,28 @@ then do a
 
 ## Additional Demo Applications 
 
-To install additional demos its a repeat of the exact same process as the default demo I have described above but with additional configuration tweeks.
-The tweeks you need to make for each additional style of application you want to install are described below and are in addition to the 
-steps outlines above to install the default application. In other words, to install one of these additional applications follow the exact same steps
-as for the default application but with the additional tweeks outline below for the specific application style you are deploying. 
+To install one of these additional applications follow the exact same steps as for the default application but with the additional tweeks 
+outline below for the specific application type you are deploying. 
 
 #### VIRGIN CMS INSTALLS
 
-If you are interested in Virgin CMS installs, click [here](./VirginCMSDemos.md)
+If you are interested in Virgin CMS installs, apply the appropriate tweeks to your Stackscipt [here](./VirginCMSDemos.md)
 
 #### SAMPLE JOOMLA APPLICATIONS
 
-If you are interested in installing Joomla based demos, click [here](./JoomlaDemos.md)
+If you are interested in installing Joomla based demos, apply the appropriate tweeks to your Stackscipt [here](./JoomlaDemos.md)
 
 #### SAMPLE WORDPRESS APPLICATIONS
 
-If you are interested in installing Wordpress based demos, click [here](./WordpressDemos.md)
+If you are interested in installing Wordpress based demos, apply the appropriate tweeks to your Stackscipt [here](./WordpressDemos.md)
 
 #### SAMPLE DRUPAL APPLICATIONS
 
-If you are interested in installing Drupal based demos, click [here](./DrupalDemos.md)
+If you are interested in installing Drupal based demos, apply the appropriate tweeks to your Stackscipt [here](./DrupalDemos.md)
 
 #### SAMPLE MOODLE APPLICATIONS
 
-If you are interested in installing Moodle based demos, click [here](./MoodleDemos.md)
+If you are interested in installing Moodle based demos, apply the appropriate tweeks to your Stackscipt [here](./MoodleDemos.md)
 
 ----------------------
 
