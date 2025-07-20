@@ -13,6 +13,16 @@ For more information about parameter configuration please see the [spec](https:/
 
 --------------------------
 
+
 Step 1:
+
+Go to the linux shell on your laptop. Create a text file in your home directory called "adt-credentials.txt"
+
+>     vi ${HOME}/.adt-credentials.txt
+
+Step 2:
+
+If you have an SSH keypair already configured on your laptop you can use the public key from your existing keypair. If you do not have a SSH Keypair  
+then its necessary to generate and configure them now.
 
 [Setup SSH Keys For Your Personal Laptop](./SetupSSHKeysOnLaptop.md)
