@@ -27,7 +27,7 @@ Go to the linux shell on your laptop. Create a text file in your home directory 
 
 ---------------------------------
 
-Step 2:
+Step 2 (Setting up an SSH Keypair on your laptop):
 
 1. If you have an existing SSH Key-pair you want to use that is available from your local linux terminal simply save a copy of your public key to your **~/adt-credentials.txt** file from step 1 above for ease of reference later on, for example:
 
@@ -38,3 +38,21 @@ Step 2:
 [Setup SSH Keys For Your Personal Laptop](./SetupSSHKeysOnLaptop.md)
 
 ------------------------------------
+
+Step 3 (Recording the IP address of your latop machine)
+
+1. Issue the following command from your linux terminal on your laptop
+
+>     /usr/bin/curl ifconfig.me
+
+This will give you your laptop IP address, for example:
+
+>     125.78.43.32
+
+Record your laptop ip address to your **~/adt-credentials.txt** file for future reference, for example, as follows:
+
+>     /bin/echo "MY LAPTOP IP ADDRESS 125.78.43.32" >> ~/adt-credentials.txt
+
+NOTE: you can also use services such as [whats my ip](https://whatsmyip.com) if you prefer 
+
+-----------------
