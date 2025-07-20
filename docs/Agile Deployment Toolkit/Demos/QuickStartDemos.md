@@ -66,18 +66,12 @@ If you are interested in installing Wordpress based demos, click [here](./Wordpr
 
 If you are interested in installing Drupal based demos, click [here](./DrupalDemos.md)
 
+#### SAMPLE MOODLE APPLICATIONS
 
-
- 
-
----------------------------
-
-
-
----------------------------
+If you are interested in installing Drupal based demos, click [here](./MoodleDemos.md)
 
 
 
-----------------------------
+
 
 
