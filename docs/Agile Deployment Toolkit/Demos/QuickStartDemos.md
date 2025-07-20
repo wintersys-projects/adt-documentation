@@ -6,6 +6,8 @@ The purpose of these quick start demos is to show you that with just some parame
 
 For more information about parameter configuration please see the [spec](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md) and [quickspec](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/quick_specification.dat)
 
+<br/>
+
 **These initial steps are only required the first time you make a deployment. The result of these first steps can be used repeatedly for subsequent demo deployments.** 
 
 --------------------------
@@ -55,6 +57,7 @@ There are also test users and their usernames and passwords are: "testuser1" and
 
 <br/><br/> 
 
+-----------------
 
 ## Additional Demo Applications (each will require some extra configuration steps)
 
@@ -78,7 +81,7 @@ If you are interested in installing Drupal based demos, click [here](./DrupalDem
 
 If you are interested in installing Moodle based demos, click [here](./MoodleDemos.md)
 
-
+----------------------
 
 
 
