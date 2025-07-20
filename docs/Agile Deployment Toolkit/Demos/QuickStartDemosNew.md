@@ -29,7 +29,7 @@ Go to the linux shell on your laptop. Create a text file in your home directory 
 
 Step 2:
 
-1. You have an existing SSH Key-pair you want to use that is available from your linux terminal simply save a copy of your public key to your **~/adt-credentials.txt** from step 1 above for ease of reference later on for example
+1. If you have an existing SSH Key-pair you want to use that is available from your local linux terminal simply save a copy of your public key to your **~/adt-credentials.txt** file from step 1 above for ease of reference later on, for example:
 
 >     /bin/cat ~/.ssh/id_rsa.pub >> ~/adt-credentials.txt
 
