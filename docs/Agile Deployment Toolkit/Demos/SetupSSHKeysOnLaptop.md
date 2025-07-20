@@ -30,7 +30,8 @@ You will also be prompted for a passphrase to access your keys, its advisable to
 This will give you your public key which will look similar to one of the following depending on your algorithm:
 
 
->     ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII84MRcjmo/ykGzGBarK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop
+>     ecdsa-sha2-nistp521 AAAAE2VjZHNhLXN......redacted......dYR+eN/dA4ISk5awQfKzug== adt-laptop
+>     ssh-ed25519 AAAAC3NzaC1lZDI1NTE.....redacted.....arK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop
 
 
 
