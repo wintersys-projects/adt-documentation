@@ -59,7 +59,8 @@ MAKE SURE YOUR SUBNET RANGE IS **10.0.1.0/24** and THE VPC NAME is **adt-vpc** a
 ![](images/adt-demo6.png "Adt-demo 6") 
 
 And the firewall:
-
+![](images/adt-demos-firewall1.png "Adt-demo firewall 1") 
+![](images/adt-demos-firewall2.png "Adt-demo firewall 2") 
 
 
 So using your values from your **~/adt-credentials.dat** file you can populate your Stackscript which will then look similar to:
