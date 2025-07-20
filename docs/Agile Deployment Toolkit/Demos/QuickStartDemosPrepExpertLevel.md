@@ -51,3 +51,9 @@ Once you have collated all this information your **~/adt-credentials.txt** the c
 
 ````WEBSITE URL (the domain name you have registered with your registrar) : "adtdemo.nuocial.uk"````  
 
+----------------------------
+
+Once you have all these values, you can populate your Stackscript which will then look similar to:
+
+
+
