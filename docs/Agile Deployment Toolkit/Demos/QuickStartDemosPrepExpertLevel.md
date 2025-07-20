@@ -28,6 +28,7 @@ Once you have collated all this information your **~/adt-credentials.txt** the c
 LAPTOP PUBLIC KEY: ssh-ed25519 AAAAC3NzaC1lZD.......zGBarK5v+b6NNg4Yxqk16iJ1qsYb8N adt-laptop  
 
 LINUX USERE: agile-deployer  (your free choice)  
+<br>
 LINUX USER PASSWORD: XXXXXXXXXXXX (your free choice make sure its strong)  
 SSH PORT: 1035 (your free choice)  
 PUBLIC IP ADDRESS OF LAPTOP: 143:34:41.21  
