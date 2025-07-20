@@ -8,7 +8,12 @@ For more information about parameter configuration please see the [spec](https:/
 
 <br/>
 
+## Default Demo Application (no additional configuration required)
 
+This demo makes use of [Community Builder](https://www.joomlapolis.com)
+
+Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ". 
+There are also test users and their usernames and passwords are: "testuser1" and "mnbcxz098321QQZZ" and "testuser2" "mnbcxz098321QQZZ"
 
 --------------------------
 <span style="color:red">**YOUR ONE TIME MANDATORY PREPARATORY STEPS**</span>
@@ -44,26 +49,16 @@ then do a
 >      cd adt-build-machine-scripts
 >      ./Logs.sh
 
-After you have performed all the pre-requisite steps above, you can choose which demo you want to follow from those listed below**</span>
-
-<br/><br/> 
-
-----------------
-
-## Default Demo Application (no additional configuration required)
-
-This demo makes use of [Community Builder](https://www.joomlapolis.com)
-
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ". 
-There are also test users and their usernames and passwords are: "testuser1" and "mnbcxz098321QQZZ" and "testuser2" "mnbcxz098321QQZZ"
-
-----------------
-
 <br/><br/> 
 
 -----------------
 
-## Additional Demo Applications (each will require some extra configuration steps)
+## Additional Demo Applications 
+
+To install additional demos its a repeat of the exact same process as the default demo I have described above but with additional configuration tweeks.
+The tweeks you need to make for each additional style of application you want to install are described below and are in addition to the 
+steps outlines above to install the default application. In other words, to install one of these additional applications follow the exact same steps
+as for the default application but with the additional tweeks outline below for the specific application style you are deploying. 
 
 #### VIRGIN CMS INSTALLS
 
