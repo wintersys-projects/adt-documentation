@@ -23,18 +23,19 @@ Once you have the result of these first time only steps you can reuse the result
 
 SAMPLE CONFIGURATION DATA
 
+>     Laptop public key : **ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin**  
 >     Build Machine User: **"nuocial-deployer"**  
 >     Build Machine Password: **"gdjkbcijbue2hhfdy3e8"**  
 >     Build Machine SSH PORT: **"1035"**  
->     Laptop IP: **77.99.28.105**  
->     Linode account username : **linode-username**  
->     Linode account email address : **nuocialdeployer@gmail.com**  
->     Laptop public key : **ssh-rsa AAAAB3MbsHaC1Jc2EAA......8X8TGp19n root@penguin**  
+>     Laptop IP: **77.99.28.105**
 >     Object Storage access key : **PJX1HOLT157FQ9WCQ52K**  
->     Object Storage secret key: **malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP**  
+>     Object Storage secret key: **malXD6aIPRAlxR2zU3IrpDDFWbNSLoGKLA6T1JeP**
 >     Personal Access Token : **23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29**  
->     Live Domain Name: **demo.nuocial.org.uk**  
+>     Linode account username : **linode-username**  
+>     DNS Username email address (linode account email address) : **nuocialdeployer@gmail.com**
+>     DNS Security key : (same as Personal Access Token : **23c8b26866a9fd81634a83182da5e1193bcc73d731d9224732159a8e31989d29**
 >     Core Website Name: **nuocial**
+>     Live Website Domain : **demo.nuocial.org.uk**  
 
 <span style="color:red">**Set up a VPC so that our servers and our build machine are in the same VPC**</span>
 
