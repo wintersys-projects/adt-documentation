@@ -50,21 +50,21 @@ Once the application is installed, the username is "webmaster" and the password 
 
 Additional Demo Applications (each will require some extra configuration steps)
 
-#### VITGIN CMS INSTALLS
+#### VIRGIN CMS INSTALLS
 
-If you are interested in installing Joomla based systems, click [here](./VirginCMSDemos.md)
+If you are interested in installing Virgin CMS installs, click [here](./VirginCMSDemos.md)
 
 #### SAMPLE JOOMLA APPLICATIONS
 
-If you are interested in installing Joomla based systems, click [here](./JoomlaDemos.md)
+If you are interested in installing Joomla based demos, click [here](./JoomlaDemos.md)
 
 #### SAMPLE WORDPRESS APPLICATIONS
 
-If you are interested in installing Wordpress based systems, click [here](./WordpressDemos.md)
+If you are interested in installing Wordpress based demos, click [here](./WordpressDemos.md)
 
 #### SAMPLE DRUPAL APPLICATIONS
 
-If you are interested in installing Drupal based systems, click [here](./DrupalDemos.md)
+If you are interested in installing Drupal based demos, click [here](./DrupalDemos.md)
 
 
 
