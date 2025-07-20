@@ -8,6 +8,8 @@ For more information about parameter configuration please see the [spec](https:/
 
 <br/>
 
+------------------------------
+
 ## Default Demo Application (no additional configuration required)
 
 This demo makes use of [Community Builder](https://www.joomlapolis.com)
@@ -15,10 +17,8 @@ This demo makes use of [Community Builder](https://www.joomlapolis.com)
 Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ". 
 There are also test users and their usernames and passwords are: "testuser1" and "mnbcxz098321QQZZ" and "testuser2" "mnbcxz098321QQZZ"
 
---------------------------
 <span style="color:red">**YOUR ONE TIME MANDATORY PREPARATORY STEPS**</span>
-
---------------------------
+<br/>
 
 **These initial steps are only required to get your data items the first time you make a deployment. The result of these first steps can be used repeatedly for subsequent demo deployments as long as the data items used, access keys and so on haven't expired, been deleted or rotated** 
 
