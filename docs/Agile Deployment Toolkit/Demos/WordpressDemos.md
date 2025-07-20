@@ -1,4 +1,4 @@
-### Demo 6 (Sample Wordpress Application)
+### Demo 1 (Sample Wordpress Application)
 
 This is just a sample wordpress template with some sample data installed which will show you how you can get a pre-built site up and running with this toolkit
 
