@@ -56,4 +56,6 @@ Once you have collated all this information your **~/adt-credentials.txt** the c
 Once you have all these values, you can populate your Stackscript which will then look similar to:
 
 
+![](images/stackscript1.png "Stackscript 1")  
+![](images/stackscript2.png "Stackscript 2")  
 
