@@ -15,3 +15,15 @@ For more information about parameter configuration please see the [spec](https:/
 
 You need the the following credentials available to run the quick start demos. The advice is to collate the necessaries and store them in a file **~/adt-credentials.txt** for use once you are ready to deploy one of the demo scenarios. 
 
+1. The public key from an SSH Key Pair from your the laptop you are using the ADT from
+2. The public IP address of your laptop. 
+3. The Usename of your linode.com account and the email address of your linode.com account
+4. A temporary (delete it after you have finished running the demos, Personal Access Token with full access rights for Linode
+5. Object Storage Access keys (access and secret) with full access rights to the gb-lon region
+6. A domain name with a registrar of your choice using the linode nameservers (www.nuocial.uk) for example
+7. A VPC in the gb-lon region called adt-vpc
+
+Once you have collated all this information your **~/adt-credentials.txt** file should look like:
+
+
+
