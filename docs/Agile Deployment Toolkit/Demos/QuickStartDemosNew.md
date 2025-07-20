@@ -25,9 +25,16 @@ Go to the linux shell on your laptop. Create a text file in your home directory 
 
 >     /bin/echo "Agile Deployment Toolkit Quick Start Demos Essential Credentials" > ~/adt-credentials.txt
 
+---------------------------------
+
 Step 2:
 
-If you have an SSH keypair already configured on your laptop you can use the public key from your existing keypair. 
-If you do not have a SSH Keypair then its necessary to generate and configure them now.
+1. You have an existing SSH Key-pair you want to use that is available from your linux terminal simply save a copy of your public key to ~/adt-credentials.txt for ease of reference later on
+
+>     /bin/echo ${PUBLIC_KEY} >> ~/adt-credentials.txt
+
+2. You do not have a SSH Keypair then its necessary to generate and configure them now.
 
 [Setup SSH Keys For Your Personal Laptop](./SetupSSHKeysOnLaptop.md)
+
+------------------------------------
