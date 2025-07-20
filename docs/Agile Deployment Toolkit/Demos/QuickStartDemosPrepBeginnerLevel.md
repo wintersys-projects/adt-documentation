@@ -56,3 +56,15 @@ Record your laptop ip address to your **~/adt-credentials.txt** file for future 
 NOTE: you can also use services such as [whats my ip](https://whatsmyip.com) if you prefer 
 
 -----------------
+
+Step 4 (Setting up a Linode Account)
+
+1. If you don't have a Linode account then you can setup a new Linode account for yourself by following: [Setup Linode Account](https://techdocs.akamai.com/cloud-computing/docs/getting-started). You are advised to setup two factor authentication to protect your account. 
+
+Once your account is setup record the username that you registered with as well as the email address that you used to register. So, for example:
+
+>     /bin/echo "MY LINODE USERNAME : adtdemosuser" >> ~/adt-credentials.txt
+>     /bin/echo "MY LINODE EMAIL : adtdemos@gmail.com" >> ~/adt-credentials.txt
+
+
+
