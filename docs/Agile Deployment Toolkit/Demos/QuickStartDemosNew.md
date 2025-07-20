@@ -13,6 +13,11 @@ For more information about parameter configuration please see the [spec](https:/
 
 --------------------------
 
+Pre-requisites:
+
+- A system with access to a linux shell
+- A user account with sudo or administrative privileges
+- Terminal or command line access
 
 Step 1:
 
