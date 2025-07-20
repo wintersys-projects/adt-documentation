@@ -72,4 +72,15 @@ Once your account is setup record the username that you registered with as well 
 
 1. To set up a Personal Access token for Linode you can follow [here](https://techdocs.akamai.com/cloud-computing/docs/manage-personal-access-tokens). For the purpose of this demo, you want full acccess rights (its lazy but simple) and you can do that by clicking the an "access value" of "Select all" and "Read/Write" in other words, the circle at the top right of the grid of access rights when it displays. When you generate your personal acccess token it will be displayed to you and you should add it to your **~/adt-credentials.txt** file before you dismiss it, for example,
 
->      /bin/echo "MY LINODE PAT:       " >> ~/adt-credentials.txt
+>      /bin/echo "MY LINODE PAT: difhinrgfgi84f9j4f9j302rrijfubnervggihjjregi34nfin4fine4fi2" >> ~/adt-credentials.txt
+
+--------------------
+
+#### Step 6 (Setting up Linode Object Storage access keys)
+
+1. To setup Object Storage Access Keys, follow [here](https://techdocs.akamai.com/cloud-computing/docs/manage-access-keys)
+
+**YOU DON'T WANT LIMITED ACCESS AND YOU WANT THE REGION TO BE gb-lon FOR THESE DEMOS**
+
+---------------------
+
