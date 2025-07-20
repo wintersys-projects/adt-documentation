@@ -13,7 +13,7 @@ For more information about parameter configuration please see the [spec](https:/
 
 --------------------------
 
-You need the the following credentials available to run the quick start demos. The advice is to collate the necessaries and store them in a file **~/adt-credentials.txt** for use once you are ready to deploy one of the demo scenarios. 
+You need the the following data items available to run the quick start demos. The advice is to collate the necessaries and store them in a file **~/adt-credentials.txt** for use once you are ready to deploy one of the demo scenarios. 
 
 1. The public key from an SSH Key Pair from your the laptop you are using the ADT from
 3. The public IP address of your laptop. 
