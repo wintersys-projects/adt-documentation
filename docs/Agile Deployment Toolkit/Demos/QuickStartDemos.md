@@ -17,8 +17,12 @@ For more information about parameter configuration please see the [spec](https:/
 
 There are mandatory steps to follow in full before any of the demos can be deployed.
 
+<br/>
+
 1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
 2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
+
+<br/>
 
 <span style="color:red">DO NOT PASS HERE IF YOU HAVEN'T SUCCESSFULLY COMPLETED EITHER STEP 1 (beginner) **OR** STEP2 (expert) ACCORDING TO YOUR EXPERIENCE</span>
 
