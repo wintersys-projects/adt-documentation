@@ -54,7 +54,7 @@ Once you have collated all this information your **~/adt-credentials.txt** the c
 ----------------------------
 
 Now you need to setup your VPC and your Firewall. I'll just show you the images of mine
-**MAKE SURE YOUR SUBNET RANGE IS and THE VPC NAME is adt-vpc and is in the gb-lon region**
+MAKE SURE YOUR SUBNET RANGE IS **10.0.1.0/24** and THE VPC NAME is **adt-vpc** and is in the **gb-lon** region
 
 
 
@@ -63,4 +63,6 @@ Once you have all these values, you can populate your Stackscript which will the
 
 ![](images/stackscript1.png "Stackscript 1")  
 ![](images/stackscript2.png "Stackscript 2")  
+
+![](images/adt-demo1.png "Stackscript 1")  
 
