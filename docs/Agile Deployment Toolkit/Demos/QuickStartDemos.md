@@ -40,7 +40,8 @@ then do a
 
 After you have performed all the pre-requisite steps above, you can choose which demo you want to follow from those listed below**</span>
 
-### Demo 1 (Sample Joomla and Community Builder application)
+
+
 DEFAULT DEMO REQUIRES NO ADDITION CONFIGURATION
 
 [Community Builder](https://www.joomlapolis.com)
