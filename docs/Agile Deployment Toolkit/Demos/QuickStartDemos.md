@@ -18,6 +18,8 @@ For more information about parameter configuration please see the [spec](https:/
 
 <br/>
 
+-------------------------------
+
 <span style="color:red">DO NOT PASS HERE IF YOU HAVEN'T SUCCESSFULLY COMPLETED EITHER STEP 1 (beginner) **OR** STEP2 (expert) ACCORDING TO YOUR EXPERIENCE</span>
 
 Once you clicked "**Create Linode**" at the end of process 1 or 2 above, the default demo application built with Joomla and Community Builder will deploy which will take some minutes. This will deploy the default demo (built using Joomla and Community Builder). 
@@ -44,25 +46,7 @@ then do a
 
 ## CUSTOMISED APPLICATION INSTALLATIONS  
 
-#### VIRGIN CMS INSTALLS
 
-If you are interested in Virgin CMS installs, apply the appropriate [override set](./VirginCMSDemos.md) to your Stackscipt. 
-
-#### SAMPLE JOOMLA APPLICATIONS
-
-If you are interested in installing Joomla based demos, apply the appropriate [override set](./JoomlaDemos.md) to your Stackscipt 
-
-#### SAMPLE WORDPRESS APPLICATIONS
-
-If you are interested in installing Wordpress based demos, apply the appropriate [override set](./WordpressDemos.md) to your Stackscipt 
-
-#### SAMPLE DRUPAL APPLICATIONS
-
-If you are interested in installing Drupal based demos, apply the appropriate [override set](./DrupalDemos.md) to your Stackscipt 
-
-#### SAMPLE MOODLE APPLICATIONS
-
-If you are interested in installing Moodle based demos, apply the appropriate [override set](./MoodleDemos.md) to your Stackscipt. 
 
 ----------------------
 
