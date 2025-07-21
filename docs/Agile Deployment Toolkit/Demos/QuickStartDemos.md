@@ -11,7 +11,7 @@ For more information about parameter configuration please see the [spec](https:/
 ------------------------------
 
 ## MANDATORY INITIAL CONFIGURATION STEPS 
-(TO BE COMPLETED FOR ALL DEMOS) 
+THIS WILL INSTALL THE DEFAULT DEMO
 
 1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
 2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
@@ -44,11 +44,10 @@ then do a
 
 -----------------
 
-## CUSTOMISED APPLICATION INSTALLATIONS  
+## FURTHER EXAMPLE DEMOS
 
+If you want to try further demmos other than just our default one click (here)[./CustomisedDemos.md)
 
-
-----------------------
 
 
 
