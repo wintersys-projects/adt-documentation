@@ -46,7 +46,7 @@ then do a
 
 ## FURTHER EXAMPLE DEMOS
 
-If you want to try further demmos other than just our default one click (here)[./CustomisedDemos.md)
+If you want to try further demos other than just our default one click [here](./CustomisedDemos.md)
 
 
 
