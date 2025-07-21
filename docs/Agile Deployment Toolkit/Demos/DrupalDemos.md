@@ -1,6 +1,9 @@
-TO INSTALL AN ADDITIONAL DEMO, AS A MINIMUM, YOU NEED TO OVERRIDE THE FOLLOWING SETTINGS OF THE DEFAULT DEMO STACKSCRIPT
+Perform step 1 or 2 below according to your experience but override the settings in your StackScript according to the demo of your choice before you click "Create Linode"
 
-### Demo 1 (Sample Drupal Based Opensocial Application)
+1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
+2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
+
+### Demo 1 (StackScript overrides to install opensocial)
 
 [Opensocial](https://getopensocial.com)
 
