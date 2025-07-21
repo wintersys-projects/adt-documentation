@@ -90,4 +90,3 @@ There are two types of build method you can employ to get a functioning applicat
 
 A DMS system such as this one can certainly speed your server deployments. It does require skill, and therefore learning to use but once you get a taste for it the result can be sweet.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VelOjUtngj4?si=-UXvpEdpqmVThRkG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
