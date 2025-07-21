@@ -46,7 +46,7 @@ This is just a sample joomla install with the kunena forum installed
 
 ----------------------------
 
-### Demo 4 (StackScript overrides for an example Joomlart demos) 
+### Demo 4 (StackScript overrides for example Joomlart demos) 
 
 #### Demo JA Template One  
 
