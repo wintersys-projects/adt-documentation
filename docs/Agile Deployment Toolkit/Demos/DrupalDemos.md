@@ -5,7 +5,7 @@ Perform step 1 or 2 below according to your experience and apply the overrides t
 
 -------------------------
 
-### Demo 1 (StackScript overrides to install our baselined Opensocial demo)
+### Demo 1 (StackScript overrides for a baselined Opensocial demo)
 
 [Opensocial](https://getopensocial.com)
 
