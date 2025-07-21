@@ -20,7 +20,7 @@ There are also test users and their usernames and passwords are: "testuser1" and
 <span style="color:red">**YOUR ONE TIME MANDATORY PREPARATORY STEPS**</span>
 <br/>
 <br/>
-**To run all of these demos (the default demo and the additional demos), following either step 1 or step 2 below is mandatory**  
+**To run all of these demos (the default demo and the additional demos), following either step 1 or step 2 below is mandatory for each deployment**  
 
 1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
 2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
