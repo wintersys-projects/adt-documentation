@@ -3,7 +3,9 @@ Perform step 1 or 2 below according to your experience but override the settings
 1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
 2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
 
-### Demo 1 (StackScript overrides to install opensocial)
+-------------------------
+
+### Demo 1 (StackScript overrides to install our baselined Opensocial demo)
 
 [Opensocial](https://getopensocial.com)
 
@@ -13,5 +15,7 @@ Perform step 1 or 2 below according to your experience but override the settings
 >     set "APPLICATION" to "drupal"  
 >     set "APPLICATION IDENTIFIER" to "3"  
 >     set "BASELINE DB REPOSITORY" to "opensocial-db-baseline" (with sample data) or "opensocialvanilla-db-baseline" (without sample data)  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "opensocial-webroot-sourcecode-baseline" (with sample data) or "opensocialvanilla-webroot-sourcecode-baseline" (without sample data)  
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "opensocial-webroot-sourcecode-baseline" (with sample data) or "opensocialvanilla-webroot-sourcecode-baseline" (without sample data)
+
+------------------------------
 
