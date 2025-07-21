@@ -10,17 +10,8 @@ For more information about parameter configuration please see the [spec](https:/
 
 ------------------------------
 
-## Default Demo Application
-
-This demo makes use of [Community Builder](https://www.joomlapolis.com)
-
-Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ". 
-There are also test users and their usernames and passwords are: "testuser1" and "mnbcxz098321QQZZ" and "testuser2" "mnbcxz098321QQZZ"
-
-<span style="color:red">**YOUR ONE TIME MANDATORY PREPARATORY STEPS**</span>
-<br/>
-<br/>
-**To run all of these demos (the default demo and the additional demos), following either step 1 or step 2 below is mandatory for each deployment**  
+## MANDATORY INITIAL CONFIGURATION STEPS 
+(TO BE COMPLETED FOR ALL DEMOS) 
 
 1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
 2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
@@ -29,7 +20,7 @@ There are also test users and their usernames and passwords are: "testuser1" and
 
 <span style="color:red">DO NOT PASS HERE IF YOU HAVEN'T SUCCESSFULLY COMPLETED EITHER STEP 1 (beginner) **OR** STEP2 (expert) ACCORDING TO YOUR EXPERIENCE</span>
 
-Once you clicked "**Create Linode**" at the end of process 1 or 2 above, the default demo application built with Joomla and Community Builder will deploy which will take some minutes. 
+Once you clicked "**Create Linode**" at the end of process 1 or 2 above, the default demo application built with Joomla and Community Builder will deploy which will take some minutes. This will deploy the default demo (built using Joomla and Community Builder). 
 
 Once the build is completed (or earlier if you like, once the build machine is pingable) you can get the IP address of your build machine through the Linode GUI system (in my case: 172.237.116.127)
 
@@ -51,30 +42,27 @@ then do a
 
 -----------------
 
-## Additional Demo Applications 
-
-To install one of these additional applications follow the exact same steps as for the default demo but with the additional tweeks 
-outline below for your current application choice. 
+## CUSTOMISED APPLICATION INSTALLATIONS  
 
 #### VIRGIN CMS INSTALLS
 
-If you are interested in Virgin CMS installs, apply the appropriate [StackScript Tweeks](./VirginCMSDemos.md) to your Stackscipt. 
+If you are interested in Virgin CMS installs, apply the appropriate [override set](./VirginCMSDemos.md) to your Stackscipt. 
 
 #### SAMPLE JOOMLA APPLICATIONS
 
-If you are interested in installing Joomla based demos, apply the appropriate [StackScript Tweeks](./JoomlaDemos.md) to your Stackscipt 
+If you are interested in installing Joomla based demos, apply the appropriate [override set](./JoomlaDemos.md) to your Stackscipt 
 
 #### SAMPLE WORDPRESS APPLICATIONS
 
-If you are interested in installing Wordpress based demos, apply the appropriate [StackScript Tweeks](./WordpressDemos.md) to your Stackscipt 
+If you are interested in installing Wordpress based demos, apply the appropriate [override set](./WordpressDemos.md) to your Stackscipt 
 
 #### SAMPLE DRUPAL APPLICATIONS
 
-If you are interested in installing Drupal based demos, apply the appropriate [StackScript Tweeks](./DrupalDemos.md) to your Stackscipt 
+If you are interested in installing Drupal based demos, apply the appropriate [override set](./DrupalDemos.md) to your Stackscipt 
 
 #### SAMPLE MOODLE APPLICATIONS
 
-If you are interested in installing Moodle based demos, apply the appropriate [StackScript Tweeks](./MoodleDemos.md) to your Stackscipt. 
+If you are interested in installing Moodle based demos, apply the appropriate [override set](./MoodleDemos.md) to your Stackscipt. 
 
 ----------------------
 
