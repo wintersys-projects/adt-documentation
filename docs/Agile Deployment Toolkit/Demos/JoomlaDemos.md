@@ -5,7 +5,7 @@ Perform step 1 or 2 below according to your experience and apply the overrides t
 
 -------------------------
 
-### Demo 1 (Sample Joomla Application)
+### Demo 1 (StackScript overrides for an example Joomla demo)
 
 This is just a sample joomla install with some sample data installed 
 
@@ -17,7 +17,7 @@ This is just a sample joomla install with some sample data installed
 
 ---------------------------
 
-### Demo 2 (Sample Joomla Astroid Application) 
+### Demo 2 (StackScript overrides for an example Joomla Astroid demo)
 
 [Astroid Framework](https://astroidframe.work/)
 
@@ -31,7 +31,7 @@ This is just a sample joomla install with the astroid framework installed
 
 
 ----------------------------
-### Demo 3 (Sample Joomla Kunena Application) 
+### Demo 3 (StackScript overrides for an example Joomla Kunena demo)
 
 [Kunena](https://www.kunena.org)
 
@@ -46,7 +46,7 @@ This is just a sample joomla install with the kunena forum installed
 
 ----------------------------
 
-### Demo 4 (Sample Joomlart Free Templates Example Applications) 
+### Demo 4 (StackScript overrides for an example Joomlart demos) 
 
 #### Demo JA Template One  
 
