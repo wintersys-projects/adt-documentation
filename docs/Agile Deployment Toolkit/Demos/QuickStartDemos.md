@@ -44,7 +44,7 @@ then do a
 
 -----------------
 
-## FURTHER EXAMPLE DEMOS
+## FURTHER QUICK DEMOS
 
 If you want to try further demos other than just our default one click [here](./CustomisedDemos.md). You might want to reference [Understanding StackScript overrides](./ExampleStackScriptOverride.md)
 
