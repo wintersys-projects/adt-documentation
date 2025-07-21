@@ -29,9 +29,9 @@ There are also test users and their usernames and passwords are: "testuser1" and
 
 <span style="color:red">DO NOT PASS HERE IF YOU HAVEN'T SUCCESSFULLY COMPLETED EITHER STEP 1 (beginner) **OR** STEP2 (expert) ACCORDING TO YOUR EXPERIENCE</span>
 
-Once you clicked "**Create Linode**" according to the mandatory steps above the default demo application built with Joomla and Community Builder will deploy which will take some minutes. 
+Once you clicked "**Create Linode**" at the end of process 1 or 2 above, the default demo application built with Joomla and Community Builder will deploy which will take some minutes. 
 
-Once the build is completed (or earlier if you like, once the build machine is up and pingable) you can get the IP address of your build machine through the Linode GUI system (in my case: 172.237.116.127)
+Once the build is completed (or earlier if you like, once the build machine is pingable) you can get the IP address of your build machine through the Linode GUI system (in my case: 172.237.116.127)
 
 ![](images/lin1.png "Linode Tutorial Image 1")
 
@@ -53,28 +53,28 @@ then do a
 
 ## Additional Demo Applications 
 
-To install one of these additional applications follow the exact same steps as for the default application but with the additional tweeks 
-outline below for the specific application type you are deploying. 
+To install one of these additional applications follow the exact same steps as for the default demo but with the additional tweeks 
+outline below for your current application choice. 
 
 #### VIRGIN CMS INSTALLS
 
-If you are interested in Virgin CMS installs, apply the appropriate [StackScript tweeks](./VirginCMSDemos.md) to your Stackscipt. 
+If you are interested in Virgin CMS installs, apply the appropriate [StackScript Tweeks](./VirginCMSDemos.md) to your Stackscipt. 
 
 #### SAMPLE JOOMLA APPLICATIONS
 
-If you are interested in installing Joomla based demos, apply the appropriate [StackScript tweeks](./JoomlaDemos.md) to your Stackscipt 
+If you are interested in installing Joomla based demos, apply the appropriate [StackScript Tweeks](./JoomlaDemos.md) to your Stackscipt 
 
 #### SAMPLE WORDPRESS APPLICATIONS
 
-If you are interested in installing Wordpress based demos, apply the appropriate [StackScript tweeks](./WordpressDemos.md) to your Stackscipt 
+If you are interested in installing Wordpress based demos, apply the appropriate [StackScript Tweeks](./WordpressDemos.md) to your Stackscipt 
 
 #### SAMPLE DRUPAL APPLICATIONS
 
-If you are interested in installing Drupal based demos, apply the appropriate [StackScript tweeks](./DrupalDemos.md) to your Stackscipt 
+If you are interested in installing Drupal based demos, apply the appropriate [StackScript Tweeks](./DrupalDemos.md) to your Stackscipt 
 
 #### SAMPLE MOODLE APPLICATIONS
 
-If you are interested in installing Moodle based demos, apply the appropriate [StackScript tweeks](./MoodleDemos.md) to your Stackscipt. 
+If you are interested in installing Moodle based demos, apply the appropriate [StackScript Tweeks](./MoodleDemos.md) to your Stackscipt. 
 
 ----------------------
 
