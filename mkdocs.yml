@@ -10,4 +10,12 @@ extra_css:
 not_in_nav: |
   TutorialsMenu.md 
   index.md
+  DrupalDemos.md
+  JoomlaDemos.md
+  MoodleDemos.md
+  QuickStartDemosPrepBeginner.md
+  QuickStartDemosPrepExpert.md
+  SetupSSHKeysOnLaptop.md
+  VirginCMSDemos.md
+  WordpressDemos.md
 
