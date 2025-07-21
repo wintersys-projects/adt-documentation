@@ -5,7 +5,7 @@ Perform step 1 or 2 below according to your experience and apply the overrides t
 
 -------------------------
 
-### Demo 1 (Virgin Joomla install)  
+### Demo 1 (StackScript overrides for a virgin installation of the Joomla CMS)  
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Joomla Demo"  
@@ -56,7 +56,7 @@ To find your database credentials log on to your build machine and do the follow
 
 ---------------------------
 
-### Demo 2 (Virgin Wordpress install)  
+### Demo 2 (StackScript overrides for a virgin installation of the Wordpress CMS)   
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Wordpress Demo"  
@@ -106,7 +106,7 @@ Once the build is completed the credentials for your application will be availab
  
 -----------------------
 
-### Demo 3 (Virgin Drupal install)  
+### Demo 3 (StackScript overrides for a virgin installation of the Drupal CMS)  
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Drupal Demo" 
@@ -120,7 +120,7 @@ Once the build is completed the credentials for your application will be availab
 
 **OPENSOCIAL**  
 
-You can install [OPENSOCIAL](https://www.getopensocial.com/) by making the following alterations to the above 9 settings  
+You can install [OPENSOCIAL](https://www.getopensocial.com/) by making the following alterations to the above 9 override settings  
 
 At the time of writing, PHP8.1 is the highest supported version of PHP by opensocial so you need to set these values to install opensocial 
 >     set "PHP VERSION" to "8.1"
@@ -129,7 +129,7 @@ At the time of writing, PHP8.1 is the highest supported version of PHP by openso
 
 **DRUPAL CMS**  
 
-You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the following alterations to the above 9 settings  
+You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the following alterations to the above 9 override settings  
 
 You can install  by making the modification to the steps above:
 
@@ -172,7 +172,7 @@ Once the build is completed the credentials for your application will be availab
 
 --------------------------
 
-### Demo 4 (Virgin Moodle install)  
+### Demo 4 (StackScript overrides for a virgin installation of the Moodle CMS)  
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Moodle Demo"  
@@ -206,7 +206,7 @@ Once the build is completed the credentials for your application will be availab
 
 ----------------------------------------
 
-### Demo 5 (Sample Virgin Joomla Install from a Baseline Repository)
+### Demo 5 (StackScript overrides for a virgin installation of the Joomla CMS from a baselined repository)  
 
 This is just a sample virgin joomla install there's no sample data or anything it just shows you how you could baseline a virgin joomla installation for maximum ease when making repeated virgin CMS deployments. The advantage to creating a baseline of a virgin installation of a CMS is that you don't have to enter any parameters into the application GUI because the system deals with it all for you and so you can make faster deployments once you have a baseline to build from. The disadvantage is that you have to update the installed CMS from the administrator backend to the latest version because the baseline you made some weeks/months ago will be several releases back from current.
 
@@ -225,7 +225,7 @@ Wait for the application install to have been completed and available at:
 
 -----------------
 
-### Demo 6 (Sample Virgin Wordpress Install from a Baseline Repository)  
+### Demo 6 (StackScript overrides for a virgin installation of the Wordpress CMS from a baselined repository)  
 
 This is a sample virgin wordpress installation from baselined repositories.  
 
@@ -244,7 +244,7 @@ Wait for the application install to have been completed and available at:
 
 -----------------
 
-### Demo 7 (Sample Virgin Drupal Install from a Baseline Repository)  
+### Demo 7 (StackScript overrides for a virgin installation of the Drupal CMS from a baselined repository)  
 
 This is a sample virgin drupal installation from baselined repositories.  
 
@@ -264,7 +264,7 @@ Wait for the application install to have been completed and available at:
 
 -----------------
 
-### Demo 8 (Sample Virgin Moodle Install from a Baseline Repository)  
+### Demo 8 (StackScript overrides for a virgin installation of the Moodle CMS from a baselined repository) 
 
 This is a sample virgin moodle installation from baselined repositories.  
 
