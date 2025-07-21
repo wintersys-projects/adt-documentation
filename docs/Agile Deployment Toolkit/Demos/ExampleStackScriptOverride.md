@@ -8,15 +8,14 @@ So, taking "Demo 1" [here](./JoomlaDemos.md) I can see that "Demo 1" invites us 
 >      set "BASELINE DB REPOSITORY" to "joomlademo-db-baseline" 
 >      set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "joomlademo-webroot-sourcecode-baseline"
 
-When the I apply the invited overrides in order to build "Demo 1", the original StackScript (with its default values set) looks like this:
+Before I apply the invited overrides in order to build "Demo 1", the original StackScript (with its default values set) looks like this:
 
 ![](images/overrides1.png "Adt-demo overrides") 
 
-
-And then once I have applied the overrides suggested, it looks like this:
+And then once I have applied the overrides suggested/required, it looks like this:
 
 ![](images/overrides2.png "Adt-demo overrides") 
 
-And so the change in values is what it means to override the the values of the supplied StackScript
+And so the change in values that you see is what it means to override the the values of the supplied StackScript
 
 
