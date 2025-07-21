@@ -5,7 +5,7 @@ Perform step 1 or 2 below according to your experience and apply the overrides t
 
 -------------------------
 
-### Demo 1 (Sample Wordpress Application)
+### Demo 1 (StackScript overrides for a sample Wordpress application installation) 
 
 This is just a sample wordpress template with some sample data installed which will show you how you can get a pre-built site up and running with this toolkit
 
