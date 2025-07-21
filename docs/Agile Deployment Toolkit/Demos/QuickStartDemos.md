@@ -19,10 +19,8 @@ There are also test users and their usernames and passwords are: "testuser1" and
 
 <span style="color:red">**YOUR ONE TIME MANDATORY PREPARATORY STEPS**</span>
 <br/>
-
-**These initial steps are only required to get your configuration data items the first time you make a deployment. The result of these first steps can be used repeatedly for subsequent additional deployments (see below) as long as the data items used, access keys and so on haven't expired, been deleted or rotated** 
-
 <br/>
+**To run all of these demos (the default demo and the additional demos), following either step 1 or step 2 below is mandatory**  
 
 1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
 2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
