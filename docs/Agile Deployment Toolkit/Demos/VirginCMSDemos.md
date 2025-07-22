@@ -80,7 +80,7 @@ and complete the installation of Wordpress. When you are putting the credentials
 
 ---------------------------
 
-### Demo 3 (StackScript overrides for a virgin installation of the Drupal CMS)  
+### Demo 3 (StackScript overrides for a virgin installation of Drupal, Drupal CMS or Drupal Opensocial)  
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "WEBSITE DISPLAY NAME" to "My Drupal Demo" 
