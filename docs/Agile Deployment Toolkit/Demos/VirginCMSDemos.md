@@ -19,9 +19,12 @@ Perform step 1 or 2 below according to your experience and apply the overrides t
 
 ----------------------
 
-Once the build is completed the credentials for your application will be available.
+To find what to set your application credentials to ssh onto your new build machine 
 
-To find your database credentials log on to your build machine and do the following:
+>     ssh -p <build-machine-port> <username>@<build-machine-ip>
+
+and review the logs to find the credentials for your application
+
 
 >     root@localhost:/home/agile-deployer/adt-build-machine-scripts# ./Log.sh
 >     Which cloudhost do you want to view logs for DigitalOcean (do), Exoscale (exo), Linode (lin) or Vultr (vul)
@@ -70,6 +73,12 @@ To find your database credentials log on to your build machine and do the follow
 --------------------
 
 Once the build is completed the credentials for your application will be available.
+
+To find what to set your application credentials to ssh onto your new build machine 
+
+>     ssh -p <build-machine-port> <username>@<build-machine-ip>
+
+and review the logs to find the credentials for your application
 
 >     root@localhost:/home/agile-deployer/adt-build-machine-scripts# ./Log.sh
 >     Which cloudhost do you want to view logs for DigitalOcean (do), Exoscale (exo), Linode (lin) or Vultr (vul)
@@ -138,7 +147,11 @@ You can install  by making the modification to the steps above:
 
 ------------------------
 
-Once the build is completed the credentials for your application will be available.
+To find what to set your application credentials to ssh onto your new build machine 
+
+>     ssh -p <build-machine-port> <username>@<build-machine-ip>
+
+and review the logs to find the credentials for your application
 
 >     root@localhost:/home/agile-deployer/adt-build-machine-scripts# ./Log.sh
 >     Which cloudhost do you want to view logs for DigitalOcean (do), Exoscale (exo), Linode (lin) or Vultr (vul)
@@ -185,7 +198,11 @@ Once the build is completed the credentials for your application will be availab
 
 ------------------------
 
-Once the build is completed the credentials for your application will be available.
+To find what to set your application credentials to ssh onto your new build machine 
+
+>     ssh -p <build-machine-port> <username>@<build-machine-ip>
+
+and review the logs to find the credentials for your application
 
 >     OK, I'll be kind and show you one time your moodle database credentials.
 >     Please make a note of them but remember to keep them safe and secret
