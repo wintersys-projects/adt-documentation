@@ -8,7 +8,7 @@ Perform step 1 or 2 below according to your experience and apply the overrides t
 ### Demo 1 (StackScript overrides for a virgin installation of the Joomla CMS)  
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
->     set "The Display name for your website e.g. My Demo Website" to "My Joomla Demo"  
+>     set "WEBSITE DISPLAY NAME" to "My Joomla Demo"  
 >     set "APPLICATION" to "joomla"  
 >     set "APPLICATION IDENTIFIER" to "1"  
 >     set "JOOMLA VERSION" and set it to the latest version of Joomla for example, "5.1.2"  
@@ -59,7 +59,7 @@ To find your database credentials log on to your build machine and do the follow
 ### Demo 2 (StackScript overrides for a virgin installation of the Wordpress CMS)   
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
->     set "The Display name for your website e.g. My Demo Website" to "My Wordpress Demo"  
+>     set "WEBSITE DISPLAY NAME" to "My Wordpress Demo"  
 >     set "APPLICATION" to "wordpress"  
 >     set "APPLICATION IDENTIFIER" to "2"  
 >     set "BUILD CHOICE" to "0"  
@@ -109,7 +109,7 @@ Once the build is completed the credentials for your application will be availab
 ### Demo 3 (StackScript overrides for a virgin installation of the Drupal CMS)  
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
->     set "The Display name for your website e.g. My Demo Website" to "My Drupal Demo" 
+>     set "WEBSITE DISPLAY NAME" to "My Drupal Demo" 
 >     set "APPLICATION" to "drupal"   
 >     set "APPLICATION IDENTIFIER" to "3"  
 >     set "DRUPAL VERSION" set it to the latest version of drupal for example, "10.0.10" 
@@ -175,7 +175,7 @@ Once the build is completed the credentials for your application will be availab
 ### Demo 4 (StackScript overrides for a virgin installation of the Moodle CMS)  
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
->     set "The Display name for your website e.g. My Demo Website" to "My Moodle Demo"  
+>     set "WEBSITE DISPLAY NAME" to "My Moodle Demo"  
 >     set "APPLICATION" to "moodle"  
 >     set "APPLICATION IDENTIFIER" to "4"  
 >     set "BUILD CHOICE" to "0"  
