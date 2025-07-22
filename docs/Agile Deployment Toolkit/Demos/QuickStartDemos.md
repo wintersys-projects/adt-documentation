@@ -22,7 +22,7 @@ THIS WILL INSTALL THE DEFAULT DEMO
 
 <span style="color:red">DO NOT PASS HERE IF YOU HAVEN'T SUCCESSFULLY COMPLETED EITHER STEP 1 (beginner) **OR** STEP2 (expert) ACCORDING TO YOUR EXPERIENCE</span>
 
-Once you clicked "**Create Linode**" at the end of process 1 or 2 above, the default demo application built with Joomla and Community Builder will deploy which will take some minutes. This will deploy the default demo (built using Joomla and Community Builder). 
+Once you clicked "**Create Linode**" at the end of process 1 or 2 above, the default demo (an application built with Joomla and Community Builder) will deploy which will take some minutes. 
 
 Once the build is completed (or earlier if you like, once the build machine is pingable) you can get the IP address of your build machine through the Linode GUI system (in my case: 172.237.116.127)
 
