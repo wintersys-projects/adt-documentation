@@ -31,6 +31,17 @@ which in my case looks like:
 >     ssh -p 1035 agile-deployer@156.23.43.21
 >     /bin/cat /home/agile-deployer/adt-build-machine-scripts/runtimedata/linode/test-build/credentials/application_credentials.dat
 
+Go to the URL of your virgin Joomla installation in my case:
+
+>     https://www.nuocial.uk
+
+and complete the installation of Joomla. When you are putting the credentials you got from application_credentials.dat from your build machine the installation process should look similar to:
+
+
+IMPORTANT:
+
+You will be prompted to remove the file beginning _J. The Agile Deployment Toolkit will do that for your automatically all you need to do when prompted to remove the _J file is to click through a second time (at the bottom of the page prompting you for it) and you will be able to progress without doing anything. 
+
 ---------------------------
 
 ### Demo 2 (StackScript overrides for a virgin installation of the Wordpress CMS)   
