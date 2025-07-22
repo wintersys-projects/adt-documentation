@@ -37,6 +37,7 @@ Go to the URL of your virgin Joomla installation in my case:
 
 and complete the installation of Joomla. When you are putting the credentials you got from application_credentials.dat from your build machine the installation process should look similar to:
 
+![](images/joomla.png "Joomla Install Screen") 
 
 **IMPORTANT:**
 
