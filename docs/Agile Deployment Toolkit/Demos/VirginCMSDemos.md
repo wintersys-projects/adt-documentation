@@ -19,12 +19,17 @@ Perform step 1 or 2 below according to your experience and apply the overrides t
 
 ----------------------
 
-To find what to set your application credentials to ssh onto your new build machine 
+To find what to set your application credentials to ssh onto your new build machine sudo to root and cat the application_credentials.dat file that the build generated as shown below
 
 >     ssh -p <build-machine-port> <username>@<build-machine-ip>
+>     sudo su
+>          <password>
+>     /bin/cat /home/<username>/adt-build-machine-scripts/runtimedata/linode/<build-identifier>/credentials/application_credentials.dat
 
+which in my case looks like:
+
+>     ssh -p 1035 agile-deployer@156.23.43.21
 >     /bin/cat /home/agile-deployer/adt-build-machine-scripts/runtimedata/linode/test-build/credentials/application_credentials.dat
-
 
 ---------------------------
 
@@ -39,50 +44,21 @@ To find what to set your application credentials to ssh onto your new build mach
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "WORDPRESS"
 
---------------------
+----------------------
 
-Once the build is completed the credentials for your application will be available.
-
-To find what to set your application credentials to ssh onto your new build machine 
+To find what to set your application credentials to ssh onto your new build machine sudo to root and cat the application_credentials.dat file that the build generated as shown below
 
 >     ssh -p <build-machine-port> <username>@<build-machine-ip>
+>     sudo su
+>          <password>
+>     /bin/cat /home/<username>/adt-build-machine-scripts/runtimedata/linode/<build-identifier>/credentials/application_credentials.dat
 
-and review the logs to find the credentials for your application
+which in my case looks like:
 
->     root@localhost:/home/agile-deployer/adt-build-machine-scripts# ./Log.sh
->     Which cloudhost do you want to view logs for DigitalOcean (do), Exoscale (exo), Linode (lin) or Vultr (vul)
->     Please type one of do, exo, lin, vul
->     lin
->     What is the build identifier you want to connect to?
->     You have these builds to choose from: 
->     testbuild
->     Please enter the name of the build of the server you wish to connect with
->     testbuild
->     tail (t) or cat (c) or vim (v)
->     c
->     Do you want out (1) or err (2) or stat (3)
->     1
->     OK, I'll be kind and show you one time your wordpress database credentials.
->     Please make a note of them but remember to keep them safe and secret
->     You can enter them in the GUI system when you install the application
->     #########################################
->     Database name: nmrwrhhgqn
->     Database username: u34krmarsu
->     Database password: pxkrdithvp
->     #########################################
->     The database public IP address is: 172.237.96.84
->     The database private IP address is: 10.0.1.5 (try this one first from your application if it timesout, try the public one)
->     The database port is 2035
->     You can make up your own database prefix but make sure to include the '_' character at the end of your prefix (for example 'dbprefix_')
->     #########################################
->     You are not using the default port for your database
->     REMEMBER to tell wordpress this by putting the database hostname as 10.0.1.5:2035 when you enter it in the GUI during the install process
->     ######################################
->     =========================================================================================================================================
->     If you have trouble accessing your new wordpress site, one thing that might be wrong is permalinks within wordpress
->     In this case, go to https://<dns-name>/wp-admin, login and rebuild permalinks under settings->permalinks
- 
------------------------
+>     ssh -p 1035 agile-deployer@121.34.32.65
+>     /bin/cat /home/agile-deployer/adt-build-machine-scripts/runtimedata/linode/test-build/credentials/application_credentials.dat
+
+---------------------------
 
 ### Demo 3 (StackScript overrides for a virgin installation of the Drupal CMS)  
 
@@ -114,45 +90,21 @@ You can install  by making the modification to the steps above:
 >     set "The Display name for your website e.g. My Demo Website" to "My Druapl CMS Demo"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:cms"
 
-------------------------
+----------------------
 
-To find what to set your application credentials to ssh onto your new build machine 
+To find what to set your application credentials to ssh onto your new build machine sudo to root and cat the application_credentials.dat file that the build generated as shown below
 
 >     ssh -p <build-machine-port> <username>@<build-machine-ip>
+>     sudo su
+>          <password>
+>     /bin/cat /home/<username>/adt-build-machine-scripts/runtimedata/linode/<build-identifier>/credentials/application_credentials.dat
 
-and review the logs to find the credentials for your application
+which in my case looks like:
 
->     root@localhost:/home/agile-deployer/adt-build-machine-scripts# ./Log.sh
->     Which cloudhost do you want to view logs for DigitalOcean (do), Exoscale (exo), Linode (lin) or Vultr (vul)
->     Please type one of do, exo, lin, vul
->     lin
->     What is the build identifier you want to connect to?
->     You have these builds to choose from: 
->     testbuild
->     Please enter the name of the build of the server you wish to connect with
->     testbuild
->     tail (t) or cat (c) or vim (v)
->     c
->     Do you want out (1) or err (2) or stat (3)
->     1
->     OK, I'll be kind and show you one time your drupal database credentials.
->     Please make a note of them but remember to keep them safe and secret
->     You can enter them in the GUI system when you install the application
->     #########################################
->     Database name: n0i6qxap3n
->     Database username: uxzpsfznqu
->     Database password: pvhflpebvp
->     #########################################
->     The database public IP address is: 172.236.31.76
->     The database private IP address is: 10.0.1.4 (try this one first from your application if it timesout, try the public one)
->     The database port is 2035
->     You can make up your own database prefix but make sure to include the '_' character at the end of your prefix (for example 'dbprefix_')
->     #########################################
->     ####################################################################
->     Waiting for the application install to have been completed at: https://<dns-url>/core/install.php
->     Use the credentials listed above please
+>     ssh -p 1035 agile-deployer@102.12.32.12
+>     /bin/cat /home/agile-deployer/adt-build-machine-scripts/runtimedata/linode/test-build/credentials/application_credentials.dat
 
---------------------------
+---------------------------
 
 ### Demo 4 (StackScript overrides for a virgin installation of the Moodle CMS)  
 
@@ -165,32 +117,21 @@ and review the logs to find the credentials for your application
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "MOODLE"   
 
-------------------------
+----------------------
 
-To find what to set your application credentials to ssh onto your new build machine 
+To find what to set your application credentials to ssh onto your new build machine sudo to root and cat the application_credentials.dat file that the build generated as shown below
 
 >     ssh -p <build-machine-port> <username>@<build-machine-ip>
+>     sudo su
+>          <password>
+>     /bin/cat /home/<username>/adt-build-machine-scripts/runtimedata/linode/<build-identifier>/credentials/application_credentials.dat
 
-and review the logs to find the credentials for your application
+which in my case looks like:
 
->     OK, I'll be kind and show you one time your moodle database credentials.
->     Please make a note of them but remember to keep them safe and secret
->     You can enter them in the GUI system when you install the application
->     #########################################
->     Database name: nhoz7thefn
->     Database username: ua2dtr1wbu
->     Database password: panh53iiap
->     #########################################
->     The database public IP address is: 172.236.8.173
->     The database private IP address is: 10.0.1.4 (try this one first from your application if it timesout, try the public one)
->     The database port is 2035
->     You can make up your own database prefix but make sure to include the '_' character at the end of your prefix (for example 'dbprefix_')
->     #########################################
->     ####################################################################
->     Moodle should be available at: https://<your-dns>
->     ####################################################################
+>     ssh -p 1035 agile-deployer@78.98.32.19
+>     /bin/cat /home/agile-deployer/adt-build-machine-scripts/runtimedata/linode/test-build/credentials/application_credentials.dat
 
-----------------------------------------
+---------------------------
 
 ### Demo 5 (StackScript overrides for a virgin installation of the Joomla CMS from a baselined repository)  
 
