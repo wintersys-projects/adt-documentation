@@ -24,7 +24,6 @@ To deploy a virgin Joomla application you need to set the following values in te
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="JOOMLA:5.0.3"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
->     export BUILD_CHOICE="0"
 
 #### Objective 2
 
@@ -35,7 +34,6 @@ To deploy a virgin Wordpress application you need to set the following values in
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="WORDPRESS"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
->     export BUILD_CHOICE="0"
 
 
 #### Objective 3
@@ -47,7 +45,6 @@ To deploy a virgin Drupal application you need to set the following values in te
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:10.2.4"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
->     export BUILD_CHOICE="0"
 
 #### Objective 4
 
@@ -58,7 +55,6 @@ To deploy a virgin Moodle application you need to set the following values in te
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="MOODLE"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
->     export BUILD_CHOICE="0"
 
 #### Objective 5
 
@@ -69,7 +65,6 @@ To deploy a virgin Opensocial application you need to set the following values i
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:social"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
->     export BUILD_CHOICE="0"
 
 --------------------------------------------------------------
 
@@ -82,7 +77,6 @@ To deploy a baselined application in template 2, you modify as in the following 
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="examplewebsite-webroot-sourcecode-baseline"
 >     export BASELINE_DB_REPOSITORY="examplewebsite-db-baseline"
 >     export BUILD_ARCHIVE_CHOICE="baseline"
->     export BUILD_CHOICE="1"
 
 #### Objective 7
 
@@ -91,7 +85,6 @@ To deploy a temporal application with hourly peridicity in template 3, you modif
 >     export APPLICATION="joomla"
 >     export APPLICATION_IDENTIFIER="1"
 >     export BUILD_ARCHIVE_CHOICE="hourly"
->     export BUILD_CHOICE="2"
 
 ----------------------------------------------------------------------
 
