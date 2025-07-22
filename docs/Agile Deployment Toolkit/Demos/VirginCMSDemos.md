@@ -118,8 +118,6 @@ and complete the installation of Wordpress. When you are putting the credentials
 
 You can install [OPENSOCIAL](https://www.getopensocial.com/) by making the following alterations to the above DRUPAL (10.0.10) install method
 
-At the time of writing, PHP8.1 is the highest supported version of PHP by opensocial so you need to set these values to install opensocial 
->     set "PHP VERSION" to "8.1"
 >     set "The Display name for your website e.g. My Demo Website" to "My Opensocial Demo"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:social"
 
