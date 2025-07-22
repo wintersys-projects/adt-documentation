@@ -41,7 +41,7 @@ and complete the installation of Joomla. When you are putting the credentials yo
 
 **IMPORTANT:**
 
-You will be prompted to remove the file beginning _J. The Agile Deployment Toolkit will do that for your automatically all you need to do when prompted to remove the _J file is to click through a second time (at the bottom of the page prompting you for it) and you will be able to progress without doing anything. 
+You will be prompted to remove the file beginning /var/www/html/installation/_J.... The Agile Deployment Toolkit will do that for your automatically all you need to do when prompted to remove the /var/www/html/installation/_J.... file is to click through a second time (at the bottom of the page prompting you to action) and you will be able to progress without doing anything. 
 
 ---------------------------
 
