@@ -91,7 +91,7 @@ and complete the installation of Wordpress. When you are putting the credentials
 
 **OPENSOCIAL**  
 
-You can install [OPENSOCIAL](https://www.getopensocial.com/) by making the following alterations to the above 9 override settings  
+You can install [OPENSOCIAL](https://www.getopensocial.com/) by making the following alterations to the above 8 override settings  
 
 At the time of writing, PHP8.1 is the highest supported version of PHP by opensocial so you need to set these values to install opensocial 
 >     set "PHP VERSION" to "8.1"
@@ -100,7 +100,7 @@ At the time of writing, PHP8.1 is the highest supported version of PHP by openso
 
 **DRUPAL CMS**  
 
-You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the following alterations to the above 9 override settings  
+You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the following alterations to the above 8 override settings  
 
 You can install  by making the modification to the steps above:
 
