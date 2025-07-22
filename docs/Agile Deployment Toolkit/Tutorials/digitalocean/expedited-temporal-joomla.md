@@ -56,7 +56,6 @@ I then need to set the template to use the temporal backups that I have generate
   
 >     export APPLICATION="joomla" #MANDATORY (joomla or wordpress or drupal or moodle)
 >     export APPLICATION_IDENTIFIER="1" #MANDATORY 
->     export BUILD_CHOICE="2" #MANDATORY 2=hourly, 3=daily, 4=weekly, 5=monthly, 6=bimonthly
 >     export BUILD_ARCHIVE_CHOICE="hourly" #MANDATORY hourly, daily, weekly, monthly, bimonthly
 >     export PERSIST_ASSETS_TO_DATASTORE="1" #MANDATORY This should only be 0 if your application has a very small number of assets
 >     export DIRECTORIES_TO_MOUNT="/var/www/html/images" #MANDATORY - this will define which directories in your webroot will be mounted from S3, if PERSIST_ASSETS_TO_DATASTORE=1
