@@ -78,7 +78,9 @@ and complete the installation of Wordpress. When you are putting the credentials
 
 ---------------------------
 
-### Demo 3 (StackScript overrides for a virgin installation of Drupal, Drupal CMS or Drupal Opensocial)  
+### Demo 3 (StackScript overrides for a virgin installation of Drupal, Drupal CMS or Drupal Opensocial) 
+
+**DRUPAL (10.0.10)**  
 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "WEBSITE DISPLAY NAME" to "My Drupal Demo" 
@@ -87,20 +89,46 @@ and complete the installation of Wordpress. When you are putting the credentials
 >     set "DRUPAL VERSION" set it to the latest version of drupal for example, "10.0.10" 
 >     set "BUILD ARCHIVE CHOICE" to "virgin"   
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:10.0.10"   
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:10.0.10"
+>
+> ----------------------
+
+To find what to set your application credentials to ssh onto your new build machine sudo to root and cat the application_credentials.dat file that the build generated as shown below
+
+>     ssh -p <build-machine-port> <username>@<build-machine-ip>
+>     sudo su
+>          <password>
+>     /bin/cat /home/<username>/adt-build-machine-scripts/runtimedata/linode/<build-identifier>/credentials/application_credentials.dat
+
+which in my case looks like:
+
+>     ssh -p 1035 agile-deployer@121.34.32.65
+>     /bin/cat /home/agile-deployer/adt-build-machine-scripts/runtimedata/linode/test-build/credentials/application_credentials.dat
+
+Go to the URL of your virgin Wordpress installation in my case:
+
+>     https://www.nuocial.uk
+
+and complete the installation of Wordpress. When you are putting the credentials you got from application_credentials.dat from your build machine the installation process should look similar to:
+
+![](images/drupal.png "Drupal Install Screen")  
+
+------------------
 
 **OPENSOCIAL**  
 
-You can install [OPENSOCIAL](https://www.getopensocial.com/) by making the following alterations to the above 8 override settings  
+You can install [OPENSOCIAL](https://www.getopensocial.com/) by making the following alterations to the above DRUPAL (10.0.10) install method
 
 At the time of writing, PHP8.1 is the highest supported version of PHP by opensocial so you need to set these values to install opensocial 
 >     set "PHP VERSION" to "8.1"
 >     set "The Display name for your website e.g. My Demo Website" to "My Opensocial Demo"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:social"
 
+-------------
+
 **DRUPAL CMS**  
 
-You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the following alterations to the above 8 override settings  
+You can install [DRUPAL CMS](https://new.drupal.org/drupal-cms) by making the following alterations to the above DRUPAL (10.0.10) install method  
 
 You can install  by making the modification to the steps above:
 
