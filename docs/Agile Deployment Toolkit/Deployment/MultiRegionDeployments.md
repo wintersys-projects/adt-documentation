@@ -55,7 +55,6 @@ export BASELINE_DB_REPOSITORY=""
 export APPLICATION_LANGUAGE="PHP"   
 export PHP_VERSION="8.4"   
 export BUILD_ARCHIVE_CHOICE="hourly"  
-export BUILD_CHOICE="2"  
 export APPLICATION_NAME="Demo Application"  
 
 \#####S3 Datastore Settings#######  
@@ -193,7 +192,6 @@ export BASELINE_DB_REPOSITORY=""
 export APPLICATION_LANGUAGE="PHP"   
 export PHP_VERSION="8.4"   
 export BUILD_ARCHIVE_CHOICE="hourly"  
-export BUILD_CHOICE="2"  
 export APPLICATION_NAME="Demo Application"  
      
 \#####S3 Datastore Settings#######  
@@ -330,7 +328,6 @@ export BASELINE_DB_REPOSITORY=""
 export APPLICATION_LANGUAGE="PHP"   
 export PHP_VERSION="8.4"    
 export BUILD_ARCHIVE_CHOICE="hourly"  
-export BUILD_CHOICE="2"  
 export APPLICATION_NAME="Demo Application"  
 
 \#####S3 Datastore Settings#######  
