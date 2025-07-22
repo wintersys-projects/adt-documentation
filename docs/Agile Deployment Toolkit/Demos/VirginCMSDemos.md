@@ -70,6 +70,14 @@ which in my case looks like:
 >     ssh -p 1035 agile-deployer@121.34.32.65
 >     /bin/cat /home/agile-deployer/adt-build-machine-scripts/runtimedata/linode/test-build/credentials/application_credentials.dat
 
+Go to the URL of your virgin Wordpress installation in my case:
+
+>     https://www.nuocial.uk
+
+and complete the installation of Wordpress. When you are putting the credentials you got from application_credentials.dat from your build machine the installation process should look similar to:
+
+![](images/wordpress.png "Wordpress Install Screen") 
+
 ---------------------------
 
 ### Demo 3 (StackScript overrides for a virgin installation of the Drupal CMS)  
