@@ -1,9 +1,12 @@
+### MANDATORY PRE-REQUISITE STEPS NEEDED BY ALL DEMOS BELOW
+
 Perform step 1 or 2 below according to your experience and apply the overrides to your StackScript as described below for your desired demo type before you click "Create Linode"
 
 1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
 2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
 
 -------------------------
+### QUICK DEMO OVERRIDE EXAMPLES
 
 ### Demo 1 (StackScript overrides for a virgin installation of the Joomla CMS)  
 
