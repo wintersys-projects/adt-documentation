@@ -242,8 +242,8 @@ This is a sample virgin wordpress installation from baselined repositories.
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Wordpress Installation"  
 >     set "APPLICATION" to "wordpress"  
 >     set "APPLICATION IDENTIFIER" to "2"  
->     set "BASELINE DB REPOSITORY" to "wordpress6.8.1-db-baseline" 
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "wordpress6.8.1-webroot-sourcecode-baseline"
+>     set "BASELINE DB REPOSITORY" to "wordpress6.8.2-db-baseline" 
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "wordpress6.8.2-webroot-sourcecode-baseline"
 
 Wait for the application install to have been completed and available at:
 
