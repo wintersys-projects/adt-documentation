@@ -50,6 +50,9 @@ This is just a sample joomla install with the kunena forum installed
 
 #### Demo JA Template One  
 
+Username: webmaster
+Password: mnbcxz098321QQZZ
+
 [Joomlart Purity](https://www.joomlart.com/joomla/templates/ja-purity-iv)
 This is just a sample joomla install with the purity template installed 
 
