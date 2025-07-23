@@ -236,7 +236,7 @@ Wait for the application install to have been completed and available at:
 
 This is a sample virgin wordpress installation from baselined repositories.  
 
-1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
+1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"
 
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Wordpress Installation"  
