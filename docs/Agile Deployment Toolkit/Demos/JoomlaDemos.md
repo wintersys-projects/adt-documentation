@@ -50,8 +50,8 @@ This is just a sample joomla install with the kunena forum installed
 
 #### Demo JA Template One  
 
-Username: webmaster
-Password: mnbcxz098321QQZZ
+Username: webmaster  
+Password: mnbcxz098321QQZZ  
 
 [Joomlart Purity](https://www.joomlart.com/joomla/templates/ja-purity-iv)
 This is just a sample joomla install with the purity template installed 
@@ -60,6 +60,9 @@ This is just a sample joomla install with the purity template installed
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "purity-webroot-sourcecode-baseline"   
 
 OR  
+
+Username: webmaster
+Password: mnbcxz098321QQZZ
 
 #### Demo JA Template Two  
 [Joomlart Stark](https://www.joomlart.com/joomla/templates/ja-stark)
