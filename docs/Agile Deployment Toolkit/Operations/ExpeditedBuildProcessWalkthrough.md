@@ -6,7 +6,7 @@
 >     BUILDMACHINE_PASSWORD="Hjdhfb34hd£"
 >     BUILDMACHINE_SSH_PORT="1035"
 >     LAPTOP_IP="111.111.111.111"
->     SSH="\<your ssh public key here\>"- generate a new keypair according to if you haven't got a keypair already
+>     SSH="<your ssh public key here>"- generate a new keypair according to if you haven't got a keypair already
 >     SELECTED_TEMPLATE="3" - only need to set this if you are following this as part of a "hardcore" build process
 
 To generate a new keypair you can follow: [keygen](https://www.ssh.com/academy/ssh/keygen)  
