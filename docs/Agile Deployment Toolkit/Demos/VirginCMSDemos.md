@@ -217,7 +217,7 @@ and complete the installation of Wordpress. When you are putting the credentials
 
 This is just a sample virgin joomla install there's no sample data or anything it just shows you how you could baseline a virgin joomla installation for maximum ease when making repeated virgin CMS deployments. The advantage to creating a baseline of a virgin installation of a CMS is that you don't have to enter any parameters into the application GUI because the system deals with it all for you and so you can make faster deployments once you have a baseline to build from. The disadvantage is that you have to update the installed CMS from the administrator backend to the latest version because the baseline you made some weeks/months ago will be several releases back from current.
 
-1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"
+1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"
 
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Joomla Installation"  
