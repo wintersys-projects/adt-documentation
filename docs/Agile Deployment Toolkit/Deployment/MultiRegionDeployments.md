@@ -47,7 +47,6 @@ Highlighted in red are the settings in the templates that you need to take parti
      
 \#####Application Settings#########  
 export APPLICATION="joomla"  #MANDATORY  
-export APPLICATION_IDENTIFIER="1" #MANDATORY  
 export JOOMLA_VERSION=""   
 export DRUPAL_VERSION=""    
 export APPLICATION_BASELINE_SOURCECODE_REPOSITORY=""  
@@ -184,7 +183,6 @@ Here is my template for the nl-ams region when I am deploying to a primary regio
     
 \#####Application Settings#########  
 export APPLICATION="joomla"  #MANDATORY  
-export APPLICATION_IDENTIFIER="1" #MANDATORY  
 export JOOMLA_VERSION=""   
 export DRUPAL_VERSION=""    
 export APPLICATION_BASELINE_SOURCECODE_REPOSITORY=""  
@@ -320,7 +318,6 @@ I then made a deployment to a third region (with a different vendor, exoscale) a
 
 \#####Application Settings#########  
 export APPLICATION="joomla" #MANDATORY  
-export APPLICATION_IDENTIFIER="1" #MANDATORY  
 export JOOMLA_VERSION=""   
 export DRUPAL_VERSION=""    
 export APPLICATION_BASELINE_SOURCECODE_REPOSITORY=""  
