@@ -17,5 +17,9 @@ Perform step 1 or 2 below according to your experience and apply the overrides t
 >     set "BASELINE DB REPOSITORY" to "opensocial-db-baseline" (with sample data) or "opensocialvanilla-db-baseline" (without sample data)  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "opensocial-webroot-sourcecode-baseline" (with sample data) or "opensocialvanilla-webroot-sourcecode-baseline" (without sample data)
 
+NOTE: If you get any error messages from the Drupal CMS once it is installed you need to "clear all caches" which in my case I can do by going to this URL in my browser:
+
+>     https://www.nuocial.uk/admin/config/development/performance
+
 ------------------------------
 
