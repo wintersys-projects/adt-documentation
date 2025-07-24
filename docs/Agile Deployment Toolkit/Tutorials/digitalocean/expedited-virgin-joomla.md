@@ -120,7 +120,6 @@ I then update all fields marked "MANDATORY" (marked in red) referring to the val
  
 \#####Application Settings#########  
 <span style="color:red">export APPLICATION="joomla" #MANDATORY </span>  
-<span style="color:red">export APPLICATION_IDENTIFIER="1" #MANDATORY </span>  
 <span style="color:red">export JOOMLA_VERSION="5.3.0" #MANDATORY (depending on the above settings - a joomla deployment) </span>  
 export DRUPAL_VERSION="" #MANDATORY (depending on the above settings - a drupal deployment)  
 <span style="color:red">export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="JOOMLA:5.3.0" #MANDATORY </span>  
@@ -273,19 +272,16 @@ What I would do if I wanted to build a Wordpress, Moodle or Drupal installation 
 
 >     export APPLICATION="wordpress"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="WORDPRESS" #MANDATORY 
->     export APPLICATION_IDENTIFIER="2"
 
 **For Drupal:**
 
 >     export APPLICATION="drupal"
 >     export DRUPAL_VERSION="11.0.1" 
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:11.0.1" #MANDATORY 
->     export APPLICATION_IDENTIFIER="3"
 
 **For Moodle:**
 
 >     export APPLICATION="moodle"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="MOODLE" #MANDATORY 
->     export APPLICATION_IDENTIFIER="4"
 
 So, you have a template now that you can use over and over again for deploying different installations of these CMS systems. You can study the spec and learn how to modify the template in order to change machine sizes, regions, PHP settings and so on. 
