@@ -115,6 +115,10 @@ and complete the installation of Wordpress. When you are putting the credentials
 
 ![](images/drupal.png "Drupal Install Screen")  
 
+NOTE: If you get any error messages from the Drupal CMS once it is installed you need to "clear all caches" which in my case I can do by going to this URL in my browser:
+
+>     https://www.nuocial.uk/admin/config/development/performance
+
 ------------------
 
 **OPENSOCIAL**  
@@ -140,7 +144,7 @@ Go to the URL of your virgin Wordpress installation in my case:
 
 >     https://www.nuocial.uk
 
-and complete the installation of Wordpress. When you are putting the credentials you got from application_credentials.dat from your build machine the installation process should look similar to:
+and complete the installation of Opensocial. When you are putting the credentials you got from application_credentials.dat from your build machine the installation process should look similar to:
 
 ![](images/opensocial.png "Opensocial Install Screen") 
 
