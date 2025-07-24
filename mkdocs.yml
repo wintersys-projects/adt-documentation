@@ -25,7 +25,7 @@ not_in_nav: |
   ExampleStackScriptOverride.md
 
 extra:
-  generator: false
+ # generator: false
     feedback:
       title: Was this page helpful?
       ratings:
