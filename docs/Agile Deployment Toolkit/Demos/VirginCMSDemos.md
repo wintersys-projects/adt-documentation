@@ -176,6 +176,9 @@ and complete the installation of Drupal. When you are putting the credentials yo
 
 ![](images/drupal-cms.png "Drupal CMS Install Screen")  
 
+NOTE: If you get any error messages from the application once it is installed you need to "clear all caches" which in my case I can do by going to this URL in my browser:
+
+>     https://www.nuocial.uk/admin/config/development/performance
 
 ---------------------------
 
