@@ -123,7 +123,6 @@ You can install [OPENSOCIAL](https://www.getopensocial.com/) by making the follo
 
 >     set "The Display name for your website e.g. My Demo Website" to "My Opensocial Demo"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:social"
->     set "PHP_VERSION" to "8.2" (this is version of PHP that opensocial supports at the time of writing)
 
 To find what to set your application credentials to ssh onto your new build machine sudo to root and cat the application_credentials.dat file that the build generated as shown below
 
