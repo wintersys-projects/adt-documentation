@@ -19,7 +19,6 @@ If you are deploying a virgin application you should make modifications to templ
 To deploy a virgin Joomla application you need to set the following values in template 1:
 
 >     export APPLICATION="joomla"
->     export APPLICATION_IDENTIFIER="1"
 >     export JOOMLA_VERSION="5.0.3"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="JOOMLA:5.0.3"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
@@ -30,7 +29,6 @@ To deploy a virgin Joomla application you need to set the following values in te
 To deploy a virgin Wordpress application you need to set the following values in template 1:
 
 >     export APPLICATION="wordpress"
->     export APPLICATION_IDENTIFIER="2"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="WORDPRESS"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
@@ -41,7 +39,6 @@ To deploy a virgin Wordpress application you need to set the following values in
 To deploy a virgin Drupal application you need to set the following values in template 1:
 
 >     export APPLICATION="drupal" 
->     export APPLICATION_IDENTIFIER="3"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:10.2.4"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
@@ -51,7 +48,6 @@ To deploy a virgin Drupal application you need to set the following values in te
 To deploy a virgin Moodle application you need to set the following values in template 1:
 
 >     export APPLICATION="moodle"
->     export APPLICATION_IDENTIFIER="4"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="MOODLE"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
@@ -61,7 +57,6 @@ To deploy a virgin Moodle application you need to set the following values in te
 To deploy a virgin Opensocial application you need to set the following values in template 1:
 
 >     export APPLICATION="drupal"
->     export APPLICATION_IDENTIFIER="3"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:social"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
@@ -73,7 +68,6 @@ To deploy a virgin Opensocial application you need to set the following values i
 To deploy a baselined application in template 2, you modify as in the following example for a joomla application
 
 >     export APPLICATION="joomla"
->     export APPLICATION_IDENTIFIER="1"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="examplewebsite-webroot-sourcecode-baseline"
 >     export BASELINE_DB_REPOSITORY="examplewebsite-db-baseline"
 >     export BUILD_ARCHIVE_CHOICE="baseline"
@@ -83,7 +77,6 @@ To deploy a baselined application in template 2, you modify as in the following 
 To deploy a temporal application with hourly peridicity in template 3, you modify as in the following example for a joomla application
 
 >     export APPLICATION="joomla"
->     export APPLICATION_IDENTIFIER="1"
 >     export BUILD_ARCHIVE_CHOICE="hourly"
 
 ----------------------------------------------------------------------
