@@ -1,5 +1,14 @@
 # Welcome to the Agile Deployment Toolkit Documentation 
 
+<html>
+    <head>
+        <title>Example</title>
+    </head>
+    <body>
+        <p>This is an example of a simple HTML page with one paragraph.</p>
+    </body>
+</html>
+
 **INTRODUCTION**  
 
 The Agile Deployment Toolkit is a power tool for CMS deployments on VPS machines. In the hands of a skilled person there are advantages to this approach. In summary:
