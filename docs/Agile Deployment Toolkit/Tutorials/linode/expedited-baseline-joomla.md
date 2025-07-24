@@ -88,7 +88,6 @@ There are some other values that I need to change in
 which are different to what they are in template 1 and I can do this as follows:
 
 >     export APPLICATION="joomla" #MANDATORY (joomla or wordpress or drupal or moodle)
->     export APPLICATION_IDENTIFIER="1" #MANDATORY (1 for joomla, 2 for wordpress, 3 for drupal, 4 for moodle)
 >     export BASELINE_DB_REPOSITORY="communitybuilder-db-baseline" #MANDATORY
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="communitybuilder-webroot-sourcecode-baseline" #MANDATORY
 
