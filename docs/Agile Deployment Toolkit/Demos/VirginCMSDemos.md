@@ -117,7 +117,7 @@ and complete the installation of Wordpress. When you are putting the credentials
 
 NOTE: If you get any error messages from the Drupal CMS once it is installed you need to "clear all caches" which in my case I can do by going to this URL in my browser:
 
->     https://www.nuocial.uk/admin/config/development/performance
+>     https://<dns-url>/admin/config/development/performance
 
 ------------------
 
@@ -150,7 +150,7 @@ and complete the installation of Opensocial. When you are putting the credential
 
 NOTE: If you get any error messages from the Drupal Opensocial once it is installed you need to "clear all caches" which in my case I can do by going to this URL in my browser:
 
->     https://www.nuocial.uk/admin/config/development/performance
+>     https://<dns-url>/admin/config/development/performance
 
 ----------------------
 
@@ -186,7 +186,7 @@ and complete the installation of Drupal. When you are putting the credentials yo
 
 NOTE: If you get any error messages from the Drupal CMS once it is installed you need to "clear all caches" which in my case I can do by going to this URL in my browser:
 
->     https://www.nuocial.uk/admin/config/development/performance
+>     https://<dns-url>/admin/config/development/performance
 
 ---------------------------
 
@@ -279,6 +279,10 @@ This is a sample virgin drupal installation from baselined repositories.
 Wait for the application install to have been completed and available at:
 
 >      https://<dns-url>
+
+NOTE: If you get any error messages from the Drupal CMS once it is installed you need to "clear all caches" which in my case I can do by going to this URL in my browser:
+
+>     https://<dns-url>/admin/config/development/performance
 
 -----------------
 
