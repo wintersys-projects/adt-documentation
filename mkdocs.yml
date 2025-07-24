@@ -22,3 +22,8 @@ not_in_nav: |
   ExampleDemos.md
   ExampleStackScriptOverride.md
 
+  extra:
+  analytics:
+    provider: google
+    property: G-0LG1QFHZ92
+
