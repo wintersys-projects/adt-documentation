@@ -62,7 +62,7 @@ The Quick start demos below are specifically designed to give you a taste for th
 
 **WHAT IS A DMS(Deployment Management System)**
 
-This is a DMS system, so, what is a DMS system? A DMS is for helping with deploying servers using well tested and secured processes. Its power is that it can be extended easily and is very similar in design character to a CMS system but for deployment rather than content. The ultimate objective is to make it possible to have your own bespoke application libraries. For example, in Joomla, something like a JAD (Joomla Applications Directory), in Wordpress something like a WAD (Wordpress Applications Directory) and in Drupal something like a DAD (Drupal Applications Directory).
+This is a DMS system, so, what is a DMS system? A DMS is for helping with deploying servers using well tested and secured processes. Its power is that it can be extended easily and is very similar in design character to a CMS system but for deployment rather than content. The ultimate objective is to make it possible to have your own bespoke application libraries. For example, in Joomla, something like a JAD (Joomla Applications Directory), in Wordpress something like a WAD (Wordpress Applications Directory) and in Drupal something like a DAD (Drupal Applications Directory). What this template repo gives you is the core structure which plugs into the ADT around which to build out your custom server type. 
 
 You can learn more about application directories **[here](<Development/ApplicationDirectories.md>)**
  
