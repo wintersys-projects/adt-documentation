@@ -10,13 +10,17 @@ The Agile Deployment Toolkit is a power tool for CMS deployments on VPS machines
 
 **Do you want to have consistent security processes baked into your server deployments?**
 
-**Would you like to be able to redeploy to a different (supported) VPS host easily - within 5 - 10 minutes if needed?**
+**Would you like to be able to redeploy to a different (supported) VPS hosting probider easily - within 5 - 10 minutes if needed?**
+
+**Would you like the ability to be able to extend the toolkit to be able to deploy to any compatible (for example AWS or Google Cloud) according yo your preference that is not currently supported?**
+
+**Would you like the ability to be able to extend the toolkit to be able to extend applications for your own needs such as NextCloud or Grav?**
 
 **Does automated server configuration with the latest releases of software included for each deployment sound attractive?**
 
 **Would you like a low barrier to entry solution using nothing but basic scripting techniques?**
 
-Then you might be interested in the Agile Deployment Toolkit which currently supports Joomla, Wordpress, Drupal and Moodle CMS applications.
+Then you might be interested in the Agile Deployment Toolkit which currently supports Joomla, Wordpress, Drupal and Moodle CMS applications and Digital Ocean, Exoscale, Linode and Vultr VPS hosting providers.
 
 ------------
 
