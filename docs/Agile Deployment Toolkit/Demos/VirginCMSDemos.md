@@ -13,7 +13,6 @@ Perform step 1 or 2 below according to your experience and apply the overrides t
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "WEBSITE DISPLAY NAME" to "My Joomla Demo"  
 >     set "APPLICATION" to "joomla"  
->     set "APPLICATION IDENTIFIER" to "1"  
 >     set "JOOMLA VERSION" and set it to the latest version of Joomla for example, "5.1.2"  
 >     set "BUILD ARCHIVE CHOICE" to "virgin"  
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
@@ -52,7 +51,6 @@ You will be prompted to remove the file beginning /var/www/html/installation/_J.
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "WEBSITE DISPLAY NAME" to "My Wordpress Demo"  
 >     set "APPLICATION" to "wordpress"  
->     set "APPLICATION IDENTIFIER" to "2"  
 >     set "BUILD ARCHIVE CHOICE" to "virgin"  
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "WORDPRESS"
@@ -88,7 +86,6 @@ and complete the installation of Wordpress. When you are putting the credentials
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "WEBSITE DISPLAY NAME" to "My Drupal Demo" 
 >     set "APPLICATION" to "drupal"   
->     set "APPLICATION IDENTIFIER" to "3"  
 >     set "DRUPAL VERSION" set it to the latest version of drupal for example, "10.0.10" 
 >     set "BUILD ARCHIVE CHOICE" to "virgin"   
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
@@ -195,7 +192,6 @@ NOTE: If you get any error messages from the Drupal CMS once it is installed you
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "WEBSITE DISPLAY NAME" to "My Moodle Demo"  
 >     set "APPLICATION" to "moodle"  
->     set "APPLICATION IDENTIFIER" to "4"  
 >     set "BUILD ARCHIVE CHOICE" to "virgin"  
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "MOODLE"   
@@ -233,7 +229,6 @@ This is just a sample virgin joomla install there's no sample data or anything i
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Joomla Installation"  
 >     set "APPLICATION" to "joomla"  
->     set "APPLICATION IDENTIFIER" to "1"  
 >     set "BASELINE DB REPOSITORY" to "joomla5.2.5-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "joomla5.2.5-webroot-sourcecode-baseline"
 
@@ -252,7 +247,6 @@ This is a sample virgin wordpress installation from baselined repositories.
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Wordpress Installation"  
 >     set "APPLICATION" to "wordpress"  
->     set "APPLICATION IDENTIFIER" to "2"  
 >     set "BASELINE DB REPOSITORY" to "wordpress6.8.2-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "wordpress6.8.2-webroot-sourcecode-baseline"
 
@@ -272,7 +266,6 @@ This is a sample virgin drupal installation from baselined repositories.
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Drupal Installation"  
 >     set "APPLICATION" to "drupal"  
->     set "APPLICATION IDENTIFIER" to "3"  
 >     set "BASELINE DB REPOSITORY" to "drupal11.1.7-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "drupal11.1.7-webroot-sourcecode-baseline"
 
@@ -296,7 +289,6 @@ This is a sample virgin moodle installation from baselined repositories.
 >     set "The number (1, 2 or 3) of the template you are using" to "2"  
 >     set "The Display name for your website e.g. My Demo Website" to "My Vanilla Moodle Installation"  
 >     set "APPLICATION" to "moodle"  
->     set "APPLICATION IDENTIFIER" to "4"  
 >     set "BASELINE DB REPOSITORY" to "moodle5.0-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "moodle5.0-webroot-sourcecode-baseline"
 
