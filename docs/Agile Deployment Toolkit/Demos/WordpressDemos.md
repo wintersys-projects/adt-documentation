@@ -14,6 +14,5 @@ This is just a sample wordpress template with some sample data installed which w
  
 >     set "The Display name for your website e.g. My Demo Website" to "My Wordpress Demo"  
 >     set "APPLICATION" to "wordpress"  
->     set "APPLICATION IDENTIFIER" to "2"  
 >     set "BASELINE DB REPOSITORY" to "wordpressdemo-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "wordpressdemo-webroot-sourcecode-baseline" 
