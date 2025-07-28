@@ -18,7 +18,10 @@ This will give you your **public** key which we will refer to again, later on.
 
 --------------------
 	
-2) Paste a copy of the script: [Initial Script](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh) into an open text file on your laptop. 
+2) Paste a copy of the script: [Initial Script](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh) into an open text file on your laptop.
+
+
+- **QUICK DEMO BUILD STYLE**: Get copy of [this](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/quickdemo/templates/vultr/vultr.tmpl). Modify the variables marked "CUSTOMISE ME" to be specific to you and then follow [this](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Demos/CustomisedDemos) applying the override set you want to the template user data script you just made a copy of. You then just follow the same process as for deploying a simple build process as described below but a sever fleet will build out automatically according to the values you have set in the user-data script you just copied. 
 
 ------------------
 	
