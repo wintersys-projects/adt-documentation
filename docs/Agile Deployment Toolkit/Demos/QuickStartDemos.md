@@ -48,6 +48,8 @@ then do a
 
 If you want to try further demos other than just our default one click [here](./CustomisedDemos.md). You might want to reference [Understanding StackScript overrides](./ExampleStackScriptOverride.md)
 
+NOTE: These demos can also be deployed using the user-data area of a new linode that you are provisioning. You can do that by taking a copy of [this](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/quickdemo/templates/linode/linode.tmpl) file and modifying the variables marked "####CUSTOMISE ME####"as you modified to the same values as you would modify them to in the Stack Script. Once you have modified your vaiables as per the demo you want to deploy, you can follow [this] process to deploy your machines but replacing the "Hardcore Script" that is being pasted into the user-data area with the customised script you have just created here.  
+
 
 
 
