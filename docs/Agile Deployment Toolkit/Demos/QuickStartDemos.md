@@ -53,9 +53,9 @@ If you want to try further demos other than just our default one click [here](./
 With the slight modification of following the step that says "Quick Demo" or "if you are making Quick Demo deployment" you can achieve the same thing as you have achieved using a StackScript but with a "UserData" script instead. UserData scripts have the disadvantage of being more complex to look at but the advantage of being platform independent. 
 
 [DigitalOcean](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/digitalocean/buildmachine/)  
-[Exoscale](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/exoscale/build-machine/)  
-[Linode](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/linode/build-machine/)
-[Vultr](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/vultr/build-machine/)  
+[Exoscale](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/exoscale/buildmachine/)  
+[Linode](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/linode/build-machine/)  
+[Vultr](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/vultr/buildmachine/)  
 
 
 
