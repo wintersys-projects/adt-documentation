@@ -55,8 +55,8 @@ If you follow [this](https://www.wintersys-projects.uk/Agile%20Deployment%20Tool
 ## DEPLOYING THESE DEMOS USING CLOUD-INIT ON OTHER PROVIDERS
 
 [DigitalOcean](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/digitalocean/buildmachine/)  
-[Exoscale](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/exoscale/build-machine)  
-[Vultr](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/vultr/build-machine)  
+[Exoscale](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/exoscale/build-machine/)  
+[Vultr](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/vultr/build-machine/)  
 
 
 
