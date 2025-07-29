@@ -50,7 +50,7 @@ If you want to try further demos other than just our default one click [here](./
 
 ## USING CLOUD-INIT TO DEPLOY THESE DEMOS
 
-If you follow [this](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/linode/build-machine) it will show you how to deploy these demos using user-data rather than stack script (which is platform independent). You can follow [here](./CustomisedDemos.md) applying the mods to the cloud-init/user data script suggested rather than to the StackScript. 
+If you follow [this](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/linode/build-machine) it will show you how to deploy these demos using user-data scripts rather than a Stackscript (which is platform dependent). You can then follow [here](./CustomisedDemos.md) applying the mods to your "cloud-init/user data" script and end up with the same result as if you use a Stackscript.
 
 
 
