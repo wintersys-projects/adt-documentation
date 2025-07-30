@@ -18,7 +18,7 @@ This will give you your **public** key which we will refer to again, later on.
 
 --------------------
 	
-2) Choose the first option here if you are using an expedited style build and the second option if you are deploying a hardcore type build
+2) Choose the first option here if you are using an expedited style build and the second option if you are deploying a hardcore type build and the third option if you are looking to deploy a quick start demo
    
 - **EXPEDITED BUILD STYLE**: Paste a copy of the script: [Initial Script](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/templateoverrides/OverrideScript.sh) into an open text file on your laptop.
 
