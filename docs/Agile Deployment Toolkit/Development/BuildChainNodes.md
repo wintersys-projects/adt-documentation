@@ -14,4 +14,4 @@ By defining a build chain of "webserver" you can build only a webserver which yo
 
 By defining a build chain of "database" you can build only a database if you wanted some easy way to deploy a database for remote usage. You would have to punch holes in the firewalls (native and os) to be able to access your database from a remote machine(s).  
 
-Further more you as a developer you can define different node types. The current node types are "BuildAutoscaler". "BuildWebsever". "BuildDatabase" but you could also define one, for example, "BuildCaching" and write a script to build out a caching system which you application can use such as by installing redis or memcached on a VPS machine.  
+Further more you as a developer you can define different node types. The current node types are "BuildAuthenticator", "BuildReverseProxy", "BuildAutoscaler". "BuildWebsever". "BuildDatabase" but you could also define one, for example, "BuildCaching" or "BuildEmailServer" and write a script to build out a caching system which you application can use such as by installing redis or memcached on a VPS machine.  
