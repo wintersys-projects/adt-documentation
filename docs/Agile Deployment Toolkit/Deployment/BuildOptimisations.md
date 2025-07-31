@@ -7,4 +7,4 @@ There are several ways that the time to build your servers can be shortened but 
 
 3. You can set your autoscalers, webservers and database machines to build in parallel by setting "INPARALLEL=1" in your template, this will shorten how long a build take by building your servers in parallel. 
 
-4. You can generate snapshots of your machines and make subsequent deployments using the snapshots instead of building from scratch that should give you a speed boost. 
+4. You can [generate snapshots](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Deployment/BuildFromSnapshots/) of your machines and make subsequent deployments using the snapshots instead of building from scratch that should give you a speed boost. 
