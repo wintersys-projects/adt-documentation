@@ -2,7 +2,7 @@ The deployment process is designed as a build chain.
 
 What I mean by this is you can chain together different combinations of "nodes" in the build chain.  
 
-The "standard" buildchain is "autoscaler, webserver, database" and it is expected that most applications will build out that combination of "nodes".  
+The "standard" buildchain is some configured combination of "rerverse proxy, authenticator, autoscaler, webserver, database" and it is expected that most applications will build out that combination of "nodes".  
 
 Using the file 
 
