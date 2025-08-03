@@ -1,4 +1,4 @@
-To add a new webserver type (for example, litespeed) you will need to add or modify the following files:
+To add a new webserver type (for example, litespeed or caddy) you will need to add or modify the following files:
 
 >     adt-autoscaler-scripts/autoscaler/InitialiseCloudInit.sh
 >     adt-autoscaler-scripts/providerscripts/server/cloud-init/*
