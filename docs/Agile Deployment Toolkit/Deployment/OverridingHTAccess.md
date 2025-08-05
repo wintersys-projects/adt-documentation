@@ -7,10 +7,12 @@ Its simple to override the default htaccess file. all you have to do is have you
 So, in the sourcecode repository for my webserver machine to override the default htaccess file for a drupal deployment, I create a file at:
 
 
-${HOME}providerscripts/webserver/configuration/drupal/apache/online/repo/htaccess.conf
+${HOME}/providerscripts/webserver/configuration/drupal/apache/online/repo/htaccess.conf
 
 if I am making a repo style build and 
 
 ${HOME}providerscripts/webserver/configuration/drupal/apache/online/source/htaccess.conf
+
+if I am naking a source style build.
 
 And so if you create a htaccess.conf file in the correct place that will be used as the htaccess file for your current deployment to the apache webserver. 
