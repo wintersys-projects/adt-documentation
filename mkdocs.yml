@@ -3,8 +3,6 @@ site_name: Wintersys Projects
 theme:
   name: readthedocs
   logo: assets/wintersys.png
-#  analytics:
-#    gtag: G-0LG1QFHZ92
 
 extra_css:
  - stylesheets/extra.css
