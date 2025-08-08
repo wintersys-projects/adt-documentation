@@ -24,7 +24,9 @@ not_in_nav: |
   ExampleDemos.md
   ExampleStackScriptOverride.md
 
-
+plugins:
+  - privacy
+  
 #extra:
 #  generator: false
 #  analytics:
