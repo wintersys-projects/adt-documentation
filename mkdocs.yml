@@ -5,6 +5,8 @@ theme:
   logo: assets/wintersys.png
   highlightjs: true
   hljs_style: obsidian
+  hljs_languages:
+    - bash
 
 extra_css:
  - stylesheets/extra.css
