@@ -3,6 +3,8 @@ site_name: Wintersys Projects
 theme:
   name: readthedocs
   logo: assets/wintersys.png
+  palette:
+    primary: deep orange
 
 extra_css:
  - stylesheets/extra.css
