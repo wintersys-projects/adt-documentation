@@ -15,7 +15,7 @@ and
 
 settings in your template.
 
-- If you are deploying a virgin website installation or a baseline website installation then **PERIST_ASSETS_TO_CLOUD** should always be 0.
+- If you are deploying a virgin website installation or a baseline website installation then **PERIST_ASSETS_TO_DATASTORE** should always be 0.
 
 - If you are deploying from a temporal backup then **PERSIST_ASSETS_TO_DATASTORE** can be 1.
 
