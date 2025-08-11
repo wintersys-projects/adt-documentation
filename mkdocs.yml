@@ -1,7 +1,7 @@
 site_name: Wintersys Projects
 
 theme:
-  name: gitbook
+  name: readthedocs
   logo: assets/wintersys.png
 
 extra_css:
