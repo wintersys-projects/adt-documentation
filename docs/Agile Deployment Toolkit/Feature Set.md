@@ -22,7 +22,7 @@
 
 * Several supported application types - Joomla, Wordpress, Drupal, Moodle and with a little work, further application types can be added
 
-* Built with general extensibility in mind so that scripts are easy to extend
+* Built with general extendability in mind so that the core scripts are easy to extend
 
 * Free to use, free to extend
 
