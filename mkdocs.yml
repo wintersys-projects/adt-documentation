@@ -4,7 +4,7 @@ theme:
   name: mkdocs
   logo: assets/wintersys.png
   palette:
-    accent: orange
+    primary: orange
 
 extra_css:
  - stylesheets/extra.css
