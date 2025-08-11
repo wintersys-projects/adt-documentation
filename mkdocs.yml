@@ -4,7 +4,7 @@ theme:
   name: readthedocs
   logo: assets/wintersys.png
   highlightjs: true
-  hljs_style: googlecode
+  hljs_style: github
   hljs_languages:
     - bash
 
