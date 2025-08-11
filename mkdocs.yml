@@ -1,7 +1,7 @@
 site_name: Wintersys Projects
 
 theme:
-  name: readthedocs
+  name: material
   logo: assets/wintersys.png
 
 extra_css:
