@@ -1,7 +1,7 @@
 site_name: Wintersys Projects
 
 theme:
-  name: material
+  name: gitbook
   logo: assets/wintersys.png
 
 extra_css:
