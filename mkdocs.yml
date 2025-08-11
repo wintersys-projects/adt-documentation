@@ -4,7 +4,7 @@ theme:
   name: readthedocs
   logo: assets/wintersys.png
   highlightjs: true
-  hljs_style: github-dark
+  hljs_style: rainbow
 
 extra_css:
  - stylesheets/extra.css
