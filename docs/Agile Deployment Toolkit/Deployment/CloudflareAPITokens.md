@@ -12,10 +12,10 @@ The account ID is: **8bbdhjf84jfbdu8gfhb4i8fjbndkk92**
 
 What you now need to do is in your template provide the account ID and the token you have generated as the DNS_SECURITY_KEY setting in your template. The way you do this is by going to your template and setting
 
->     DNS_SECURITY_KEY="\<account-id\>:\<api-token\>"
+>     DNS_SECURITY_KEY="\<account-id\>:::\<api-token\>"
 
 In our case this will be:
 
->     export DNS_SECURITY_KEY="8bbdhjf84jfbdu8gfhb4i8fjbndkk92:EJUj0k4faJxERLyLUwEJ00lxwqw8et6olUi2a-x3"
+>     export DNS_SECURITY_KEY="8bbdhjf84jfbdu8gfhb4i8fjbndkk92:::EJUj0k4faJxERLyLUwEJ00lxwqw8et6olUi2a-x3"
 
-You need to make sure you provide both your account ID and your API token separated by a ':' and the toolkit will unpack both and use them for its needs
+You need to make sure you provide both your account ID and your API token separated by ':::' and the toolkit will unpack both and use them for its needs
