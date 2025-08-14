@@ -11,14 +11,11 @@ So, the security of this approach relies on the fact that because you have issue
 
 If you are running a web property the suggestion is that you can run your own mailserver through which you can grant custom domain email addresses or you use  something like "cloudflare email routing" to redirect your custom domain email address messages to the users day to day email inbox. 
 
-An advantage to this approach is that its direct and so user requests are not proxied through a third party. If you want a possibly clearer solution, in other words, your users dont have the understanding that a timeout is likely equivalent to an IP address change on their device. Depending on your use case you might need to have a separate domain for your user email addresses in which case you will need to set two parameters in your template:
+An advantage to this approach is that its direct and so user requests are not proxied through a third party. If you want a possibly clearer solution, in other words, your users dont have the understanding that a timeout is likely equivalent to an IP address change on their device you could use cloudflare zero trust. Depending on your use case you might need to have a separate domain for your user email addresses in which case you will need to set two parameters in your template:
 
-AUTHENTICATION_SERVER (which can be '1' if you want an authentication server in your build chain and '0' if you don't).
-USER_EMAIL_DOMAIN - wintersys-mail.uk (for example)
+Its up to you but you could use cloudflare (or an equivalent service) to proxy (and therefore protect) your authentication server. This toolkit supports your authentication server using a different DNS solution to what your main application uses. So, you can configure things so that your authentication server DNS is routed through  cloudflare and your application itself uses "linode DNS" (for example). You can also use this system deploying the ufw or iptables but no modifications are made to the VPC firewall that can be configured using the GUI system of your cloudhost provider. In other words, "the VPC firewall" is open to all requests to (for example, port 443) and its the iptables or ufw firewall on the server machines that blocks or limits the requests to specific ip addresses. 
 
-Its up to you but you could use cloudflare (or an equivalent service) to proxy (and therefore protect) your authenrication server. The toolkit supports your authentication server using a different DNS solution to what your main application uses. So, you can configure things so that your authentication server DNS is routed through  cloudflare and your application itself uses "linode DNS" (of example). You can also use this system deploying the ufw or iptables but no modifications are made to the VPC firewall that can be configured using the GUI system of your cloudhost provider. In other words, "the VPC firewall" is open to all requests to (for example, port 443) and its the iptables or ufw firewall on the server machines that blocks or limits the requests to specific ip addresses. 
-
-Behind the scenes then, this is what happens, there needs to be some awareness on the part of the user for this mechanism to work.
+To reiterate behind the scenes then, this is what happens, there needs to be some awareness on the part of the user for this mechanism to work.
 
 NOTES:
 
