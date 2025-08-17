@@ -17,7 +17,7 @@ Its up to you but you could use cloudflare (or an equivalent service) to proxy (
 
 To reiterate behind the scenes then, this is what happens, there needs to be some awareness on the part of the user for this mechanism to work.
 
-NOTES:
+**NOTES:**  
 
 This solution then is intended to block all access to your webproperty for anyone that you don't know (including bots and so on)
 The user does need to have some knowledge because as far as I know there is no way to tell them "you need to go to the auth server" if when they try to connect to the web property and there is a timeout because the firewall is active and blocking them.
