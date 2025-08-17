@@ -1,9 +1,9 @@
 If you wanted to you could probably provide similar function to what I am describing here by integrating something like "netbird" zero trust or "netmaker" zero trust or "twingate" but the easiest and most efficient (in terms of effort) way to provide zero trust is what I am presenting here. I know that controlling access to servers using ip addresses is not recommended best practice but it could still be useful for you if you only want a limited set of ip addresses to be able to access your web property such as during development and so on. The way this works is a 3 step process
 
-1. Every user of the system is required to have an email address with your custom domain which you control allocation of. So, a bloke called Andy might have an email address which you have given him "andy@wintersys.uk".
+1. Every user of the system is required to have an email address with your custom domain which you control allocation of. So, a bloke called Andy might have an email address which you have given him "andy@mail.wintersys.uk".
 2. If the user tries to go directly to your main website "www.wintersys.uk" they will get a timeout because all ip addresses are firewalled off. 
-2. Following the timeout, the user of your web property goes to an authentication page such as "auth.wintersys.uk" and there they are asked to enter their custom domain email address that you have given them, for example, "andy@wintersys.uk". 
-3. An email is then generated and sent to "andy@wintersys.uk" with a link which will expire in 5 minutes that your customer can click and that will direct them to another page which says, "please enter the ip address of your laptop"
+2. Following the timeout, the user of your web property goes to an authentication page such as "auth.wintersys.uk" and there they are asked to enter their custom domain email address that you have given them, for example, "andy@mail.wintersys.uk". 
+3. An email is then generated and sent to "andy@mail.wintersys.uk" with a link which will expire in 5 minutes that your customer can click and that will direct them to another page which says, "please enter the ip address of your laptop"
 4. The user goes to www.whatsmyip.com and gets the ip address of their laptop and enters (correctly) into the form and clicks submit.
 5. After 10 seconds or so, their laptop ip will be allowed through the firewall of your main web property and they will have been granted access.
 
