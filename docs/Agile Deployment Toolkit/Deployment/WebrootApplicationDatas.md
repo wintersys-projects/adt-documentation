@@ -31,3 +31,13 @@ To be clear, you could probably get away with using MySQL and MariaDB interchang
 
 The database prefix is written to this file so we can easily see which database prefix was set when this application was baselined which means we expect the database to have tables prefixed with the same prefix
 
+-------------
+
+**/var/www/html/dbt.dat**
+
+This is necessary for drupal based application deployments and can be set to:
+
+- "SOCIAL_DRUPAL" - if you are deploying Opensocial
+- "CMS_DRUPAL" - if you are deploying Drupal CMS
+- "DRUPAL" - If you are deploying regular Drupal
+
