@@ -19,7 +19,9 @@ Run the script RemoveApplicationBranding.sh passing the website URL of your orig
 
 >     /bin/sh ./RemoveApplicationBranding.sh www.nuocial.uk /home/bob/scratch
 
-- Make sure dba.dat dbe.dat and dbp.dat (and for moodle dbt.dat) files are present and correct and remove any configuration files for example /home/bob/scratch/configuration.php for joomla or /home/bob/scratch/wp-config.php for wordpress
+- Make sure dba.dat dbe.dat and dbp.dat (and for drupal dbt.dat) files are present and correct you can read more [here](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Deployment/WebrootApplicationDatas).
+
+- Remove any configuration files for example /home/bob/scratch/configuration.php for joomla or /home/bob/scratch/wp-config.php for wordpress
 
 - Create a private repository with your git provider
 
