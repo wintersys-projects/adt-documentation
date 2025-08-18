@@ -12,7 +12,7 @@ IF YOU ARE DEPLOYING TO THE SAME DOMAIN NAME AS YOU PREVIOUSLY WERE, YOU CAN SKI
 >     website_url="${1}"
 >     working_directory="${2}"
 >     
->     root_domain="`/bin/echo ${website_url} | /usr/bin/awk -F'.' '{$1=""}1' | /bin/sed 's/^ //g' | /bin/sed 's/ /./g'`"
+>     root_domain="`/bin/echo ${website_url} | /usr/bin/awk -F'.' '{$1=""}1' | /bin/sed -e 's/^ //g' -e 's/ /./g'`"
 >     
 >     /usr/bin/find ${working_directory} -type f -exec sed -i -e "s/${website_url}/applicationdomainwww.tld/g" -e "s/${root_domain}/applicationrootdomain.tld/g" {} \;
  
@@ -48,7 +48,7 @@ IF YOU ARE DEPLOYING TO THE SAME DOMAIN NAME AS YOU PREVIOUSLY WERE, YOU CAN SKI
 >     
 >     website_url="${1}"
 >     
->     root_domain="`/bin/echo ${website_url} | /usr/bin/awk -F'.' '{$1=""}1' | /bin/sed 's/^ //g' | /bin/sed 's/ /./g'`"
+>     root_domain="`/bin/echo ${website_url} | /usr/bin/awk -F'.' '{$1=""}1' | /bin/sed -e 's/^ //g' -e 's/ /./g'`"
 >    
 >     /bin/sed -i "s/${website_url}/www.applicationdomain.tld/g" ./applicationDB.sql|.psql
 >     /bin/sed -i "s/@${root_domain}/@applicationdomain.tld/g" ./applicationDB.sql|.psql
