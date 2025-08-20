@@ -19,5 +19,4 @@ LIGHTTPD:
 
 ![LIGHTTPD](./images/ssl3.png)
 
-In other words, the look pretty much equivalent. There might be some additional steps that could bump up the minor blemishs on key exchange   
-and cipher strength but I didn't go that far.   
+In other words, the look pretty much equivalent. There might be some additional steps that could bump up the minor blemishs on "key exchange" and "cipher strength" but I didn't go that far.   
