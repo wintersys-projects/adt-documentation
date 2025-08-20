@@ -9,7 +9,14 @@ I tested the configurations I provided for rudimentary security validation using
 
 APACHE:  
 
+![APACHE](./images/ssl2.png)
+
 NGINX:  
 
+![NGINX](./images/ssl1.png)
+
 LIGHTTPD:  
+
+![LIGHTTPD](./images/ssl3.png)
+
 
