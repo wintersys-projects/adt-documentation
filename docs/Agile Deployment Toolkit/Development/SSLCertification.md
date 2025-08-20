@@ -1,6 +1,6 @@
 You are welcome to alter the configurations of the webserver that you deploy. You will find the files to do that under
 
-${HOME}/providerscripts/webserver  
+>     ${HOME}/providerscripts/webserver  
 
 and you can just change the configuration files for your webserver of choice to have it deploy according to your taste.   
 You can also have separate confguration sets if you want to deploy different solutions for different operational needs.   
