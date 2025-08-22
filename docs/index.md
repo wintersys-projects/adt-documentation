@@ -17,7 +17,7 @@ More-so, then, the key contribution I wanted to make was to offer a (possible) e
 
 #### AVAILABLE PROJECTS
 
-1. The first Wintersys developed project is the [Agile Deployment Toolkit](<Agile Deployment Toolkit/ADT.md>). The Agile Deployment Toolkit was built as a vounteer without using money (other than the costs of running testing and development servers) and starting from nothing. 
+1. The first Wintersys developed project is the [Agile Deployment Toolkit](<Agile Deployment Toolkit/ADT.md>). The Agile Deployment Toolkit was built as a vounteer without using money (other than the costs of running testing and development servers) and starting from nothing. This project had a bundget of at most $30 a month and me living like a scroungy sewer rat **living for code** to get it this far. 
 
 
 
