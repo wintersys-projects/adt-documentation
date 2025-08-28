@@ -108,7 +108,7 @@ If you see an error message:
 
 "The website encountered an unexpected error. Try again later"   
 
-It is very likely that its because the drupal caching system needs to be rebuilt. Its not an error as such its just thought of as an error because the drupal caching system is in an inconsistent state after a deployment. To remedy this, after the build is complete you need to go to https://<website-url>/core/rebuild.php. This will then refresh/rebuild the drupal caching system and the website should then display properly. If anyone knows a cleaner way of achieving this without the error message appearing I would be interested to know because I am not a drupal or any other CMS expert.
+It is very likely that its because the drupal caching system needs to be rebuilt. Its not an error as such its just thought of as an error because the drupal caching system is in an inconsistent state after a deployment. To remedy this, after the build is complete you need to go to https://\<website-url\>/core/rebuild.php. This will then refresh/rebuild the drupal caching system and the website should then display properly. If anyone knows a cleaner way of achieving this without the error message appearing I would be interested to know because I am not a drupal or any other CMS expert.
 
 **DRUPAL (10.0.10)**  
 
