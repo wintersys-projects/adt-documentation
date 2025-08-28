@@ -20,7 +20,14 @@ This is just a sample joomla install with some sample data installed
  
 >      set "The Display name for your website e.g. My Demo Website" to "My Joomla Demo"  
 >      set "BASELINE DB REPOSITORY" to "joomlademo-db-baseline" 
->      set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "joomlademo-webroot-sourcecode-baseline"  
+>      set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "joomlademo-webroot-sourcecode-baseline"
+
+
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export WEBSITE_DISPLAY_NAME="My Joomla Demo"
+>     export BASELINE DB REPOSITORY="joomlademo-db-baseline" 
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="joomlademo-webroot-sourcecode-baseline"
 
 ---------------------------
 
@@ -36,6 +43,11 @@ This is just a sample joomla install with the astroid framework installed
 >      set "BASELINE DB REPOSITORY" to "astroid-db-baseline" 
 >      set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "astroid-webroot-sourcecode-baseline"   
 
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export WEBSITE_DISPLAY_NAME="My Astroid Demo"
+>     export BASELINE DB REPOSITORY="astroid-db-baseline" 
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="astroid-webroot-sourcecode-baseline"
 
 ----------------------------
 ### Demo 3 (StackScript overrides for an example Joomla Kunena demo)
@@ -50,7 +62,12 @@ This is just a sample joomla install with the kunena forum installed
 >     set "BASELINE DB REPOSITORY" to "kunena-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "kunena-webroot-sourcecode-baseline"   
 
+If you are using the cloud-init method raher than StackScript these you should set
 
+>     export WEBSITE_DISPLAY_NAME="My Kunena Demo"
+>     export BASELINE DB REPOSITORY="kunena-db-baseline" 
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="kunena-webroot-sourcecode-baseline"
+> 
 ----------------------------
 
 ### Demo 4 (StackScript overrides for example Joomlart demos) 
@@ -63,8 +80,16 @@ Password: mnbcxz098321QQZZ
 [Joomlart Purity](https://www.joomlart.com/joomla/templates/ja-purity-iv)
 This is just a sample joomla install with the purity template installed 
 
+>     set "WEBSITE_DISPLAY_NAME" to "My Purity Demo"
 >     set "BASELINE DB REPOSITORY" to "purity-db-baseline" 
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "purity-webroot-sourcecode-baseline"   
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "purity-webroot-sourcecode-baseline"
+
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export WEBSITE_DISPLAY_NAME="My Purity Demo"
+>     export BASELINE DB REPOSITORY="purity-db-baseline" 
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="purity-webroot-sourcecode-baseline"
+> 
 
 OR  
 
@@ -75,8 +100,16 @@ Password: mnbcxz098321QQZZ
 [Joomlart Stark](https://www.joomlart.com/joomla/templates/ja-stark)
 This is just a sample joomla install with the stark template installed 
 
+>     set "WEBSITE_DISPLAY_NAME" to "My Stark Demo"
 >     set "BASELINE DB REPOSITORY" to "stark-db-baseline" 
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "stark-webroot-sourcecode-baseline"  
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "stark-webroot-sourcecode-baseline"
+
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export "WEBSITE_DISPLAY_NAME" to "My Stark Demo"
+>     export BASELINE DB REPOSITORY="stark-db-baseline" 
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="stark-webroot-sourcecode-baseline"
+
 
 OR 
 
@@ -84,8 +117,14 @@ OR
 [Joomlart Campaign](https://www.joomlart.com/joomla/templates/ja-campaign)
 This is just a sample joomla install with the stark template installed 
 
+>     set WEBSITE_DISPLAY_NAME="My Campaign Demo"
 >     set "BASELINE DB REPOSITORY" to "campaign-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "campaign-webroot-sourcecode-baseline"    
 
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export WEBSITE_DISPLAY_NAME="My Campaign Demo"
+>     export BASELINE DB REPOSITORY="campaign-db-baseline" 
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="campaign-webroot-sourcecode-baseline"
 
 Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQZZ"
