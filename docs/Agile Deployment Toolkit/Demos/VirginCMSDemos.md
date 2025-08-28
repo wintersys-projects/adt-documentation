@@ -18,7 +18,17 @@ Once you have performed the mandatory steps above you can action specific demos 
 >     set "JOOMLA VERSION" and set it to the latest version of Joomla for example, "5.1.2"  
 >     set "BUILD ARCHIVE CHOICE" to "virgin"  
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "JOOMLA:5.1.2"  
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "JOOMLA:5.1.2"
+
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export SELECTED_TEMPLATE="1"
+>     export WEBSITE_DISPLAY_NAME="My Joomla Demo"
+>     export APPLICATION="joomla"
+>     export JOOMLA_VERSION="5.1.2"
+>     export BUILD ARCHIVE CHOICE="virgin"
+>     export BASELINE DB REPOSITORY="VIRGIN"
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="JOOMLA:5.1.2" 
 
 ----------------------
 
@@ -57,6 +67,15 @@ You will be prompted to remove the file beginning /var/www/html/installation/_J.
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "WORDPRESS"
 
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export SELECTED_TEMPLATE="1"
+>     export WEBSITE_DISPLAY_NAME="My Wordpress Demo"
+>     export APPLICATION="wordpress"
+>     export BUILD ARCHIVE CHOICE="virgin"
+>     export BASELINE DB REPOSITORY="VIRGIN"
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="WORDPRESS" 
+
 ----------------------
 
 To find what to set your application credentials to ssh onto your new build machine sudo to root and cat the application_credentials.dat file that the build generated as shown below
@@ -92,7 +111,16 @@ and complete the installation of Wordpress. When you are putting the credentials
 >     set "BUILD ARCHIVE CHOICE" to "virgin"   
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:10.0.10"
->
+
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export SELECTED_TEMPLATE="1"
+>     export WEBSITE_DISPLAY_NAME="My Drupal Demo"
+>     export APPLICATION="drupal"
+>     export DRUPAL_VERSION="10.0.10""
+>     export BUILD ARCHIVE CHOICE="virgin"
+>     export BASELINE DB REPOSITORY="VIRGIN"
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="DRUPAL:10.0.10" 
 
 To find what to set your application credentials to ssh onto your new build machine sudo to root and cat the application_credentials.dat file that the build generated as shown below
 
@@ -196,7 +224,18 @@ NOTE: If you get any error messages from the Drupal CMS once it is installed you
 >     set "APPLICATION" to "moodle"  
 >     set "BUILD ARCHIVE CHOICE" to "virgin"  
 >     set "BASELINE DB REPOSITORY" to "VIRGIN"  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "MOODLE"   
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "MOODLE"
+
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export SELECTED_TEMPLATE="1"
+>     export WEBSITE_DISPLAY_NAME="My Moodle Demo"
+>     export APPLICATION="moodle"
+>     export BUILD ARCHIVE CHOICE="virgin"
+>     export BASELINE DB REPOSITORY="VIRGIN"
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="MOODLE" 
+
+
 
 ----------------------
 
@@ -233,6 +272,14 @@ This is just a sample virgin joomla install there's no sample data or anything i
 >     set "APPLICATION" to "joomla"  
 >     set "BASELINE DB REPOSITORY" to "joomla5.2.5-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "joomla5.2.5-webroot-sourcecode-baseline"
+
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export SELECTED_TEMPLATE="2"
+>     export WEBSITE_DISPLAY_NAME="My Vanilla Joomla Installation"
+>     export APPLICATION="joomla"
+>     export BASELINE DB REPOSITORY="joomla5.2.5-db-baseline"
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="joomla5.2.5-webroot-sourcecode-baseline" 
 
 Wait for the application install to have been completed and available at:
 
@@ -271,6 +318,14 @@ This is a sample virgin drupal installation from baselined repositories.
 >     set "BASELINE DB REPOSITORY" to "drupal11.1.7-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "drupal11.1.7-webroot-sourcecode-baseline"
 
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export SELECTED_TEMPLATE="2"
+>     export WEBSITE_DISPLAY_NAME="My Vanilla Drupal Installation"
+>     export APPLICATION="drupal"
+>     export BASELINE DB REPOSITORY="drupal11.1.7-db-baseline"
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="drupal11.1.7-webroot-sourcecode-baseline" 
+
 Wait for the application install to have been completed and available at:
 
 >      https://<dns-url>
@@ -293,6 +348,14 @@ This is a sample virgin moodle installation from baselined repositories.
 >     set "APPLICATION" to "moodle"  
 >     set "BASELINE DB REPOSITORY" to "moodle5.0-db-baseline" 
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "moodle5.0-webroot-sourcecode-baseline"
+
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export SELECTED_TEMPLATE="2"
+>     export WEBSITE_DISPLAY_NAME="My Vanilla Moodle Installation"
+>     export APPLICATION="moodle"
+>     export BASELINE DB REPOSITORY="moodle5.0-db-baseline"
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="moodle5.0-webroot-sourcecode-baseline" 
 
 Wait for the application install to have been completed and available at:
 
