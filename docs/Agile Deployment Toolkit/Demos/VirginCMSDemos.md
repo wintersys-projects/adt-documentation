@@ -106,9 +106,13 @@ and complete the installation of Wordpress. When you are putting the credentials
 
 If you see an error message:  
 
-"The website encountered an unexpected error. Try again later"   
+![](images/drupal-error.png "Drupal Error Screen") 
 
-It is very likely that its because the drupal caching system needs to be rebuilt. Its not an error as such its just thought of as an error because the drupal caching system is in an inconsistent state after a deployment. To remedy this, after the build is complete you need to go to https://\<website-url\>/core/rebuild.php. This will then refresh/rebuild the drupal caching system and the website should then display properly. If anyone knows a cleaner way of achieving this without the error message appearing I would be interested to know because I am not a drupal or any other CMS expert.
+At any point during the installation of a drupal application its very likely becsause the cache is inconsistent. Apart from being unsightly its not a problem or even really an error all you have to do is run  
+
+>     ${BUILD_HOME}/helperscripts/TruncateDrupalCache.sh.   
+
+This will then refresh/rebuild the drupal caching system and the website should then display properly. If anyone knows a cleaner way of achieving this without the error message appearing I would be interested to know because I am not a drupal or any other CMS expert.
 
 **DRUPAL (10.0.10)**  
 
