@@ -22,6 +22,13 @@ Once you have performed the mandatory steps above you can action specific demos 
 >     set "BASELINE DB REPOSITORY" to "opensocial-db-baseline" (with sample data) or "opensocialvanilla-db-baseline" (without sample data)  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "opensocial-webroot-sourcecode-baseline" (with sample data) or "opensocialvanilla-webroot-sourcecode-baseline" (without sample data)
 
+If you are using the cloud-init method raher than StackScript these you should set
+
+>     export WEBSITE_DISPLAY_NAME="My Opensocial Demo"
+>     export APPLICATION="drupal"  
+>     export BASELINE DB REPOSITORY="opensocial-db-baseline" 
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="opensocial-webroot-sourcecode-baseline"
+
 NOTE: If you get any error messages from the Drupal CMS once it is installed you need to "clear all caches" which in my case I can do by going to this URL in my browser:
 
 >     https://www.nuocial.uk/admin/config/development/performance
