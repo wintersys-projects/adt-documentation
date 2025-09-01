@@ -172,16 +172,6 @@ When you build LIGHTTPD from source there will be additional software packages t
 
 If your template is configured to install php  then you can set the php extensions that will be installed here as well as set whether to use a socket of a port for php-fpm (note php-fpm is always installed when you install PHP, you  don't need to explicitly reference php-fpm here).
 
->     cloud-init install technique
-
-When you put this in the buildstyles.dat file it will install cli,simplexml,dom,gd,intl,zip,mysqli,curl  extensions using port 9176. This will install php using cloud-init 
-
->     PHP:cloud-init:cli:simplexml:dom:gd:intl:zip:mysqli:curl|9176
-
-When you put this in the buildstyles.dat file it will install cli,dom,gd,intl,zip,mysqli,curl  extensions using a socket to communicate. This will install php using cloud-init 
-
->     PHP:cloud-init:cli:dom:gd:intl:zip:mysqli:curl|9176
-
 apt-get install technique
 
 When you put this in the buildstyles.dat file it will install soap,mysqli and gd php extensions using port 9176. This will install php using apt-get which means you are free to customise the method of installation if you want to
