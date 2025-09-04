@@ -71,4 +71,6 @@ During a **hardcore build**, you need to
 
 8. >     cd ${BUILD_HOME}/userdatascripts
 
-and copy the script that has been generated and paste it into the user-data of a new VPS machine that will then become your build-machine.   
+and copy the script that has been generated and paste it into the user-data of a new VPS machine that will then become your build-machine.  
+
+NOTE: I called this technique "Hardcore" because you need to have a lot of understanding of the toolkit to make it work properly. If you are deploying from a StackScript on Linode or a cloud-init script on any provider, you might set the SSL certificate provider to ZEROSSL but unless you realise that you need to set the SSL CLIENT to "acme" in the buildstyles.dat file if it is set to "lego" for example you will configure it all and then the build will fail. Possibly the best way to use hardcore build styles if if a) You have detailed knowledge of the toolkit or b) you spend some time figuring out what you want your configuration to be and then maybe having librarires of StackScipts or cloud-init scripts that you can deploy in short order repeatedly. 
