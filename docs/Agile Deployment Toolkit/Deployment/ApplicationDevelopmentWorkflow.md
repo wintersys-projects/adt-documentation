@@ -8,7 +8,7 @@ If you want to have a fully deployed application then the workflow will be as fo
 
 and 
 
->     DIRECTORIES_TO_MOUNT=\<directory name\>
+>     DIRECTORIES_TO_MOUNT=<directory name>
 
 if you want your assets to be persisted to the datastore automatically)
 4. Make a temporal backup of your applications webroot and database (this will most likely be an HOURLY periodicity backup)
