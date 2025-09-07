@@ -2,7 +2,7 @@
 
 >     /usr/bin/git clone https://github.com/wintersys-projects/adt-build-machine-scripts.git
 
-= Setup the approrpiate template with live values for the build that you want:
+- Setup the approrpiate template with live values for the build that you want:
 
 >     ${BUILD_HOME{/templstedconfigurations/templates/\<provider\>
 
