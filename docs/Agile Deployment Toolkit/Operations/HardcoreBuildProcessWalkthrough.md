@@ -1,19 +1,18 @@
-1. On your latop clone the main repository:  
+- On your latop clone the main repository:  
 
 >     /usr/bin/git clone https://github.com/wintersys-projects/adt-build-machine-scripts.git
 
-2. Setup the approrpiate template with live values for the build that you want:
+= Setup the approrpiate template with live values for the build that you want:
 
 >     ${BUILD_HOME{/templstedconfigurations/templates/\<provider\>
 
-3.
 >     cd ./adt-build-machine-scripts/helperscripts
 
-4. run the script GenerateOverrideScript.sh
+- run the script GenerateOverrideScript.sh
 
 >     /bin/sh ./GenerateOverrideScript.sh
 
-5. When you run the script answer the initial questions which would look like this if you were deploying a temporal build template for linode:
+- When you run the script answer the initial questions which would look like this if you were deploying a temporal build template for linode:
 
 >      root@localhost:/home/agile-deployer/adt-build-machine-scripts/helperscripts# sh GenerateOverride.sh
 >      ############################################################################################################
@@ -40,9 +39,9 @@
 
 When you are ready press \<enter\> to review the values that you have set for your build process.
 
-6. Answer all the questions taking the time to review the values that the script is saying are set for your selected template and that they are correct. The second half of the process will give you an option to skip the interactive review process if you are confident that the values set in your selected template are correct and this will make this process faster if you are.
+- Answer all the questions taking the time to review the values that the script is saying are set for your selected template and that they are correct. The second half of the process will give you an option to skip the interactive review process if you are confident that the values set in your selected template are correct and this will make this process faster if you are.
 
-7. Once this script has finished running, you will need to run a second script
+- Once this script has finished running, you will need to run a second script
 
 >     cd ${BUILD_HOME}/helperscripts
 >     /bin/sh GenerateHardcoreUserdata.sh
@@ -51,7 +50,7 @@ When you are ready press \<enter\> to review the values that you have set for yo
 
    You can reiiew this script.
 
-8. What you will then need to do is follow the exact same steps as for the Expedited Build Process described [here](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/doco/AgileToolkitOperations/ExpeditedBuildProcessWalkthrough.md) except for step 1 you paste the script that you generated in step7 
+- What you will then need to do is follow the exact same steps as for the Expedited Build Process described [here](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/doco/AgileToolkitOperations/ExpeditedBuildProcessWalkthrough.md) except for step 1 you paste the script that you generated in step7 
  
 >     ${BUILD_HOME}/userdata/testuserdatascript)
 
