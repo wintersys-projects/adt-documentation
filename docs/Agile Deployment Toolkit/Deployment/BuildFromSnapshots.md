@@ -1,5 +1,7 @@
 BUILDING FROM SNAPSHOTS
 
+**NOTE: Building servers from snapshots is only possible using the Expedited build method the tookit isn't setup for snapshot builds in hardcore mode**
+
 There can be some performance (meaning quicker deployments of, in particular webservers spawned during autoscaling events) if snapshots are pre-prepared and our server instances provisioned using snapshots so I thought I would go over how to use snapshots.
 
 If you deploy your server fleet as you normally would so that you have an autoscaler, webserver and database machine each, then you can make snapshots of those machines, take them offline and then deploy new server machines (including newly provisioned webservers due to autoscaling  events) from snapshots. 
