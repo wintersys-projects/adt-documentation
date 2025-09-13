@@ -44,8 +44,7 @@ I can extract the values for the following variables from template 1 or template
 >     export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY
 >     export APPLICATION_REPOSITORY_PASSWORD="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k4" #MANDATORY
 >     export APPLICATION_REPOSITORY_TOKEN="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k4" #MANDATORY
->     export VPC_IP_RANGE="10.8.96.0/20"
-> 
+ 
 What I then do is adjust  
 
 **/home/wintersys-projects/adt-build-machine-scripts/templatedconfigurations/templates/linode/linode3.tmpl**  
