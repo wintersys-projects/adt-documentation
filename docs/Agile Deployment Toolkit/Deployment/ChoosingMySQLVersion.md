@@ -19,4 +19,10 @@ mysql-server_**9.3.0**-1debian**12**_amd64.deb-bundle.tar
 
 If I don't see one then the build will fail. If I want to install mysql 9.5.0 on debian 13 then I need to see:
 
-mysql-server_**9.5.0**-1debian**13**_amd64.deb-bundle.tar 
+mysql-server_**9.5.0**-1debian**13**_amd64.deb-bundle.tar   
+
+Similarly mysql 9.3.0 on ubuntu 24.04 will mean I need to see
+
+mysql-server_**9.3.0**-1ubuntu**24.04**_amd64.deb-bundle.tar  
+
+on the mysql site
