@@ -11,6 +11,7 @@ The following is the list of buckets that can be created in the datastore during
 >     6. s3://<website-url>-<period>
 >     7. s3://<website-url>-db-<period>
 >     8. s3://<website-url>-snap
+>     9. s3://<website-url>-<dns-choice>-dbaas
 1. This stores user generated application assets. This could grow to a large size based on application usage
 2. This is a backup of the assets. When there is a new deployment of an application domain a backup can be made of existing assets from previous deployments.
 3. This bucket contains a list of laptop IPs which are granted access to the build machine through the firewall.
@@ -19,6 +20,7 @@ The following is the list of buckets that can be created in the datastore during
 6. This is where backups of the webroot of the application is stored for a specific period (hourly, daily and so on)
 7. This is where backups of the db of the application is stored for a specific period (hourly, daily and so on)
 8. This is where snapshot metadata is stored.
+9. This will store the admin username and password for a dbaas database. This means that if you take your servers offline but not your dbaas then you can still connect to the same database on the next deployment iteration because the credentials are persisted across deployments in this bucket
 
 ##### Buckets that are unique to each deployment
 
