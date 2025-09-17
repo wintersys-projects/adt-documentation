@@ -7,10 +7,10 @@ The following is the list of buckets that can be created in the datastore during
 >     2. s3://<website-url>-assets-<asset-type>-backup-$$
 >     3. s3://authip-adt-allowed-<build-machine-ip>
 >     4. s3://<website-url>-multi-region
->     5. s3://<website-url>-ssl
+>     5. s3://<website-url>-<dns-choice>-<ssl-client>-ssl
 >     6. s3://<website-url>-<period>
 >     7. s3://<website-url>-db-<period>
->     8. s3://<website-url>-snap
+>     8. s3://<website-url>--<dns-choice>-snap
 >     9. s3://<website-url>-<dns-choice>-dbaas
 1. This stores user generated application assets. This could grow to a large size based on application usage
 2. This is a backup of the assets. When there is a new deployment of an application domain a backup can be made of existing assets from previous deployments.
