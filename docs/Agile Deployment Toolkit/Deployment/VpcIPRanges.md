@@ -13,3 +13,5 @@ You should check in the GUI system with your provider that you are using the cor
 >     VPC_IP_RANGES for different regions: Amsterdam 10.7.96.0/20 | Paris 10.24.96.0/20 | Frankfurt 10.9.96.0/20 | London 10.8.96.0/20 |Madrid 10.29.96.0/20 | Manchester 10.56.96.0/20 | Stockholm 10.41.96.0/20 | Warsaw 10.27.96.0/20 | Atlanta 10.6.96.0/20 | New York 10.1.96.0/20 | Chicago 10.2.96.0/20 | Dallas 10.3.96.0/20 | Honolulu 10.45.96.0/20 | Los Angeles 10.5.96.0/20 | Mexico City 10.42.96.0/20 | Miami 10.39.96.0/20 | Seattle  10.4.96.0/20 | Silicon Valley 10.12.96.0/20 | Toronto 10.22.96.0/20 | Tokyo 10.25.96.0/20 | Bangalore 10.51.96.0/20 | Delhi 10.52.96.0/20 | Mumbai 10.46.96.0/20 | Osaka 10.55.96.0/20 | Seoul 10.34.96.0/20 | Singapore 10.40.96.0/20 | Tel Aviv 10.50.96.0/20 | Melbourne 10.44.96.0/20 | Sydney 10.19.96.0/20 | Johannesburg 10.49.96.0/20 | Santiago 10.53.96.0/20 | Sao Paulo  10.43.96.0/20
 
 The following image shows the page you should doube check the IP range for the particular VPC you should be using with vultr
+
+![iprange](images/iprange.png)
