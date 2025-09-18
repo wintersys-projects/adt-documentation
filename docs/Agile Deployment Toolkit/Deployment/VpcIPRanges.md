@@ -14,4 +14,4 @@ You should check in the GUI system with your provider that you are using the cor
 
 The following image shows the page you should doube check the IP range for the particular VPC you should be using with vultr
 
-![iprange](,/images/iprange.png)
+!(iprange)[./images/iprange.png]
