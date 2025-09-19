@@ -40,4 +40,6 @@ Please note, for Wordpress, I had to make use of [serfix](https://github.com/ast
 
 >     ${BUILD_HOME}/providerscripts/server/cloud-init/vultr/webserver.yaml
 
+15. Please be aware that no machine name should be longer than 32 characters in total, for example a machine name can be ws-lhr-test-build-1-XgzR-2MMd at most. If a machine name is longer than 32 characters then in some cases things will break because this is a hard limit of the VPS provider for machine names
+
 
