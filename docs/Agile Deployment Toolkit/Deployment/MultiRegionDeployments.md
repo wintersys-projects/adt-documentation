@@ -141,7 +141,7 @@ export USER_EMAIL_DOMAIN=""
 export PRODUCTION="1"  
 export DEVELOPMENT="0"  
 export NO_AUTOSCALERS="1"  
-export NO_REVERSE_PROXY="1"  
+<span style="color:red">export NO_REVERSE_PROXY="1"</span>  
 export AUTHENTICATION_SERVER="0"  
 export BUILD_FROM_SNAPSHOT="0"  
      
@@ -277,7 +277,7 @@ export USER_EMAIL_DOMAIN=""
 export PRODUCTION="1"  
 export DEVELOPMENT="0"  
 export NO_AUTOSCALERS="1"  
-export NO_REVERSE_PROXY="1"  
+
 export AUTHENTICATION_SERVER="0"  
 export BUILD_FROM_SNAPSHOT="0"  
      
