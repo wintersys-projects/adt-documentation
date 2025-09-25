@@ -25,6 +25,7 @@ To support another cloudhost provider (for example, AWS, google cloud, OVH cloud
 >     adt-build-machine-scripts/templatedconfigurations/ValidateTemplate.sh
 >     adt-build-machine-scripts/templatedconfigurations/quick_specification.dat
 >     adt-build-machine-scripts/templatedconfigurations/specification.md
+>     adt-build-machine-scripts/providerscripts/security/ssl/acme/acme-overrides
 
 >     adt-database-scripts/application/db/maria/InstallApplicationDB.sh
 >     adt-database-scripts/installscripts/InstallPackageManager.sh
