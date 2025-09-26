@@ -16,7 +16,7 @@ For more information about parameter configuration please see the [spec](https:/
 
 ## MANDATORY INITIAL CONFIGURATION STEPS 
 THIS WILL INSTALL THE DEFAULT DEMO  
-(please note the very first demo you install may take slightly longer to build because the SSL certificates are being generated and for subsequent deployments, to the same website URL, will be reused which is a faster process)
+(Please note: the very first demo you install may take slightly longer to build because the SSL certificates are being generated and for subsequent deployments, to the same website URL, will be reused which is a faster process)
 
 1. If you are a beginner, follow [here](./QuickStartDemosPrepBeginnerLevel.md)  
 2. If you are an expert, follow [here](./QuickStartDemosPrepExpertLevel.md)
