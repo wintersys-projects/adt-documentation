@@ -6,21 +6,21 @@ The certificate will be generated and installed as part of the build process. Tw
 
 For Letsencrypt you need to set
 
-SSLCERTCLIENT:lego in the configuration file ${BUILD_HOME}/builddescriptors/buildstyles.dat on the build machine
+>     SSLCERTCLIENT:lego in the configuration file ${BUILD_HOME}/builddescriptors/buildstyles.dat on the build machine
 
 and you need to set
 
-export SSL_GENERATION_SERVICE="LETSENCRYPT" in your template
+>     export SSL_GENERATION_SERVICE="LETSENCRYPT" in your template
 
 (be aware that for production standard certificates there are issuance limits and if your build stalls waiting for a certificate to be issued its quite possible that its because you have hit an issuance limit)
 
 For Zerossl you need to set
 
-SSLCERTCLIENT:acme in the configuration file ${BUILD_HOME}/builddescriptors/buildstyles.dat on the build machine
+>     SSLCERTCLIENT:acme in the configuration file ${BUILD_HOME}/builddescriptors/buildstyles.dat on the build machine
 
 and you need to set
 
-export SSL_GENERATION_SERVICE="ZEROSSL" in your template
+>     export SSL_GENERATION_SERVICE="ZEROSSL" in your template
 
 If you set these values correctly the system will try and deploy a certificate that your server can use. If a cerfificate is successfully generated a copy of it will be stored on the filesystem of your buildmachine at:
 
