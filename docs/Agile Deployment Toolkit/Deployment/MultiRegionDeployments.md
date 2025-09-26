@@ -1,4 +1,4 @@
-MULTI REGION DEPLOYMENTS
+### MULTI REGION DEPLOYMENTS
 
 If you want to deploy using multiple regions you will need to set
 
@@ -484,13 +484,13 @@ I then ran a one off apache bench test and here are the results:
 
 ------------------------------
 
-RESILIENCE IN MULTI REGION DEPLOYMENTS
+### RESILIENCE IN MULTI REGION DEPLOYMENTS
 
 In the examples I have given, there is one build machine in one region and all the other regions on different vendors are built from that one build machine. If you want maximum resilience, then, what you need to do is have a build machine for each region that you are deploying to. That way a whole region can be taken offline (whilst other regions are kept online) with no difference in result to the end user. If a region has a problem then it can be swapped out and rebuilt or deployed to a different region if there is a regional issue and so on. This makes the way you are approaching your deployment resilient to regional outages and if you are deploying to different vendors, an outage at a particular provider. 
 
 -------------------------
 
-MULTI REGION DBaaS DEPLOYMENTS 
+### MULTI REGION DBaaS DEPLOYMENTS 
 
 (Not currently supported but could be with some work (and money)- I don't have the money to deploy expensive cross regional databases for testing purposes 30 quid a month is about my budget for this project during its development.
 
@@ -501,19 +501,19 @@ If you really wanted to go to town it might be possible to use "multi region DBa
 
 -----------------------------
 
-RESILIENCE OF AUTHENTICATOR MACHINES IN MULTI-REGION DEPLOYMENTS
+### RESILIENCE OF AUTHENTICATOR MACHINES IN MULTI-REGION DEPLOYMENTS
 
 I only support one active authenticator type server at a time as the simplest design approach. That can seem like a single point of failure, but, what you can do if you don't want to risk that problem is deploy multiple backup authenticator machines in different regions but only have the IP address of one of those machines active at any one time in the DNS system. In other words, you can have "n" authenticator machines running but only "1" active in the DNS system (in other words, only one machine that is accessible by your customers through  DNS lookup).  If your active authenticator machine fails for some reason what you can do is switch over the authenticator machine that is active by altering the DNS record to be your secondary or tertiary authenticator machine whilst you work on resolving the problem with your original authentication machine. This will mean as little disruption as possible for your users. 
 
 --------------------------
 
-AUTHENTICATION SERVER
+### AUTHENTICATION SERVER
 
 You can deploy authentication servers to multiple regions but only the ip address of the authenticator in the primary region will have its ip address added to the DNS system. This is done for design reasons, in other words, you can't have more than one authenticator machine in the DNS system at once. The purpose for having authentications servers which are not used in secondary regions is for resilience. Having only one authentication server in the primary domain is a single point of failure and so by having backup autentication machines in other regions you can swap out the ip of the primary domain authenticator if it has a problem and swap in a secondary domain authenticator which will then do the same job. 
 
 ---------------------------------
 
-MULTI-PROVIDER DATASTORE SYNCING
+### MULTI-PROVIDER DATASTORE SYNCING
 
 I haven't done anything to implement this, but, just to make a mental note that you are likely only relying on one provider as your datastore service and using that samee provider for all datastore activities even in multi-provider deployments.
 If you want complete resilience to catastrophy you might want to consider replicating your datastore buckets from one provider to other providers so that you have backups, for example that are multi-provider resilient.
