@@ -1,4 +1,4 @@
-SSL Certificate Generation Process
+### SSL Certificate Generation Process
 
 When you make a deployment (expedited or hardcore) that includes a webserver then that webserver will require an SSL certificate. 
 
@@ -38,6 +38,6 @@ The webservers themselves will pick up and install the SSL certificate from the 
 
 On subsequent deployments for the same webserver url, the deployment process will make use of the copy of the certificate that is in the datastore which is checked for validity and then installed
 
-SSL Certificate Generation Process
+### SSL Certificate Generation Process
 
 The SSL certificates that are now installed on your webservers have a finite lifespan and so at some point if your servers are running longterm the certificates will need to be renewed/replaced. I use the build machine to coordinate certificate renewal and I do this by using a cronjob running on the build machine to check the age of the certificates that are on the build machine firewall and if they are close to expiring new certificates are issued. This cron job is installed on the build machine as part of the build process but by default it is commented out and so there is an action that you are prompted to do or expected to know about as part of the build process which is that if you want your certificates to be renewed which is to uncomment the appropriate cron task. If your build machine isn't online 24/7, for example, your build machine is run from a portable usb running debian/ubuntu then you will need to take the crontask (which runs nightly) and run it yourself as a command from the command line when at a time when your build machine is online. Each webserver checks on a daily basis for updated SSL certificates in the datastore and if it finds updated certs they are installed on the webserver and the webserver restarted. 
