@@ -91,7 +91,6 @@ Here you will find an expose on the directory structures of the various differen
 
 #### Autoscaler  machines
 
-```${HOME}/runtime/ATOP_RUNNING``` - this flag tells us if ATOP is running or not. We can check any time to see if ATOP is running or not using this flag  
 ```${HOME}/runtime/AUTHORISED_TO_SCALE``` - once the intial scaling is completed after a new autoscaler is provisioned, this flag is set which we can then check for to verify if we can provision new machines or not  
 
 ```${HOME}/runtime/autoscalelock.file``` - this flag is a lock file such that it can be checked to see if an autoscaling cycle is active. If an autoscaling cycle is active then another autoscaling cycle can't be initiated.  
@@ -130,8 +129,6 @@ Here you will find an expose on the directory structures of the various differen
 
 ```${HOME}/runtime/probed_ips/``` - this directory contains probed webserver ips so that we can keep track of which webservers ultimately are OK to keep running and which webservers (for example, failed to respond to a curl command) need to be terminated.
 
-```${HOME}/runtime/UPDATEDSSL``` - This is just a flag that tells us when our SSL certificate has been updated. 
-
 ```${HOME}/autoscaler``` - This directory contains the scripts which provide the autoscaling mechanism and functionality
 
 ```${HOME}/cron``` - This directory contains the scripts relating to cron functionality
@@ -155,8 +152,6 @@ Here you will find an expose on the directory structures of the various differen
 ```${HOME}/runtime/AUTOSCALED_WEBSERVER_ONLINE``` - this flag is set from an autoscler on the current webserver to let us know that this webserver is online and was generated as a scaling event rather than as part of initial infrastructure provisioning  
 
 ```${HOME}/runtime/APPLICATION_DB_GENERATED``` - this flag can be used when an application needs to install its database as part of the build process rather than through interaction with the user. This flag is set when the database is successfully installed. Moodle uses this flag to tell us when the initial database has been installed
-
-```${HOME}/runtime/ATOP_RUNNING``` - this flag tells us if ATOP is running or not. We can check any time to see if ATOP is running or not using this flag 
 
 ```${HOME}/runtime/AUTOSCALED_WEBSERVER_ONLINE``` - this can be set if the current webserver is provisioned through an autoscaling event and is considered to be online and primed
 
@@ -193,8 +188,6 @@ Here you will find an expose on the directory structures of the various differen
 
 ```${HOME}/runtime/sslcertlock.file``` - this is a lock file for generating SSL certificates which must not be present if a new attempt to generate an SSL certificate can proceed. 
 
-```${HOME}/runtime/SSLUPDATED``` - this is set if the SSL certificate has been updated recently
-
 ```${HOME}/runtime/updated_webroot.dat``` - if there are any new files in the webroot their paths are stored here and then they are copied to the datastore for distribution to the other webroots
 
 ```${HOME}/runtime/WEBSERVER_READY``` - this is set if the webserver has completed its initial build
@@ -218,8 +211,6 @@ Here you will find an expose on the directory structures of the various differen
 #### Database Machines
 
 ```${HOME}/runtime/DB_APPLICATION_INSTALLED``` - If this file is present then it means that the system considers an application's data to have been installed into the database from an SQL dump file
-
-```${HOME}/runtime/ATOP_RUNNING``` - this flag tells us if ATOP is running or not. We can check any time to see if ATOP is running or not using this flag  
 
 ```${HOME}/runtime/BUILDCLIENTIP``` - this is a placeholder for the build machine's ip address. It is stored here for convenience.  
 
@@ -287,8 +278,6 @@ Here you will find an expose on the directory structures of the various differen
 ```webroot-update/``` - a holding area that we sync updated webroots to which can then be distributed to other webserver's filesystems keeping all our webroots in sync in short order  
 
 ```ssl/``` - this directory holds information to do with the SSL certificates, including the SSL certificates themselves which can then be distributed to all the webservers once updated on one of them  
-
-```SSLUPDATED``` - this is simply a flag which tells us that an SSL certificate has been updated  
 
 ```dbp.dat``` - the database prefix
 
