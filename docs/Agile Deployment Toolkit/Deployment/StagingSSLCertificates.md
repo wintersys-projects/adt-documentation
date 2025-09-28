@@ -13,3 +13,5 @@ rather than
 >     SSL_LIVE_CERT="0"
 
 which will issue a staging certificate. 
+
+NOTE: Staging certificates are only possible when using Letsencrypt they are not supported for Zerossl
