@@ -114,7 +114,7 @@ So,
   
   cluster-size, as far as I know, can be **1** or **3**  
   
->     2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:postgresql/17:gb-lon:g6-nanode-1:1:test-cluster:testdb1:testdbuser:gdhf76gdfgsh"
+>     2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:postgresql/18:gb-lon:g6-nanode-1:1:test-cluster:testdb1:testdbuser:gdhf76gdfgsh"
   
   db-type="Postgres"
   db-engine="postgresql/17"
@@ -124,7 +124,7 @@ So,
   
   db-type can be **"Postgres"**  
   
-  db-engine can be **"postgresql/13"** or **"postgresql/14"** or **"postgresql/15"** or **"postgresql/16"** or **"postgresql/17"** - at the time of writing you can check what engines are available for you by issuing **"linode-cli databases engines"** command.  
+  db-engine can be **"postgresql/13"** or **"postgresql/14"** or **"postgresql/15"** or **"postgresql/16"** or **"postgresql/17"** or **"postgresql/18"**- at the time of writing you can check what engines are available for you by issuing **"linode-cli databases engines"** command.  
   
   region can be **"linode-cli databases regions"**  
   
