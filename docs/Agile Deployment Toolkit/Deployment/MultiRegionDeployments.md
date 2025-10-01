@@ -77,7 +77,7 @@ export CLOUDHOST_ACCOUNT_ID="demoaccount"  #MANDATORY for Linode - this should b
      
 \######DNS Settings##########  
 export DNS_USERNAME="dnsusername@email.com"  #MANDATORY  
-export DNS_SECURITY_KEY="9aa34568735212367d137dfadf34daa26:H3aYfKLqW4gfJQP1qOPc_jkWPa-QjiodJAL0jCKM"   #MANDATORY  (note you need a API token and account ID here if you use cloudflare)
+export DNS_SECURITY_KEY="9aa34568735212367d137dfadf34daa26:H3aYfKLqW4gfJQP1qOPc_jkWPa-QjiodJAL0jCKM"   #MANDATORY  (note you need a API token and account ID here if you use cloudflare)  
 export DNS_CHOICE="cloudflare" #you will need to set your DNS nameservers according to this choice  
 
 \#####Webserver Settings########  
@@ -213,7 +213,7 @@ export CLOUDHOST_ACCOUNT_ID="demoaccount"  #MANDATORY for Linode - this should b
      
 \######DNS Settings##########  
 export DNS_USERNAME="dnsusername@email.com"  #MANDATORY  
-export DNS_SECURITY_KEY="9aa34568735212367d137dfadf34daa26:H3aYfKLqW4gfJQP1qOPc_jkWPa-QjiodJAL0jCKM"   #MANDATORY  (note you need a API token and account ID here if you use cloudflare)
+export DNS_SECURITY_KEY="9aa34568735212367d137dfadf34daa26:H3aYfKLqW4gfJQP1qOPc_jkWPa-QjiodJAL0jCKM"   #MANDATORY  (note you need a API token and account ID here if you use cloudflare)  
 export DNS_CHOICE="cloudflare" #you will need to set your DNS nameservers according to this choice  
      
 \#####Webserver Settings########  
@@ -348,7 +348,7 @@ export CLOUDHOST_ACCOUNT_ID="testcoders@yahoo.com"  #MANDATORY for Exoscale - th
 
 \######DNS Settings##########  
 export DNS_USERNAME="dnsusername@email.com" #MANDATORY  
-export DNS_SECURITY_KEY="9aa34568735212367d137dfadf34daa26:H3aYfKLqW4gfJQP1qOPc_jkWPa-QjiodJAL0jCKM"   #MANDATORY  (note you need a API token and account ID here if you use cloudflare) 
+export DNS_SECURITY_KEY="9aa34568735212367d137dfadf34daa26:H3aYfKLqW4gfJQP1qOPc_jkWPa-QjiodJAL0jCKM"   #MANDATORY  (note you need a API token and account ID here if you use cloudflare)   
 export DNS_CHOICE="cloudflare" #you will need to set your DNS nameservers according to this choice  
 
 \#####Webserver Settings########  
