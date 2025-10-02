@@ -259,7 +259,7 @@ export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:
 <span style="color:red">export BYPASS_DB_LAYER="1" </span>  
      
 \#####Server Settings #######  
-export REGION="nl-ams"  
+<span style="color:red">export REGION="nl-ams" </span>  
 export DB_SERVER_TYPE="g6-nanode-1"  
 export WS_SERVER_TYPE="g6-nanode-1"  
 export AS_SERVER_TYPE="g6-nanode-1"  
