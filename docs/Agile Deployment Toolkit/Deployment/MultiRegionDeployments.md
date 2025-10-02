@@ -26,8 +26,9 @@ Here I have used one build machine running  in the gb-lon to perform the builds 
 
 #### EXAMPLE 1 (PRIMARY REGION Linode running gb-lon)
 
-Shown below are my template configurations if I want to deploy a primary region of gb-lon and a secondary region of nl-ams for my application on the linode platform.
-You need to take a similar approach with other providers if you want to deploy to multiple regions
+Shown below are my template configurations if I want to deploy a primary region of gb-lon and a secondary region of nl-ams for my application on the linode platform.You need to take a similar approach with other providers if you want to deploy to multiple regions.
+
+For this example, you first need to deploy a build machine in the gb-lon region which you can do by following [this](https://www.wintersys-projects.uk/Agile%20Deployment%20Toolkit/Tutorials/linode/build-machine/)
 
 TEMPLATE FOR THE PRIMARY REGION (gb-lon)
 
