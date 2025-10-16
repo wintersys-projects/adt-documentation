@@ -16,6 +16,8 @@ For more information about parameter configuration please see the [spec](https:/
 
 >     ${BUILD_HOME}/ApplicationCredentials.sh
 
+On your build machine.
+
 ------------------------------
 
 ## MANDATORY INITIAL CONFIGURATION STEPS 
