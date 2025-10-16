@@ -12,6 +12,10 @@ For more information about parameter configuration please see the [spec](https:/
 
 **NOTE2:** The first time you deploy these demos to a specific domain name an SSL certificate will be generated for that domain which can take some time. If you make subsequent deployments if you use the same domain name the same certificates will be reused and the time take for the deployment to be made will be sped up. If you choose a different domain name, then, a new certificate will be generated which will take longer. 
 
+**NOTE3:** A copy of the credentials when you are making a virgin CMS deployment can be found by running 
+
+>     ${BUILD_HOME}/ApplicationCredentials.sh
+
 ------------------------------
 
 ## MANDATORY INITIAL CONFIGURATION STEPS 
