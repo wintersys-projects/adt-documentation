@@ -29,9 +29,11 @@ If you are using the cloud-init method raher than StackScript these you should s
 >     export BASELINE DB REPOSITORY="opensocial-db-baseline" 
 >     export APPLICATION BASELINE SOURCECODE REPOSITORY="opensocial-webroot-sourcecode-baseline"
 
-NOTE: If you get any error messages from the Drupal CMS once it is installed you need to "clear all caches" which in my case I can do by going to this URL in my browser:
+NOTE: If you get an error message "The website encountered an unexpected error. Try again later" from Drupal CMS once it is installed you need to "clear all caches" which you can do by running
 
->     https://www.nuocial.uk/admin/config/development/performance
+>     ${BUILD_HOME}/helperscripts/TruncateDrupalCache.sh
+
+on your new build machine.
 
 ------------------------------
 
