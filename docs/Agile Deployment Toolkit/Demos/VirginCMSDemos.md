@@ -154,9 +154,11 @@ and complete the installation of Wordpress. When you are putting the credentials
 
 ![](images/drupal.png "Drupal Install Screen")  
 
-NOTE: If you get any error messages from the once it is installed you need to "rebuild the drupal cache" which in my case I can do by going to this URL in my browser:
+NOTE: If you get an error message "The website encountered an unexpected error. Try again later" from Drupal CMS once it is installed you need to "clear all caches" which you can do by running
 
->     https://\<dns-url\>/core/rebuild.php
+>     ${BUILD_HOME}/helperscripts/TruncateDrupalCache.sh
+
+on your new build machine.
 
 ------------------
 
@@ -187,9 +189,11 @@ and complete the installation of Opensocial. When you are putting the credential
 
 ![](images/opensocial.png "Opensocial Install Screen") 
 
-NOTE: If you get any error messages from the Drupal Opensocial once it is installed you need to "rebuild the drupal cache" which in my case I can do by going to this URL in my browser:
+NOTE: If you get an error message "The website encountered an unexpected error. Try again later" from Drupal CMS once it is installed you need to "clear all caches" which you can do by running
 
->     https://\<dns-url\>/core/rebuild.php
+>     ${BUILD_HOME}/helperscripts/TruncateDrupalCache.sh
+
+on your new build machine.
 
 ----------------------
 
@@ -223,9 +227,11 @@ and complete the installation of Drupal. When you are putting the credentials yo
 
 ![](images/drupal-cms.png "Drupal CMS Install Screen")  
 
-NOTE: If you get any error messages from the Drupal CMS once it is installed you need to "rebuild the drupal cache" which in my case I can do by going to this URL in my browser:
+NOTE: If you get an error message "The website encountered an unexpected error. Try again later" from Drupal CMS once it is installed you need to "clear all caches" which you can do by running
 
->     https://\<dns-url\>/core/rebuild.php
+>     ${BUILD_HOME}/helperscripts/TruncateDrupalCache.sh
+
+on your new build machine.
 
 ---------------------------
 
@@ -342,9 +348,11 @@ Wait for the application install to have been completed and available at:
 
 >      https://<dns-url>
 
-NOTE: If you get any error messages from the Drupal CMS once it is installed you need to "clear all caches" which in my case I can do by going to this URL in my browser:
+NOTE: If you get an error message "The website encountered an unexpected error. Try again later" from Drupal CMS once it is installed you need to "clear all caches" which you can do by running
 
->     https://<dns-url>/admin/config/development/performance
+>     ${BUILD_HOME}/helperscripts/TruncateDrupalCache.sh
+
+on your new build machine.
 
 -----------------
 
