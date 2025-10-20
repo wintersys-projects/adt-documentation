@@ -91,12 +91,12 @@ So,
   
   If you are using Linode Managed Databases you can set the following in your template override:
   
->     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<engine>:<region>:<machine_type>:<cluster_size>:<cluster_label>:<database_name>:<db_username>:<db_password>:<vpc_id>
+>     DATABASE_DBaaS_INSTALLATION_TYPE="<db-type>:DBAAS:<engine>:<region>:<machine_type>:<cluster_size>:<cluster_label>:<database_name>:<db_username>:<db_password>:<vpc_id>:<subnet_id>"
 >     DATABASE_INSTALLATION_TYPE="DBaaS" 
 
   So two example configurations might be:
   
-    1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb1:testdbuser:gdhf76gdfgsh:266632" 
+    1. DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb1:testdbuser:gdhf76gdfgsh:266632:235421" 
   
   db-type="MySQL"
   db-engine="mysql/8"
@@ -114,7 +114,7 @@ So,
   
   cluster-size, as far as I know, can be **1** or **3**  
   
->     2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:postgresql/18:gb-lon:g6-nanode-1:1:test-cluster:testdb1:testdbuser:gdhf76gdfgsh:266632"
+>     2. DATABASE_DBaaS_INSTALLATION_TYPE="Postgres:DBAAS:postgresql/18:gb-lon:g6-nanode-1:1:test-cluster:testdb1:testdbuser:gdhf76gdfgsh:266632:235421"
   
   db-type="Postgres"
   db-engine="postgresql/17"
