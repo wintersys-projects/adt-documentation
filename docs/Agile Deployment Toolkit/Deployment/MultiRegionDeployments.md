@@ -119,8 +119,8 @@ export EMAIL_NOTIFICATION_LEVEL="ERROR"
      
 \##### Database Settings######  
 export DB_PORT="2035"  
-<span style="color:red">export DATABASE_INSTALLATION_TYPE="DBaaS"</span>   
-<span style="color:red">export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd:436653:234531" </span>   
+<span style="color:red">export DATABASE_INSTALLATION_TYPE="DBaaS"</span>    
+<span style="color:red">export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd:436653:234531" </span>     
 export BYPASS_DB_LAYER="0"    
     
 \#####Server Settings #######  
