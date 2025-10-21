@@ -119,9 +119,9 @@ export EMAIL_NOTIFICATION_LEVEL="ERROR"
      
 \##### Database Settings######  
 export DB_PORT="2035"  
-<span style="color:red">export DATABASE_INSTALLATION_TYPE="DBaaS"</span> 
-<span style="color:red">export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd:436653:234531" </span> 
-export BYPASS_DB_LAYER="0"  
+<span style="color:red">export DATABASE_INSTALLATION_TYPE="DBaaS"</span>   
+<span style="color:red">export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd:436653:234531" </span>   
+export BYPASS_DB_LAYER="0"    
     
 \#####Server Settings #######  
 <span style="color:red"> export REGION="gb-lon"</span>   
@@ -139,10 +139,10 @@ export SYNC_WEBROOTS="0"
 export USER_EMAIL_DOMAIN=""  
      
 \#####Build Settings###### 
-<span style="color:red">export PRODUCTION="1" </span> 
-<span style="color:red">export DEVELOPMENT="0"  </span> 
-<span style="color:red">export NO_AUTOSCALERS="1"  </span> 
-<span style="color:red">export NO_REVERSE_PROXY="1"</span>  
+<span style="color:red">export PRODUCTION="1" </span>   
+<span style="color:red">export DEVELOPMENT="0"  </span>   
+<span style="color:red">export NO_AUTOSCALERS="1"  </span>   
+<span style="color:red">export NO_REVERSE_PROXY="1"</span>   
 export AUTHENTICATION_SERVER="0"  
 export BUILD_FROM_SNAPSHOT="0"  
      
@@ -158,8 +158,8 @@ export VPC_IP_RANGE="10.0.1.0/24"
 <span style="color:red">export VPC_NAME="adt-vpc-gb-lon" </span>  
      
 \#####Multi Region Deployments#####  
-<span style="color:red">export MULTI_REGION="1"</span>  
-<span style="color:red">export PRIMARY_REGION="1"</span>   
+<span style="color:red">export MULTI_REGION="1"</span>   
+<span style="color:red">export PRIMARY_REGION="1"</span>    
 export DBaaS_PUBLIC_ENDPOINT=""  
      
 \#####Build Style#######  
@@ -275,10 +275,10 @@ export SYNC_WEBROOTS="0"
 export USER_EMAIL_DOMAIN=""  
      
 \#####Build Settings######  
-<span style="color:red">export PRODUCTION="1" </span> 
-<span style="color:red">export DEVELOPMENT="0"  </span> 
-<span style="color:red">export NO_AUTOSCALERS="1"  </span> 
-<span style="color:red">export NO_REVERSE_PROXY="1"</span>  
+<span style="color:red">export PRODUCTION="1" </span>   
+<span style="color:red">export DEVELOPMENT="0"  </span>   
+<span style="color:red">export NO_AUTOSCALERS="1"  </span>   
+<span style="color:red">export NO_REVERSE_PROXY="1"</span>    
 export AUTHENTICATION_SERVER="0"  
 export BUILD_FROM_SNAPSHOT="0"  
      
@@ -289,19 +289,19 @@ export SSL_GENERATION_METHOD="AUTOMATIC"
 export SSL_GENERATION_SERVICE="LETSENCRYPT"  
 export SSL_LIVE_CERT="1"  
 export ALGORITHM="ed25519"  
-<span style="color:red">export BUILD_MACHINE_VPC="0" </span>  
+<span style="color:red">export BUILD_MACHINE_VPC="0" </span>    
 export VPC_IP_RANGE="10.0.1.0/24"  
-<span style="color:red">export VPC_NAME="adt-vpc-nl-ams" </span>  
+<span style="color:red">export VPC_NAME="adt-vpc-nl-ams" </span>    
      
 \#####Multi Region Deployments#####  
 <span style="color:red">export MULTI_REGION="1"  </span>  
 <span style="color:red">export PRIMARY_REGION="0" </span>  
-<span style="color:red">export DBaaS_PUBLIC_ENDPOINT="a47568393-akamai-prod-6748387-default.g2a.akamaidb.net" </span>  
+<span style="color:red">export DBaaS_PUBLIC_ENDPOINT="public-a47568393-akamai-prod-6748387-default.g2a.akamaidb.net" </span>  
      
 \#####Build Style#######  
 export INPARALLEL="1"  
           
-<span style="color:red">export BUILD_IDENTIFIER="test-nl-ams"</span>  
+<span style="color:red">export BUILD_IDENTIFIER="test-nl-ams"</span>    
 export CLOUDHOST="linode"  
 
 
