@@ -119,8 +119,8 @@ export EMAIL_NOTIFICATION_LEVEL="ERROR"
      
 \##### Database Settings######  
 export DB_PORT="2035"  
-export DATABASE_INSTALLATION_TYPE="DBaaS"  
-export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd"  
+<span style="color:red">export DATABASE_INSTALLATION_TYPE="DBaaS"</span> 
+<span style="color:red">export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd:436653:234531" </span> 
 export BYPASS_DB_LAYER="0"  
     
 \#####Server Settings #######  
@@ -138,10 +138,10 @@ export USER="root"
 export SYNC_WEBROOTS="0"  
 export USER_EMAIL_DOMAIN=""  
      
-\#####Build Settings######  
-export PRODUCTION="1"  
-export DEVELOPMENT="0"  
-export NO_AUTOSCALERS="1"  
+\#####Build Settings###### 
+<span style="color:red">export PRODUCTION="1" </span> 
+<span style="color:red">export DEVELOPMENT="0"  </span> 
+<span style="color:red">export NO_AUTOSCALERS="1"  </span> 
 <span style="color:red">export NO_REVERSE_PROXY="1"</span>  
 export AUTHENTICATION_SERVER="0"  
 export BUILD_FROM_SNAPSHOT="0"  
@@ -255,8 +255,8 @@ export EMAIL_NOTIFICATION_LEVEL="ERROR"
      
 \##### Database Settings######  
 export DB_PORT="2035"  
-export DATABASE_INSTALLATION_TYPE="DBaaS"  
-export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd"  
+<span style="color:red">export DATABASE_INSTALLATION_TYPE="DBaaS"</span> 
+<span style="color:red">export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd:436653:234531" </span>  
 <span style="color:red">export BYPASS_DB_LAYER="1" </span>  
      
 \#####Server Settings #######  
@@ -275,9 +275,9 @@ export SYNC_WEBROOTS="0"
 export USER_EMAIL_DOMAIN=""  
      
 \#####Build Settings######  
-export PRODUCTION="1"  
-export DEVELOPMENT="0"  
-export NO_AUTOSCALERS="1"  
+<span style="color:red">export PRODUCTION="1" </span> 
+<span style="color:red">export DEVELOPMENT="0"  </span> 
+<span style="color:red">export NO_AUTOSCALERS="1"  </span> 
 <span style="color:red">export NO_REVERSE_PROXY="1"</span>  
 export AUTHENTICATION_SERVER="0"  
 export BUILD_FROM_SNAPSHOT="0"  
