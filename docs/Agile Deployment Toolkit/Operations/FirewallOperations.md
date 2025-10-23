@@ -54,7 +54,7 @@ This is only a first step in the lifecycle of your build machine. Over the cours
 
 To understand the practical steps that you need to go through to allow access to other ip addresses that you trust. The process described is activated by a cron task on the build-machine which calls the script
 
->     ${BUILD_HOME}/providerscripts/security/firewall/TightenBuildMachineFirewall.sh
+>     ${BUILD_HOME}/providerscripts/security/firewall/AdjustBuildMachineFirewall.sh
 
 Which updates the firewall of the build machine for any new ip address that you need to allow access from. With the native firewalling option on the build-machine you will need to update the native firewall to allow access to your friend's ip address manually. 
 
