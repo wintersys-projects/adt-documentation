@@ -2,6 +2,11 @@ For reference the VPC IP RANGES that I used for my sample deployments are shown 
 The ranges that you need to set may vary depending on the region that you deploying to. 
 You should check in the GUI system with your provider that you are using the correct range for your region.
 
+> Example of how to obtain the VPC IP RANGE for digital ocean. I am deploying to the lon1 region and my vpc is called "adt-vpc". So, I need to go to the "networking" menu in the gui system and then click VPC and that will list all my currently active VPC networks as shown in the following image:
+
+![dovpc](./images/dovpc.png)
+
+
 >     Digital Ocean: export VPC_IP_RANGE="10.106.16.0/20"
 >     VPC_IP_RANGES for different regions: AMS2	10.14.16.0/20 | AMS3	10.18.16.0/20 | ATL1	10.50.16.0/20 | BLR1	10.47.16.0/20 | FRA1	10.19.16.0/20 | LON1	10.16.16.0/20 | NYC1	10.10.16.0/20 | NYC2	10.13.16.0/20 | NYC3 10.17.16.0/20 | SFO1	10.12.16.0/20 | SFO2 10.46.16.0/20 | SFO3	10.48.16.0/20 | SGP1 10.15.16.0/20 | SYD1 10.49.16.0/20 | TOR1	10.29.16.0/20
 > 
