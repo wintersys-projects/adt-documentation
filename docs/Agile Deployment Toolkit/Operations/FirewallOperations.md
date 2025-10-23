@@ -64,4 +64,4 @@ If your friend's IP address is 111.111.111.111 and you have allowed that IP addr
 
 [AdjustBuildMachineFirewall](../Deployment/AdjustBuildMachineAccess.md)
 
-Then also add that IP address to the firewalling system that your cloudhost provides and control whether your friend has access or not using the native firewalling system GUI rather than the full "TightenBuildMachineFirewall.sh" process. Is that clear how that is an easier way. In other words, you  only use the TightenBuildMachineFirewall.sh route for initial access to an IP address after that you then control access by allowing or denying in the GUI system of your VPS provider.
+Then also add that IP address to the firewalling system that your cloudhost provides and control whether your friend has access or not using the native firewalling system GUI rather than the full "AdjustBuildMachineFirewall.sh" process. Is that clear how that is an easier way. In other words, you  only use the AdjustBuildMachineFirewall.sh route for initial access to an IP address after that you then control access by allowing or denying in the GUI system of your VPS provider.
