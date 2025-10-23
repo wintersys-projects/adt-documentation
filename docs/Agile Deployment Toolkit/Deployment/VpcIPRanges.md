@@ -37,6 +37,3 @@ Which means my template will need to be set as below
 >     export VPC_IP_RANGE="10.8.96.0/20"
 
 
-The following image shows the page you should doube check the IP range for the particular VPC you are using when deploying with vultr
-
-![iprange](./images/iprange.png)
