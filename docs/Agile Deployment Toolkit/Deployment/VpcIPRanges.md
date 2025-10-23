@@ -2,7 +2,7 @@ For reference the VPC IP RANGES that I used for my sample deployments are shown 
 The ranges that you need to set may vary depending on the region that you deploying to. 
 You should check in the GUI system with your provider that you are using the correct range for your region.
 
-#### Digital Ocean: 
+### Digital Ocean: 
  
 I am deploying to the lon1 region and my vpc is called "adt-vpc". So, I need to go to the "networking" menu in the gui system and then click VPC and that will list all my currently active VPC networks as shown in the following image:
 
@@ -12,13 +12,15 @@ I am deploying to the lon1 region and my vpc is called "adt-vpc". So, I need to 
 
 >     export VPC_IP_RANGE="10.106.16.0/20"
 
-#### Exoscale: 
+### Exoscale: 
 
 >     export VPC_IP_RANGE="10.0.0.0/24"
 
-#### Linode: 
+### Linode: 
 
 >     export VPC_IP_RANGE="10.0.1.0/24"
+
+### Vultr:
 
 >     Vultr: export VPC_IP_RANGE="10.8.96.0/20"
 >     VPC_IP_RANGES for different regions: Amsterdam 10.7.96.0/20 | Paris 10.24.96.0/20 | Frankfurt 10.9.96.0/20 | London 10.8.96.0/20 |Madrid 10.29.96.0/20 | Manchester 10.56.96.0/20 | Stockholm 10.41.96.0/20 | Warsaw 10.27.96.0/20 | Atlanta 10.6.96.0/20 | New York 10.1.96.0/20 | Chicago 10.2.96.0/20 | Dallas 10.3.96.0/20 | Honolulu 10.45.96.0/20 | Los Angeles 10.5.96.0/20 | Mexico City 10.42.96.0/20 | Miami 10.39.96.0/20 | Seattle  10.4.96.0/20 | Silicon Valley 10.12.96.0/20 | Toronto 10.22.96.0/20 | Tokyo 10.25.96.0/20 | Bangalore 10.51.96.0/20 | Delhi 10.52.96.0/20 | Mumbai 10.46.96.0/20 | Osaka 10.55.96.0/20 | Seoul 10.34.96.0/20 | Singapore 10.40.96.0/20 | Tel Aviv 10.50.96.0/20 | Melbourne 10.44.96.0/20 | Sydney 10.19.96.0/20 | Johannesburg 10.49.96.0/20 | Santiago 10.53.96.0/20 | Sao Paulo  10.43.96.0/20
