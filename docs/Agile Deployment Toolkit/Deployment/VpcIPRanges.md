@@ -6,10 +6,9 @@ You should check in the GUI system with your provider that you are using the cor
 
 ![dovpc](./images/dovpc.png)
 
+**If I look for my region (LON1) and my VPC name "adt-vpc" I can see that the VPC IP RANGE that I need is: 10.106.16.0/20**
 
->     Digital Ocean: export VPC_IP_RANGE="10.106.16.0/20"
->     VPC_IP_RANGES for different regions: AMS2	10.14.16.0/20 | AMS3	10.18.16.0/20 | ATL1	10.50.16.0/20 | BLR1	10.47.16.0/20 | FRA1	10.19.16.0/20 | LON1	10.16.16.0/20 | NYC1	10.10.16.0/20 | NYC2	10.13.16.0/20 | NYC3 10.17.16.0/20 | SFO1	10.12.16.0/20 | SFO2 10.46.16.0/20 | SFO3	10.48.16.0/20 | SGP1 10.15.16.0/20 | SYD1 10.49.16.0/20 | TOR1	10.29.16.0/20
-> 
+
 >     Exoscale: export VPC_IP_RANGE="10.0.0.0/24"
 > 
 >     Linode: export VPC_IP_RANGE="10.0.1.0/24"
