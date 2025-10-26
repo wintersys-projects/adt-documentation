@@ -27,7 +27,7 @@ I set my template as:
 
 ### Vultr:
 
-I am deploying to the lon1 region and my vpc is called "adt-vpc". So, I need to go to the "network" menu in the gui system and then click "VPC Networks" and that will list all my currently active VPC networks as shown in the following image:
+I am deploying to the London region and my vpc is called "adt-vpc". So, I need to go to the "network" menu in the gui system and then click "VPC Networks" and that will list all my currently active VPC networks as shown in the following image:
 
 ![vpcvultr](./images/vpcvultr.png)
 
