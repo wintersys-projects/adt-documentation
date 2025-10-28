@@ -10,7 +10,7 @@ The Agile Deployment Toolkit is a power tool for CMS deployments on VPS machines
 
 **Do you want to have consistent security processes baked into your server deployments?**
 
-**Would you like to be able to redeploy to a different (supported) VPS hosting probider easily - within 5 - 10 minutes if needed?**
+**Would you like to be able to redeploy to a different (supported) VPS hosting provider easily - within 5 - 10 minutes if needed?**
 
 **Would you like the ability to be able to extend the toolkit to be able to deploy to any compatible (for example AWS or Google Cloud) VPS provider according to your preference?**
 
