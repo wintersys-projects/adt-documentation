@@ -15,6 +15,10 @@ Which means my template will need to be set as below
 
 ### Exoscale: 
 
+I setup my private network like this:  
+
+![exoscalevpc](images/exoscale-vpc.png)
+
 I set my template as: 
 
 >     export VPC_IP_RANGE="10.0.0.0/24"
