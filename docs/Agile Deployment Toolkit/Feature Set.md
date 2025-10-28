@@ -16,7 +16,7 @@
 
 * Deploy to Ubuntu or Debian with extensibility of the scripts to other flavours of Linux taken into consideration
 
-* Automated "double" backups
+* Automated backups
 
 * Easy inbuilt SMTP configuration for your application
 
