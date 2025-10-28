@@ -25,6 +25,10 @@ I set my template as:
 
 ### Linode: 
 
+I setup my VPC like this:  
+
+![linodevpc](images/linodevpc.png)  
+
 I set my template as: 
 
 >     export VPC_IP_RANGE="10.0.1.0/24"
