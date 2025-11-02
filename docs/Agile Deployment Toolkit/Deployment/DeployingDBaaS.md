@@ -169,8 +169,8 @@ So, two example configurations might be:
   machine-size = vultr-dbaas-hobbyist-cc-1-25-1  
   db-name = testdb  
   db-username = testuser1  
-  db-password = testpassword123
-  cluster-name = TestDatabase  
+  db-password = testpassword123  
+  cluster-name = TestDatabase    
   vpc-id = 2fb13fd1-3145-3127-7132-13f28f1912c1
 
   db-type can be "**MySQL**" or "**Postgres**"   
