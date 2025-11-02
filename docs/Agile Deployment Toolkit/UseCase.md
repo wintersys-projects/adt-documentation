@@ -2,7 +2,7 @@
 
 I designed my tooling with a particular type of use case in mind. 
 
-Say your town has 4 or 5 libraries in it. Maybe you might like to have a fully accessible (as in specifically designed for use by people with disabilities such as sight loss), multi-lingual ready, moderated, validated identity social network that for each library and its catchment area. 
+Say your town has 4 or 5 libraries in it. Maybe you might like to have a fully accessible (as in specifically designed for use by people with disabilities such as sight loss), multi-lingual ready, moderated, validated identity social network for each library and its catchment area. 
 
 The way I would commission a project like that is that I would
 
