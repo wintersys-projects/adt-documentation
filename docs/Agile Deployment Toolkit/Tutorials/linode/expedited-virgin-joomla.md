@@ -89,10 +89,8 @@ You then need to get an access key for your personal github account (you are adv
 
 (your personal access token must have enough privileges to create repositories which means the "administrator" and "contents" options need to be set to read/write. Only setting these two values follows the principle of least privileges) 
 
-![](images/expedited/lin38.png "Exoscale Tutorial Image 38")
-![](images/expedited/lin39.png "Exoscale Tutorial Image 39")
-![](images/expedited/lin40.png "Exoscale Tutorial Image 40")
-![](images/expedited/lin41.png "Exoscale Tutorial Image 41")
+![](images/expedited/lin74.png "Exoscale Tutorial Image 74")
+![](images/expedited/lin75.png "Exoscale Tutorial Image 75")
 
 
 >     linode_github_username="adt-apps" #MANDATORY
