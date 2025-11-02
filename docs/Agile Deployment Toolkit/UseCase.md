@@ -14,4 +14,4 @@ The way I would commission a project like that is that I would
 
 And so that would be just one example usecase that I had a vision for the ADT and there's possibly a lot of other use cases wherever there is a "develop once deploy multiple times" need. 
 
-If you are a charity with a presence in multiple towns then you might like to develop a single application and deploy it to each town in turn. This is the core invoation that I am reaching for here simply the "develop once deploy many times" approach. 
+As another example of how you might make to make use of my  work...if you are a charity with a presence in multiple towns then you might like to develop a single application and deploy it to each town in turn. This is the core invoation that I am reaching for here simply the "develop once deploy many times" approach. 
