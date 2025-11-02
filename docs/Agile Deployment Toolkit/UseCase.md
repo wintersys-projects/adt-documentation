@@ -1,4 +1,4 @@
-USE CASE
+**An example use-case for the ADT**
 
 I designed my tooling with a particular type of use case in mind. 
 
