@@ -13,3 +13,5 @@ The way I would commission a project like that is that I would
 - Once the application is live make it known to the public and to join their local library centred social network, they need to provide proof of ID and proof of address (to show that they are within the catchment area of the specific library) at their library at which point an account is set up for them by library staff with an immutable login and email which they are then responsible for all behaviours of that account. 
 
 And so that would be just one example usecase that I had a vision for the ADT and there's possibly a lot of other use cases wherever there is a "develop once deploy multiple times" need. 
+
+If you are a charity with a presence in multiple towns then you might like to develop a single application and deploy it to each town in turn. This is the core invoation that I am reaching for here simply the "develop once deploy many times" approach. 
