@@ -80,8 +80,8 @@ You then need to get an access key for your personal github account (you are adv
 
 (your personal access token must have enough privileges to create repositories which means the "administrator" and "contents" options need to be set to read/write. Only setting these two values follows the principle of least privileges) 
 
-![](images/expedited/exo53.png "Exoscale Tutorial Image 53")
-![](images/expedited/exo54.png "Exoscale Tutorial Image 54")
+![](images/expedited/exo-53.png "Exoscale Tutorial Image 53")
+![](images/expedited/exo-54.png "Exoscale Tutorial Image 54")
 
 
 >     exoscale_github_username="adt-apps" #MANDATORY
