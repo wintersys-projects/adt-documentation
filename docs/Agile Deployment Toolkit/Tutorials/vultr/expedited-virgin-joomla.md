@@ -89,12 +89,8 @@ You then need to get an access key for your personal github account (you are adv
 
 (your personal access token must have enough privileges to create repositories which means the "administrator" and "contents" options need to be set to read/write. Only setting these two values follows the principle of least privileges) 
 
-![](images/expedited/vultr17.png "Vultr Tutorial Image 17")
-![](images/expedited/vultr18.png "Vultr Tutorial Image 18")
-![](images/expedited/vultr19.png "Vultr Tutorial Image 19")
-![](images/expedited/vultr20.png "Vultr Tutorial Image 20")
-
-
+![](images/expedited/vultr56.png "Vultr Tutorial Image 56")
+![](images/expedited/vultr57.png "Vultr Tutorial Image 57")
 
 >     vultr_github_username="adt-apps" #MANDATORY
 >     vultr_github_key="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k4" #MANDATORY
