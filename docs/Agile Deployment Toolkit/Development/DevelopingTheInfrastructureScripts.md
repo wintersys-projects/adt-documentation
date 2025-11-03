@@ -8,7 +8,7 @@ The workflow is
 1. Edit and or add scripts to **/home/development**
 3. When you are happy with your script alterations, you have two options
 
-- sync the changes you have made to **&#0036;BUILD_HOME**
+- sync the changes you have made to your live **&#0036;BUILD_HOME** area
 - push the changes you have made to your github branch
 
 There are three scripts which help you do this easily they are called  
