@@ -46,7 +46,7 @@ and push the entire contents of your working directory to the repository in a si
 
 ---------------------
 
-DATABASE
+#### DATABASE
 
 - download a copy of a database dump of your website to your laptop and call it (mandatory exact naming don't call it anything else) "applicationDB.sql" for MySQL or "applicationDB.psql" for Postgres
 
