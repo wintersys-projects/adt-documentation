@@ -56,7 +56,7 @@ IF YOU ARE DEPLOYING TO THE SAME DOMAIN NAME AS YOU PREVIOUSLY WERE, YOU CAN SKI
 
 - copy and paste the following shell script to your laptop and call it RemoveApplicationBrandingDB.sh
 
-**NOTE: change this script to be "applicationDB.psql" rather than "applicationDB.sql" if you are migrating a Postgres database to the ADT  
+**NOTE: change this script to be "applicationDB.psql" rather than "applicationDB.sql" if you are migrating a Postgres database to the ADT**  
 
 >     #!/bin/sh
 >     
