@@ -21,7 +21,6 @@ If my fork is under my adt-demos account on github then I will need to change th
 >      export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"  
 >      export INFRASTRUCTURE_REPOSITORY_OWNER="wintersys-projects"  
 >      export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"  
->      export INFRASTRUCTURE_REPOSITORY_PASSWORD="none"  
 
 and change them to:
 
@@ -29,4 +28,3 @@ and change them to:
 >      export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"  
 >      export INFRASTRUCTURE_REPOSITORY_OWNER="adt-demos"  
 >      export INFRASTRUCTURE_REPOSITORY_USERNAME="adt-demos"  
->      export INFRASTRUCTURE_REPOSITORY_PASSWORD="none"  
