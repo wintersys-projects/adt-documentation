@@ -99,7 +99,6 @@ export GIT_EMAIL_ADDRESS="templateduser@dummyemailZ123.com" #MANDATORY
 export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"  
 export INFRASTRUCTURE_REPOSITORY_OWNER="wintersys-projects"  
 export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"  
-export INFRASTRUCTURE_REPOSITORY_PASSWORD="none"  
      
 \###### Application Repository Settings########  
 export APPLICATION_REPOSITORY_PROVIDER="github"   
@@ -235,7 +234,6 @@ export GIT_EMAIL_ADDRESS="templateduser@dummyemailZ123.com" #MANDATORY
 export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"  
 export INFRASTRUCTURE_REPOSITORY_OWNER="wintersys-projects"  
 export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"  
-export INFRASTRUCTURE_REPOSITORY_PASSWORD="none"  
      
 \###### Application Repository Settings########  
 export APPLICATION_REPOSITORY_PROVIDER="github"  
@@ -370,7 +368,6 @@ export GIT_EMAIL_ADDRESS="templateduser@dummyemailZ123.com"
 export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"  
 export INFRASTRUCTURE_REPOSITORY_OWNER="wintersys-projects"  
 export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"  
-export INFRASTRUCTURE_REPOSITORY_PASSWORD="none"  
 
 \###### Application Repository Settings########  
 export APPLICATION_REPOSITORY_PROVIDER="github"  
