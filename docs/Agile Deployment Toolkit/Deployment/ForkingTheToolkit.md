@@ -23,7 +23,6 @@ The infrastructure repositories are located on github and so, to fork them, you 
 >     export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"  
 >     export INFRASTRUCTURE_REPOSITORY_OWNER="wintersys-projects"  
 >     export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"  
->     export INFRASTRUCTURE_REPOSITORY_PASSWORD="none"  
 
 and change them to:
 
@@ -31,7 +30,6 @@ and change them to:
 >     export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"  
 >     export INFRASTRUCTURE_REPOSITORY_OWNER="adt-demos"  
 >     export INFRASTRUCTURE_REPOSITORY_USERNAME="adt-demos"  
->     export INFRASTRUCTURE_REPOSITORY_PASSWORD="none" (provided if needed)
 
 Once you have forked the repositories and updated your build script accordingly, you will be building and deploying off the fork (which you can modify to your hearts desire) rather than the original repositories (which you can't modify, obviously). It's supposed to work this way because you can place whatever configuration you want into your fork for NGINX,APACHE or LIGHTTPD under the directories:   
 
