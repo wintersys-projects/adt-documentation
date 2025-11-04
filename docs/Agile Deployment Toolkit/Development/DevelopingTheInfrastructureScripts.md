@@ -27,10 +27,10 @@ This then is suggested workflow if you want to enhance and alter the build machi
 
 To develop new code for these machine types you have to have a development instance of each machine type running and the structure and process is the same for each machine type as for the build-machine example above. The same helper scripts exist for each machine type and the process is the same independent of which particular machine type you are developing for. As a reminder the three scripts are:
 
-- /usr/sbin/sync - this script will sync your development scripts (/home/development) with your live scripts located at **&#0036;BUILD_HOME**    
+- /usr/sbin/sync - this script will sync your development scripts (/home/development) with your live scripts located at **&#0036;HOME**    
 
 - /usr/sbin/push - this script will push the modifications you have made to your development scripts to your github branch you call this with a commit message - **/usr/sbin/push "commit message 1"**    
 
-- /usr/sbin/push-and-sync - this script will perform the push to git and the sync to the live directories in **&#0036;BUILD_HOME** - **/usr/sbin/push-and-sync "commit message 1"**
+- /usr/sbin/push-and-sync - this script will perform the push to git and the sync to the live directories in **&#0036;HOME** - **/usr/sbin/push-and-sync "commit message 1"**
 
 NOTE: obviously you are not limited to using these scripts to interact with your git provider but I did write these scripts to try and help with what is likely the most common behaviours that are likely to be wanted. 
