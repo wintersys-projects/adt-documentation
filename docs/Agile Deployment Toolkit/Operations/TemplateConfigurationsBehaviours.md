@@ -161,7 +161,6 @@ Set the repositories which hold your infrastructure sourcecode (the adt that hol
 >     export INFRASTRUCTURE_REPOSITORY_PROVIDER="github"
 >     export INFRASTRUCTURE_REPOSITORY_OWNER="wintersys-projects"
 >     export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"
->     export INFRASTRUCTURE_REPOSITORY_PASSWORD="none"
 
 
 #### Objective 17
@@ -171,7 +170,6 @@ Set the repositories which hold your application sourcecode in any template, for
 >     export APPLICATION_REPOSITORY_PROVIDER="github"
 >     export APPLICATION_REPOSITORY_OWNER="adt-demos"
 >     export APPLICATION_REPOSITORY_USERNAME="adt-demos"
->     export APPLICATION_REPOSITORY_PASSWORD="none"
 >     export APPLICATION_REPOSITORY_TOKEN="xxxxx"
 
 ------------------------------------------------------------------------
