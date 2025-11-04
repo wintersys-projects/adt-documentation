@@ -21,6 +21,8 @@ There are three scripts which help you do this easily they are called
 
 This then is suggested workflow if you want to enhance and alter the build machine scripts. You should never push to the main branch but instead to a dev branch and if you want to update the main branch issue a pull request in the GUI system of your git provider
 
+--------------------------
+
 #### DEVELOPING THE AUTOSCALER, WEBSERVER and DATABASE SCRIPTS  
 
 To develop new code for these machine types you have to have a development instance of each machine type running and the structure and process is the same for each machine type as for the build-machine example above. The same helper scripts exist for each machine type and the process is the same independent of which particular machine type you are developing for. As a reminder the three scripts are:
