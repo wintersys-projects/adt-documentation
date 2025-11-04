@@ -104,7 +104,6 @@ export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"
 export APPLICATION_REPOSITORY_PROVIDER="github"   
 export APPLICATION_REPOSITORY_OWNER="adt-apps" #MANDATORY  
 export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY  
-export APPLICATION_REPOSITORY_PASSWORD="github_pat_11BELT3NQ03fCHpjdjn7y3hjdhkf37DHHS8jfh38fjfy3o9qoskfogjJHHJDJkfhskfu3osdjf"  
 export APPLICATION_REPOSITORY_TOKEN="github_pat_11BELT3NQ03fCHpjdjn7y3hjdhkf37DHHS8jfh38fjfy3o9qoskfogjJHHJDJkfhskfu3osdjf"  
      
 \##### System Email Settings#########  
@@ -239,7 +238,6 @@ export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"
 export APPLICATION_REPOSITORY_PROVIDER="github"  
 export APPLICATION_REPOSITORY_OWNER="adt-apps" #MANDATORY  
 export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY  
-export APPLICATION_REPOSITORY_PASSWORD="github_pat_11BELT3NQ03fCHpjdjn7y3hjdhkf37DHHS8jfh38fjfy3o9qoskfogjJHHJDJkfhskfu3osdjf"  
 export APPLICATION_REPOSITORY_TOKEN="github_pat_11BELT3NQ03fCHpjdjn7y3hjdhkf37DHHS8jfh38fjfy3o9qoskfogjJHHJDJkfhskfu3osdjf"  
      
 \##### System Email Settings#########  
@@ -373,7 +371,6 @@ export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"
 export APPLICATION_REPOSITORY_PROVIDER="github"  
 export APPLICATION_REPOSITORY_OWNER="adt-apps" #MANDATORY  
 export APPLICATION_REPOSITORY_USERNAME="adt-apps" #MANDATORY  
-export APPLICATION_REPOSITORY_PASSWORD="github_pat_11BELT3NQ03fCHpjdjn7y3hjdhkf37DHHS8jfh38fjfy3o9qoskfogjJHHJDJkfhskfu3osdjf"  
 export APPLICATION_REPOSITORY_TOKEN="github_pat_11BELT3NQ03fCHpjdjn7y3hjdhkf37DHHS8jfh38fjfy3o9qoskfogjJHHJDJkfhskfu3osdjf"  
 
 \##### System Email Settings#########  
