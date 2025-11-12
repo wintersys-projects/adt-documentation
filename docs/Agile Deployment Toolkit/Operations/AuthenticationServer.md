@@ -7,7 +7,7 @@ If you wanted to you could probably provide similar function to what I am descri
 4. The user goes to www.whatsmyip.com and gets the ip address of their laptop and enters (correctly) into the form and clicks submit.
 5. After 10 seconds or so, their laptop ip will be allowed through the firewall of your main web property and they will have been granted access.
 
-So, the security of this approach relies on the fact that because you have issued the custom domain email addresses and the system requires someone to have one of your custom domain ip addresses before any access is granted you know who the person was that you originally granted access to and so if there is any breach you know who the responsible party is. 
+So, the security of this approach relies on the fact that because you have issued the custom domain email addresses and the system requires someone to have one of your custom domain email addresses before any access is granted you know who the person was that you originally granted access to and so if there is any breach you know who the responsible party is. 
 
 If you are running a web property the suggestion is that you can run your own mailserver through which you can grant custom domain email addresses or you use  something like "cloudflare email routing" to redirect your custom domain email address messages to the users day to day email inbox. 
 
