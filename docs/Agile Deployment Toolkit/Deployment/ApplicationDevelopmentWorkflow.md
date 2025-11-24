@@ -10,8 +10,11 @@ and
 
 >     DIRECTORIES_TO_MOUNT=<directory name>
 
-if you want your assets to be persisted to the datastore automatically). 
-4. Make a temporal backup of your applications webroot and database (this will most likely be an HOURLY periodicity backup). 
-5. Make a full application deployment using the temporal backups created in 4.  
+if you want your assets to be persisted to the datastore automatically).   
+
+4. Make a temporal backup of your applications webroot and database (this will most likely be an HOURLY periodicity backup).
+  
+5. Make a full application deployment using the temporal backups created in 4.
+
 
 NOTE: It may well be the case that another developer or even company performs steps 1 and 2 for you and that you use the baselines they have developed for your own usecase. 
