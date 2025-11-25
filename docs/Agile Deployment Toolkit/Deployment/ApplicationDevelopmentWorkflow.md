@@ -1,3 +1,15 @@
+Rework this
+
+deploy virgin application
+develop your application
+make a baseline of your application
+make a test deployment of your baseline
+make temporal (hourly) backup of the application that you deployed from the baseline with PERSIST_ASSETS_TO_DATASTORE set to off
+you can then deploy from your temporal (hourly) backup with PERSIST_ASSETS_TO_DATASTORE set to on
+
+-----------------------------
+
+
 If you want to have a fully deployed application then the workflow will be as follows:
 
 1. Deploy a virgin copy of your chosen CMS system and develop your application until you are happy with it.
