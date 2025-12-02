@@ -12,7 +12,7 @@ Depending on your application type you might want to place different requirement
 
 This is easy to setup all you have to do is put the following into your template:
 
-DIRECTORIES_TO_MOUNT="merge=images6"
+>     DIRECTORIES_TO_MOUNT="merge=images6"
 
 And so what that will do is it will create 6 buckets if they don't exist mount them to your webservers file system as separate mount points /var/www/images1, for example, and then merge them into a single shared mount point /var/www/html/images
 
@@ -20,8 +20,8 @@ So, there's several layers to that and being backed by S3 it won't be as fast as
 
 So, you might have your setup as following if you want a shared mount
 
-PERSIST_ASSETS_TO_DATASTORE="1"
-DIRECTORIES_TO_MOUNT="merge=images6:media/data"
+>     PERSIST_ASSETS_TO_DATASTORE="1"
+>     DIRECTORIES_TO_MOUNT="merge=images6:media/data"
 
 And that will give you 7 buckets mounted to two mount points. 
 
