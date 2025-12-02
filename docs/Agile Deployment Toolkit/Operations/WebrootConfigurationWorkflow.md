@@ -1,8 +1,4 @@
-Website assets can be treated in a few ways.
 
-1. Use a plugin at an application level to offload assets without using any of what I mention here
-2. Don't offload any assets at an application level and set **SYNC_WEBROOTS** to 1 (this only works if your application doesn't create bontiful asset files)
-3. If you can't use an application plugin for some reason or there isn't a suitable one and you have a large amount of assets you could fall back to what I am describing here which is to have this tooolkit mount assets from your S3 bucket in a way that makes the filesystem look just like a regular filesystem to your application but backed up by your S3 datastore rather than just your hard-disk. 
 
 The most relevant parts of the configuration are the 
 
@@ -14,6 +10,8 @@ and
 >     SYNC_WEBROOTS
 
 settings in your template.
+
+- SYNC_WEBROOTS will exclude the directories your have defined in DIRECTORIES_TO_MOUNT from the syncing process and it is assumed that for such directories the authoritative store is the S3 bucket that is mounted there. 
 
 - If you are deploying a virgin website installation or a baseline website installation then **PERIST_ASSETS_TO_DATASTORE** should always be 0.
 
