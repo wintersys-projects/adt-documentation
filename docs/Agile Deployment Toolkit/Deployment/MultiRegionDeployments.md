@@ -62,7 +62,6 @@ export S3_ACCESS_KEY="JH56HJ78WE4T6U8OO90"
 export S3_SECRET_KEY="Hgdj89K2w3eyrb1289sfjDewjk"  
 export S3_HOST_BASE="nl-ams-1.linodeobjects.com"   
 export S3_LOCATION="US" #For linode, this always needs to be set to "US"  
-export DATASTORE_CHOICE="linode"  
 export DIRECTORIES_TO_MOUNT="images" #This should always be unset for a virgin and baseline deployments  
 export PERSIST_ASSETS_TO_DATASTORE="1" #This should always be set to 0 for a virgin and baseline deployment  
      
@@ -196,7 +195,6 @@ export S3_ACCESS_KEY="JH56HJ78WE4T6U8OO90"
 export S3_SECRET_KEY="Hgdj89K2w3eyrb1289sfjDewjk"  
 export S3_HOST_BASE="nl-ams-1.linodeobjects.com"   
 export S3_LOCATION="US" #For linode, this always needs to be set to "US"  
-export DATASTORE_CHOICE="linode"  
 export DIRECTORIES_TO_MOUNT="images" #This should always be unset for a virgin and baseline deployments  
 export PERSIST_ASSETS_TO_DATASTORE="1" #This should always be set to 0 for a virgin and baseline deployment  
      
@@ -329,7 +327,6 @@ export S3_ACCESS_KEY="GPIJ6HS1MY6LU7QE243V"
 export S3_SECRET_KEY="Ru9aX4oBxK3W1Ga1eTNj4c96SV8AQzsk4p6KXdvT"  
 export S3_HOST_BASE="nl-ams-1.linodeobjects.com"   
 export S3_LOCATION="US" #For linode, this always needs to be set to "US"  
-export DATASTORE_CHOICE="linode"   
 export DIRECTORIES_TO_MOUNT="images" #This should always be unset for a virgin and baseline deployments  
 export PERSIST_ASSETS_TO_DATASTORE="1" #This should always be set to 0 for a virgin and baseline deployment  
 
