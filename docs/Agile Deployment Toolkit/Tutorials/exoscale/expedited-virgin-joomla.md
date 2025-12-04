@@ -129,7 +129,6 @@ export APPLICATION_NAME="Demo Application"
 <span style="color:red">export S3_SECRET_KEY="a3GFn-40ZqEpvEp3bibjOOXchM-IX2lw0JcokCFW7KM"  #MANDATORY</span>   
 export S3_HOST_BASE="sos-ch-gva-2.exo.io"  
 export S3_LOCATION="US" #For exoscale, this always needs to be set to "US"  
-export DATASTORE_CHOICE="exoscale"  
 export DIRECTORIES_TO_MOUNT="" #This should always be unset for a virgin and baseline deployments  
 export PERSIST_ASSETS_TO_DATASTORE="0" #This should always be set to 0 for a virgin and baseline deployment  
      
