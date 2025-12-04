@@ -105,7 +105,6 @@ To enable the datastore you can set the following values appropriately in any of
 >     export S3_SECRET_KEY="yyyyy"
 >     export S3_HOST_BASE="ams3.digitaloceanspaces.com"
 >     export S3_LOCATION="US"
->     export DATASTORE_CHOICE="digitalocean"
 
 --------------------------------------------------------------
 
