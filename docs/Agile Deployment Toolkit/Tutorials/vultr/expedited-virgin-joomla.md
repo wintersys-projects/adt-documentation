@@ -137,7 +137,6 @@ export APPLICATION_NAME="Demo Application"
 <span style="color:red">export S3_SECRET_KEY="eAlmwh3y7eJovZSN/JDJkS7RZrsbdvjvburfr7whs"  #MANDATORY</span>    
 export S3_HOST_BASE="ams1.vultrobjects.com"  
 export S3_LOCATION="US" #For digitalocean, this always needs to be set to "US"  
-export DATASTORE_CHOICE="vultr"  
 export DIRECTORIES_TO_MOUNT="" #This should always be unset for a virgin and baseline deployments  
 export PERSIST_ASSETS_TO_DATASTORE="0" #This should always be set to 0 for a virgin and baseline deployment  
      
