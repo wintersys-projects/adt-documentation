@@ -160,7 +160,7 @@ export VPC_IP_RANGE="10.0.1.0/24"
 export DBaaS_PUBLIC_ENDPOINT=""  
      
 \#####Build Style#######  
-export INPARALLEL="1"  
+export IN_PARALLEL="1"  
 
 <span style="color:red">export BUILD_IDENTIFIER="test-gb-lon"  </span>  
 export CLOUDHOST="linode"  
@@ -293,7 +293,7 @@ export VPC_IP_RANGE="10.0.1.0/24"
 <span style="color:red">export DBaaS_PUBLIC_ENDPOINT="public-a47568393-akamai-prod-6748387-default.g2a.akamaidb.net" </span>  
      
 \#####Build Style#######  
-export INPARALLEL="1"  
+export IN_PARALLEL="1"  
           
 <span style="color:red">export BUILD_IDENTIFIER="test-nl-ams"</span>    
 export CLOUDHOST="linode"  
@@ -426,7 +426,7 @@ export VPC_NAME="adt-vpc"
 
 
 \#####Build Style#######  
-export INPARALLEL="1"  
+export IN_PARALLEL="1"  
 
 export BUILD_IDENTIFIER="test-ch-gva"  
 export CLOUDHOST="exoscale"  
