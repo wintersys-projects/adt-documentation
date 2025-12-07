@@ -226,7 +226,7 @@ export BUILD_MACHINE_VPC="1"
 export VPC_NAME="adt-vpc"  
      
 \#####Build Style#######  
-export INPARALLEL="0"  
+export IN_PARALLEL="0"  
 
 **NOTE:** you can find what the VPC_IP_RANGE should be for your case by looking at:  
 
