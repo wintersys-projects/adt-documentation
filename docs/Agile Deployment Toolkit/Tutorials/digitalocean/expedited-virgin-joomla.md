@@ -221,7 +221,7 @@ export BUILD_MACHINE_VPC="1"
 export VPC_NAME="adt-vpc"  
      
 \#####Build Style#######  
-export INPARALLEL="0"  
+export IN_PARALLEL="0"  
 
 IMPORTANT: Remember to set VPC_IP_RAMGE approptiately. You can get the VPC_IP_RANGE as shown in this image:
 
