@@ -326,7 +326,7 @@ and
 
 To make the machines build in parrallel rather than sequentially, put:
 
->     export INPARALLEL="1"
+>     export IN_PARALLEL="1"
 
 ---------------------------------------------------------------------------------
 
