@@ -227,7 +227,7 @@ export BUILD_MACHINE_VPC="1"
 export VPC_NAME="adt-vpc"  
      
 \#####Build Style#######  
-export INPARALLEL="0"  
+export IN_PARALLEL="0"  
 
 
 If your template looks similar to the one I have provided here with all the fields marked in red having your custom values then you should be ready for deployment
