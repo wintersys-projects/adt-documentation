@@ -118,7 +118,7 @@ export EMAIL_NOTIFICATION_LEVEL="ERROR"
 export DB_PORT="2035"  
 <span style="color:red">export DATABASE_INSTALLATION_TYPE="DBaaS"</span>    
 <span style="color:red">export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd:436653:234531" </span>     
-export BYPASS_DB_LAYER="0"    
+<span style="color:red">export DB_INSTALL_MODE="1"</span>       
     
 \#####Server Settings #######  
 <span style="color:red"> export REGION="gb-lon"</span>   
@@ -251,8 +251,8 @@ export EMAIL_NOTIFICATION_LEVEL="ERROR"
 export DB_PORT="2035"  
 <span style="color:red">export DATABASE_INSTALLATION_TYPE="DBaaS"</span> 
 <span style="color:red">export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd:436653:234531" </span>  
-<span style="color:red">export BYPASS_DB_LAYER="1" </span>  
-     
+<span style="color:red">export DB_INSTALL_MODE="2"</span>       
+
 \#####Server Settings #######  
 <span style="color:red">export REGION="nl-ams" </span>  
 export DB_SERVER_TYPE="g6-nanode-1"  
@@ -383,7 +383,7 @@ export EMAIL_NOTIFICATION_LEVEL="ERROR"
 export DB_PORT="2035"  
 export DATABASE_INSTALLATION_TYPE="DBaaS"  
 export DATABASE_DBaaS_INSTALLATION_TYPE="MySQL:DBAAS:mysql/8:gb-lon:g6-nanode-1:1:test-cluster:testdb:testdbuser:hfhuf83jfhfu73jd"  
-<span style="color:red">export BYPASS_DB_LAYER="1" </span>    
+<span style="color:red">export DB_INSTALL_MODE="2"</span>       
 
 \#####Server Settings #######  
 <span style="color:red">export REGION="ch-gva-2" </span>  
