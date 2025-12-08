@@ -11,7 +11,7 @@ The second value is
 
 **DATABASE_DBaaS_INSTALLATION_TYPE**  
 
-which is described below for each DBaaS provider that is supported. With the **DATABASE_DBaaS_INSTALLATION_TYPE** parameter, you add the configuration qualities of the database you want to be provisioned such as size, region, engine type and so on. If these are all set correctly as part of your build process a managed database according to how you have specified will be provisioned. If a managed database which satisfies the same provisioning is already running and available then a brand new cluster will not be provisioned but rather the existing cluster will be used. You  can keep your managed database running across multiple deployments of your application, but, you  will have to set **"BYPASS_DB_LAYER"** to **"1"** in your template. Please refer to the specification for more information on **"BYPASS_DB_LAYER"**
+which is described below for each DBaaS provider that is supported. With the **DATABASE_DBaaS_INSTALLATION_TYPE** parameter, you add the configuration qualities of the database you want to be provisioned such as size, region, engine type and so on. If these are all set correctly as part of your build process a managed database according to how you have specified will be provisioned. If a managed database which satisfies the same provisioning is already running and available then a brand new cluster will not be provisioned but rather the existing cluster will be used. You  can keep your managed database running across multiple deployments of your application, but, you  will have to set **"DB_INSTALL_MODE"** to **"2"** in your template. Please refer to the specification for more information on **"DB_INSTALL_MODE"**
 
 ### DIGITAL OCEAN
 
