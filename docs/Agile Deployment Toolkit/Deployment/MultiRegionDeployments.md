@@ -454,7 +454,7 @@ If you notice that there's a reverse proxy machine on for each vendor and as the
 
 ![](images/cloudflare-dns.png "Cloudflare DNS Image")
 
-In a live deployment you would most likely want 2 reverse proxies per vendor for resilience. I might as well note here as well that you will see that only exoscale has a DB layer deployed which is a single point of failure (in terms of backups and so on) so in a live system you will most likely want a DB layer on a second region as well, which you can do by setting BYPASS_DB_LAYER to 1 ("1" because the primary domain is active already)
+In a live deployment you would most likely want 2 reverse proxies per vendor for resilience. I might as well note here as well that you will see that only exoscale has a DB layer deployed which is a single point of failure (in terms of backups and so on) so in a live system you will most likely want a DB layer on a second region as well, which you can do by setting DB_INSTALL_MODE to 2 ("2" because the primary domain is active already) although you could also set it to zero but this might leave a single point of failure (in terms of application backups but not in terms of application function)  because you only have the database VPS running in the primary region and not in any of the additional regions.
 
 You can see the DBaaS system on Exoscale has had its ip-filter to allow the database (VPS) machine runnning on the exoscale server fleet (ip address: 185.19.28.170) to have access to the DBaaS system along with all the webserver ip addresses acrosss all the vendors. This list of IP addresses that have been granted access to our DBaaS system (the rest of the world is firewalled off) look as follows showing our 6 ip addresses that have been granted access to the DBaaS system:
 
