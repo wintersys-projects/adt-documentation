@@ -26,7 +26,9 @@ Then you might be interested in the Agile Deployment Toolkit which currently sup
 
 **OBJECTIVE**
 
-The intended objective for developing this toolkit is to be able to deploy large scale social systems consistently, repeatedly and resiliently. These will likely be systems with dynamic data and generally not just static blogs for which other solutions might suit better. For systems with dynamic user interation, the extra horsepower of multiple webserver machines can be useful at scale. 
+The intended objective for developing this toolkit is to be able to deploy large scale social systems consistently, repeatedly and resiliently. These will likely be systems with dynamic data and generally not just static blogs for which other solutions might suit better. For systems with dynamic user interation, the extra horsepower of multiple webserver machines can be useful at scale.   
+
+Most of the effort that I have put into the development of the ADT relates to design and strucuture. In other words, you won't find the most highly optimised nginx or apache configurations shipped with this toolkit but that is basically the point. You can plug and play your own (highly optimised) configurations for webservers easily because of the design decisions that I made.  
 
 -------------
 
