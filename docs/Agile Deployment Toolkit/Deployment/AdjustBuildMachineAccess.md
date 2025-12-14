@@ -63,3 +63,5 @@ if you are ever locked out from your build machine. The build machine is then co
 >     s3://authip-adt-allowed-92-91-154-22/FIREWALL-EVENT
 
 Now review the native firewall called "adt-build-machine" with your cloudhost and allow the additional IP address through the GUI also. 
+
+Techniques such as SSH Knocking  can be used to secure SSH ports which are accessible from the open Internet which you could use if this solution isn't appropriate for you and you want wider accessibility to your machine(s) but what I offer here is simpler than SSH knocking and if you use what I provide here strictly your SSH ports should only ever be accessible from explicit IP addresses and not from any old IP address on the Internet. 
