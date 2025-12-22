@@ -7,7 +7,7 @@
 
 #### Resourcing Request:  
 
-I can explain where my project is by way of an example. A single man can't lift a whole car up off the floor because a car is a 10 man lift. Metaphorically my project is the car and like a car is a multi (strong) man lift so it is that my software project is a multi man lift also. And so the point is, single man lifting a car most likely won't get it to budge, but, with multiple men with the strength to do it can most likely achieve lift off. Anyway, that's my way of conveying that without help from willing brothers this won't be going anywhere. 
+I can explain where my project is by way of an example. A single man can't lift a whole car up off the floor because a car is a 10 man lift. Metaphorically my project is the car and like a car is a multi (strong) man lift so it is that my software project is a multi man lift also. And so the point is, a single man lifting a car most likely won't get it to budge, but, with multiple men with the appropriate strengths can most likely achieve lift off. Anyway, that's my way of conveying that without help from willing brothers this won't be going anywhere. 
 
 #### A bit about the project itself:  
 
