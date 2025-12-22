@@ -213,6 +213,19 @@ You can decide which datastore mount tool to install and how as follows:
 
 -----------------------------------------------------------------
 
+You can set which cloud cli tool to set (obviously you have to be deploying for the corresponding cloudhost)
+
+>     CLOUDCLITOOL:doctl:snap
+>     CLOUDCLITOOL:doctl:binary
+>     CLOUDCLITOOL:linode-cli:pip
+>     CLOUDCLITOOL:linode-cli:snap
+>     CLOUDCLITOOL:exo:repo
+>     CLOUDCLITOOL:exo:source
+>     CLOUDCLITOOL:vultr:binary
+>     CLOUDCLITOOL:vultr:source
+
+------------------------------------------------------------------
+
 If your template is configured to install mariadb you can install it as follows:
 >     MARIADB:cloud-init
 to install the current version
