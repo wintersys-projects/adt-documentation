@@ -269,6 +269,13 @@ You can use ufw or iptables as your firewalling type
 >     FIREWALL:ufw
 >     FIREWALL:iptables
 
+--------------------------------------------------------------------
+
+You can limit the number of connections that are allowed as follows (this helps with preventing denial of service attacks)
+
+>     FIREWALL:ufw:limit
+>     FIREWALL:iptables:20:40
+
 -------------------------------------------------------------------
 How system emails can be sent can be set here:
 
