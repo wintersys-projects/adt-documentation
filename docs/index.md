@@ -3,7 +3,9 @@
 
 #### AVAILABLE PROJECTS
 
-1. [Agile Deployment Toolkit](<Agile Deployment Toolkit/ADT.md>).
+1. [Agile Deployment Toolkit](<Agile Deployment Toolkit/ADT.md>)
+
+This project is 100% natura...no added AI.
 
 #### Resourcing Request:  
 
