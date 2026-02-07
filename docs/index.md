@@ -5,7 +5,7 @@
 
 1. [Agile Deployment Toolkit](<Agile Deployment Toolkit/ADT.md>)
 
-This project is 100% natura...no added AI.
+This project is 100% natural...no added AI.
 
 #### Resourcing Request:  
 
