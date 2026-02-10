@@ -1,11 +1,11 @@
 #### SSL CERTIFICATION
 
-The ADT supports two certificate authorities by default, [LetsEncrypt](https://letsencrypt.org) and [Zerossl](https://zerossl.com) 
-The ADT makes use of two ACME clients, [lego](https://go-acme.github.io/lego) and [acme.sh](https://github.com/acmesh-official/acme.sh)
-The ADT also allows you to supply certificates manually if you wish to choose a different provider or if you want to bring your own certificate.
+The ADT supports two certificate authorities by default, [LetsEncrypt](https://letsencrypt.org) and [Zerossl](https://zerossl.com)   
+The ADT makes use of two ACME clients, [lego](https://go-acme.github.io/lego) and [acme.sh](https://github.com/acmesh-official/acme.sh)  
+The ADT also allows you to supply certificates manually if you wish to choose a different provider or if you want to bring your own certificate.  
 
-The Lego client only supports LetsEncrypt issued certificates because of the need to supply additional parameters for usage with zerossl so the ADT will fall back to the acme.sh client if it is configured to try and issue a certificate from zerossl through  the lego ACME client. 
-The acme.sh client supports LetsEncrypt and ZeroSSL. 
+The Lego client only supports LetsEncrypt issued certificates because of the need to supply additional parameters for usage with zerossl so the ADT will fall back to the acme.sh client if it is configured to try and issue a certificate from zerossl through  the lego ACME client.   
+The acme.sh client supports LetsEncrypt and ZeroSSL.   
 
 The valid configuration combinations are as follows in 
 
