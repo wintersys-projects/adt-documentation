@@ -18,7 +18,7 @@ For the acme.sh client
 
 or 
 
-2. SSLCERTCLIENT:acme:acme.sh  (this will install acme.sh from the website [GetAcme.sh](https://get.acme.sh)
+2. SSLCERTCLIENT:acme:acme.sh  (this will install acme.sh from the website using this script [GetAcme.sh](https://get.acme.sh)
 
 For the lego client
 
