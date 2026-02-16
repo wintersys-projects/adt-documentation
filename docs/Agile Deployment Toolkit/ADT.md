@@ -57,7 +57,7 @@ The Quick start demos below are specifically designed to give you a taste for th
 
 **[Quick Start Demos](<Demos/QuickStartDemos.md>)**  
 **[Deployment Tutorials](<Tutorials/TutorialsMenu.md>)**  
-**[The Specification](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md)**  
+**[The Specification](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md)**
 
 
 ----------------------------------
