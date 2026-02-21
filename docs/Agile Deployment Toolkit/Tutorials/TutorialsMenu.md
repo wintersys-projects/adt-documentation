@@ -1,6 +1,6 @@
 Click the link of the VPS provider you are using to gain access to the tutorials for that provider.
 
-It is recommended that you always have a separate account for your ADT deployments. In other words, if you have a Digital Ocean account for other projects that you set up a second encapsulated Digital Ocean account for use with the ADT so that you don't get the Digital Ocean Spaces that the toolkit will generate entangled and therefore confused with DigitalOcean spaces that you have for other application and likewise with droplets that you have active for other applications in a region you don't want your ADT droplets entangled with droplets for other applications or projects. The same thing is true for all the providers I suport, Linode, Exoscale or Vultr. 
+**The ADT will create and delete buckets in your object storage system as well as provision and destroy servers within your VPS service account. It is HIGHLY recommended that you have a separate account for dedicated use with the ADT with your VPS provider so that the operation of the ADT doesn't get entangled with any other workloads that you have operating from your account. There shouldn't be any interactions between the ADT and your existing workloads but if there is, or were to be, you would be better off with a dedicated account where there's no potential for any confusion**
 
 [Digital Ocean](<./digitalocean/FOLLOW ME.md>)  
 
