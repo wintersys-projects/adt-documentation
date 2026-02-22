@@ -15,10 +15,8 @@ I can explain where my project is at by way of an example. A single man can't li
 
 The Agile Deployment Toolkit was built as a volunteer without using money (other than the costs of running testing and development servers) and starting from nothing. This project had a budget of at most £30 a month and me **living to code** as a challenge to see if I could build something good without using money. The programming (Posix shell basically) wasn't all that difficult but what was extremely difficult was the integration challenge in other words, finding solutions that would fit various providers on the shifting sands of what is relatively new technology. If this is to become established its going to need intense usage from other developers such that all possible integration quirks are erradicated and once that is made so, you might have a powertool on your hands for social network (and other application type) deployments "at scale". 
 
+#### Advisory:
 
-
-
-
-
+The ADT will create and delete buckets in your object storage system as well as provision and destroy servers within your VPS service account. It is HIGHLY recommended that you utilise a newly created account with your VPS provider of choice for dedicated and exclusive use with the ADT so that the operation of the ADT doesn't get entangled with any other workloads that you have operating from your existing account. There shouldn't be any interactions between the ADT and your existing workloads but if there is, or were to be, you would be better off with a dedicated account where there's no potential for any confusion or data loss in the event of an oversight or erroneous execution. For example, the ADT bucket list can need to be cleaned up from time to time and if you run the "CleanupDatastore.sh" script to do this its quite possible that you could inadvertently delete an unrelated bucket if you have buckets in your account that are not ADT related.
 
 [Privacy Policy](https://www.freeprivacypolicy.com/live/24a200af-0b6d-4be5-8bd0-6022ab80ba59)
