@@ -22,6 +22,8 @@ The Agile Deployment Toolkit is a power tool for CMS deployments on VPS machines
 
 **How do you like having total control of your servers without being beholdent to the configuration whims or limitations of a 3rd party hosting provider?**
 
+**Would you like the ability to add in any customisations that you choose to your hosting solution and not be limited by services offerings provided by a third party?**  
+
 Then you might be interested in the Agile Deployment Toolkit which currently supports Joomla, Wordpress, Drupal and Moodle CMS applications and Digital Ocean, Exoscale, Linode and Vultr VPS hosting providers.
 
 ------------
