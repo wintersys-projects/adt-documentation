@@ -2,7 +2,7 @@ AUTHENTICATOR MACHINES
 
 You can deploy an authenticator machine to your current region if you want to require your users to go through initial authentication before they access your web property. Authentication can take place using the following methods. 
 
-1. Firewall based authentication.
+#### 1. Firewall based authentication.
 
 To use firewall based authentication you will need to be using reverse proxy(ies) in front of your webserver(s) and you will need to deny access by default to your reverse proxies by setting an appropriate value in firewallports.dat, for example:
 
@@ -20,8 +20,7 @@ What will then happen with this method is that when a user tries to access your 
 
 NOTE: the firewall is not touched on the webserver(s) by this method the firewall access is controlled through the reverse proxy machines and so you have to be using reverse proxies for this method to be possible. 
 
-
-2. Basic auth based authentication
+#### 2. Basic auth based authentication
 
 To use basic auth as a preliminary authentication method to your web property you will need to set the firewall in firewallports.dat to something like:
 
