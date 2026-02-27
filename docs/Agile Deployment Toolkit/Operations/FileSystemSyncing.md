@@ -31,3 +31,33 @@ Please note the lightweight way of synchronising directories needs a cron task a
 #### Heavyweight
 
 The heavyweight method is recommended if you want to sync webroots between directories. Again this is very modular so if you want to plug in your own implementation you can. 
+
+The workflow for a heavyweight style of file system synchronisation is as follows:
+
+1. If a machine in the synchronisation federation is considered to have been offline for a length  of time, synchronise make a note that we need to synchronise it with any historical archives to make sure that any updates made to filesystems whilst the current machine was offline are correctly applied.
+
+2. If it is considered that we need historical updates to be processed then:
+
+>    ${HOME}/providerscripts/datastore/filesystems-sync/heavyweight/ProcessIncomingHistoricalFilesystemUpdates.sh
+
+If historical updates do not need to be processed call:
+
+>     ${HOME}/providerscripts/datastore/filesystems-sync/heavyweight/ProcessOutgoingFilesystemUpdates.sh "${target_directory}" "${bucket_type}"
+>     ${HOME}/providerscripts/datastore/filesystems-sync/heavyweight/ProcessIncomingFilesystemUpdates.sh "${target_directory}" "${bucket_type}"
+
+3. In all cases process additions and deletions as recorded in the datastore:
+
+>     ${HOME}/providerscripts/datastore/filesystems-sync/heavyweight/HousekeepAdditionsSyncing.sh "${target_directory}" "${bucket_type}"
+>     ${HOME}/providerscripts/datastore/filesystems-sync/heavyweight/HousekeepDeletionsSyncing.sh "${target_directory}" "${bucket_type}"
+
+
+And so the sum total of the core process of heavyweight file system synchronisation is:
+
+on each machine in the federation to be synchronised:
+
+Process any historical updates if needs be
+Collate and process all outgoing updates from the filesystem local to the current machine
+Collate and process all incoming updates from the datastore and apply them to the local filesystem
+Perform housekeeping around additions and deletions (in other words, consider the additions and deletions that have been processed to be historical now)
+
+
