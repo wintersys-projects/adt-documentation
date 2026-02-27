@@ -1,27 +1,58 @@
-If you wanted to you could probably provide similar function to what I am describing here by integrating something like "netbird" zero trust or "netmaker" zero trust or "twingate" but the easiest and most efficient (in terms of effort) way to provide zero trust is what I am presenting here. I know that controlling access to servers using ip addresses is not recommended best practice but it could still be useful for you if you only want a limited set of ip addresses to be able to access your web property such as during development and so on. The way this works is a 3 step process
+AUTHENTICATION SERVER WORKFLOW
 
-1. Every user of the system is required to have an email address with your custom domain which you control allocation of. So, a bloke called Andy might have an email address which you have given him "andy@mail.wintersys.uk".
-2. If the user tries to go directly to your main website "www.wintersys.uk" they will get a timeout because all ip addresses are firewalled off. 
-2. Following the timeout, the user of your web property goes to an authentication page such as "auth.wintersys.uk" and there they are asked to enter their custom domain email address that you have given them, for example, "andy@mail.wintersys.uk". 
-3. An email is then generated and sent to "andy@mail.wintersys.uk" with a link which will expire in 5 minutes that your customer can click and that will direct them to another page which says, "please enter the ip address of your laptop"
-4. The user goes to www.whatsmyip.com and gets the ip address of their laptop and enters (correctly) into the form and clicks submit.
-5. After 10 seconds or so, their laptop ip will be allowed through the firewall of your main web property and they will have been granted access.
+firewall technique
 
-So, the security of this approach relies on the fact that because you have issued the custom domain email addresses and the system requires someone to have one of your custom domain email addresses before any access is granted you know who the person was that you originally granted access to and so if there is any breach you know who the responsible party is. 
+When a user inputs their email address to the authentication server, behind the scenes the following process is taking  place:
 
-If you are running a web property the suggestion is that you can run your own mailserver through which you can grant custom domain email addresses or you use  something like "cloudflare email routing" to redirect your custom domain email address messages to the users day to day email inbox. 
+>     website_url="https://${WEBSITE_URL}/ip-address-${file_name}.html"
+>     message="<!DOCTYPE html> <html> <body> <h1>IP address authorisation form for ${WEBSITE_URL_ORIGINAL}</h1> <p>From the SAME browser as you want to connect from (your phone broswer might have a different ip address to your laptop if one is on WIFI and one is on 5G go to www.whatsmyip.com and enter the IPV4 IP address in the form that appears when you click the link below. Cheers. This link will be valid for 5 minutes before being deleted. </p> <a href='"${website_url}"'>Enable Your IP Address</a> </body> </html>"
+>     ${HOME}/providerscripts/email/SendEmail.sh "Authenticated IP claim request for ${WEBSITE_URL_ORIGINAL}" "${message}" MANDATORY ${email_address} "HTML" "AUTHENTICATION"
 
-An advantage to this approach is that its direct and so user requests are not proxied through a third party. If you want a possibly clearer solution, in other words, your users dont have the understanding that a timeout is likely equivalent to an IP address change on their device you could use cloudflare zero trust. Depending on your use case you might need to have a separate domain for your user email addresses in which case you will need to set two parameters in your template:
+The user will then receive an email with a link in it to enter their laptop IP address to. When the user inputs their IP address then the following process will take place:
 
-Its up to you but you could use cloudflare (or an equivalent service) to proxy (and therefore protect) your authentication server. This toolkit supports your authentication server using a different DNS solution to what your main application uses. So, you can configure things so that your authentication server DNS is routed through  cloudflare and your application itself uses "linode DNS" (for example). You can also use this system deploying the ufw or iptables but no modifications are made to the VPC firewall that can be configured using the GUI system of your cloudhost provider. In other words, "the VPC firewall" is open to all requests to (for example, port 443) and its the iptables or ufw firewall on the server machines that blocks or limits the requests to specific ip addresses. 
+>     multi_region_bucket="`/bin/echo ${WEBSITE_URL} | /bin/sed 's/\./-/g'`-multi-region"
+>     ${HOME}/providerscripts/datastore/PutToDatastore.sh "mutli-region" "${ip_address}" "multi-region-auth-laptop-ips" "distributed" "yes"
 
-To reiterate behind the scenes then, this is what happens, there needs to be some awareness on the part of the user for this mechanism to work.
+On your reverse proxy machines the crontab will call:
 
-**NOTES:**  
+>     */1 * * * * export HOME="${HOME}" && ${HOME}/security/AllowAuthenticatorIPAddress.sh
 
-This solution then is intended to block all access to your webproperty for anyone that you don't know (including bots and so on)
-The user does need to have some knowledge because as far as I know there is no way to tell them "you need to go to the auth server" if when they try to connect to the web property and there is a timeout because the firewall is active and blocking them.
-A user's ip address can change in the middle of a session meaning that if they are on their "home wifi", for example using their phone and their wifi connection drops temporarily and their phone falls back to 5G then that will be a different ip address and it won't be allowed through the firewall so the user will have to know this and they will have to surf to the auth server and go through the (1 minute) process to allow their ip address through the network.
-I believe that an authentication server that is correctly operated should be hard to breach and the first rule of secure computer systems is that there is a tendency for usability to go down as security increases so there is some sort of usability hit using this mechanism for the user, but, I believe that the security goes up as well so its just a question of what you want.
-If you don't like the sound of an authentication server then you can use a cloud proxy like Cloudflare (which this toolkit supports and you are welcome to extend it to use other proxies) to process incoming requests and provide a defence for your web property that way and not use my bespoke authentication server mechanism at all. You can even use cloudflare tunnels with a little bit of work but cloudflare tunnelling does cost $, so be aware of that. 
-You probably shouldn't use a naked DNS system (one that is not proxied in other words) for your web property without also using an authentication server if you want to be secure about things because you will surely get bots probing you otherwise.
+And the reverse proxy will allow the supplied IP address through the firewall
+
+for ufw
+
+>     /usr/sbin/ipset add allowed-laptop-ips "${ip_address}/32"     
+
+for iptables
+
+>     /usr/sbin/ipset add allowed-laptop-ips ${ip_address}
+
+
+basic-auth technique
+
+When a user inputs their email address to the authentication server, behind the scenes the following process is taking  place:
+
+A new username and password are created related to the input from your user:
+
+>     /usr/bin/htpasswd -b -c ${basic_auth_file} ${username} ${password}
+
+Once the username and password is generated it is emailed to the user
+
+>     message="<!DOCTYPE html> <html> <body> <h1>The basic auth password you requested for ${WEBSITE_URL} is: ${password} </body> </html>"
+>     ${HOME}/providerscripts/email/SendEmail.sh "Basic Auth password request" "${message}" MANDATORY ${username} "HTML" "AUTHENTICATION"
+
+
+It is also written to a common object storage bucket such as:
+
+
+>     multi_region_bucket="`/bin/echo ${WEBSITE_URL} | /bin/sed 's/\./-/g'`-multi-region"
+>     ${HOME}/providerscripts/datastore/PutToDatastore.sh ${basic_auth_file}.${ip} ${multi_region_bucket}/multi-region-basic-auth "yes" "distributed"
+
+On your reverse proxy machines the crontab will call:
+
+>     */1 * * * * export HOME="${HOME}" && ${HOME}/security/ObtainBasicAuthCredentials.sh
+
+
+and within the cron script a call will be made to obtain the basic auth credentials and make them available for use on the current reverse proxy:
+
+>     ${HOME}/providerscripts/datastore/operations/GetFromDatastore.sh "multi-region" "multi-region-basic-auth/*" "${HOME}/runtime/authenticator/incoming"
