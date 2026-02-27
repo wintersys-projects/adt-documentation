@@ -30,7 +30,11 @@ Please note the lightweight way of synchronising directories needs a cron task a
 
 #### Heavyweight
 
-The heavyweight method is recommended if you want to sync webroots between directories. Again this is very modular so if you want to plug in your own implementation you can. 
+The heavyweight method is recommended if you want to sync webroots between machines. Again this is very modular so if you want to plug in your own implementation you can. 
+
+To synchronise webroots between your webservrs you need to have a cron entry/entries on each webserver such as:
+
+>     export HOME="${HOME}" && /bin/sleep 2 && ${HOME}/providerscripts/datastore/filesystems-sync/heavyweight/FileSystemsSyncingController.sh '2' '/var/www/html' 'webroot-sync'
 
 The workflow for a heavyweight style of file system synchronisation is as follows:
 
