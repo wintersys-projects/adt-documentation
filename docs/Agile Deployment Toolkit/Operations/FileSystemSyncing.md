@@ -26,7 +26,7 @@ on your machines.
 
 Please note the lightweight way of synchronising directories needs a cron task added to all the machines that you want to be in the synchronising federation such as:
 
->    @reboot export HOME="${HOME}" && ${HOME}/providerscripts/datastore/config/ActivateConfigDatastoreLightweight.sh"
+>     @reboot export HOME="${HOME}" && ${HOME}/providerscripts/datastore/config/ActivateConfigDatastoreLightweight.sh"
 
 #### Heavyweight
 
