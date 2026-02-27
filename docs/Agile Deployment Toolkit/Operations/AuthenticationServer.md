@@ -1,6 +1,6 @@
 AUTHENTICATION SERVER WORKFLOW
 
-firewall technique
+Firewall technique
 
 When a user inputs their email address to the authentication server, behind the scenes the following process is taking  place:
 
@@ -27,8 +27,9 @@ for iptables
 
 >     /usr/sbin/ipset add allowed-laptop-ips ${ip_address}
 
+------------------------------------
 
-basic-auth technique
+Basic-auth technique
 
 When a user inputs their email address to the authentication server, behind the scenes the following process is taking  place:
 
