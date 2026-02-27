@@ -1,5 +1,3 @@
-AUTHENTICATOR MACHINES
-
 You can deploy an authenticator machine to your current region if you want to require your users to go through initial authentication before they access your web property. Authentication can take place using the following methods. 
 
 #### 1. Firewall based authentication.
