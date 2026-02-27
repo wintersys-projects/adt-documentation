@@ -1,6 +1,6 @@
 There are two different techniques that I use to synchronise filesystems. One is the lightweight method and the other is the heavyweight method. 
 
-Lightweight
+#### Lightweight
 
 There are limitations to what the light weight method can do. It's based on filesystem events using inotifywait. The lightweight method is fine if you are adding, deleting and modifying individual files from the filesystem you are monitoring but if you dump a whole directory of files into the directory you are monitoring then the "burst" of events to inotifywait means that some events get lost and therefore not processed by inotifywait. So, the lightweight method can be used to synchronise configuration directories between machines (which will most likely only involve the creation, modification and deletion) of individual files at a time.
 
@@ -28,6 +28,6 @@ Please note the lightweight way of synchronising directories needs a cron task a
 
 >    @reboot export HOME="${HOME}" && ${HOME}/providerscripts/datastore/config/ActivateConfigDatastoreLightweight.sh"
 
-Heavyweight
+#### Heavyweight
 
 The heavyweight method is recommended if you want to sync webroots between directories. Again this is very modular so if you want to plug in your own implementation you can. 
