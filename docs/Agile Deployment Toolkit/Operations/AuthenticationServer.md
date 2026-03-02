@@ -10,8 +10,8 @@ When a user inputs their email address to the authentication server, behind the 
 
 The user will then receive an email with a link in it to enter their laptop IP address to. When the user inputs their IP address then the following process will take place:
 
->     multi_region_bucket="`/bin/echo ${WEBSITE_URL} | /bin/sed 's/\./-/g'`-multi-region"
->     ${HOME}/providerscripts/datastore/PutToDatastore.sh "mutli-region" "${ip_address}" "multi-region-auth-laptop-ips" "distributed" "yes"
+>     ${HOME}/providerscripts/datastore/operations/MountDatastore.sh "firewall-auth-laptop-ips" "distributed" 
+>     ${HOME}/providerscripts/datastore/operations/PutToDatastore.sh "firewall-auth-laptop-ips" ${HOME}/runtime/authenticator/ipaddresses.dat.${machine_ip} "firewall-laptop-ips" "distributed" "no"
 
 On your reverse proxy machines the crontab will call:
 
@@ -45,9 +45,8 @@ Once the username and password is generated it is emailed to the user
 
 It is also written to a common object storage bucket such as:
 
-
->     multi_region_bucket="`/bin/echo ${WEBSITE_URL} | /bin/sed 's/\./-/g'`-multi-region"
->     ${HOME}/providerscripts/datastore/PutToDatastore.sh ${basic_auth_file}.${ip} ${multi_region_bucket}/multi-region-basic-auth "yes" "distributed"
+>     ${HOME}/providerscripts/datastore/operations/MountDatastore.sh "basic-auth-credentials" "distributed" 
+>     ${HOME}/providerscripts/datastore/operations/PutToDatastore.sh "basic-auth-credentials" ${basic_auth_file}.${machine_ip} "basic-auth-credentials" "distributed" "no"
 
 On your reverse proxy machines the crontab will call:
 
