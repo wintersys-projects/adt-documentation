@@ -12,10 +12,8 @@ The following is the list of buckets that can be created in the datastore during
 >     7. s3://<website-url>-db-<period>
 >     8. s3://<website-url>--<dns-choice>-snap
 >     9. s3://<website-url>-<dns-choice>-dbaas
->     10. s3://<website-url>-firewall-auth-laptop-ips
->     11. s3://<website-url>-basic-auth-credentials
-
-
+>     10. s3://<website-url>-firewall-auth-laptop-ips (this bucket is cleaned out when a PRIMARY_REGION build takes place)
+>     11. s3://<website-url>-basic-auth-credentials (this bucket is cleaned out when a PRIMARY_REGION build takes place)
 
 
 1. This stores user generated application assets. This could grow to a large size based on application usage
