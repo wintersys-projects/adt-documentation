@@ -25,7 +25,6 @@ If you are using the cloud-init method raher than StackScript these you should s
 >     export SELECTED_TEMPLATE="1"
 >     export WEBSITE_DISPLAY_NAME="My Joomla Demo"
 >     export APPLICATION="joomla"
->     export JOOMLA_VERSION="5.1.2"
 >     export BUILD ARCHIVE CHOICE="virgin"
 >     export BASELINE DB REPOSITORY="VIRGIN"
 >     export APPLICATION BASELINE SOURCECODE REPOSITORY="JOOMLA:5.1.2" 
