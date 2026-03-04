@@ -47,9 +47,7 @@ Highlighted in red are the settings in the templates that you need to take parti
 \#####NOT REQUIRED - isn't used by the Linode system  
      
 \#####Application Settings#########  
-export APPLICATION="joomla"  #MANDATORY  
-export JOOMLA_VERSION=""   
-export DRUPAL_VERSION=""    
+export APPLICATION="joomla"  #MANDATORY     
 export APPLICATION_BASELINE_SOURCECODE_REPOSITORY=""  
 export BASELINE_DB_REPOSITORY=""  
 export APPLICATION_LANGUAGE="PHP"   
@@ -180,9 +178,7 @@ Here is my template for the nl-ams region when I am deploying to a primary regio
 \#####NOT REQUIRED - isn't used by the Linode system  
     
 \#####Application Settings#########  
-export APPLICATION="joomla"  #MANDATORY  
-export JOOMLA_VERSION=""   
-export DRUPAL_VERSION=""    
+export APPLICATION="joomla"  #MANDATORY    
 export APPLICATION_BASELINE_SOURCECODE_REPOSITORY=""  
 export BASELINE_DB_REPOSITORY=""   
 export APPLICATION_LANGUAGE="PHP"   
@@ -312,9 +308,7 @@ I then made a deployment to a third region (with a different vendor, exoscale) a
 \#####NOT REQUIRED - isn't used by the Exoscale  
 
 \#####Application Settings#########  
-export APPLICATION="joomla" #MANDATORY  
-export JOOMLA_VERSION=""   
-export DRUPAL_VERSION=""    
+export APPLICATION="joomla" #MANDATORY    
 export APPLICATION_BASELINE_SOURCECODE_REPOSITORY=""  
 export BASELINE_DB_REPOSITORY=""  
 export APPLICATION_LANGUAGE="PHP"   
