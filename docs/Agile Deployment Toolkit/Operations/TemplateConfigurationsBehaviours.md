@@ -19,7 +19,6 @@ If you are deploying a virgin application you should make modifications to templ
 To deploy a virgin Joomla application you need to set the following values in template 1:
 
 >     export APPLICATION="joomla"
->     export JOOMLA_VERSION="5.0.3"
 >     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="JOOMLA:5.0.3"
 >     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
