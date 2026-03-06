@@ -118,8 +118,7 @@ I then update all fields marked "MANDATORY" (marked in red) referring to the val
  
 \#####Application Settings#########  
 <span style="color:red">export APPLICATION="joomla" #MANDATORY </span>  
-export DRUPAL_VERSION="" #MANDATORY (depending on the above settings - a drupal deployment)  
-<span style="color:red">export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="JOOMLA:5.3.0" #MANDATORY </span>  
+export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="" 
 export BASELINE_DB_REPOSITORY="VIRGIN"  
 export APPLICATION_LANGUAGE="PHP"  
 export PHP_VERSION="8.4"  
