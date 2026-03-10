@@ -19,8 +19,6 @@ If you are deploying a virgin application you should make modifications to templ
 To deploy a virgin Joomla application you need to set the following values in template 1:
 
 >     export APPLICATION="joomla"
->     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="JOOMLA:5.0.3"
->     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
 
 #### Objective 2
@@ -28,8 +26,6 @@ To deploy a virgin Joomla application you need to set the following values in te
 To deploy a virgin Wordpress application you need to set the following values in template 1:
 
 >     export APPLICATION="wordpress"
->     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="WORDPRESS"
->     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
 
 
@@ -38,8 +34,6 @@ To deploy a virgin Wordpress application you need to set the following values in
 To deploy a virgin Drupal application you need to set the following values in template 1:
 
 >     export APPLICATION="drupal" 
->     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:10.2.4"
->     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
 
 #### Objective 4
@@ -47,22 +41,12 @@ To deploy a virgin Drupal application you need to set the following values in te
 To deploy a virgin Moodle application you need to set the following values in template 1:
 
 >     export APPLICATION="moodle"
->     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="MOODLE"
->     export BASELINE_DB_REPOSITORY="VIRGIN"
 >     export BUILD_ARCHIVE_CHOICE="virgin"
 
-#### Objective 5
-
-To deploy a virgin Opensocial application you need to set the following values in template 1:
-
->     export APPLICATION="drupal"
->     export APPLICATION_BASELINE_SOURCECODE_REPOSITORY="DRUPAL:social"
->     export BASELINE_DB_REPOSITORY="VIRGIN"
->     export BUILD_ARCHIVE_CHOICE="virgin"
 
 --------------------------------------------------------------
 
-#### Objective 6
+#### Objective 5
 
 To deploy a baselined application in template 2, you modify as in the following example for a joomla application
 
@@ -71,7 +55,7 @@ To deploy a baselined application in template 2, you modify as in the following 
 >     export BASELINE_DB_REPOSITORY="examplewebsite-db-baseline"
 >     export BUILD_ARCHIVE_CHOICE="baseline"
 
-#### Objective 7
+#### Objective 6
 
 To deploy a temporal application with hourly peridicity in template 3, you modify as in the following example for a joomla application
 
@@ -80,14 +64,14 @@ To deploy a temporal application with hourly peridicity in template 3, you modif
 
 ----------------------------------------------------------------------
 
-#### Objective 8
+#### Objective 7
 
 To deploy PHP version 8.3 you set the following values in the appropriate template
 
 >     export APPLICATION_LANGUAGE="PHP"
 >     export PHP_VERSION="8.3"
 
-#### Objective 9
+#### Objective 8
 
 To deploy PHP version 8.4 you set the following values in the appropriate template
 
@@ -96,7 +80,7 @@ To deploy PHP version 8.4 you set the following values in the appropriate templa
 
 -----------------------------------------------------------------
 
-#### Objective 10
+#### Objective 9
 
 To enable the datastore you can set the following values appropriately in any of the templates - you can refer to the specification [here](https://github.com/wintersys-projects/adt-build-machine-scripts/blob/main/templatedconfigurations/specification.md) to see what the HOST_BASE value should be for your datastore and you need to generate the access_key and secret_key for yourself
 
@@ -107,7 +91,7 @@ To enable the datastore you can set the following values appropriately in any of
 
 --------------------------------------------------------------
 
-#### Objective 11
+#### Objective 10
 
 To mount an application's assets directory set the following values appropriately in template 3. In this example I use joomla where the assets directory is the images subdirectory
 
@@ -116,14 +100,14 @@ To mount an application's assets directory set the following values appropriatel
 
 --------------------------------------------------------------
 
-#### Objective 12
+#### Objective 11
 
 To deploy to Debian 12 machines, set these values in any of your templates
 
 >     export BUILDOS="debian"
 >     export BUILDOS_VERSION="12"
 
-#### Objective 13
+#### Objective 12
 
 To deploy to Ubuntu 24.04 machines, set these values in any of your templates
 
@@ -132,7 +116,7 @@ To deploy to Ubuntu 24.04 machines, set these values in any of your templates
 
 --------------------------------------------------------------
 
-#### Objective 14
+#### Objective 13
 
 To set your DNS provider, set the following values in your templates
 
@@ -142,7 +126,7 @@ To set your DNS provider, set the following values in your templates
 
 -----------------------------------------------------------------
 
-#### Objective 15
+#### Objective 14
 
 To set your website characteristics set the following values in any template:
 
@@ -152,7 +136,7 @@ To set your website characteristics set the following values in any template:
 
 -------------------------------------------------------------------
 
-#### Objective 16
+#### Objective 15
 
 Set the repositories which hold your infrastructure sourcecode (the adt that holds this file) in any template, for example:
 
@@ -161,7 +145,7 @@ Set the repositories which hold your infrastructure sourcecode (the adt that hol
 >     export INFRASTRUCTURE_REPOSITORY_USERNAME="wintersys-projects"
 
 
-#### Objective 17
+#### Objective 16
 
 Set the repositories which hold your application sourcecode in any template, for example:
 
@@ -172,7 +156,7 @@ Set the repositories which hold your application sourcecode in any template, for
 
 ------------------------------------------------------------------------
 
-#### Objective 18
+#### Objective 17
 
 Set the SMTP email settings using the following settings in any template:
 
@@ -185,7 +169,7 @@ Set the SMTP email settings using the following settings in any template:
 
 ------------------------------------------------------------------------
 
-#### Objective 19
+#### Objective 18
 
 Set the system to use MariaDB "locally" in any template
 
@@ -193,7 +177,7 @@ Set the system to use MariaDB "locally" in any template
 >     export DATABASE_INSTALLATION_TYPE="Maria"
 
 
-#### Objective 20
+#### Objective 19
 
 Set the system to use MySQL "locally" in any template
 
@@ -201,7 +185,7 @@ Set the system to use MySQL "locally" in any template
 >     export DATABASE_INSTALLATION_TYPE="MySQL"
 
 
-#### Objective 21
+#### Objective 20
 
 Set the system to use Postgres "locally" in any template
 
@@ -210,7 +194,7 @@ Set the system to use Postgres "locally" in any template
 
 ------------------------------------------------------------------------
 
-#### Objective 22
+#### Objective 21
 
 Set the system to use the MariaDB as "DBaaS" that you have deployed from the GUI in template 3 for your currrent provider
 
@@ -219,7 +203,7 @@ Set the system to use the MariaDB as "DBaaS" that you have deployed from the GUI
 >     export DATABASE_DBaaS_INSTALLATION_TYPE="Maria"
 
 
-#### Objective 23
+#### Objective 22
 
 Set the system to use the MariaDB as an automatically deployed "DBaaS" in template 3 for your currrent provider
 
@@ -229,7 +213,7 @@ Set the system to use the MariaDB as an automatically deployed "DBaaS" in templa
 
 -------------------------------------------------------------------------
 
-#### Objective 24
+#### Objective 23
 
 To Set the deployment details for your server machines use the following settings in any template (here I use digital ocean as an example):
 
@@ -245,7 +229,7 @@ To Set the deployment details for your server machines use the following setting
 
 ----------------------------------------------------------------------------
 
-#### Objective 25
+#### Objective 24
 
 Set the default number of webservers and autoscalers by manipulating the following settings in your templates, for example:
 
@@ -254,19 +238,19 @@ Set the default number of webservers and autoscalers by manipulating the followi
 
 ------------------------------------------------------------------------------
 
-#### Objective 26
+#### Objective 25
 
 Set the webserver type in any of your templates to APACHE
 
 >     export WEBSERVER_CHOICE="APACHE"
 
-#### Objective 27
+#### Objective 26
 
 Set the webserver type in any of your templates to NGINX
 
 >     export WEBSERVER_CHOICE="NGINX"
 
-#### Objective 28
+#### Objective 27
 
 Set the webserver type in any of your templates to LIGHTTPD
 
@@ -274,7 +258,7 @@ Set the webserver type in any of your templates to LIGHTTPD
 
 ----------------------------------------------------------------------------
 
-#### Objective 29
+#### Objective 28
 
 Set the timezone for your servers in any of your templates:
 
@@ -283,7 +267,7 @@ Set the timezone for your servers in any of your templates:
 
 -------------------------------------------------------------------------------
 
-#### Objective 30
+#### Objective 29
 
 To switch to development mode:
 
@@ -292,7 +276,7 @@ To switch to development mode:
 
 --------------------------------------------------------------------------------
 
-#### Objective 31
+#### Objective 30
 
 To switch to production mode:
 
@@ -301,7 +285,7 @@ To switch to production mode:
 
 ------------------------------------------------------------------------------
 
-#### Objective 32
+#### Objective 31
 
 To modify which firewalls are active for example for native and ufw to be enabled in any template set like this:
 
@@ -309,7 +293,7 @@ To modify which firewalls are active for example for native and ufw to be enable
 
 ------------------------------------------------------------------------------
 
-#### Objective 33
+#### Objective 32
 
 To switch "SSL_LIVE_CERT" on and off:
 
@@ -321,7 +305,7 @@ and
 
 ------------------------------------------------------------------------------
 
-#### Objective 34
+#### Objective 33
 
 To make the machines build in parrallel rather than sequentially, put:
 
