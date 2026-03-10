@@ -15,10 +15,7 @@ Once you have performed the mandatory steps above you can action specific demos 
 >     set "The number (1, 2 or 3) of the template you are using" to "1"  
 >     set "WEBSITE DISPLAY NAME" to "My Joomla Demo"  
 >     set "APPLICATION" to "joomla"  
->     set "JOOMLA VERSION" and set it to the latest version of Joomla for example, "5.1.2"  
 >     set "BUILD ARCHIVE CHOICE" to "virgin"  
->     set "BASELINE DB REPOSITORY" to "VIRGIN"  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "JOOMLA:5.1.2"
 
 If you are using the cloud-init method raher than StackScript these you should set
 
@@ -26,8 +23,6 @@ If you are using the cloud-init method raher than StackScript these you should s
 >     export WEBSITE_DISPLAY_NAME="My Joomla Demo"
 >     export APPLICATION="joomla"
 >     export BUILD ARCHIVE CHOICE="virgin"
->     export BASELINE DB REPOSITORY="VIRGIN"
->     export APPLICATION BASELINE SOURCECODE REPOSITORY="JOOMLA:5.1.2" 
 
 ----------------------
 
@@ -63,8 +58,6 @@ You will be prompted to remove the file beginning /var/www/html/installation/_J.
 >     set "WEBSITE DISPLAY NAME" to "My Wordpress Demo"  
 >     set "APPLICATION" to "wordpress"  
 >     set "BUILD ARCHIVE CHOICE" to "virgin"  
->     set "BASELINE DB REPOSITORY" to "VIRGIN"  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "WORDPRESS"
 
 If you are using the cloud-init method raher than StackScript these you should set
 
@@ -72,8 +65,6 @@ If you are using the cloud-init method raher than StackScript these you should s
 >     export WEBSITE_DISPLAY_NAME="My Wordpress Demo"
 >     export APPLICATION="wordpress"
 >     export BUILD ARCHIVE CHOICE="virgin"
->     export BASELINE DB REPOSITORY="VIRGIN"
->     export APPLICATION BASELINE SOURCECODE REPOSITORY="WORDPRESS" 
 
 ----------------------
 
@@ -120,8 +111,6 @@ This will then refresh/rebuild the drupal caching system and the website should 
 >     set "APPLICATION" to "drupal"   
 >     set "DRUPAL VERSION" set it to the latest version of drupal for example, "10.0.10" 
 >     set "BUILD ARCHIVE CHOICE" to "virgin"   
->     set "BASELINE DB REPOSITORY" to "VIRGIN"  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:10.0.10"
 
 If you are using the cloud-init method raher than StackScript these you should set
 
@@ -130,8 +119,6 @@ If you are using the cloud-init method raher than StackScript these you should s
 >     export APPLICATION="drupal"
 >     export DRUPAL_VERSION="10.0.10""
 >     export BUILD ARCHIVE CHOICE="virgin"
->     export BASELINE DB REPOSITORY="VIRGIN"
->     export APPLICATION BASELINE SOURCECODE REPOSITORY="DRUPAL:10.0.10" 
 
 To find what to set your application credentials to ssh onto your new build machine sudo to root and cat the application_credentials.dat file that the build generated as shown below
 
@@ -205,8 +192,6 @@ on your new build machine.
 >     set "WEBSITE DISPLAY NAME" to "My Moodle Demo"  
 >     set "APPLICATION" to "moodle"  
 >     set "BUILD ARCHIVE CHOICE" to "virgin"  
->     set "BASELINE DB REPOSITORY" to "VIRGIN"  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "MOODLE"
 
 If you are using the cloud-init method raher than StackScript these you should set
 
@@ -214,10 +199,6 @@ If you are using the cloud-init method raher than StackScript these you should s
 >     export WEBSITE_DISPLAY_NAME="My Moodle Demo"
 >     export APPLICATION="moodle"
 >     export BUILD ARCHIVE CHOICE="virgin"
->     export BASELINE DB REPOSITORY="VIRGIN"
->     export APPLICATION BASELINE SOURCECODE REPOSITORY="MOODLE" 
-
-
 
 ----------------------
 
