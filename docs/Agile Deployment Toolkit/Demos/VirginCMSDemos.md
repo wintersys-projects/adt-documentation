@@ -99,7 +99,7 @@ and complete the installation of Wordpress. When you are putting the credentials
 
 ---------------------------
 
-### Demo 3 (StackScript overrides for a virgin installation of Drupal, Drupal CMS or Drupal Opensocial) 
+### Demo 3 (StackScript overrides for a virgin installation of Drupal, Drupal CMS) 
 
 **NOTE:**  
 
@@ -152,41 +152,6 @@ Go to the URL of your virgin Wordpress installation in my case:
 and complete the installation of Wordpress. When you are putting the credentials you got from application_credentials.dat from your build machine the installation process should look similar to:
 
 ![](images/drupal.png "Drupal Install Screen")  
-
-NOTE: If you get an error message "The website encountered an unexpected error. Try again later" from Drupal CMS once it is installed you need to "clear all caches" which you can do by running
-
->     ${BUILD_HOME}/helperscripts/TruncateDrupalCache.sh
-
-on your new build machine.
-
-------------------
-
-**OPENSOCIAL**  
-
-You can install [OPENSOCIAL](https://www.getopensocial.com/) by making the following alterations to the above DRUPAL (10.0.10) install method
-
->     set "The Display name for your website e.g. My Demo Website" to "My Opensocial Demo"  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "DRUPAL:social"
-
-To find what to set your application credentials to ssh onto your new build machine sudo to root and cat the application_credentials.dat file that the build generated as shown below
-
->     ssh -p <build-machine-port> <username>@<build-machine-ip>
->     sudo su
->          <password>
->     /bin/cat /home/<username>/adt-build-machine-scripts/runtimedata/linode/<build-identifier>/credentials/application_credentials.dat
-
-which in my case looks like:
-
->     ssh -p 1035 agile-deployer@102.12.32.12
->     /bin/cat /home/agile-deployer/adt-build-machine-scripts/runtimedata/linode/test-build/credentials/application_credentials.dat
-
-Go to the URL of your virgin Wordpress installation in my case:
-
->     https://www.nuocial.uk
-
-and complete the installation of Opensocial. When you are putting the credentials you got from application_credentials.dat from your build machine the installation process should look similar to:
-
-![](images/opensocial.png "Opensocial Install Screen") 
 
 NOTE: If you get an error message "The website encountered an unexpected error. Try again later" from Drupal CMS once it is installed you need to "clear all caches" which you can do by running
 
