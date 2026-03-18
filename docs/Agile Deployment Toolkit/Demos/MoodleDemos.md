@@ -13,25 +13,19 @@ Once you have performed the mandatory steps above you can action specific demos 
 
 ### Demo 1 (StackScript overrides for a moodle demo install)
 
-[Opensocial](https://getopensocial.com)
-
 1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"  
  
->     set "The Display name for your website e.g. My Demo Website" to "My Opensocial Demo"  
+>     set "The Display name for your website e.g. My Demo Website" to "My Moodle Demo"  
 >     set "APPLICATION" to "moodle"  
 >     set "BASELINE DB REPOSITORY" to "moodledemo-db-baseline" (with sample data) or "opensocialvanilla-db-baseline" (without sample data)  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "moodledemo-webroot-sourcecode-baseline" (with sample data) or "opensocialvanilla-webroot-sourcecode-baseline" (without sample data)
 
 If you are using the cloud-init method raher than StackScript these you should set
 
->     export WEBSITE_DISPLAY_NAME="My Opensocial Demo"
+>     export WEBSITE_DISPLAY_NAME="My Moodle Demo"
 >     export APPLICATION="moodle"  
 >     export BASELINE DB REPOSITORY="moodledemo-db-baseline" 
 >     export APPLICATION BASELINE SOURCECODE REPOSITORY="moodledemo-webroot-sourcecode-baseline"
 
-Once the application is installed you can go to its URL in your browser
 
->     https://<dns-url>/index.php
-
-------------------------------
 
