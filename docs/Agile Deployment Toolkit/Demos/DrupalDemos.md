@@ -21,6 +21,7 @@ Once you have performed the mandatory steps above you can action specific demos 
 >     set "APPLICATION" to "drupal"  
 >     set "BASELINE DB REPOSITORY" to "opensocial-db-baseline" (with sample data) or "opensocialvanilla-db-baseline" (without sample data)  
 >     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "opensocial-webroot-sourcecode-baseline" (with sample data) or "opensocialvanilla-webroot-sourcecode-baseline" (without sample data)
+>     set "PHP_VERSION" to "8.1"
 
 If you are using the cloud-init method raher than StackScript these you should set
 
@@ -28,12 +29,5 @@ If you are using the cloud-init method raher than StackScript these you should s
 >     export APPLICATION="drupal"  
 >     export BASELINE DB REPOSITORY="opensocial-db-baseline" 
 >     export APPLICATION BASELINE SOURCECODE REPOSITORY="opensocial-webroot-sourcecode-baseline"
-
-NOTE: If you get an error message "The website encountered an unexpected error. Try again later" from Drupal CMS once it is installed you need to "clear all caches" which you can do by running
-
->     ${BUILD_HOME}/helperscripts/TruncateDrupalCache.sh
-
-on your new build machine.
-
-------------------------------
+>     export PHP_VERSION="8.1"
 
