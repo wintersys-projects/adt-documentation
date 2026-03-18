@@ -11,23 +11,22 @@ Perform step 1 or 2 below according to your experience and apply the overrides t
 
 Once you have performed the mandatory steps above you can action specific demos by overriding the mentioned settings in the StackScript before you deploy it. By overriding different settings as described below, you will deploy different application types using the same StackScript.  
 
-### Demo 1 (StackScript overrides for a baselined Opensocial demo)
+### Demo 1 (StackScript overrides for a baselined Drupal Version)
 
-[Opensocial](https://getopensocial.com)
 
 1. Once the application is installed, the username is "webmaster" and the password is "mnbcxz098321QQQZZZ"  
  
->     set "The Display name for your website e.g. My Demo Website" to "My Opensocial Demo"  
+>     set "The Display name for your website e.g. My Demo Website" to "My Drupal Demo"  
 >     set "APPLICATION" to "drupal"  
->     set "BASELINE DB REPOSITORY" to "opensocial-db-baseline" (with sample data) or "opensocialvanilla-db-baseline" (without sample data)  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "opensocial-webroot-sourcecode-baseline" (with sample data) or "opensocialvanilla-webroot-sourcecode-baseline" (without sample data)
->     set "PHP_VERSION" to "8.1"
+>     set "BASELINE DB REPOSITORY" to "drupal11.1.7-db-baseline" 
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "drupal11.1.7-webroot-sourcecode-baseline" 
+
 
 If you are using the cloud-init method raher than StackScript these you should set
 
 >     export WEBSITE_DISPLAY_NAME="My Opensocial Demo"
 >     export APPLICATION="drupal"  
->     export BASELINE DB REPOSITORY="opensocial-db-baseline" 
->     export APPLICATION BASELINE SOURCECODE REPOSITORY="opensocial-webroot-sourcecode-baseline"
->     export PHP_VERSION="8.1"
+>     export BASELINE DB REPOSITORY="drupal11.1.7-db-baseline" 
+>     export APPLICATION BASELINE SOURCECODE REPOSITORY="drupal11.1.7-webroot-sourcecode-baseline"
+
 
