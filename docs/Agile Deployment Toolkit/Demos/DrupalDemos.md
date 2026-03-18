@@ -24,7 +24,7 @@ Once you have performed the mandatory steps above you can action specific demos 
 
 If you are using the cloud-init method raher than StackScript these you should set
 
->     export WEBSITE_DISPLAY_NAME="My Opensocial Demo"
+>     export WEBSITE_DISPLAY_NAME="My Drupal Demo"
 >     export APPLICATION="drupal"  
 >     export BASELINE DB REPOSITORY="drupal11.1.7-db-baseline" 
 >     export APPLICATION BASELINE SOURCECODE REPOSITORY="drupal11.1.7-webroot-sourcecode-baseline"
