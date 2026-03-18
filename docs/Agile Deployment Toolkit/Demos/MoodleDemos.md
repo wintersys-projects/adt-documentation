@@ -17,8 +17,8 @@ Once you have performed the mandatory steps above you can action specific demos 
  
 >     set "The Display name for your website e.g. My Demo Website" to "My Moodle Demo"  
 >     set "APPLICATION" to "moodle"  
->     set "BASELINE DB REPOSITORY" to "moodledemo-db-baseline" (with sample data) or "opensocialvanilla-db-baseline" (without sample data)  
->     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "moodledemo-webroot-sourcecode-baseline" (with sample data) or "opensocialvanilla-webroot-sourcecode-baseline" (without sample data)
+>     set "BASELINE DB REPOSITORY" to "moodledemo-db-baseline"  
+>     set "APPLICATION BASELINE SOURCECODE REPOSITORY" to "moodledemo-webroot-sourcecode-baseline" 
 
 If you are using the cloud-init method raher than StackScript these you should set
 
