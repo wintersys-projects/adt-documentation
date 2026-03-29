@@ -23,9 +23,6 @@ To support a new database engine type you will need to modify or add to the foll
 >     adt-webserver-scripts/application/configuration/joomla/InitialiseVirginInstall.sh
 >     adt-webserver-scripts/application/configuration/moodle/InitialiseVirginInstall.sh
 >     adt-webserver-scripts/application/configuration/wordpress/InitialiseVirginInstall.sh
->     adt-webserver-scripts/application/processing/drupal/CheckInstalled.sh
->     adt-webserver-scripts/application/processing/drupal/CheckUser.sh
->     adt-webserver-scripts/application/processing/drupal/TruncateCache.sh
 >     adt-webserver-scripts/providerscripts/utilities/remote/ConnectToRemoteMySQL.sh
 >     adt-webserver-scripts/providerscripts/utilities/status/CheckServerAlive.sh
 >     adt-webserver-scripts/ws.sh
